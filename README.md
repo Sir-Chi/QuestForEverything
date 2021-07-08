@@ -41,6 +41,6 @@ Once one person obtains the Dragon Egg, it will give everyone else the advanceme
 
 Made by SirChi. My other projects can be found [here](https://www.curseforge.com/members/sirchi/projects).
 
-Q4E was inspired by an idea/request from jloose128, and was kindly playtested by him and the Forgotten Turtles!
+Q4E was inspired by an idea/request from jloose128 and was kindly playtested by him and the Forgotten Turtles!
 
 Thank you for playing!

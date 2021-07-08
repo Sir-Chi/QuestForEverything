@@ -1,7 +1,7 @@
 
 # Quest for Everything
 
-Quest for Everything is a scavenger hunt game for survival minecraft. The objective of the game is for the players to obtain all the items and blocks that are available in survival minecraft. There are currently a total of 1169 items and blocks that can be collected. To obtain these players will need to explore, slay, mine and craft.
+Quest for Everything is a scavenger hunt game for survival minecraft. The objective of the game is for the players to obtain all the items and blocks that are available in survival minecraft. There are currently a total of 1169 items and blocks that can be collected. To obtain these, players will need to explore, slay, mine and craft.
 
 Players can track their progress using custom advancements one for each of the available items & blocks. These advancements are split up into Sections. On completion of all advancements in a Section a Trophy will be awarded!
 There are dummy advancements (marked by the Barrier sign) on the end of each row of advancements, this is in order to be able to see all the items and blocks in the Sections properly. These are automatically given at the start of the game

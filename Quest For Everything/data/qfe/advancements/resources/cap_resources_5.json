@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:barrier"
+      },
+      "title": "",
+      "description": "",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "qfe:resources/oxidized_cut_copper_stairs",
+    "criteria": {
+        "tick": {
+          "trigger": "minecraft:tick"
+        }
+      }
+    }

@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:waxed_cut_copper_slab"
+      },
+      "title": "Waxed Cut Copper Slab",
+      "description": "Obtain Waxed Cut Copper Slab",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:resources/waxed_cut_copper",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:waxed_cut_copper_slab"],
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:resources/waxed_cut_copper_slab"
+    }
+  }

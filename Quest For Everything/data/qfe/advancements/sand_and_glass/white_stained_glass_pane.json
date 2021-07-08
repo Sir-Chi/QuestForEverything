@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:white_stained_glass_pane"
+      },
+      "title": "White Stained Glass Pane",
+      "description": "Obtain White Stained Glass Pane",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:sand_and_glass/light_gray_stained_glass_pane",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:white_stained_glass_pane"],
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:sand_and_glass/white_stained_glass_pane"
+    }
+  }

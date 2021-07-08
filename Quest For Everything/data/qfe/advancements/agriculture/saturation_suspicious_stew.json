@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:suspicious_stew",
+        "nbt": "{Effects:[{EffectId:23b,EffectDuration:7}]}"
+      },
+      "title": "Suspicious Stew",
+      "description": "Saturation",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:agriculture/blindness_suspicious_stew",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:suspicious_stew"],
+              "nbt": "{Effects:[{EffectId:23b,EffectDuration:7}]}",
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:agriculture/saturation_suspicious_stew"
+    }
+  }

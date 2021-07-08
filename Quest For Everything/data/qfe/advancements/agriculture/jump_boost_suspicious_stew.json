@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:suspicious_stew",
+        "nbt": "{Effects:[{EffectId:8b,EffectDuration:120}]}"
+      },
+      "title": "Suspicious Stew",
+      "description": "Jump Boost",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:agriculture/saturation_suspicious_stew",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:suspicious_stew"],
+              "nbt": "{Effects:[{EffectId:8b,EffectDuration:120}]}",
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:agriculture/jump_boost_suspicious_stew"
+    }
+  }

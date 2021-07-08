@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lingering_potion",
+        "nbt": "{Potion:'minecraft:night_vision'}"
+      },
+      "title": "Lingering Potion of Night Vision",
+      "description": "Night Vision (0:45)",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:brewing/night_vision_splash_potion",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": ["minecraft:lingering_potion"],
+                "potion": "minecraft:night_vision",
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:brewing/night_vision_lingering_potion"
+    }
+  }

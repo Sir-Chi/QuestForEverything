@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lingering_potion",
+        "nbt": "{Potion:'minecraft:strong_healing'}"
+      },
+      "title": "Lingering Potion of Healing",
+      "description": "Instant Health II",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:brewing/strong_healing_splash_potion",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": ["minecraft:lingering_potion"],
+                "potion": "minecraft:strong_healing",
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:brewing/strong_healing_lingering_potion"
+    }
+  }

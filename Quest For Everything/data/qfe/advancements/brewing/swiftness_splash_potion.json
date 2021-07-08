@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:splash_potion",
+        "nbt": "{Potion:'minecraft:swiftness'}"
+      },
+      "title": "Splash of Swiftness",
+      "description": "Speed (3:00)",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:brewing/swiftness_potion",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": ["minecraft:splash_potion"],
+                "potion": "minecraft:swiftness",
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:brewing/swiftness_splash_potion"
+    }
+  }

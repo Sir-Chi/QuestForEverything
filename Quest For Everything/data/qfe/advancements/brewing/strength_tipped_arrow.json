@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:tipped_arrow",
+        "nbt": "{Potion:'minecraft:strength'}"
+      },
+      "title": "Arrow of Strength",
+      "description": "Strength (0:22)",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:brewing/strength_lingering_potion",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:tipped_arrow"],
+              "potion": "minecraft:strength",
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:brewing/strength_tipped_arrow"
+    }
+  }

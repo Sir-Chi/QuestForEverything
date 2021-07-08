@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:area_effect_cloud",
+      "nbt": "{Tags:['axolotl_bucket','brain_coral_block','brain_coral_fan','brain_coral','bubble_coral_block','bubble_coral_fan','bubble_coral','cod_bucket','conduit','dark_prismarine_slab','dark_prismarine_stairs','dark_prismarine','dead_brain_coral_block','dead_brain_coral_fan','dead_brain_coral','dead_bubble_coral_block','dead_bubble_coral_fan','dead_bubble_coral','dead_fire_coral_block','dead_fire_coral_fan','dead_fire_coral','dead_horn_coral_block','dead_horn_coral_fan','dead_horn_coral','dead_tube_coral_block','dead_tube_coral_fan','dead_tube_coral','dried_kelp_block','dried_kelp','fire_coral_block','fire_coral_fan','fire_coral','heart_of_the_sea','horn_coral_block','horn_coral_fan','horn_coral','kelp','nautilus_shell','prismarine_brick_slab','prismarine_brick_stairs','prismarine_bricks','prismarine_crystals','prismarine_shard','prismarine_slab','prismarine_stairs','prismarine_wall','prismarine','pufferfish_bucket','salmon_bucket','scute','sea_lantern','sea_pickle','seagrass','sponge','tropical_fish_bucket','tube_coral_block','tube_coral_fan','tube_coral','turtle_egg','wet_sponge']}"
+    }
+  }

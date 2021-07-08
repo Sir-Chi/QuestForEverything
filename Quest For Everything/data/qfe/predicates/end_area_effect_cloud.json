@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:area_effect_cloud",
+      "nbt": "{Tags:['black_shulker_box','blue_shulker_box','brown_shulker_box','chorus_flower','chorus_fruit','cyan_shulker_box','dragon_egg','dragon_head','elytra','end_crystal','end_rod','end_stone_brick_slab','end_stone_brick_stairs','end_stone_brick_wall','end_stone_bricks','end_stone','gray_shulker_box','green_shulker_box','light_blue_shulker_box','light_gray_shulker_box','lime_shulker_box','magenta_shulker_box','orange_shulker_box','pink_shulker_box','popped_chorus_fruit','purple_shulker_box','purpur_block','purpur_pillar','purpur_slab','purpur_stairs','red_shulker_box','shulker_box','shulker_shell','white_shulker_box','yellow_shulker_box']}"
+    }
+  }

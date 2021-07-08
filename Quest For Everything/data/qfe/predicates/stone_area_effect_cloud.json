@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:area_effect_cloud",
+      "nbt": "{Tags:['andesite_slab','andesite_stairs','andesite_wall','andesite','calcite','chiseled_deepslate','chiseled_stone_bricks','cobbled_deepslate_slab','cobbled_deepslate_stairs','cobbled_deepslate_wall','cobbled_deepslate','cobblestone_slab','cobblestone_stairs','cobblestone_stairs','cobblestone','cracked_deepslate_bricks','cracked_deepslate_tiles','cracked_stone_bricks','deepslate_brick_slab','deepslate_brick_stairs','deepslate_brick_wall','deepslate_bricks','deepslate_tile_slab','deepslate_tile_stairs','deepslate_tile_wall','deepslate_tiles','deepslate','diorite_slab','diorite_stairs','diorite_wall','diorite','dripstone_block','granite_slab','granite_stairs','granite_wall','granite','mossy_cobblestone_slab','mossy_cobblestone_stairs','mossy_cobblestone_wall','mossy_cobblestone','mossy_stone_brick_slab','mossy_stone_brick_stairs','mossy_stone_brick_wall','mossy_stone_bricks','pointed_dripstone','polished_andesite_slab','polished_andesite_stairs','polished_andesite','polished_deepslate_slab','polished_deepslate_stairs','polished_deepslate_wall','polished_deepslate','polished_diorite_slab','polished_diorite_stairs','polished_diorite','polished_granite_slab','polished_granite_stairs','polished_granite','smooth_stone_slab','smooth_stone','stone_brick_slab','stone_brick_stairs','stone_brick_wall','stone_bricks','stone_button','stone_pressure_plate','stone_slab','stone_stairs','stone','tuff']}"
+    }
+  }

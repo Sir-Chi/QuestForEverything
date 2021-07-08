@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:area_effect_cloud",
+      "nbt": "{Tags:['apple','baked_potato','bee_nest','beef','beehive','beetroot_seeds','beetroot_soup','beetroot','blindness_suspicious_stew','bread','cake','carrot','carved_pumpkin','chicken','cocoa_beans','cod','cooked_beef','cooked_chicken','cooked_cod','cooked_mutton','cooked_porkchop','cooked_rabbit','cooked_salmon','cookie','enchanted_golden_apple','fire_resistance_suspicious_stew','glow_berries','golden_apple','hay_block','honey_block','honey_bottle','honeycomb_block','honeycomb','jack_o_lantern','jump_boost_suspicious_stew','melon_seeds','melon_slice','melon','mushroom_stew','mutton','night_vision_suspicious_stew','poison_suspicious_stew','poisonous_potato','porkchop','potato','pumpkin_pie','pumpkin_seeds','pumpkin','rabbit_stew','rabbit','regeneration_suspicious_stew','salmon','saturation_suspicious_stew','sweet_berries','tropical_fish','weakness_suspicious_stew','wheat_seeds','wheat','wither_suspicious_stew']}"
+    }
+  }

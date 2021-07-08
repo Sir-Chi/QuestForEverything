@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "force_locked": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

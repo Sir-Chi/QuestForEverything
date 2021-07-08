@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:splash_potion",
+        "nbt": "{Potion:'minecraft:harming'}"
+      },
+      "title": "Splash Potion of Harming",
+      "description": "Instant Damage",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:brewing/harming_potion",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": ["minecraft:splash_potion"],
+                "potion": "minecraft:harming",
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:brewing/harming_splash_potion"
+    }
+  }

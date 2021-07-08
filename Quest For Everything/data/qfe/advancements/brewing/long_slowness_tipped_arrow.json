@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:tipped_arrow",
+        "nbt": "{Potion:'minecraft:long_slowness'}"
+      },
+      "title": "Arrow of Slowness",
+      "description": "Slowness (0:30)",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:brewing/long_slowness_lingering_potion",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:tipped_arrow"],
+              "potion": "minecraft:long_slowness",
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:brewing/long_slowness_tipped_arrow"
+    }
+  }

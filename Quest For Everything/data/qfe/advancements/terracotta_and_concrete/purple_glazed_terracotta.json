@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:purple_glazed_terracotta"
+      },
+      "title": "Purple Glazed Terracotta",
+      "description": "Obtain Purple Glazed Terracotta",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:terracotta_and_concrete/blue_glazed_terracotta",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:purple_glazed_terracotta"],
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:terracotta_and_concrete/purple_glazed_terracotta"
+    }
+  }

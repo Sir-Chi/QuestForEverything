@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:light_blue_concrete_powder"
+      },
+      "title": "Light Blue Concrete Powder",
+      "description": "Obtain Light Blue Concrete Powder",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:terracotta_and_concrete/cyan_concrete_powder",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:light_blue_concrete_powder"],
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:terracotta_and_concrete/light_blue_concrete_powder"
+    }
+  }

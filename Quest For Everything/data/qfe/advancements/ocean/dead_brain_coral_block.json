@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:dead_brain_coral_block"
+      },
+      "title": "Dead Brain Coral Block",
+      "description": "Obtain Dead Brain Coral Block",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:ocean/brain_coral_block",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:dead_brain_coral_block"],
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:ocean/dead_brain_coral_block"
+    }
+  }

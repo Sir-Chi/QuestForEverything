@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:tube_coral_fan"
+      },
+      "title": "Tube Coral Fan",
+      "description": "Obtain Tube Coral Fan",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:ocean/dead_tube_coral_block",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:tube_coral_fan"],
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:ocean/tube_coral_fan"
+    }
+  }

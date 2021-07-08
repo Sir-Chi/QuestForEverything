@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:sea_pickle"
+      },
+      "title": "Sea Pickle",
+      "description": "Obtain Sea Pickle",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:ocean/root",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:sea_pickle"],
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:ocean/sea_pickle"
+    }
+  }

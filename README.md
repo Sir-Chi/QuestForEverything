@@ -17,6 +17,12 @@ On commencement of the game, a scoreboard will appear at the side of the screen.
 > 5) Once you load into the world, run the command "/function qfe:master/setup" directly, or run the command "/reload" to have the command appear in chat for you to click. This will create the Q4E Starting Lobby.
 > 6) If on a server, make sure that command blocks are turned on in the server configs.
 
+## Small Biomes
+
+There are two different versions of Quest for Everything. One is the basic datapack which can be used as normal in any new minecraft world on any minecraft seed. The other is a special version which gives a custom world with small biomes. This means that you do not need to travel for hours to find a Jungle or a Swamp.  
+  
+If you'd like to change the seed used for generating the world in the small biomes version check out the [Wiki](https://github.com/Sir-Chi/QuestForEverything/wiki) which gives you a step by step guide on how to do that.
+
 ## Game Features
 
 During the game setup period, the side of the screen shows certain custom Game Configs. These can be turned on or off to customise your experience:
@@ -35,12 +41,6 @@ During the game setup period, the side of the screen shows certain custom Game C
 #### The Dragon Egg
 
 Once one person obtains the Dragon Egg, it will give everyone else the advancement too, even if "One Item Per Person" is on.
-
-## Small Biomes
-
-There are two different versions of Quest for Everything. One is the basic datapack which can be used as normal in any new minecraft world on any minecraft seed. The other is a special version which gives a custom world with small biomes. This means that you do not need to travel for hours to find a Jungle or a Swamp.  
-  
-If you'd like to change the seed used for generating the world in the small biomes version check out the [Wiki](https://github.com/Sir-Chi/QuestForEverything/wiki) which gives you a step by step guide on how to do that.
 
 ## Credits
 

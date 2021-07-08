@@ -30,17 +30,17 @@ During the game setup period, the side of the screen shows certain custom Game C
 - One Item Per Person - If ON then everyone on a team will need to obtain every time and block individually. If OFF when one person on a team obtains an item or block it will count as if everyone on that team has obtained it.
 - Set Time - You can set the game to end after a set amount of time.
 - Set Score - You can set the game to end after a set amount of advancements/score has been reached.
-- Teams - When teams are active signs will appear in the Lobby giving everyone the option of joining a team. There are 8 team colours to choose from!
+- Teams - When teams are active, signs will appear in the Lobby giving everyone the option of joining a team. There are 8 team colours to choose from!
 
 #### The Dragon Egg
 
-Once one person obtains the Dragon Egg it will give everyone else the advancement too, even if "One Item Per Person" is on.
+Once one person obtains the Dragon Egg, it will give everyone else the advancement too, even if "One Item Per Person" is on.
 
 
 ## Credits
 
-Made by SirChi. My other projects can be found [here](https://www.curseforge.com/members/sirchi/projects)
+Made by SirChi. My other projects can be found [here](https://www.curseforge.com/members/sirchi/projects).
 
-Q4E was inspired by an idea/request from jloose128 and was kindly playtested by him and the Forgotten Turtles!
+Q4E was inspired by an idea/request from jloose128, and was kindly playtested by him and the Forgotten Turtles!
 
 Thank you for playing!

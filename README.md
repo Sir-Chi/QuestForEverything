@@ -10,8 +10,8 @@ On commencement of the game, a scoreboard will appear at the side of the screen.
 
 ## How To Install
 
-> 1) First download the Datapack. You can then add this to a new minecraft world.
-> 2) To play the game create a new minecraft world and add this datapack into the world's datapack folder.
+> 1) First download the Datapack.
+> 2) To play the game, create a new minecraft world, and add this datapack into the world's datapack folder.
 > 3) Unzip the file there and then select it from the new world creation menu in the game.
 > 4) Make sure the world is set to "Creative" Game Mode & has "Allow Cheats" enabled.
 > 5) Once you load into the world run the command "/function qfe:master/setup" directly or run the command "/reload" to have the command appear in chat for you to click. This will create the Q4E Starting Lobby.

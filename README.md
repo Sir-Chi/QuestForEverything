@@ -36,6 +36,11 @@ During the game setup period, the side of the screen shows certain custom Game C
 
 Once one person obtains the Dragon Egg, it will give everyone else the advancement too, even if "One Item Per Person" is on.
 
+## Small Biomes
+
+There are two different versions of Quest for Everything. One is the basic datapack which can be used as normal in any new minecraft world on any minecraft seed. The other is a special version which gives a custom world with small biomes. This means that you do not need to travel for hours to find a Jungle or a Swamp.  
+  
+If you'd like to change the seed used for generating the world in the small biomes version check out the [Wiki](https://github.com/Sir-Chi/QuestForEverything/wiki) which gives you a step by step guide on how to do that.
 
 ## Credits
 

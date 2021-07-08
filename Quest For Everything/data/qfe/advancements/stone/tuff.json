@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:tuff"
+      },
+      "title": "Tuff",
+      "description": "Obtain Tuff",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:stone/calcite",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:tuff"],
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:stone/tuff"
+    }
+  }

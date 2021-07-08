@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:barrier"
+      },
+      "title": "",
+      "description": "",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "qfe:nature_and_loot/glow_lichen",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

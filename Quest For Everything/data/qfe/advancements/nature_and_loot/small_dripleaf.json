@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:small_dripleaf"
+      },
+      "title": "Small Dripleaf",
+      "description": "Obtain Small Dripleaf",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:nature_and_loot/flowering_azalea",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:small_dripleaf"],
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:nature_and_loot/small_dripleaf"
+    }
+  }

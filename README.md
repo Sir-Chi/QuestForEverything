@@ -10,7 +10,7 @@ On commencement of the game, a scoreboard will appear at the side of the screen.
 
 ## How To Install
 
-> 1) First download the Datapack. Unzip the file.
+> 1) First find the right datapack you'd like (one of either the "original" or the "small biomes" version). Download it and then uzip the file.
 > 2) To play the game, create a new minecraft world, and add this datapack into the world's datapack folder.
 > 3) Select the datapack from the new world creation menu in the game.
 > 4) Make sure the world is set to "Creative" Game Mode & has "Allow Cheats" enabled.

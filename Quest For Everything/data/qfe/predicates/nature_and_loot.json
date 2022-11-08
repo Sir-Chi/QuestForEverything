@@ -3,7 +3,8 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:player",
-      "player": {
+      "type_specific": {
+        "type": "player",
         "advancements": {
           "qfe:nature_and_loot/allium": true,
           "qfe:nature_and_loot/azalea_leaves": true,

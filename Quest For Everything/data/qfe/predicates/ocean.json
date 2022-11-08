@@ -3,7 +3,8 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:player",
-      "player": {
+      "type_specific": {
+        "type": "player",
         "advancements": {
           "qfe:ocean/axolotl_bucket": true,
           "qfe:ocean/brain_coral_block": true,

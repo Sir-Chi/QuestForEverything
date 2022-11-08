@@ -2,7 +2,7 @@
     "display": {
       "icon": {
         "item": "minecraft:suspicious_stew",
-        "nbt": "{Effects:[{EffectId:19b,EffectDuration:240}]}"
+        "nbt": "{Effects:[{EffectId:19}]}"
       },
       "title": "Suspicious Stew",
       "description": "Poison",
@@ -19,7 +19,7 @@
           "items": [
             {
               "items": ["minecraft:suspicious_stew"],
-              "nbt": "{Effects:[{EffectId:19b,EffectDuration:240}]}",
+              "nbt": "{Effects:[{EffectId:19}]}",
               "count": {
                 "min": 1,
                 "max": 64

@@ -3,7 +3,8 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:player",
-      "player": {
+      "type_specific": {
+        "type": "player",
         "advancements": {
           "qfe:tools_and_weapons/arrow": true,
           "qfe:tools_and_weapons/bow": true,

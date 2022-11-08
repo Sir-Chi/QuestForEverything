@@ -2,7 +2,7 @@
     "display": {
       "icon": {
         "item": "minecraft:suspicious_stew",
-        "nbt": "{Effects:[{EffectId:23b,EffectDuration:7}]}"
+        "nbt": "{Effects:[{EffectId:23}]}"
       },
       "title": "Suspicious Stew",
       "description": "Saturation",
@@ -19,7 +19,7 @@
           "items": [
             {
               "items": ["minecraft:suspicious_stew"],
-              "nbt": "{Effects:[{EffectId:23b,EffectDuration:7}]}",
+              "nbt": "{Effects:[{EffectId:23}]}",
               "count": {
                 "min": 1,
                 "max": 64

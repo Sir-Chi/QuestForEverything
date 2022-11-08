@@ -3,7 +3,8 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:player",
-      "player": {
+      "type_specific": {
+        "type": "player",
         "advancements": {
           "qfe:manufactured/anvil": true,
           "qfe:manufactured/armor_stand": true,

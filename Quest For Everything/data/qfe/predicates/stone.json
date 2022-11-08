@@ -3,7 +3,8 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:player",
-      "player": {
+      "type_specific": {
+        "type": "player",
         "advancements": {
           "qfe:stone/andesite_slab": true,
           "qfe:stone/andesite_stairs": true,

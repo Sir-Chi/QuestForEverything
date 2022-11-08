@@ -2,7 +2,7 @@
     "display": {
       "icon": {
         "item": "minecraft:suspicious_stew",
-        "nbt": "{Effects:[{EffectId:16b,EffectDuration:100}]}"
+        "nbt": "{Effects:[{EffectId:16}]}"
       },
       "title": "Suspicious Stew",
       "description": "Night Vision",
@@ -19,7 +19,7 @@
           "items": [
             {
               "items": ["minecraft:suspicious_stew"],
-              "nbt": "{Effects:[{EffectId:16b,EffectDuration:100}]}",
+              "nbt": "{Effects:[{EffectId:16}]}",
               "count": {
                 "min": 1,
                 "max": 64

@@ -3,7 +3,8 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:player",
-      "player": {
+      "type_specific": {
+        "type": "player",
         "advancements": {
           "qfe:sand_and_glass/black_stained_glass_pane": true,
           "qfe:sand_and_glass/black_stained_glass": true,

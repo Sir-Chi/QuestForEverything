@@ -3,7 +3,8 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:player",
-    "player": {
+    "type_specific": {
+      "type": "player",
       "advancements": {
         "qfe:end/black_shulker_box": true,
         "qfe:end/blue_shulker_box": true,

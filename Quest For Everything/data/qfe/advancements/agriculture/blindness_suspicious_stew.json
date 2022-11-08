@@ -2,7 +2,7 @@
     "display": {
       "icon": {
         "item": "minecraft:suspicious_stew",
-        "nbt": "{Effects:[{EffectId:15b,EffectDuration:160}]}"
+        "nbt": "{Effects:[{EffectId:15}]}"
       },
       "title": "Suspicious Stew",
       "description": "Blindness",
@@ -19,7 +19,7 @@
           "items": [
             {
               "items": ["minecraft:suspicious_stew"],
-              "nbt": "{Effects:[{EffectId:15b,EffectDuration:160}]}",
+              "nbt": "{Effects:[{EffectId:15}]}",
               "count": {
                 "min": 1,
                 "max": 64

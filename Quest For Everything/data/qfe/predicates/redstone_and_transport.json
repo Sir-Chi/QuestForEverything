@@ -3,7 +3,8 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:player",
-      "player": {
+      "type_specific": {
+        "type": "player",
         "advancements": {
           "qfe:redstone_and_transport/activator_rail": true,
           "qfe:redstone_and_transport/carrot_on_a_stick": true,

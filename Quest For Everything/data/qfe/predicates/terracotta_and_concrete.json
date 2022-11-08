@@ -3,7 +3,8 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:player",
-      "player": {
+      "type_specific": {
+        "type": "player",
         "advancements": {
           "qfe:terracotta_and_concrete/black_concrete_powder": true,
           "qfe:terracotta_and_concrete/black_concrete": true,

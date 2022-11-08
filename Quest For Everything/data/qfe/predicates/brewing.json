@@ -3,7 +3,8 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:player",
-      "player": {
+      "type_specific": {
+        "type": "player",
         "advancements": {
           "qfe:brewing/awkward_lingering_potion": true,
           "qfe:brewing/awkward_potion": true,

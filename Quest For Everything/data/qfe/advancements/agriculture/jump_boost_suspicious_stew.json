@@ -2,7 +2,7 @@
     "display": {
       "icon": {
         "item": "minecraft:suspicious_stew",
-        "nbt": "{Effects:[{EffectId:8b,EffectDuration:120}]}"
+        "nbt": "{Effects:[{EffectId:8}]}"
       },
       "title": "Suspicious Stew",
       "description": "Jump Boost",
@@ -19,7 +19,7 @@
           "items": [
             {
               "items": ["minecraft:suspicious_stew"],
-              "nbt": "{Effects:[{EffectId:8b,EffectDuration:120}]}",
+              "nbt": "{Effects:[{EffectId:8}]}",
               "count": {
                 "min": 1,
                 "max": 64

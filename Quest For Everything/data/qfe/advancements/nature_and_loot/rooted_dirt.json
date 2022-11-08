@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "qfe:nature_and_loot/root",
+    "parent": "qfe:nature_and_loot/mangrove_roots",
     "criteria": {
       "has_cobblestone": {
         "trigger": "minecraft:inventory_changed",

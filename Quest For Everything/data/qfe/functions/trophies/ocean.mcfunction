@@ -53,6 +53,7 @@ tag @s remove sea_lantern
 tag @s remove sea_pickle
 tag @s remove seagrass
 tag @s remove sponge
+tag @s remove tadpole_bucket
 tag @s remove tropical_fish_bucket
 tag @s remove tube_coral_block
 tag @s remove tube_coral_fan

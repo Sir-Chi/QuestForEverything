@@ -21,6 +21,14 @@ tag @s remove diamond_sword
 tag @s remove filled_map
 tag @s remove fishing_rod
 tag @s remove flint_and_steel
+tag @s remove goat_horn_admire
+tag @s remove goat_horn_call
+tag @s remove goat_horn_dream
+tag @s remove goat_horn_feel
+tag @s remove goat_horn_ponder
+tag @s remove goat_horn_seek
+tag @s remove goat_horn_sing
+tag @s remove goat_horn_yearn
 tag @s remove golden_axe
 tag @s remove golden_boots
 tag @s remove golden_chestplate
@@ -59,6 +67,7 @@ tag @s remove netherite_shovel
 tag @s remove netherite_sword
 tag @s remove ocean_explorer_map
 tag @s remove powder_snow_bucket
+tag @s remove recovery_compass
 tag @s remove shears
 tag @s remove shield
 tag @s remove spectral_arrow

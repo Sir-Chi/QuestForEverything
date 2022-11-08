@@ -27,7 +27,7 @@ scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death
 
 scoreboard objectives add score dummy "Score"
-scoreboard players set TotalToGet score 1171
+scoreboard players set TotalToGet score 1223
 scoreboard players set #Leader score 0
 
 scoreboard objectives add time dummy "Timer"
@@ -66,13 +66,12 @@ forceload add 0 0
 summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Timer"}'}
 
 ##Spawn Lobby/Set World Spawn
-setblock -6 99 -6 minecraft:structure_block{mode:"LOAD",powered:0b,name:"qfe:lobby"}
-setblock -6 98 -6 minecraft:redstone_block
-setblock -6 98 -6 minecraft:air
+place template qfe:lobby -6 99 -6
 
 setworldspawn 0 99 0
 
 #Setup Player Spawn Point
+kill @e[type=armor_stand,tag=spawnPointLocator]
 execute positioned 20.5 130 0.5 run summon armor_stand 20.5 130 0.5 {Invulnerable:1,Tags:["spawnPointLocator"]}
 execute as @e[tag=spawnPointLocator] at @e[tag=spawnPointLocator] positioned as @e[tag=spawnPointLocator] align xyz run tp @e[tag=spawnPointLocator] ~0.5 ~ ~0.5
 

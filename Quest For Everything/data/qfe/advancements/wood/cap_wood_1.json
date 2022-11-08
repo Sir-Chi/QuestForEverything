@@ -10,7 +10,7 @@
       "announce_to_chat": false,
       "hidden": false
     },
-    "parent": "qfe:wood/acacia_boat",
+    "parent": "qfe:wood/acacia_chest_boat",
     "criteria": {
       "tick": {
         "trigger": "minecraft:tick"

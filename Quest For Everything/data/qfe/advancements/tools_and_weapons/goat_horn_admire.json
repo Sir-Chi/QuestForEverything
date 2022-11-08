@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:goat_horn"
+      },
+      "title": "Goat Horn - Admire",
+      "description": "Obtain Goat Horn - Admire",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:tools_and_weapons/goat_horn_feel",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:goat_horn"],
+              "nbt": "{instrument:\"minecraft:admire_goat_horn\"}",
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:tools_and_weapons/goat_horn_admire"
+    }
+  }

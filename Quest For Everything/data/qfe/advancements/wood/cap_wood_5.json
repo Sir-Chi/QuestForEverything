@@ -10,7 +10,7 @@
       "announce_to_chat": false,
       "hidden": false
     },
-    "parent": "qfe:wood/oak_boat",
+    "parent": "qfe:wood/oak_chest_boat",
     "criteria": {
       "tick": {
         "trigger": "minecraft:tick"

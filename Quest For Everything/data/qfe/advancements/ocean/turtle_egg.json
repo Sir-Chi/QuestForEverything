@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "qfe:ocean/axolotl_bucket",
+    "parent": "qfe:ocean/tadpole_bucket",
     "criteria": {
       "has_cobblestone": {
         "trigger": "minecraft:inventory_changed",

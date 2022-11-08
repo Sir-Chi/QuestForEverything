@@ -10,7 +10,7 @@
       "announce_to_chat": false,
       "hidden": false
     },
-    "parent": "qfe:manufactured/flower_pot",
+    "parent": "qfe:manufactured/mud_brick_stairs",
     "criteria": {
       "tick": {
         "trigger": "minecraft:tick"

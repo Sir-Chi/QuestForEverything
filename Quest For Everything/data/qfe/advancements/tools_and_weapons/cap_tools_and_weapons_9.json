@@ -10,7 +10,7 @@
       "announce_to_chat": false,
       "hidden": false
     },
-    "parent": "qfe:tools_and_weapons/woodland_explorer_map",
+    "parent": "qfe:tools_and_weapons/recovery_compass",
     "criteria": {
       "tick": {
         "trigger": "minecraft:tick"

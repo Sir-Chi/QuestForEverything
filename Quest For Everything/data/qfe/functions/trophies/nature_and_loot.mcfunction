@@ -22,6 +22,8 @@ tag @s remove creeper_head
 tag @s remove dandelion
 tag @s remove dead_bush
 tag @s remove dirt
+tag @s remove disc_fragment_5
+tag @s remove echo_shard
 tag @s remove egg
 tag @s remove ender_eye
 tag @s remove ender_pearl
@@ -45,9 +47,13 @@ tag @s remove leather
 tag @s remove lilac
 tag @s remove lily_of_the_valley
 tag @s remove lily_pad
+tag @s remove mangrove_roots
 tag @s remove moss_block
 tag @s remove moss_carpet
+tag @s remove mud
+tag @s remove muddy_mangrove_roots
 tag @s remove mushroom_stem
+tag @s remove music_disc_5
 tag @s remove music_disc_11
 tag @s remove music_disc_13
 tag @s remove music_disc_blocks
@@ -63,10 +69,12 @@ tag @s remove music_disc_strad
 tag @s remove music_disc_wait
 tag @s remove music_disc_ward
 tag @s remove mycelium
+tag @s remove ochre_froglight
 tag @s remove ominious_banner
 tag @s remove orange_tulip
 tag @s remove oxeye_daisy
 tag @s remove packed_ice
+tag @s remove pearlescent_froglight
 tag @s remove peony
 tag @s remove pink_tulip
 tag @s remove podzol
@@ -78,6 +86,11 @@ tag @s remove red_tulip
 tag @s remove rooted_dirt
 tag @s remove rose_bush
 tag @s remove rotten_flesh
+tag @s remove sculk_catalyst
+tag @s remove sculk_sensor
+tag @s remove sculk_shriek
+tag @s remove sculk_vein
+tag @s remove sculk
 tag @s remove skeleton_skull
 tag @s remove slime_ball
 tag @s remove slime_block
@@ -90,6 +103,7 @@ tag @s remove string
 tag @s remove sugar_cane
 tag @s remove sunflower
 tag @s remove tall_grass
+tag @s remove verdant_froglight
 tag @s remove vine
 tag @s remove white_tulip
 tag @s remove wither_rose

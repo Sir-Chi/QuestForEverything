@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:barrier"
+      },
+      "title": "",
+      "description": "",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "qfe:tools_and_weapons/goat_horn_dream",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

@@ -1,6 +1,7 @@
 
 tag @s remove acacia_boat
 tag @s remove acacia_button
+tag @s remove acacia_chest_boat
 tag @s remove acacia_door
 tag @s remove acacia_fence_gate
 tag @s remove acacia_fence
@@ -16,6 +17,7 @@ tag @s remove acacia_trapdoor
 tag @s remove acacia_wood
 tag @s remove birch_boat
 tag @s remove birch_button
+tag @s remove birch_chest_boat
 tag @s remove birch_door
 tag @s remove birch_fence_gate
 tag @s remove birch_fence
@@ -31,6 +33,7 @@ tag @s remove birch_trapdoor
 tag @s remove birch_wood
 tag @s remove dark_oak_boat
 tag @s remove dark_oak_button
+tag @s remove dark_oak_chest_boat
 tag @s remove dark_oak_door
 tag @s remove dark_oak_fence_gate
 tag @s remove dark_oak_fence
@@ -46,6 +49,7 @@ tag @s remove dark_oak_trapdoor
 tag @s remove dark_oak_wood
 tag @s remove jungle_boat
 tag @s remove jungle_button
+tag @s remove jungle_chest_boat
 tag @s remove jungle_door
 tag @s remove jungle_fence_gate
 tag @s remove jungle_fence
@@ -59,8 +63,25 @@ tag @s remove jungle_slab
 tag @s remove jungle_stairs
 tag @s remove jungle_trapdoor
 tag @s remove jungle_wood
+tag @s remove mangrove_boat
+tag @s remove mangrove_button
+tag @s remove mangrove_chest_boat
+tag @s remove mangrove_door
+tag @s remove mangrove_fence_gate
+tag @s remove mangrove_fence
+tag @s remove mangrove_leaves
+tag @s remove mangrove_log
+tag @s remove mangrove_planks
+tag @s remove mangrove_pressure_plate
+tag @s remove mangrove_propagule
+tag @s remove mangrove_sign
+tag @s remove mangrove_slab
+tag @s remove mangrove_stairs
+tag @s remove mangrove_trapdoor
+tag @s remove mangrove_wood
 tag @s remove oak_boat
 tag @s remove oak_button
+tag @s remove oak_chest_boat
 tag @s remove oak_door
 tag @s remove oak_fence_gate
 tag @s remove oak_fence
@@ -76,6 +97,7 @@ tag @s remove oak_trapdoor
 tag @s remove oak_wood
 tag @s remove spruce_boat
 tag @s remove spruce_button
+tag @s remove spruce_chest_boat
 tag @s remove spruce_door
 tag @s remove spruce_fence_gate
 tag @s remove spruce_fence
@@ -97,6 +119,8 @@ tag @s remove stripped_dark_oak_log
 tag @s remove stripped_dark_oak_wood
 tag @s remove stripped_jungle_log
 tag @s remove stripped_jungle_wood
+tag @s remove stripped_mangrove_log
+tag @s remove stripped_mangrove_wood
 tag @s remove stripped_oak_log
 tag @s remove stripped_oak_wood
 tag @s remove stripped_spruce_log

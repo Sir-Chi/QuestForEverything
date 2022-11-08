@@ -70,9 +70,13 @@ tag @s remove loom
 tag @s remove magenta_candle
 tag @s remove magenta_dye
 tag @s remove mojang_banner_pattern
+tag @s remove mud_brick_slab
+tag @s remove mud_brick_stairs
+tag @s remove mud_bricks
 tag @s remove nether_star
 tag @s remove orange_candle
 tag @s remove orange_dye
+tag @s remove packed_mud
 tag @s remove painting
 tag @s remove paper
 tag @s remove piglin_banner_pattern

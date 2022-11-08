@@ -59,6 +59,7 @@
           "qfe:ocean/sea_pickle": true,
           "qfe:ocean/seagrass": true,
           "qfe:ocean/sponge": true,
+          "qfe:ocean/tadpole_bucket": true,
           "qfe:ocean/tropical_fish_bucket": true,
           "qfe:ocean/tube_coral_block": true,
           "qfe:ocean/tube_coral_fan": true,

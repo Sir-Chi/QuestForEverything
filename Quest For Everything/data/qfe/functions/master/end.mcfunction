@@ -66,7 +66,7 @@ scoreboard players reset AquaTeam score
 scoreboard players reset BlackTeam score
 scoreboard players reset GoldTeam score
 scoreboard players reset @a score
-scoreboard players set TotalToGet score 1171
+scoreboard players set TotalToGet score 1223
 scoreboard players set #Leader score 0
 
 scoreboard players reset @a death
@@ -82,6 +82,28 @@ team empty red
 team empty yellow
 team empty spectator
 team empty admin
+
+team add blue "Blue"
+team modify blue color blue
+team add green "Green"
+team modify green color green
+team add red "Red"
+team modify red color red
+team add yellow "Yellow"
+team modify yellow color yellow
+team add purple "Purple"
+team modify purple color dark_purple
+team add aqua "Aqua"
+team modify aqua color aqua
+team add gold "Gold"
+team modify gold color gold
+team add black "Black"
+team modify black color black
+team add spectator "Spectator"
+team modify spectator color gray
+team add admin "Admin"
+team modify admin color dark_red
+
 
 ##Removes Team Tracking AOC 
 kill @e[type=area_effect_cloud,name="Blue Team"]
@@ -124,14 +146,15 @@ teleport @a 0 128 0
 
 setblock 0 80 0 minecraft:air
 
+forceload add 0 0
+
 ##Spawn Lobby/Set World Spawn
-setblock -6 99 -6 minecraft:structure_block{mode:"LOAD",powered:0b,name:"qfe:lobby"}
-setblock -6 98 -6 minecraft:redstone_block
-setblock -6 98 -6 minecraft:air
+place template qfe:lobby -6 99 -6
 
 setworldspawn 0 99 0
 
 #Setup Player Spawn Point
+kill @e[type=armor_stand,tag=spawnPointLocator]
 execute positioned 20.5 130 0.5 run summon armor_stand 20.5 130 0.5 {Invulnerable:1,Tags:["spawnPointLocator"]}
 execute as @e[tag=spawnPointLocator] at @e[tag=spawnPointLocator] positioned as @e[tag=spawnPointLocator] align xyz run tp @e[tag=spawnPointLocator] ~0.5 ~ ~0.5
 

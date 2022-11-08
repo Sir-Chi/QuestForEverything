@@ -4,7 +4,7 @@
         "item": "minecraft:axolotl_bucket"
       },
       "title": "Bucket of Axolotl",
-      "description": "Obtain Bucket of Pufferfish",
+      "description": "Obtain Bucket of Axolotl",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

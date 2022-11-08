@@ -1,5 +1,5 @@
 
-execute as @a[scores={score=1169..}] unless score #gameended GameSetup matches 1 run function qfe:master/win
+execute as @a[scores={score=1171..}] unless score #gameended GameSetup matches 1 run function qfe:master/win
 execute as @e[type=area_effect_cloud,tag=trophy_end,tag=trophy_agriculture,tag=trophy_manufactured,tag=trophy_nature_and_loot,tag=trophy_nether,tag=trophy_ocean,tag=trophy_brewing,tag=trophy_redstone_and_transport,tag=trophy_resources,tag=trophy_sand_and_glass,tag=trophy_stone,tag=trophy_terracotta_and_concrete,tag=trophy_tools_and_weapons,tag=trophy_wood,tag=trophy_wool] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 unless score #gameended GameSetup matches 1 run function qfe:master/win
 
 execute as @e[type=area_effect_cloud,tag=!trophy_end] if predicate qfe:end_area_effect_cloud run function qfe:trophies/end

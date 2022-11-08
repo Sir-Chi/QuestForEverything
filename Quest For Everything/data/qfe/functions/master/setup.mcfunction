@@ -27,7 +27,7 @@ scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death
 
 scoreboard objectives add score dummy "Score"
-scoreboard players set TotalToGet score 1169
+scoreboard players set TotalToGet score 1171
 scoreboard players set #Leader score 0
 
 scoreboard objectives add time dummy "Timer"

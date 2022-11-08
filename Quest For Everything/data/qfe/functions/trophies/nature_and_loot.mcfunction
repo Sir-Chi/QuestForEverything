@@ -56,6 +56,7 @@ tag @s remove music_disc_chirp
 tag @s remove music_disc_far
 tag @s remove music_disc_mall
 tag @s remove music_disc_mellohi
+tag @s remove music_disc_otherside
 tag @s remove music_disc_pigstep
 tag @s remove music_disc_stal
 tag @s remove music_disc_strad
@@ -84,6 +85,7 @@ tag @s remove small_dripleaf
 tag @s remove snow_block
 tag @s remove snow
 tag @s remove snowball
+tag @s remove spore_blossom
 tag @s remove string
 tag @s remove sugar_cane
 tag @s remove sunflower

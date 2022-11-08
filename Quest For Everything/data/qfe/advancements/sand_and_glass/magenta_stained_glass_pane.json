@@ -3,7 +3,7 @@
       "icon": {
         "item": "minecraft:magenta_stained_glass_pane"
       },
-      "title": "Orange Stained Glass Pane",
+      "title": "Magenta Stained Glass Pane",
       "description": "Obtain Magenta Stained Glass Pane",
       "frame": "task",
       "show_toast": true,

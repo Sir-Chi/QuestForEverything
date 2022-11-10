@@ -6,6 +6,7 @@ execute unless data storage minecraft:general/secondtimer active run data merge 
 
 function qfe:master/pregame
 function qfe:master/winconditions
+execute as @a run function qfe:marathon/incentive_checks
 
 #Just in case, to maintain timing integrity
 schedule clear qfe:master/secondmaster

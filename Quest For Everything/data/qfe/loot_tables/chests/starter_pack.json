@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_axe"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_pickaxe"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 8,
+                "add": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:torch",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16,
+                "add": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

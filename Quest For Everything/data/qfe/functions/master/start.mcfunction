@@ -78,11 +78,11 @@ setblock -3 102 5 air replace
 setblock -4 101 5 air replace
 setblock 0 101 5 air replace
 
-setblock -4 101 -5 air replace
-setblock -2 101 -5 air replace
-setblock 0 101 -5 air replace
-setblock 2 101 -5 air replace
-setblock 4 101 -5 air replace
+setblock -3 101 -5 air replace
+setblock -1 101 -5 air replace
+setblock 0 102 -5 air replace
+setblock 1 101 -5 air replace
+setblock 3 101 -5 air replace
 
 fill 6 99 6 -6 103 -6 air replace
 

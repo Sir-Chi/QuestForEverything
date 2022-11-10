@@ -42,12 +42,12 @@ gamerule fallDamage false
 gamerule doDaylightCycle false
 time set 0
 
-scoreboard objectives setdisplay sidebar GameSetup
+scoreboard objectives setdisplay sidebar score
 scoreboard players reset SetTime GameSetup
 scoreboard players reset SetScore GameSetup
-scoreboard players set Teams GameSetup 0
-scoreboard players set oneItemPerPerson GameSetup 1
-scoreboard players set allRecipesUnlocked GameSetup 0
+scoreboard players set Teams GameSetup 1
+scoreboard players set oneItemPerPerson GameSetup 0
+scoreboard players set allRecipesUnlocked GameSetup 1
 scoreboard players set naturalRegeneration GameSetup 1
 scoreboard players set announceAdvancements GameSetup 1
 scoreboard players set announceTrophies GameSetup 1

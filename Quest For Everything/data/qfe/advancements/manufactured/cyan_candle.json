@@ -12,19 +12,8 @@
     },
     "parent": "qfe:manufactured/green_candle",
     "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:cyan_candle"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+      "requirement": {
+        "trigger": "minecraft:impossible"
       }
     },
     "rewards": {

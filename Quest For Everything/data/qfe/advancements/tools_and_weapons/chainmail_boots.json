@@ -12,19 +12,8 @@
     },
     "parent": "qfe:tools_and_weapons/chainmail_leggings",
     "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:chainmail_boots"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+      "requirement": {
+        "trigger": "minecraft:impossible"
       }
     },
     "rewards": {

@@ -12,19 +12,8 @@
     },
     "parent": "qfe:wood/root",
     "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:oak_sapling"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+      "requirement": {
+        "trigger": "minecraft:impossible"
       }
     },
     "rewards": {

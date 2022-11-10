@@ -12,19 +12,8 @@
     },
     "parent": "qfe:manufactured/green_dye",
     "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:cyan_dye"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+      "requirement": {
+        "trigger": "minecraft:impossible"
       }
     },
     "rewards": {

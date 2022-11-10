@@ -12,19 +12,8 @@
     },
     "parent": "qfe:resources/raw_iron_block",
     "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:iron_ingot"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+      "requirement": {
+        "trigger": "minecraft:impossible"
       }
     },
     "rewards": {

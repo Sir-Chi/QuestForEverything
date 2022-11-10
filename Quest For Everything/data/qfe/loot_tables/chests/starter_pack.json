@@ -7,7 +7,18 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:stone_axe"
+            "name": "minecraft:stone_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "#ChangeKidsHealth"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -17,7 +28,18 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:stone_pickaxe"
+            "name": "minecraft:stone_pickaxe",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "#ChangeKidsHealth"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -27,7 +49,18 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:shield"
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "#ChangeKidsHealth"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -39,6 +72,15 @@
             "type": "minecraft:item",
             "name": "minecraft:bread",
             "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "#ChangeKidsHealth"
+                  }
+                ]
+              },
               {
                 "function": "minecraft:set_count",
                 "count": 8,
@@ -56,6 +98,15 @@
             "type": "minecraft:item",
             "name": "minecraft:torch",
             "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "#ChangeKidsHealth"
+                  }
+                ]
+              },
               {
                 "function": "minecraft:set_count",
                 "count": 16,

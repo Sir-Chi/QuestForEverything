@@ -1,12 +1,21 @@
+# Pre game script
 
-execute as @a[tag=!joined,gamemode=!adventure,team=!admin] if score #gamestarted GameSetup matches 0 run tag @s add joined
-execute as @a[tag=joined,team=!admin] if score #gamestarted GameSetup matches 0 run effect give @a saturation 99999 0 true
-execute as @a[tag=joined,team=!admin] if score #gamestarted GameSetup matches 0 run effect give @a regeneration 9999 0 true
-execute as @a[tag=joined,team=!admin] if score #gamestarted GameSetup matches 0 run effect give @a weakness 9999 0 true
-execute as @a[tag=joined,team=!admin] if score #gamestarted GameSetup matches 0 run gamemode adventure @a
+## Give every player a weakness effect so they cannot punch each other
 
-execute as @a[tag=joined,gamemode=adventure] if score #gamestarted GameSetup matches 0 run tag @s remove joined
+effect give @a[team=!admin] minecraft:weakness 100000 255 true
+effect give @a[team=!admin] minecraft:mining_fatigue 1000000 255 true
+effect give @a[team=!admin] minecraft:saturation 1000000 255 true
+effect give @a[team=!admin] minecraft:resistance 1000000 255 true
+
+## Admins effects
+
+effect clear @a[team=admin]
 
 ## Teleport any player who tries to escape back to the box
 
-execute if score #gamestarted GameSetup matches 0 run tp @a[distance=9..,x=0,y=99,z=0,team=!admin] 0 100 0
+execute at @e[tag=lobby_locator] run tp @a[distance=7..,team=!admin] ~ ~1 ~
+
+# Pre game gamemodes
+
+gamemode creative @a[team=admin]
+gamemode adventure @a[team=!admin]

@@ -38,8 +38,15 @@ tag @e[type=area_effect_cloud] remove trophy_wood
 tag @e[type=area_effect_cloud] remove trophy_wool
 
 ##Set Gamerules & Scoreboard
-gamerule fallDamage false
+gamerule commandBlockOutput false
+gamerule disableRaids true
 gamerule doDaylightCycle false
+gamerule doInsomnia false
+gamerule doMobSpawning false
+gamerule doPatrolSpawning false
+gamerule fallDamage false
+gamerule doWeatherCycle false
+gamerule disableElytraMovementCheck true
 time set 0
 
 scoreboard objectives setdisplay sidebar score

@@ -14,4 +14,4 @@ execute if score seconds time matches 60.. run scoreboard players set seconds ti
 
 execute as @e[type=area_effect_cloud,name="Timer",scores={time=6000..}] run scoreboard players set @e[type=area_effect_cloud,name="Timer",scores={time=6000..}] time 1
 
-title @a actionbar ["",{"score":{"name":"minutes","objective":"time"}},{"text":" : "},{"score":{"name":"seconds","objective":"time"}}]
+title @a actionbar ["",{"score":{"name":"minutes","objective":"time"}},{"text":":"},{"score":{"name":"seconds","objective":"time"}}]

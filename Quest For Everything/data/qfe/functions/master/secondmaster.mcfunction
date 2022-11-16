@@ -4,7 +4,7 @@ execute unless data storage minecraft:general/secondtimer active run data merge 
 
 #Functions to call once per second
 
-function qfe:master/pregame
+execute if score #gamestarted GameSetup matches 0 run function qfe:master/pregame
 function qfe:master/winconditions
 
 #Just in case, to maintain timing integrity

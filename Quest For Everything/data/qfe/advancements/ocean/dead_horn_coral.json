@@ -5,7 +5,7 @@
       },
       "title": "Dead Horn Coral",
       "description": "Obtain Dead Horn Coral",
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

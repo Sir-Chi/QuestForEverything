@@ -5,7 +5,7 @@
       },
       "title": "Dead Horn Coral Fan",
       "description": "Obtain Dead Horn Coral Fan",
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

@@ -5,7 +5,7 @@
       },
       "title": "Bubble Coral Block",
       "description": "Obtain Bubble Coral Block",
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

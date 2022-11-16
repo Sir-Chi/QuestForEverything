@@ -5,7 +5,7 @@
       },
       "title": "Small Amethyst Bud",
       "description": "Obtain Small Amethyst Bud",
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

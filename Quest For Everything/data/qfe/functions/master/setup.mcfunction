@@ -3,10 +3,14 @@ gamemode creative @a
 teleport @a 0 128 0
 
 ##Set Gamerules & Scoreboard
-gamerule fallDamage false
-gamerule doDaylightCycle false
-gamerule spawnRadius 1
 gamerule commandBlockOutput false
+gamerule disableRaids true
+gamerule doDaylightCycle false
+gamerule doInsomnia false
+gamerule doMobSpawning false
+gamerule doPatrolSpawning false
+gamerule fallDamage false
+gamerule doWeatherCycle false
 gamerule disableElytraMovementCheck true
 
 scoreboard objectives add GameSetup dummy "Game Setup"

@@ -5,7 +5,13 @@ scoreboard players set #gamestarted GameSetup 1
 clear @a
 advancement revoke @a everything
 time set 0
+gamerule disableRaids false
 gamerule doDaylightCycle true
+gamerule doInsomnia true
+gamerule doMobSpawning true
+gamerule doPatrolSpawning true
+gamerule fallDamage true
+gamerule doWeatherCycle true
 
 ##Executes & Activates Chosen The Game Setups
 execute if score naturalRegeneration GameSetup matches 0 run gamerule naturalRegeneration false
@@ -89,7 +95,6 @@ fill 6 99 6 -6 103 -6 air replace
 ##Set Up Players
 effect give @a minecraft:saturation 1 20
 effect give @a minecraft:regeneration 2 255
-gamerule fallDamage true
 
 ##Starts Timer & Advancement Checking
 scoreboard players set @e[type=area_effect_cloud,name="Timer"] time 1

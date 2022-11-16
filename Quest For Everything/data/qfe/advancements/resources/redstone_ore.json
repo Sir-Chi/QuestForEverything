@@ -5,7 +5,7 @@
       },
       "title": "Redstone Ore",
       "description": "Obtain Redstone Ore",
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

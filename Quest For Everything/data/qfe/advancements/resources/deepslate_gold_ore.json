@@ -5,7 +5,7 @@
       },
       "title": "Deepslate Gold Ore",
       "description": "Obtain Deepslate Gold Ore",
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

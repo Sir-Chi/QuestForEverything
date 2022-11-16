@@ -1,15 +1,4 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:barrier"
-      },
-      "title": "",
-      "description": "",
-      "frame": "goal",
-      "show_toast": false,
-      "announce_to_chat": false,
-      "hidden": false
-    },
     "parent": "qfe:brewing/thick_lingering_potion",
     "criteria": {
       "tick": {

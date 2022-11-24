@@ -1,3 +1,8 @@
+## Setup World Spawn/Lobby
+
+execute unless entity @e[tag=lobby_locator] run summon minecraft:marker 0 64 0 {Tags:["lobby_locator"]}
+execute unless entity @e[tag=lobby_locator,tag=lobby_placed] run function qfe:master/locate_lobby
+
 ##Set Players To Creative & Teleports Them To 0 0
 gamemode creative @a
 teleport @a 0 128 0
@@ -69,10 +74,7 @@ forceload add 0 0
 
 summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Timer"}'}
 
-##Spawn Lobby/Set World Spawn
-place template qfe:lobby -6 99 -6
-
-setworldspawn 0 99 0
+execute as @e[tag=lobby_locator] at @e[tag=lobby_locator] run setworldspawn ~ ~1 ~
 
 #Setup Player Spawn Point
 kill @e[type=armor_stand,tag=spawnPointLocator]

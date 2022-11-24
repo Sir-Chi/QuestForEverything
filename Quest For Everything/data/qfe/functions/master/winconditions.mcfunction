@@ -36,6 +36,7 @@ execute as @a[gamemode=survival,tag=!trophy_wool] if predicate qfe:wool run func
 
 ##Calls The Game When A Set Time Is Reached
 execute if score minutes time matches 30.. if score SetTime GameSetup matches 30 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score minutes time matches 45.. if score SetTime GameSetup matches 45 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
 execute if score minutes time matches 60.. if score SetTime GameSetup matches 60 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
 execute if score minutes time matches 90.. if score SetTime GameSetup matches 90 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
 execute if score minutes time matches 120.. if score SetTime GameSetup matches 120 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed

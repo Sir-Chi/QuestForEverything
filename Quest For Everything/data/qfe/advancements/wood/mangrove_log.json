@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:mangrove_log"
       },
-      "title": "Mangrove Boat",
-      "description": "Obtain Mangrove Boat",
+      "title": "Mangrove Log",
+      "description": "Obtain Mangrove Log",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

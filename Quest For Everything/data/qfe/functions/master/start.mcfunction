@@ -55,7 +55,7 @@ scoreboard objectives setdisplay sidebar score
 
 ##Removes The Lobby
 
-execute at @e[tag=lobby_locator] run fill ~5 ~ ~5 ~-5 ~6 ~-5 minecraft:air replace
+execute at @e[tag=lobby_locator] run fill ~7 ~ ~7 ~-7 ~6 ~-7 minecraft:air replace
 kill @e[tag=lobby_locator]
 kill @e[type=minecraft:item]
 

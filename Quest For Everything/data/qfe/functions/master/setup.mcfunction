@@ -39,6 +39,8 @@ scoreboard objectives add score dummy "Score"
 scoreboard players set TotalToGet score 1223
 scoreboard players set #Leader score 0
 
+scoreboard objectives add teams trigger "Teams"
+
 scoreboard objectives add time dummy "Timer"
 scoreboard players set const100000 time 100000
 scoreboard players set const100 time 100

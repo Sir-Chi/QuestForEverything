@@ -19,3 +19,7 @@ execute at @e[tag=lobby_locator] run tp @a[distance=7..,team=!admin] ~ ~1 ~
 
 gamemode creative @a[team=admin]
 gamemode adventure @a[team=!admin]
+
+# Add joined tag
+
+tag @a[tag=!joined] add joined

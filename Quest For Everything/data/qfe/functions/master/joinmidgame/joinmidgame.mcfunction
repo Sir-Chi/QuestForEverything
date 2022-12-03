@@ -29,8 +29,8 @@ execute if entity @a[scores={teams=9}] run team join spectator @a[scores={teams=
 execute if entity @a[scores={teams=9}] run gamemode spectator @a[scores={teams=9}]
 
 execute if score allRecipesUnlocked GameSetup matches 1 run recipe give @a[scores={teams=1..9}] *
-execute if score oneItemPerPerson GameSetup matches 1 run scoreboard players set @a[team=!spectator] score 0
+execute if score oneItemPerPerson GameSetup matches 1 run scoreboard players set @a[scores={teams=1..9},team=!spectator] score 0
 
-gamemode survival @a[team=!spectator]
+gamemode survival @a[scores={teams=1..9},team=!spectator,team=!admin]
 
 scoreboard players reset @a[scores={teams=1..9}]

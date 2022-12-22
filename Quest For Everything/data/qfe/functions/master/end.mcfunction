@@ -73,7 +73,7 @@ scoreboard players reset AquaTeam score
 scoreboard players reset BlackTeam score
 scoreboard players reset GoldTeam score
 scoreboard players reset @a score
-scoreboard players set TotalToGet score 1223
+scoreboard players set TotalToGet score 1224
 scoreboard players set #Leader score 0
 
 scoreboard players reset @a death

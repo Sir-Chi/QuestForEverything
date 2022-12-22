@@ -22,7 +22,7 @@ function qfe:checks/check_wool
 function qfe:checks/check_trophies
 
 execute if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run tellraw @a ["",{"selector":"@e[type=area_effect_cloud,tag=trophy_end,tag=trophy_agriculture,tag=trophy_manufactured,tag=trophy_nature_and_loot,tag=trophy_nether,tag=trophy_ocean,tag=trophy_brewing,tag=trophy_redstone_and_transport,tag=trophy_resources,tag=trophy_sand_and_glass,tag=trophy_stone,tag=trophy_terracotta_and_concrete,tag=trophy_tools_and_weapons,tag=trophy_wood,tag=trophy_wool]"},{"text":" completed the Quest for Everything in "},{"score":{"name":"minutes","objective":"time"}},{"text":":"},{"score":{"name":"seconds","objective":"time"}},{"text":"!"}]
-execute if score oneItemPerPerson GameSetup matches 1 run tellraw @a ["",{"selector":"@e[scores={score=1223..}]"},{"text":" completed the Quest for Everything in "},{"score":{"name":"minutes","objective":"time"}},{"text":":"},{"score":{"name":"seconds","objective":"time"}},{"text":"!"}]
+execute if score oneItemPerPerson GameSetup matches 1 run tellraw @a ["",{"selector":"@e[scores={score=1224..}]"},{"text":" completed the Quest for Everything in "},{"score":{"name":"minutes","objective":"time"}},{"text":":"},{"score":{"name":"seconds","objective":"time"}},{"text":"!"}]
 
 execute as @a at @s run playsound music.overworld.snowy_slopes music @s ~ ~ ~
 

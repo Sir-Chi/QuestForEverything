@@ -13,7 +13,7 @@ effect clear @a[team=admin]
 
 ## Teleport any player who tries to escape back to the box
 
-execute at @e[tag=lobby_locator] run tp @a[distance=7..,team=!admin] ~ ~1 ~
+execute at @e[tag=lobby_locator] run tp @a[distance=11..,team=!admin] ~ ~1 ~
 
 # Pre game gamemodes
 

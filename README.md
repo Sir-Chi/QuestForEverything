@@ -18,6 +18,8 @@ On commencement of the game, a scoreboard will appear at the side of the screen.
 > 5) Once you load into the world, run the command "/function qfe:master/setup" directly, or run the command "/reload" to have the command appear in chat for you to click. This will create the Q4E Starting Lobby.
 > 6) If on a server, make sure that command blocks are turned on in the server configs.
 
+If you wish to restart the game at any point run the function - "/function qfe:master/end" and it will reset you and send you back to the lobby to start over.
+
 ## Small Biomes
 
 There are two different versions of Quest for Everything. One is the basic datapack which can be used as normal in any new minecraft world on any minecraft seed. The other is a special version which gives a custom world with small biomes. This means that you do not need to travel for hours to find a Jungle or a Swamp.  

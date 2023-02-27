@@ -72,6 +72,7 @@ tag @s remove magenta_dye
 tag @s remove mojang_banner_pattern
 tag @s remove mud_brick_slab
 tag @s remove mud_brick_stairs
+tag @s remove mud_brick_wall
 tag @s remove mud_bricks
 tag @s remove nether_star
 tag @s remove orange_candle

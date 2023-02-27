@@ -79,6 +79,7 @@
           "qfe:manufactured/mojang_banner_pattern": true,
           "qfe:manufactured/mud_brick_slab": true,
           "qfe:manufactured/mud_brick_stairs": true,
+          "qfe:manufactured/mud_brick_wall": true,
           "qfe:manufactured/mud_bricks": true,
           "qfe:manufactured/nether_star": true,
           "qfe:manufactured/orange_candle": true,

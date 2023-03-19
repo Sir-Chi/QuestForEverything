@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:recovery_compass"
       },
-      "title": "Recovery Comapss",
-      "description": "Obtain Recovery Comapss",
+      "title": "Recovery Compass",
+      "description": "Obtain Recovery Compass",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

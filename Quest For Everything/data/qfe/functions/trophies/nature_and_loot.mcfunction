@@ -88,7 +88,7 @@ tag @s remove rose_bush
 tag @s remove rotten_flesh
 tag @s remove sculk_catalyst
 tag @s remove sculk_sensor
-tag @s remove sculk_shriek
+tag @s remove sculk_shrieker
 tag @s remove sculk_vein
 tag @s remove sculk
 tag @s remove skeleton_skull

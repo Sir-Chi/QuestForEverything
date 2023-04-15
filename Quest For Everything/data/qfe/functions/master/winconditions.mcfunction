@@ -85,23 +85,203 @@ execute if score minutes time matches 1410.. if score SetTime GameSetup matches 
 execute if score minutes time matches 1440.. if score SetTime GameSetup matches 1440 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
 
 ##Calls The Game When A Set Score Is Reached
-execute if entity @e[scores={score=50..}] if score SetScore GameSetup matches 50 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=100..}] if score SetScore GameSetup matches 100 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=150..}] if score SetScore GameSetup matches 150 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=200..}] if score SetScore GameSetup matches 200 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=250..}] if score SetScore GameSetup matches 250 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=300..}] if score SetScore GameSetup matches 300 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=350..}] if score SetScore GameSetup matches 350 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=400..}] if score SetScore GameSetup matches 400 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=450..}] if score SetScore GameSetup matches 450 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=500..}] if score SetScore GameSetup matches 500 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=550..}] if score SetScore GameSetup matches 550 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=600..}] if score SetScore GameSetup matches 600 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=650..}] if score SetScore GameSetup matches 650 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=700..}] if score SetScore GameSetup matches 700 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=750..}] if score SetScore GameSetup matches 750 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=800..}] if score SetScore GameSetup matches 800 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=850..}] if score SetScore GameSetup matches 850 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=900..}] if score SetScore GameSetup matches 900 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=950..}] if score SetScore GameSetup matches 950 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if entity @e[scores={score=1000..}] if score SetScore GameSetup matches 1000 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=50..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 50 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=100..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 100 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=150..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 150 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=200..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 200 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=250..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 250 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=300..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 300 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=350..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 350 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=400..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 400 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=450..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 450 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=500..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 500 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=550..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 550 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=600..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 600 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=650..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 650 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=700..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 700 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=750..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 750 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=800..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 800 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=850..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 850 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=900..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 900 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=950..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 950 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if entity @e[scores={score=1000..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 1000 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 50 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 50.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 50 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 50.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 50 unless score #gameended GameSetup matches 1 if score RedTeam score matches 50.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 50 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 50.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 50 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 50.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 50 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 50.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 50 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 50.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 50 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 50.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 100 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 100.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 100 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 100.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 100 unless score #gameended GameSetup matches 1 if score RedTeam score matches 100.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 100 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 100.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 100 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 100.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 100 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 100.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 100 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 100.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 100 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 100.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 150 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 150.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 150 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 150.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 150 unless score #gameended GameSetup matches 1 if score RedTeam score matches 150.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 150 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 150.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 150 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 150.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 150 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 150.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 150 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 150.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 150 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 150.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 200 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 200.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 200 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 200.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 200 unless score #gameended GameSetup matches 1 if score RedTeam score matches 200.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 200 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 200.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 200 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 200.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 200 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 200.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 200 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 200.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 200 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 200.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 250 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 250.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 250 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 250.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 250 unless score #gameended GameSetup matches 1 if score RedTeam score matches 250.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 250 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 250.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 250 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 250.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 250 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 250.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 250 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 250.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 250 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 250.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 300 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 300.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 300 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 300.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 300 unless score #gameended GameSetup matches 1 if score RedTeam score matches 300.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 300 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 300.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 300 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 300.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 300 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 300.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 300 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 300.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 300 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 300.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 350 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 350.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 350 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 350.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 350 unless score #gameended GameSetup matches 1 if score RedTeam score matches 350.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 350 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 350.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 350 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 350.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 350 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 350.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 350 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 350.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 350 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 350.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 400 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 400.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 400 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 400.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 400 unless score #gameended GameSetup matches 1 if score RedTeam score matches 400.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 400 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 400.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 400 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 400.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 400 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 400.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 400 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 400.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 400 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 400.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 450 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 450.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 450 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 450.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 450 unless score #gameended GameSetup matches 1 if score RedTeam score matches 450.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 450 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 450.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 450 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 450.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 450 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 450.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 450 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 450.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 450 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 450.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 500 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 500.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 500 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 500.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 500 unless score #gameended GameSetup matches 1 if score RedTeam score matches 500.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 500 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 500.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 500 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 500.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 500 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 500.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 500 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 500.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 500 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 500.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 550 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 550.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 550 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 550.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 550 unless score #gameended GameSetup matches 1 if score RedTeam score matches 550.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 550 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 550.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 550 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 550.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 550 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 550.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 550 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 550.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 550 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 550.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 600 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 600.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 600 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 600.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 600 unless score #gameended GameSetup matches 1 if score RedTeam score matches 600.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 600 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 600.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 600 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 600.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 600 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 600.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 600 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 600.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 600 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 600.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 650 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 650.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 650 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 650.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 650 unless score #gameended GameSetup matches 1 if score RedTeam score matches 650.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 650 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 650.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 650 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 650.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 650 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 650.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 650 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 650.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 650 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 650.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 700 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 700.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 700 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 700.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 700 unless score #gameended GameSetup matches 1 if score RedTeam score matches 700.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 700 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 700.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 700 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 700.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 700 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 700.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 700 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 700.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 700 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 700.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 750 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 750.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 750 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 750.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 750 unless score #gameended GameSetup matches 1 if score RedTeam score matches 750.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 750 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 750.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 750 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 750.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 750 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 750.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 750 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 750.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 750 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 750.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 800 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 800.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 800 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 800.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 800 unless score #gameended GameSetup matches 1 if score RedTeam score matches 800.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 800 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 800.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 800 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 800.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 800 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 800.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 800 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 800.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 800 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 800.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 850 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 850.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 850 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 850.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 850 unless score #gameended GameSetup matches 1 if score RedTeam score matches 850.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 850 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 850.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 850 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 850.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 850 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 850.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 850 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 850.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 850 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 850.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 900 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 900.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 900 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 900.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 900 unless score #gameended GameSetup matches 1 if score RedTeam score matches 900.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 900 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 900.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 900 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 900.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 900 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 900.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 900 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 900.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 900 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 900.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 950 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 950.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 950 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 950.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 950 unless score #gameended GameSetup matches 1 if score RedTeam score matches 950.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 950 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 950.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 950 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 950.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 950 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 950.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 950 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 950.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 950 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 950.. run function qfe:master/wintimed
+
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 1000 unless score #gameended GameSetup matches 1 if score BlueTeam score matches 1000.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 1000 unless score #gameended GameSetup matches 1 if score GreenTeam score matches 1000.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 1000 unless score #gameended GameSetup matches 1 if score RedTeam score matches 1000.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 1000 unless score #gameended GameSetup matches 1 if score YellowTeam score matches 1000.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 1000 unless score #gameended GameSetup matches 1 if score PurpleTeam score matches 1000.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 1000 unless score #gameended GameSetup matches 1 if score AquaTeam score matches 1000.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 1000 unless score #gameended GameSetup matches 1 if score BlackTeam score matches 1000.. run function qfe:master/wintimed
+execute if score Teams GameSetup matches 1 if score SetScore GameSetup matches 1000 unless score #gameended GameSetup matches 1 if score GoldTeam score matches 1000.. run function qfe:master/wintimed

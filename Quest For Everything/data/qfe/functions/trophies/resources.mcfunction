@@ -12,7 +12,10 @@ tag @s remove copper_ore
 tag @s remove cut_copper_slab
 tag @s remove cut_copper_stairs
 tag @s remove cut_copper
+tag @s remove deepslate_coal_ore
+tag @s remove deepslate_copper_ore
 tag @s remove deepslate_diamond_ore
+tag @s remove deepslate_emerald_ore
 tag @s remove deepslate_gold_ore
 tag @s remove deepslate_iron_ore
 tag @s remove deepslate_lapis_ore

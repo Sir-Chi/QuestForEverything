@@ -5,8 +5,12 @@ scoreboard players set #gamestarted GameSetup 1
 clear @a
 advancement revoke @a everything
 time set 0
+gamerule disableRaids false
 gamerule doDaylightCycle true
+<<<<<<< HEAD
 gamerule disableRaids true
+=======
+>>>>>>> main
 gamerule doInsomnia true
 gamerule doMobSpawning true
 gamerule doPatrolSpawning true
@@ -53,6 +57,12 @@ execute if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup m
 
 scoreboard objectives setdisplay sidebar score
 
+##Removes The Lobby
+
+execute at @e[tag=lobby_locator_bottom] run fill ~7 ~ ~7 ~-7 ~6 ~-7 minecraft:air replace
+kill @e[tag=lobby_locator_bottom]
+kill @e[type=minecraft:item]
+
 ##Sets Teams To Survival & Anyone On The Spectator/Admin Team Gets Put In Spectator/Admin Mode & Given Night Vision
 gamemode survival @a[team=!spectator]
 gamemode spectator @a[team=admin]
@@ -73,6 +83,7 @@ execute as @e[tag=spawnPointLocator] at @e[tag=spawnPointLocator] run teleport @
 
 kill @e[tag=spawnPointLocator]
 
+<<<<<<< HEAD
 ##Removes The Lobby
 setblock 4 101 5 air replace
 setblock 3 102 5 air replace
@@ -92,6 +103,8 @@ setblock 3 101 -5 air replace
 
 fill 6 99 6 -6 103 -6 air replace
 
+=======
+>>>>>>> main
 ##Set Up Players
 effect give @a minecraft:saturation 1 20
 effect give @a minecraft:regeneration 2 255

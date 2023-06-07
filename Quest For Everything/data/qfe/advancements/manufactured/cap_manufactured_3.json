@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "parent": "qfe:manufactured/mud_brick_stairs",
+=======
+    "parent": "qfe:manufactured/mud_brick_wall",
+>>>>>>> main
     "criteria": {
       "tick": {
         "trigger": "minecraft:tick"

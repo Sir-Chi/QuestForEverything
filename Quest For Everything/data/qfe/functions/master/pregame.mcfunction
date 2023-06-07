@@ -13,9 +13,21 @@ effect clear @a[team=admin]
 
 ## Teleport any player who tries to escape back to the box
 
+<<<<<<< HEAD
 execute at @e[tag=lobby_locator] run tp @a[distance=7..,team=!admin] ~ ~1 ~
+=======
+execute at @e[tag=lobby_locator_bottom] run tp @a[distance=11..,team=!admin] ~ ~1 ~
+>>>>>>> main
 
 # Pre game gamemodes
 
 gamemode creative @a[team=admin]
+<<<<<<< HEAD
 gamemode adventure @a[team=!admin]
+=======
+gamemode adventure @a[team=!admin]
+
+# Add joined tag
+
+tag @a[tag=!joined] add joined
+>>>>>>> main

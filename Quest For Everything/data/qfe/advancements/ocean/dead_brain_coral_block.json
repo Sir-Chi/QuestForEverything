@@ -5,7 +5,7 @@
       },
       "title": "Dead Brain Coral Block",
       "description": "Obtain Dead Brain Coral Block",
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

@@ -3,6 +3,6 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:area_effect_cloud",
-      "nbt": "{Tags:['activator_rail','carrot_on_a_stick','chest_minecart','comparator','daylight_detector','detector_rail','diamond_horse_armor','dispenser','dropper','furnace_minecart','golden_horse_armor','hopper_minecart','hopper','iron_horse_armor','leather_horse_armor','lever','minecart','note_block','observer','piston','powered_rail','rail','redstone_lamp','redstone_torch','repeater','saddle','sticky_piston','target','tnt_minecart','tnt','trapped_chest','tripwire_hook','warped_fungus_on_a_stick']}"
+      "nbt": "{Tags:['activator_rail','calibrated_sculk_sensor','carrot_on_a_stick','chest_minecart','comparator','daylight_detector','detector_rail','diamond_horse_armor','dispenser','dropper','furnace_minecart','golden_horse_armor','hopper_minecart','hopper','iron_horse_armor','leather_horse_armor','lever','minecart','note_block','observer','piston','powered_rail','rail','redstone_lamp','redstone_torch','repeater','saddle','sticky_piston','target','tnt_minecart','tnt','trapped_chest','tripwire_hook','warped_fungus_on_a_stick']}"
     }
   }

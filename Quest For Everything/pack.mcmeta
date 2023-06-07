@@ -1,7 +1,7 @@
 {
     "pack": {
-        "pack_format": 10, 
-        "description": "Created by \u00A72SirChi               \u00a75Version 1.5.1 (Small Biomes Edition)"
+        "pack_format": 15, 
+        "description": "Created by \u00A72SirChi               \u00a75Version 1.6"
     },
     "filter": {
         "block": [

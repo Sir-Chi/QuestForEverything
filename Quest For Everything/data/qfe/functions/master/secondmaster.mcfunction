@@ -4,6 +4,12 @@ execute unless data storage minecraft:general/secondtimer active run data merge 
 #Functions to call once per second
 
 execute if score #gamestarted GameSetup matches 0 run function qfe:master/pregame
+<<<<<<< HEAD
+=======
+execute if score #gamestarted GameSetup matches 1 run function qfe:master/joinmidgame/joinmidgamecheck
+execute if score #gamestarted GameSetup matches 1 run function qfe:master/joinmidgame/joinmidgame
+
+>>>>>>> main
 function qfe:master/winconditions
 execute as @a run function qfe:marathon/incentive_checks
 

@@ -40,6 +40,8 @@ tag @s remove melon
 tag @s remove mushroom_stew
 tag @s remove mutton
 tag @s remove night_vision_suspicious_stew
+tag @s remove pitcher_plant
+tag @s remove pitcher_pod
 tag @s remove poison_suspicious_stew
 tag @s remove poisonous_potato
 tag @s remove porkchop
@@ -53,6 +55,8 @@ tag @s remove regeneration_suspicious_stew
 tag @s remove salmon
 tag @s remove saturation_suspicious_stew
 tag @s remove sweet_berries
+tag @s remove torchflower_seeds
+tag @s remove torchflower
 tag @s remove tropical_fish
 tag @s remove weakness_suspicious_stew
 tag @s remove wheat_seeds

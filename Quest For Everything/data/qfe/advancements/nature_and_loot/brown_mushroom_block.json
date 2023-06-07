@@ -5,7 +5,7 @@
       },
       "title": "Brown Mushroom Block",
       "description": "Obtain Brown Mushroom Block",
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

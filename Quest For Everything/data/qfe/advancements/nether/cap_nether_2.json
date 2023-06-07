@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "parent": "qfe:nether/warped_sign",
+=======
+    "parent": "qfe:nether/warped_hanging_sign",
+>>>>>>> main
     "criteria": {
       "tick": {
         "trigger": "minecraft:tick"

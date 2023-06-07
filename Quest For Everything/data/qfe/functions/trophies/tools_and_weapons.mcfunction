@@ -1,6 +1,7 @@
 
 tag @s remove arrow
 tag @s remove bow
+tag @s remove brush
 tag @s remove bucket
 tag @s remove chainmail_boots
 tag @s remove chainmail_chestplate

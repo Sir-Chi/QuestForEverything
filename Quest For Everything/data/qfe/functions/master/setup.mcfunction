@@ -26,14 +26,21 @@ scoreboard players set takeItems GameSetup 1
 scoreboard players set #gamestarted GameSetup 0
 scoreboard players set #gameended GameSetup 0
 scoreboard players set #dragonegg GameSetup 0
+scoreboard players set #lobbynumber GameSetup 0
 
 scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death
 
 scoreboard objectives add score dummy "Score"
+<<<<<<< HEAD
 scoreboard objectives setdisplay sidebar score
 scoreboard players set TotalToGet score 1223
+=======
+scoreboard players set TotalToGet score 1319
+>>>>>>> main
 scoreboard players set #Leader score 0
+
+scoreboard objectives add teams trigger "Teams"
 
 scoreboard objectives add time dummy "Timer"
 scoreboard players set const100000 time 100000
@@ -41,6 +48,14 @@ scoreboard players set const100 time 100
 scoreboard players set systick time 0
 scoreboard players set seconds time 0
 scoreboard players set minutes time 0
+scoreboard players set hours time 0
+
+##Find Lobby Number
+execute if score #lobbynumber GameSetup matches ..0 run function qfe:master/lobby_number
+
+## Setup World Spawn/Lobby
+
+execute unless entity @e[tag=lobby_locator_bottom,tag=lobby_placed] run schedule function qfe:master/locate_lobby 2s
 
 ##Teams Setup
 team add blue "Blue"
@@ -70,18 +85,11 @@ forceload add 0 0
 
 summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Timer"}'}
 
-##Spawn Lobby/Set World Spawn
-place template qfe:lobby -6 99 -6
-
-setworldspawn 0 99 0
-
-#Setup Player Spawn Point
-kill @e[type=armor_stand,tag=spawnPointLocator]
-execute positioned 20.5 130 0.5 run summon armor_stand 20.5 130 0.5 {Invulnerable:1,Tags:["spawnPointLocator"]}
-execute as @e[tag=spawnPointLocator] at @e[tag=spawnPointLocator] positioned as @e[tag=spawnPointLocator] align xyz run tp @e[tag=spawnPointLocator] ~0.5 ~ ~0.5
+execute as @e[tag=lobby_locator_bottom] at @e[tag=lobby_locator_bottom] run setworldspawn ~ ~1 ~
 
 ##Teleports Players Into Lobby
 teleport @a 0 100 0
+<<<<<<< HEAD
 
 schedule function qfe:master/spawnlocator 10s
 
@@ -182,3 +190,5 @@ scoreboard objectives add torch dummy
 scoreboard objectives add torch_tagged dummy
 scoreboard objectives add chainmail_boots dummy
 scoreboard objectives add chainmail_boots_tagged dummy
+=======
+>>>>>>> main

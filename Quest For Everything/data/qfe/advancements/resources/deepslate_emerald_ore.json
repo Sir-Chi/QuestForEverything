@@ -5,7 +5,7 @@
       },
       "title": "Deepslate Emerald Ore",
       "description": "Obtain Deepslate Emerald Ore",
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

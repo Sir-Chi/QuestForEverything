@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:arms_up_pottery_sherd"
+      },
+      "title": "Arms Up Pottery Sherd",
+      "description": "Obtain Arms Up Pottery Sherd",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "qfe:nature_and_loot/archer_pottery_sherd",
+    "criteria": {
+      "has_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:arms_up_pottery_sherd"],
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "qfe:nature_and_loot/arms_up_pottery_sherd"
+    }
+  }

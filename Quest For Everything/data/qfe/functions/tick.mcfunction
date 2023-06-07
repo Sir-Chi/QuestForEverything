@@ -11,7 +11,13 @@ scoreboard players operation seconds time /= const100 time
 
 execute if score seconds time matches 60.. run scoreboard players add minutes time 1
 execute if score seconds time matches 60.. run scoreboard players set seconds time 0
+execute if score minutes time matches 60.. run scoreboard players add hours time 1
+execute if score minutes time matches 60.. run scoreboard players set minutes time 0
 
 execute as @e[type=area_effect_cloud,name="Timer",scores={time=6000..}] run scoreboard players set @e[type=area_effect_cloud,name="Timer",scores={time=6000..}] time 1
 
+<<<<<<< HEAD
 title @a actionbar ["",{"score":{"name":"minutes","objective":"time"}},{"text":":"},{"score":{"name":"seconds","objective":"time"}}]
+=======
+title @a actionbar ["",{"score":{"name":"hours","objective":"time"}}," : ",{"score":{"name":"minutes","objective":"time"}}," : ",{"score":{"name":"seconds","objective":"time"}}]
+>>>>>>> main

@@ -1,8 +1,16 @@
 {
+<<<<<<< HEAD
     "parent": "qfe:tools_and_weapons/powder_snow_bucket",
     "criteria": {
       "tick": {
         "trigger": "minecraft:tick"
       }
+=======
+  "parent": "qfe:tools_and_weapons/powder_snow_bucket",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+>>>>>>> main
     }
   }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "qfe:nature_and_loot/spire_armor_trim_smithing_template",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

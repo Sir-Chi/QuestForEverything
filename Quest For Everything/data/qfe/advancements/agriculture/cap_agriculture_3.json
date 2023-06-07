@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "parent": "qfe:agriculture/jack_o_lantern",
+=======
+    "parent": "qfe:agriculture/pitcher_plant",
+>>>>>>> main
     "criteria": {
       "tick": {
         "trigger": "minecraft:tick"

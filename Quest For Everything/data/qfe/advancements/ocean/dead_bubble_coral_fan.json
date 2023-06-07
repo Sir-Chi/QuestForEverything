@@ -5,7 +5,7 @@
       },
       "title": "Dead Bubble Coral Fan",
       "description": "Obtain Dead Bubble Coral Fan",
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

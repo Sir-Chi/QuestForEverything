@@ -14,6 +14,7 @@ tag @s remove crimson_door
 tag @s remove crimson_fence_gate
 tag @s remove crimson_fence
 tag @s remove crimson_fungus
+tag @s remove crimson_hanging_sign
 tag @s remove crimson_hyphae
 tag @s remove crimson_nylium
 tag @s remove crimson_planks
@@ -81,6 +82,7 @@ tag @s remove warped_door
 tag @s remove warped_fence_gate
 tag @s remove warped_fence
 tag @s remove warped_fungus
+tag @s remove warped_hanging_sign
 tag @s remove warped_hyphae
 tag @s remove warped_nylium
 tag @s remove warped_planks

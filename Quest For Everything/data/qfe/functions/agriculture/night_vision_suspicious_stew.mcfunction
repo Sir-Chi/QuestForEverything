@@ -39,7 +39,7 @@ execute in overworld as @s[advancements={qfe:agriculture/night_vision_suspicious
 execute in overworld as @s[advancements={qfe:agriculture/night_vision_suspicious_stew=true},team=black] if entity @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_agriculture,tag=!night_vision_suspicious_stew] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 if score takeItems GameSetup matches 1 run clear @s suspicious_stew{Effects:[{EffectId:16b,EffectDuration:100}]} 1
 execute in overworld as @s[advancements={qfe:agriculture/night_vision_suspicious_stew=true},team=black] if entity @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_agriculture,tag=!night_vision_suspicious_stew] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run tag @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0] add night_vision_suspicious_stew
 
-execute in overworld as @s[advancements={qfe:agriculture/night_vision_suspicious_stew=true}] if score oneItemPerPerson GameSetup matches 1 if score takeItems GameSetup matches 1 run clear @s suspicious_stew{Effects:[{EffectId:16b,EffectDuration:100}]} 1
+execute in overworld as @s[advancements={qfe:agriculture/night_vision_suspicious_stew=true}] if score oneItemPerPerson GameSetup matches 1 if score takeItems GameSetup matches 1 run clear @s suspicious_stew{Effects:[{EffectId:16,EffectDuration:100}]} 1
 
 execute in overworld as @s[advancements={qfe:agriculture/night_vision_suspicious_stew=true}] if score oneItemPerPerson GameSetup matches 1 run scoreboard players add @s score 1
 execute at @s[advancements={qfe:agriculture/night_vision_suspicious_stew=true}] run playsound block.note_block.bit record @s ~ ~ ~ 1 1 1

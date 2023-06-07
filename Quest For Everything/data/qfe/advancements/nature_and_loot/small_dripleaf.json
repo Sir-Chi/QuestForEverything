@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "qfe:nature_and_loot/flowering_azalea",
+    "parent": "qfe:nature_and_loot/pink_petals",
     "criteria": {
       "has_cobblestone": {
         "trigger": "minecraft:inventory_changed",

@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "qfe:wood/mangrove_sign",
+    "parent": "qfe:wood/mangrove_hanging_sign",
     "criteria": {
       "has_cobblestone": {
         "trigger": "minecraft:inventory_changed",

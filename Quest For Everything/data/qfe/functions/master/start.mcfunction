@@ -55,8 +55,8 @@ scoreboard objectives setdisplay sidebar score
 
 ##Removes The Lobby
 
-execute at @e[tag=lobby_locator] run fill ~7 ~ ~7 ~-7 ~6 ~-7 minecraft:air replace
-kill @e[tag=lobby_locator]
+execute at @e[tag=lobby_locator_bottom] run fill ~7 ~ ~7 ~-7 ~6 ~-7 minecraft:air replace
+kill @e[tag=lobby_locator_bottom]
 kill @e[type=minecraft:item]
 
 ##Sets Teams To Survival & Anyone On The Spectator/Admin Team Gets Put In Spectator/Admin Mode & Given Night Vision

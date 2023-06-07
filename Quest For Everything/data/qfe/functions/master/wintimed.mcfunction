@@ -4,7 +4,7 @@ scoreboard players set #gameended GameSetup 1
 ##If The Time Is Set & Players Are Individually Getting Items (Solos)
 execute if score oneItemPerPerson GameSetup matches 1 as @a at @s if score @s score > #Leader score run scoreboard players operation #Leader score = @s score
 execute if score oneItemPerPerson GameSetup matches 1 as @a at @s if score @s score > #Leader score run scoreboard players operation #Leader score = @s score
-execute if score oneItemPerPerson GameSetup matches 1 as @a if score @s score = #Leader score run tellraw @a ["",{"selector":"@s"}," has ended the timed Quest for Everything, winning with a score of ",{"score":{"name":"@s","objective":"score"},"color":"gold"}," in ",{"score":{"name":"minutes","objective":"time"}},":",{"score":{"name":"seconds","objective":"time"}}]
+execute if score oneItemPerPerson GameSetup matches 1 as @a if score @s score = #Leader score run tellraw @a ["",{"selector":"@s"}," has ended the timed Quest for Everything, winning with a score of ",{"score":{"name":"@s","objective":"score"},"color":"gold"}," in ",{"score":{"name":"hours","objective":"time"}},":",{"score":{"name":"minutes","objective":"time"}},":",{"score":{"name":"seconds","objective":"time"}}]
 
 ##If The Time Is Set & Players Are Getting Items Together (Teams)
 execute if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 if score BlueTeam score > #Leader score run scoreboard players operation #Leader score = BlueTeam score

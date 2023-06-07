@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "qfe:tools_and_weapons/spyglass",
+    "parent": "qfe:tools_and_weapons/brush",
     "criteria": {
       "has_cobblestone": {
         "trigger": "minecraft:inventory_changed",

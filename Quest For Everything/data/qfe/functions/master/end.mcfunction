@@ -63,6 +63,7 @@ scoreboard players set takeItems GameSetup 1
 scoreboard players set #gamestarted GameSetup 0
 scoreboard players set #gameended GameSetup 0
 scoreboard players set #dragonegg GameSetup 0
+scoreboard players set #lobbynumber GameSetup 0
 
 scoreboard players reset BlueTeam score
 scoreboard players reset GreenTeam score
@@ -73,7 +74,7 @@ scoreboard players reset AquaTeam score
 scoreboard players reset BlackTeam score
 scoreboard players reset GoldTeam score
 scoreboard players reset @a score
-scoreboard players set TotalToGet score 1224
+scoreboard players set TotalToGet score 1319
 scoreboard players set #Leader score 0
 
 scoreboard players reset @a death
@@ -144,9 +145,9 @@ scoreboard players set @e[type=area_effect_cloud,name="Timer"] time 0
 
 schedule clear qfe:checks/check_repeat
 
+scoreboard players set hours time 0
 scoreboard players set minutes time 0
 scoreboard players set seconds time 0
-
 
 ##Runs set-up function
 function qfe:master/setup

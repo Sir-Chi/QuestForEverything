@@ -26,12 +26,14 @@ tag @s remove chain
 tag @s remove charcoal
 tag @s remove chest
 tag @s remove chipped_anvil
+tag @s remove chiseled_bookshelf
 tag @s remove composter
 tag @s remove crafting_table
 tag @s remove creeper_banner_pattern
 tag @s remove cyan_candle
 tag @s remove cyan_dye
 tag @s remove damaged_anvil
+tag @s remove decorated_pot
 tag @s remove enchanted_book
 tag @s remove enchanting_table
 tag @s remove ender_chest

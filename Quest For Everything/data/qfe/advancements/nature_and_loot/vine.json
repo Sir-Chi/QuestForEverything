@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "qfe:nature_and_loot/bamboo",
+    "parent": "qfe:nature_and_loot/sugar_cane",
     "criteria": {
       "has_cobblestone": {
         "trigger": "minecraft:inventory_changed",

@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "qfe:wood/dark_oak_sign",
+    "parent": "qfe:wood/dark_oak_hanging_sign",
     "criteria": {
       "has_cobblestone": {
         "trigger": "minecraft:inventory_changed",

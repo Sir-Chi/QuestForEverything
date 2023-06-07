@@ -1,5 +1,6 @@
 
 tag @s remove activator_rail
+tag @s remove calibrated_sculk_sensor
 tag @s remove carrot_on_a_stick
 tag @s remove chest_minecart
 tag @s remove comparator

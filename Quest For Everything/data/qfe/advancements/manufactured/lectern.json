@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "qfe:manufactured/bookshelf",
+    "parent": "qfe:manufactured/chiseled_bookshelf",
     "criteria": {
       "has_cobblestone": {
         "trigger": "minecraft:inventory_changed",

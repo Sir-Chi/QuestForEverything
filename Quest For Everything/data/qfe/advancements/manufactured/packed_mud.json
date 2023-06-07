@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "qfe:manufactured/flower_pot",
+    "parent": "qfe:manufactured/decorated_pot",
     "criteria": {
       "has_cobblestone": {
         "trigger": "minecraft:inventory_changed",

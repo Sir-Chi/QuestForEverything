@@ -1,5 +1,5 @@
 {
-    "parent": "qfe:redstone_and_transport/target",
+    "parent": "qfe:redstone_and_transport/calibrated_sculk_sensor",
     "criteria": {
       "tick": {
         "trigger": "minecraft:tick"

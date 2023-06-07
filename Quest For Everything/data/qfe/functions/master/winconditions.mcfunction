@@ -1,5 +1,5 @@
 
-execute as @a[scores={score=1224..}] unless score #gameended GameSetup matches 1 run function qfe:master/win
+execute as @a[scores={score=1319..}] unless score #gameended GameSetup matches 1 run function qfe:master/win
 execute as @e[type=area_effect_cloud,tag=trophy_end,tag=trophy_agriculture,tag=trophy_manufactured,tag=trophy_nature_and_loot,tag=trophy_nether,tag=trophy_ocean,tag=trophy_brewing,tag=trophy_redstone_and_transport,tag=trophy_resources,tag=trophy_sand_and_glass,tag=trophy_stone,tag=trophy_terracotta_and_concrete,tag=trophy_tools_and_weapons,tag=trophy_wood,tag=trophy_wool] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 unless score #gameended GameSetup matches 1 run function qfe:master/win
 
 execute as @e[type=area_effect_cloud,tag=!trophy_end] if predicate qfe:end_area_effect_cloud run function qfe:trophies/end
@@ -38,51 +38,52 @@ execute as @a[gamemode=survival,tag=!trophy_wool] if predicate qfe:wool run func
 execute if score minutes time matches 30.. if score SetTime GameSetup matches 30 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
 execute if score minutes time matches 45.. if score SetTime GameSetup matches 45 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
 execute if score minutes time matches 60.. if score SetTime GameSetup matches 60 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 90.. if score SetTime GameSetup matches 90 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 120.. if score SetTime GameSetup matches 120 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 150.. if score SetTime GameSetup matches 150 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 180.. if score SetTime GameSetup matches 180 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 210.. if score SetTime GameSetup matches 210 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 240.. if score SetTime GameSetup matches 240 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 270.. if score SetTime GameSetup matches 270 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 300.. if score SetTime GameSetup matches 300 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 330.. if score SetTime GameSetup matches 330 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 360.. if score SetTime GameSetup matches 360 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 390.. if score SetTime GameSetup matches 390 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 420.. if score SetTime GameSetup matches 420 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 450.. if score SetTime GameSetup matches 450 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 480.. if score SetTime GameSetup matches 480 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 510.. if score SetTime GameSetup matches 510 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 540.. if score SetTime GameSetup matches 540 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 570.. if score SetTime GameSetup matches 570 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 600.. if score SetTime GameSetup matches 600 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 630.. if score SetTime GameSetup matches 630 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 660.. if score SetTime GameSetup matches 660 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 720.. if score SetTime GameSetup matches 720 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 750.. if score SetTime GameSetup matches 750 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 780.. if score SetTime GameSetup matches 780 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 810.. if score SetTime GameSetup matches 810 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 840.. if score SetTime GameSetup matches 840 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 870.. if score SetTime GameSetup matches 870 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 900.. if score SetTime GameSetup matches 900 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 930.. if score SetTime GameSetup matches 930 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 960.. if score SetTime GameSetup matches 960 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 990.. if score SetTime GameSetup matches 990 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1020.. if score SetTime GameSetup matches 1020 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1050.. if score SetTime GameSetup matches 1050 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1080.. if score SetTime GameSetup matches 1080 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1110.. if score SetTime GameSetup matches 1110 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1140.. if score SetTime GameSetup matches 1140 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1170.. if score SetTime GameSetup matches 1170 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1200.. if score SetTime GameSetup matches 1200 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1230.. if score SetTime GameSetup matches 1230 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1260.. if score SetTime GameSetup matches 1260 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1290.. if score SetTime GameSetup matches 1290 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1320.. if score SetTime GameSetup matches 1320 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1350.. if score SetTime GameSetup matches 1350 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1380.. if score SetTime GameSetup matches 1380 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1410.. if score SetTime GameSetup matches 1410 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
-execute if score minutes time matches 1440.. if score SetTime GameSetup matches 1440 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 1.. if score minutes time matches 30.. if score SetTime GameSetup matches 90 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 2.. if score SetTime GameSetup matches 120 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 2.. if score minutes time matches 30.. if score SetTime GameSetup matches 150 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 3.. if score SetTime GameSetup matches 180 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 3.. if score minutes time matches 30.. if score SetTime GameSetup matches 210 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 4.. if score SetTime GameSetup matches 240 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 4.. if score minutes time matches 30.. if score SetTime GameSetup matches 270 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 5.. if score SetTime GameSetup matches 300 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 5.. if score minutes time matches 30.. if score SetTime GameSetup matches 330 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 6.. if score SetTime GameSetup matches 360 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 6.. if score minutes time matches 30.. if score SetTime GameSetup matches 390 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 7.. if score SetTime GameSetup matches 420 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 7.. if score minutes time matches 30.. if score SetTime GameSetup matches 450 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 8.. if score SetTime GameSetup matches 480 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 8.. if score minutes time matches 30.. if score SetTime GameSetup matches 510 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 9.. if score SetTime GameSetup matches 540 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 9.. if score minutes time matches 30.. if score SetTime GameSetup matches 570 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 10.. if score SetTime GameSetup matches 600 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 10.. if score minutes time matches 30.. if score SetTime GameSetup matches 630 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 11.. if score SetTime GameSetup matches 660 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 11.. if score minutes time matches 30.. if score SetTime GameSetup matches 690 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 12.. if score SetTime GameSetup matches 720 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 12.. if score minutes time matches 30.. if score SetTime GameSetup matches 750 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 13.. if score SetTime GameSetup matches 780 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 13.. if score minutes time matches 30.. if score SetTime GameSetup matches 810 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 14.. if score SetTime GameSetup matches 840 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 14.. if score minutes time matches 30.. if score SetTime GameSetup matches 870 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 15.. if score SetTime GameSetup matches 900 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 15.. if score minutes time matches 30.. if score SetTime GameSetup matches 930 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 16.. if score SetTime GameSetup matches 960 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 16.. if score minutes time matches 30.. if score SetTime GameSetup matches 990 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 17.. if score SetTime GameSetup matches 1020 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 17.. if score minutes time matches 30.. if score SetTime GameSetup matches 1050 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 18.. if score SetTime GameSetup matches 1080 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 18.. if score minutes time matches 30.. if score SetTime GameSetup matches 1110 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 19.. if score SetTime GameSetup matches 1140 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 19.. if score minutes time matches 30.. if score SetTime GameSetup matches 1170 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 20.. if score SetTime GameSetup matches 1200 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 20.. if score minutes time matches 30.. if score SetTime GameSetup matches 1230 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 21.. if score SetTime GameSetup matches 1260 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 21.. if score minutes time matches 30.. if score SetTime GameSetup matches 1290 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 22.. if score SetTime GameSetup matches 1320 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 22.. if score minutes time matches 30.. if score SetTime GameSetup matches 1350 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 23.. if score SetTime GameSetup matches 1380 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 23.. if score minutes time matches 30.. if score SetTime GameSetup matches 1410 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
+execute if score hours time matches 24.. if score SetTime GameSetup matches 1440 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed
 
 ##Calls The Game When A Set Score Is Reached
 execute if entity @e[scores={score=50..}] if score Teams GameSetup matches 0 if score SetScore GameSetup matches 50 unless score #gameended GameSetup matches 1 run function qfe:master/wintimed

@@ -1,8 +1,3 @@
-## Setup World Spawn/Lobby
-
-execute unless entity @e[tag=lobby_locator] run summon minecraft:marker 0 64 0 {Tags:["lobby_locator"]}
-execute unless entity @e[tag=lobby_locator,tag=lobby_placed] run function qfe:master/locate_lobby
-
 ##Set Players To Creative & Teleports Them To 0 0
 gamemode creative @a
 teleport @a 0 128 0
@@ -31,12 +26,13 @@ scoreboard players set takeItems GameSetup 1
 scoreboard players set #gamestarted GameSetup 0
 scoreboard players set #gameended GameSetup 0
 scoreboard players set #dragonegg GameSetup 0
+scoreboard players set #lobbynumber GameSetup 0
 
 scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death
 
 scoreboard objectives add score dummy "Score"
-scoreboard players set TotalToGet score 1224
+scoreboard players set TotalToGet score 1319
 scoreboard players set #Leader score 0
 
 scoreboard objectives add teams trigger "Teams"
@@ -47,6 +43,14 @@ scoreboard players set const100 time 100
 scoreboard players set systick time 0
 scoreboard players set seconds time 0
 scoreboard players set minutes time 0
+scoreboard players set hours time 0
+
+##Find Lobby Number
+execute if score #lobbynumber GameSetup matches ..0 run function qfe:master/lobby_number
+
+## Setup World Spawn/Lobby
+
+execute unless entity @e[tag=lobby_locator_bottom,tag=lobby_placed] run schedule function qfe:master/locate_lobby 2s
 
 ##Teams Setup
 team add blue "Blue"
@@ -76,14 +80,7 @@ forceload add 0 0
 
 summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Timer"}'}
 
-execute as @e[tag=lobby_locator] at @e[tag=lobby_locator] run setworldspawn ~ ~1 ~
-
-#Setup Player Spawn Point
-kill @e[type=armor_stand,tag=spawnPointLocator]
-execute positioned 20.5 130 0.5 run summon armor_stand 20.5 130 0.5 {Invulnerable:1,Tags:["spawnPointLocator"]}
-execute as @e[tag=spawnPointLocator] at @e[tag=spawnPointLocator] positioned as @e[tag=spawnPointLocator] align xyz run tp @e[tag=spawnPointLocator] ~0.5 ~ ~0.5
+execute as @e[tag=lobby_locator_bottom] at @e[tag=lobby_locator_bottom] run setworldspawn ~ ~1 ~
 
 ##Teleports Players Into Lobby
 teleport @a 0 100 0
-
-schedule function qfe:master/spawnlocator 10s

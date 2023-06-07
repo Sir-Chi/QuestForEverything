@@ -1,7 +1,7 @@
 
 # Quest for Everything
 
-Quest for Everything is a scavenger hunt game for survival minecraft. The objective of the game is for the players to obtain all the items and blocks that are available in survival minecraft. There are currently a total of 1224 items and blocks that can be collected. To obtain these, players will need to explore, slay, mine and craft.
+Quest for Everything is a scavenger hunt game for survival minecraft. The objective of the game is for the players to obtain all the items and blocks that are available in survival minecraft. There are currently a total of 1319 items and blocks that can be collected. To obtain these, players will need to explore, slay, mine and craft.
 
 Players will track their progress using custom advancements, one for each of the available items & blocks. These advancements are split up into Sections, grouping similar items together such as all the wood items/blocks or all the wool items/blocks. On completion of all advancements in a Section a Trophy will be awarded!
 
@@ -12,11 +12,13 @@ On commencement of the game, a scoreboard will appear at the side of the screen.
 ## How To Install
 
 > 1) First find the right datapack you'd like (one of either the "original" or the "small biomes" version). Download it and then uzip the file.
-> 2) To play the game, create a new minecraft world, and add this datapack into the world's datapack folder.
-> 3) Select the datapack from the new world creation menu in the game.
-> 4) Make sure the world is set to "Creative" Game Mode & has "Allow Cheats" enabled.
-> 5) Once you load into the world, run the command "/function qfe:master/setup" directly, or run the command "/reload" to have the command appear in chat for you to click. This will create the Q4E Starting Lobby.
-> 6) If on a server, make sure that command blocks are turned on in the server configs.
+> 2) To play the game, start by beginging to create a new minecraft world.
+> 3) On the world creation screen, select the tab at the top of the screen called "More", then click the button called "Data Packs".
+> 4) In this menu, click "Open Pack Folder" and copy and paste into this the unziped "Quest For Everything" folder.
+> 5) Back in the "Selecting Data Packs" menu, hover over the icon for Quest For Everything, this shows an arrow. Click this to select the datapack to be used when the world is created.
+> 6) Make sure the world is set to "Creative" Game Mode & has "Allow Cheats" enabled.
+> 7) Once you load into the world, run the command "/function qfe:master/setup" directly, or run the command "/reload" to have the command appear in chat for you to click. This will create the Q4E Starting Lobby.
+> 8) If on a server, make sure that command blocks are turned on in the server configs.
 
 If you wish to restart the game at any point run the function - "/function qfe:master/end" and it will reset you and send you back to the lobby to start over.
 

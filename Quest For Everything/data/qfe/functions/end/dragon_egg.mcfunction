@@ -42,7 +42,9 @@ execute in overworld if score oneItemPerPerson GameSetup matches 1 run scoreboar
 advancement grant @a[advancements={qfe:end/dragon_egg=false}] only qfe:end/dragon_egg
 
 #Clears the dragon egg from the players inventory, plays the sound & notifies players
-clear @a dragon_egg 1
+##clear @a dragon_egg 1
 
 execute at @a[advancements={qfe:end/dragon_egg=true}] run playsound block.note_block.bit record @a ~ ~ ~ 1 1 1
 tellraw @a[advancements={qfe:end/dragon_egg=true}] {"text":"Someone has obtained the rare Dragon Egg, so everyone gets the advancement!","bold":true,"color":"light_purple"}
+
+tag @a[advancements={qfe:end/dragon_egg=true}] add got_d_egg

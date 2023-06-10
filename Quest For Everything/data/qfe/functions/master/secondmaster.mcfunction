@@ -9,6 +9,9 @@ execute unless data storage minecraft:general/secondtimer active run data merge 
 
 function qfe:master/winconditions
 
+scoreboard players enable @a disableq4e
+execute as @a[scores={disableq4e=1..}] run function qfe:master/qfe_off_confirmed
+
 #Just in case, to maintain timing integrity
 schedule clear qfe:master/secondmaster
 

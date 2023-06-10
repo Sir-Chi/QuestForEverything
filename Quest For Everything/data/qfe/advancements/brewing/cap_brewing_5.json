@@ -2,7 +2,7 @@
     "parent": "qfe:brewing/strong_leaping_tipped_arrow",
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

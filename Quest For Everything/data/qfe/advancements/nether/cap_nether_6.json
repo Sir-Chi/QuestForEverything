@@ -2,7 +2,7 @@
     "parent": "qfe:nether/nether_sprouts",
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

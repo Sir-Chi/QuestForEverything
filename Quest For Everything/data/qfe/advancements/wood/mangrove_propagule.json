@@ -1,22 +1,42 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:mangrove_propagule"
-      },
-      "title": "Mangrove Propagule",
-      "description": "Obtain Mangrove Propagule",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:mangrove_propagule"
     },
-    "parent": "qfe:wood/root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
+    "title": "Mangrove Propagule",
+    "description": "Obtain Mangrove Propagule",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/root",
+  "criteria": {
+    "has_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "q4e": 1
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": ["minecraft:mangrove_propagule"],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wood/mangrove_propagule"
     }
+  },
+  "rewards": {
+    "function": "qfe:wood/mangrove_propagule"
   }
+}

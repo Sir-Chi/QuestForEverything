@@ -2,7 +2,7 @@
     "parent": "qfe:nature_and_loot/sculk_sensor",
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

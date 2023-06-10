@@ -2,7 +2,7 @@
     "parent": "qfe:sand_and_glass/chiseled_red_sandstone",
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

@@ -1,22 +1,42 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:purple_dye"
-      },
-      "title": "Purple Dye",
-      "description": "Obtain Purple Dye",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_dye"
     },
-    "parent": "qfe:manufactured/blue_dye",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
+    "title": "Purple Dye",
+    "description": "Obtain Purple Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/blue_dye",
+  "criteria": {
+    "has_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "q4e": 1
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": ["minecraft:purple_dye"],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/purple_dye"
     }
+  },
+  "rewards": {
+    "function": "qfe:manufactured/purple_dye"
   }
+}

@@ -2,7 +2,7 @@
     "parent": "qfe:wood/bamboo_chest_raft",
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

@@ -2,7 +2,7 @@
     "parent": "qfe:wood/spruce_chest_boat",
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

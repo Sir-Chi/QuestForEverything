@@ -1,22 +1,42 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:emerald"
-      },
-      "title": "Emerald",
-      "description": "Obtain Emerald",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
     },
-    "parent": "qfe:resources/deepslate_emerald_ore",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
+    "title": "Emerald",
+    "description": "Obtain Emerald",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:resources/deepslate_emerald_ore",
+  "criteria": {
+    "has_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "q4e": 1
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": ["minecraft:emerald"],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:resources/emerald"
     }
+  },
+  "rewards": {
+    "function": "qfe:resources/emerald"
   }
+}

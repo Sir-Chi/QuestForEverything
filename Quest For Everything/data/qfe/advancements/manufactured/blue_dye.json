@@ -1,22 +1,42 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:blue_dye"
-      },
-      "title": "Blue Dye",
-      "description": "Obtain Blue Dye",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_dye"
     },
-    "parent": "qfe:manufactured/light_blue_dye",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
+    "title": "Blue Dye",
+    "description": "Obtain Blue Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/light_blue_dye",
+  "criteria": {
+    "has_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "q4e": 1
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": ["minecraft:blue_dye"],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/blue_dye"
     }
+  },
+  "rewards": {
+    "function": "qfe:manufactured/blue_dye"
   }
+}

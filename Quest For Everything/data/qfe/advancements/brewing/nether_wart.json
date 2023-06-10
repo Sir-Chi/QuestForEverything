@@ -1,22 +1,42 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:nether_wart"
-      },
-      "title": "Nether Wart",
-      "description": "Obtain Nether Wart",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_wart"
     },
-    "parent": "qfe:brewing/cauldron",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
+    "title": "Nether Wart",
+    "description": "Obtain Nether Wart",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/cauldron",
+  "criteria": {
+    "has_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "q4e": 1
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": ["minecraft:nether_wart"],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/nether_wart"
     }
+  },
+  "rewards": {
+    "function": "qfe:brewing/nether_wart"
   }
+}

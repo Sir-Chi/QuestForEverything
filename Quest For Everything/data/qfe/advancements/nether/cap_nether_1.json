@@ -1,12 +1,8 @@
 {
-<<<<<<< HEAD
-    "parent": "qfe:nether/crimson_sign",
-=======
     "parent": "qfe:nether/crimson_hanging_sign",
->>>>>>> main
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

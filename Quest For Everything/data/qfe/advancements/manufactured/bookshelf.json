@@ -12,10 +12,19 @@
     },
     "parent": "qfe:manufactured/book",
     "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
+    "has_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "q4e": 1
+            }
+          }
+        ],
+        "items": [
             {
               "items": ["minecraft:bookshelf"],
               "count": {

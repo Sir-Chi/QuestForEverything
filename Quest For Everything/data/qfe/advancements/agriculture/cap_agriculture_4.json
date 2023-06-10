@@ -2,7 +2,7 @@
     "parent": "qfe:agriculture/honeycomb_block",
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

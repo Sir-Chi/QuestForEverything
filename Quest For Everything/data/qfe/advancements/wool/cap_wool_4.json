@@ -2,7 +2,7 @@
     "parent": "qfe:wool/white_wool",
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

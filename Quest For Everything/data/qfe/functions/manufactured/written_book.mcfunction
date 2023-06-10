@@ -39,7 +39,7 @@ execute in overworld as @s[advancements={qfe:manufactured/written_book=true},tea
 execute in overworld as @s[advancements={qfe:manufactured/written_book=true},team=black] if entity @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_manufactured,tag=!written_book] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 unless score #gamestarted GameSetup matches 0 run clear @s written_book 1
 execute in overworld as @s[advancements={qfe:manufactured/written_book=true},team=black] if entity @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_manufactured,tag=!written_book] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 unless score #gamestarted GameSetup matches 0 run tag @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0] add written_book
 
-execute in overworld as @s[advancements={qfe:manufactured/written_book=true}] if score oneItemPerPerson GameSetup matches 1 unless score #gamestarted GameSetup matches 0 run clear @s written_book 1
+execute in overworld as @s[advancements={qfe:manufactured/written_book=true}] if score oneItemPerPerson GameSetup matches 1 if score takeItems GameSetup matches 1 run clear @s written_book 1
 
 execute in overworld as @s[advancements={qfe:manufactured/written_book=true}] unless score #gamestarted GameSetup matches 0 if score oneItemPerPerson GameSetup matches 1 run scoreboard players add @s score 1
 execute at @s[advancements={qfe:manufactured/written_book=true}] unless score #gamestarted GameSetup matches 0 run playsound block.note_block.bit record @s ~ ~ ~ 1 1 1

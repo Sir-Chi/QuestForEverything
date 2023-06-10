@@ -5,8 +5,9 @@ advancement revoke @a everything
 time set 0
 
 ##Executes & Activates Chosen The Game Setups
+scoreboard objectives add GameSetup dummy
 scoreboard players set Teams GameSetup 0
-scoreboard players set oneItemPerPerson GameSetup 0
+scoreboard players set oneItemPerPerson GameSetup 1
 scoreboard players set allRecipesUnlocked GameSetup 0
 scoreboard players set naturalRegeneration GameSetup 1
 scoreboard players set announceAdvancements GameSetup 1
@@ -24,6 +25,10 @@ scoreboard objectives add score dummy "Score"
 scoreboard objectives setdisplay list score
 scoreboard players set TotalToGet score 1319
 scoreboard players set #Leader score 0
+
+scoreboard objectives add q4e dummy "Those playing Q4E"
+
+scoreboard objectives add disableq4e trigger "Disables Q4E Advancements"
 
 scoreboard objectives add teams trigger "Teams"
 

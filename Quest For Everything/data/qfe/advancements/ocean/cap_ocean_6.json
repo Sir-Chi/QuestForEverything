@@ -2,7 +2,7 @@
     "parent": "qfe:ocean/dead_tube_coral",
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

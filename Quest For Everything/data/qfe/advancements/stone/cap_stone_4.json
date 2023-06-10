@@ -2,7 +2,7 @@
     "parent": "qfe:stone/polished_diorite_stairs",
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

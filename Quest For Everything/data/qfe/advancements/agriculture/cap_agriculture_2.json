@@ -2,7 +2,7 @@
     "parent": "qfe:agriculture/tropical_fish",
     "criteria": {
       "tick": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     }
   }

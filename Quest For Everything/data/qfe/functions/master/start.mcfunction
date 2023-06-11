@@ -2,6 +2,7 @@
 ##Resets Players Scores & Inventory
 clear @a
 advancement revoke @a everything
+gamerule announceAdvancements false
 time set 0
 
 ##Executes & Activates Chosen The Game Setups
@@ -10,7 +11,7 @@ scoreboard players set Teams GameSetup 0
 scoreboard players set oneItemPerPerson GameSetup 1
 scoreboard players set allRecipesUnlocked GameSetup 0
 scoreboard players set naturalRegeneration GameSetup 1
-scoreboard players set announceAdvancements GameSetup 1
+scoreboard players set announceAdvancements GameSetup 0
 scoreboard players set announceTrophies GameSetup 1
 scoreboard players set keepInventory GameSetup 0
 scoreboard players set takeItems GameSetup 0

@@ -1,4 +1,4 @@
-tellraw @a[scores={disableq4e=1..}] {"text":"You've diabled Quest 4 Everything advancements. All advancements have now been turned off and reset.","color":"dark_red"}
+tellraw @a[scores={disableq4e=1..}] {"text":"You've diabled Quest 4 Everything advancements. All Q4E advancements have now been turned off and reset.","color":"dark_red"}
 
 scoreboard players set @p[scores={disableq4e=1..}] q4e 0
 

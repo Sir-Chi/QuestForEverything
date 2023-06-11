@@ -2,13 +2,5 @@
     "pack": {
         "pack_format": 15, 
         "description": "Created by \u00A72SirChi               \u00a75Version 1.6 (MindCrack Edition)"
-    },
-    "filter": {
-        "block": [
-            {
-                "namespace": "minecraft",
-                "path": "advancements/.*"
-            }
-        ]
     }
 }

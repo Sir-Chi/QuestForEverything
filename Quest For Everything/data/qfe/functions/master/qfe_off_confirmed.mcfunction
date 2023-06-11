@@ -2,10 +2,24 @@ tellraw @a[scores={disableq4e=1..}] {"text":"You've diabled Quest 4 Everything a
 
 scoreboard players set @p[scores={disableq4e=1..}] q4e 0
 
-execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] everything
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:agriculture/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:end/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:manufactured/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:nature_and_loot/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:nether/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:ocean/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:redstone_and_transport/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:resources/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:sand_and_glass/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:stone/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:terracotta_and_concrete/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:tools_and_weapons/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:wood/root
+execute as @a[scores={disableq4e=1..}] run advancement revoke @s[scores={disableq4e=1..}] from qfe:wool/root
+
 execute as @a[scores={disableq4e=1..}] run scoreboard players reset @a[scores={disableq4e=1..}] score
 
-execute as @a[scores={disableq4e=1..}] run tag @a[scores={disableq4e=1..}] remove got_d_egg
+#execute as @a[scores={disableq4e=1..}] run tag @a[scores={disableq4e=1..}] remove got_d_egg
 execute as @a[scores={disableq4e=1..}] run tag @a[scores={disableq4e=1..}] remove trophy_agriculture
 execute as @a[scores={disableq4e=1..}] run tag @a[scores={disableq4e=1..}] remove trophy_brewing
 execute as @a[scores={disableq4e=1..}] run tag @a[scores={disableq4e=1..}] remove trophy_end

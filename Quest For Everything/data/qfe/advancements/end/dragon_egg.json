@@ -37,6 +37,6 @@
       }
     },
     "rewards": {
-      "function": "qfe:checks/check_dragon_egg"
+      "function": "qfe:end/dragon_egg"
     }
   }

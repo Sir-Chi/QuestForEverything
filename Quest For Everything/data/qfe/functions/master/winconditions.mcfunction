@@ -15,6 +15,6 @@ execute as @a[gamemode=survival,tag=!trophy_tools_and_weapons] if predicate qfe:
 execute as @a[gamemode=survival,tag=!trophy_wood] if predicate qfe:wood run function qfe:trophies/wood
 execute as @a[gamemode=survival,tag=!trophy_wool] if predicate qfe:wool run function qfe:trophies/wool
 
-execute if score #dragonegg GameSetup matches 1 run advancement grant @a[advancements={qfe:end/dragon_egg=false},scores={q4e=1},tag=!got_d_egg] only qfe:end/dragon_egg
+#execute if score #dragonegg GameSetup matches 1 run advancement grant @a[advancements={qfe:end/dragon_egg=false},scores={q4e=1},tag=!got_d_egg] only qfe:end/dragon_egg
 
 execute as @a[gamemode=survival,tag=!won,scores={score=1319..}] run function qfe:master/win

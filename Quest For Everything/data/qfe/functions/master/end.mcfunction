@@ -79,6 +79,15 @@ scoreboard players set #Leader score 0
 
 scoreboard players reset @a death
 
+scoreboard players set BlueTeam teamactive 0
+scoreboard players set GreenTeam teamactive 0
+scoreboard players set RedTeam teamactive 0
+scoreboard players set YellowTeam teamactive 0
+scoreboard players set PurpleTeam teamactive 0
+scoreboard players set AquaTeam teamactive 0
+scoreboard players set BlackTeam teamactive 0
+scoreboard players set GoldTeam teamactive 0
+
 ## Empties All The Teams
 team empty aqua
 team empty black

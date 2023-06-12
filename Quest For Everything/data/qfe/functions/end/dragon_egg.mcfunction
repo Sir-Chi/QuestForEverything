@@ -36,10 +36,12 @@ execute in overworld if entity @e[type=area_effect_cloud,name="Gold Team",x=0,y=
 execute in overworld if entity @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_end,tag=!dragon_egg] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run tag @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0] add dragon_egg
 
 #In oneItemPerPerson mode this still gives everyone a point
-execute in overworld if score oneItemPerPerson GameSetup matches 1 run scoreboard players add @a score 1
+execute in overworld if score oneItemPerPerson GameSetup matches 1 run scoreboard players add @a[advancements={qfe:end/dragon_egg=true},tag=!got_d_egg] score 1
 
 #Gives everyone who doesn't have the advancement it
 advancement grant @a[advancements={qfe:end/dragon_egg=false}] only qfe:end/dragon_egg
+
+tag @a[advancements={qfe:end/dragon_egg=true},tag=!got_d_egg] add got_d_egg
 
 #Clears the dragon egg from the players inventory, plays the sound & notifies players
 clear @a dragon_egg 1

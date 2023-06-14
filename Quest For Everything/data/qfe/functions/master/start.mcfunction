@@ -24,34 +24,55 @@ execute if score oneItemPerPerson GameSetup matches 1 run scoreboard players set
 execute as @p[team=blue] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Blue Team"}'}
 execute as @p[team=blue] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run team join blue BlueTeam
 execute as @p[team=blue] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players add BlueTeam score 0
+execute as @p[team=blue] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set BlueTeam teamactive 1
 execute as @p[team=green] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Green Team"}'}
 execute as @p[team=green] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run team join green GreenTeam
 execute as @p[team=green] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players add GreenTeam score 0
+execute as @p[team=green] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set GreenTeam teamactive 1
 execute as @p[team=red] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Red Team"}'}
 execute as @p[team=red] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run team join red RedTeam
 execute as @p[team=red] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players add RedTeam score 0
+execute as @p[team=red] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set RedTeam teamactive 1
 execute as @p[team=yellow] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Yellow Team"}'}
 execute as @p[team=yellow] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run team join yellow YellowTeam
 execute as @p[team=yellow] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players add YellowTeam score 0
+execute as @p[team=yellow] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set YellowTeam teamactive 1
 execute as @p[team=purple] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Purple Team"}'}
 execute as @p[team=purple] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run team join purple PurpleTeam
 execute as @p[team=purple] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players add PurpleTeam score 0
+execute as @p[team=purple] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set PurpleTeam teamactive 1
 execute as @p[team=aqua] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Aqua Team"}'}
 execute as @p[team=aqua] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run team join aqua AquaTeam
 execute as @p[team=aqua] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players add AquaTeam score 0
+execute as @p[team=aqua] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set AquaTeam teamactive 1
 execute as @p[team=black] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Black Team"}'}
 execute as @p[team=black] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run team join black BlackTeam
 execute as @p[team=black] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players add BlackTeam score 0
+execute as @p[team=black] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set BlackTeam teamactive 1
 execute if score Teams GameSetup matches 0 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set @a teams 7
 execute if score Teams GameSetup matches 0 if score oneItemPerPerson GameSetup matches 0 run team join gold @a[team=]
 execute if score Teams GameSetup matches 0 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set Teams GameSetup 1
+execute if score Teams GameSetup matches 0 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set BlueTeam teamactive 0
+execute if score Teams GameSetup matches 0 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set GreenTeam teamactive 0
+execute if score Teams GameSetup matches 0 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set RedTeam teamactive 0
+execute if score Teams GameSetup matches 0 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set YellowTeam teamactive 0
+execute if score Teams GameSetup matches 0 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set PurpleTeam teamactive 0
+execute if score Teams GameSetup matches 0 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set AquaTeam teamactive 0
+execute if score Teams GameSetup matches 0 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set BlackTeam teamactive 0
+execute if score Teams GameSetup matches 0 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set GoldTeam teamactive 0
 execute as @p[team=gold] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Gold Team"}'}
 execute as @p[team=gold] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run team join gold GoldTeam
 execute as @p[team=gold] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players add GoldTeam score 0
+execute as @p[team=gold] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players set GoldTeam teamactive 1
 
 execute if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run team join spectator @a[team=]
 
 scoreboard objectives setdisplay sidebar score
+
+
+
+
+
 
 ##Removes The Lobby
 

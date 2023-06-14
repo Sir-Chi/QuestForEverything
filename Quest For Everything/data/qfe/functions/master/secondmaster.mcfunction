@@ -10,6 +10,8 @@ execute if score #gamestarted GameSetup matches 1 run function qfe:master/joinmi
 
 function qfe:master/winconditions
 
+execute if score #dragonegg GameSetup matches 1 run advancement grant @a[advancements={qfe:end/dragon_egg=false},tag=!got_d_egg] only qfe:end/dragon_egg
+
 #Just in case, to maintain timing integrity
 schedule clear qfe:master/secondmaster
 

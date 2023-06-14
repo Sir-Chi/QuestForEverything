@@ -45,6 +45,16 @@ scoreboard players set seconds time 0
 scoreboard players set minutes time 0
 scoreboard players set hours time 0
 
+scoreboard objectives add teamactive dummy "Active Teams"
+scoreboard players set BlueTeam teamactive 0
+scoreboard players set GreenTeam teamactive 0
+scoreboard players set RedTeam teamactive 0
+scoreboard players set YellowTeam teamactive 0
+scoreboard players set PurpleTeam teamactive 0
+scoreboard players set AquaTeam teamactive 0
+scoreboard players set BlackTeam teamactive 0
+scoreboard players set GoldTeam teamactive 0
+
 ##Find Lobby Number
 execute if score #lobbynumber GameSetup matches ..0 run function qfe:master/lobby_number
 
@@ -73,6 +83,7 @@ team add spectator "Spectator"
 team modify spectator color gray
 team add admin "Admin"
 team modify admin color dark_red
+
 
 setblock 0 80 0 minecraft:air
 

@@ -1,4 +1,5 @@
 team join purple @a[scores={teams=4}]
-execute as @p[team=purple] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Purple Team"}'}
-execute as @p[team=purple] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run team join purple PurpleTeam
-execute as @p[team=purple] if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 run scoreboard players add PurpleTeam score 0
+execute if score PurpleTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=purple] run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Purple Team"}'}
+execute if score PurpleTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=purple] run team join purple PurpleTeam
+execute if score PurpleTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=purple] run scoreboard players add PurpleTeam score 0
+execute if score PurpleTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=purple] run scoreboard players set PurpleTeam teamactive 1

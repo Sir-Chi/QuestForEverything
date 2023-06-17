@@ -1,9 +1,9 @@
 
 ##Resets Players Scores & Inventory
-clear @a
-advancement revoke @a everything
-gamerule announceAdvancements false
-time set 0
+#clear @a
+#advancement revoke @a everything
+#gamerule announceAdvancements false
+#time set 0
 
 ##Executes & Activates Chosen The Game Setups
 scoreboard objectives add GameSetup dummy

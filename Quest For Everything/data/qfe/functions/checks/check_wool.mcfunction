@@ -574,3 +574,5 @@ execute as @e[type=area_effect_cloud,name="Purple Team",x=0,y=80,z=0,tag=!trophy
 execute as @e[type=area_effect_cloud,name="Aqua Team",x=0,y=80,z=0,tag=!trophy_wool,tag=yellow_wool] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:wool/yellow_wool=false},team=aqua] only qfe:wool/yellow_wool
 execute as @e[type=area_effect_cloud,name="Gold Team",x=0,y=80,z=0,tag=!trophy_wool,tag=yellow_wool] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:wool/yellow_wool=false},team=gold] only qfe:wool/yellow_wool
 execute as @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_wool,tag=yellow_wool] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:wool/yellow_wool=false},team=black] only qfe:wool/yellow_wool
+
+schedule function qfe:checks/check_trophies 10s

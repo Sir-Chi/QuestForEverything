@@ -511,3 +511,5 @@ execute as @e[type=area_effect_cloud,name="Purple Team",x=0,y=80,z=0,tag=!trophy
 execute as @e[type=area_effect_cloud,name="Aqua Team",x=0,y=80,z=0,tag=!trophy_sand_and_glass,tag=yellow_stained_glass] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:sand_and_glass/yellow_stained_glass=false},team=aqua] only qfe:sand_and_glass/yellow_stained_glass
 execute as @e[type=area_effect_cloud,name="Gold Team",x=0,y=80,z=0,tag=!trophy_sand_and_glass,tag=yellow_stained_glass] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:sand_and_glass/yellow_stained_glass=false},team=gold] only qfe:sand_and_glass/yellow_stained_glass
 execute as @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_sand_and_glass,tag=yellow_stained_glass] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:sand_and_glass/yellow_stained_glass=false},team=black] only qfe:sand_and_glass/yellow_stained_glass
+
+schedule function qfe:checks/check_stone 10s

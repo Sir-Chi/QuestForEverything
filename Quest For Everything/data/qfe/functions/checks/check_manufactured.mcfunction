@@ -925,3 +925,5 @@ execute as @e[type=area_effect_cloud,name="Purple Team",x=0,y=80,z=0,tag=!trophy
 execute as @e[type=area_effect_cloud,name="Aqua Team",x=0,y=80,z=0,tag=!trophy_manufactured,tag=yellow_dye] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:manufactured/yellow_dye=false},team=aqua] only qfe:manufactured/yellow_dye
 execute as @e[type=area_effect_cloud,name="Gold Team",x=0,y=80,z=0,tag=!trophy_manufactured,tag=yellow_dye] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:manufactured/yellow_dye=false},team=gold] only qfe:manufactured/yellow_dye
 execute as @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_manufactured,tag=yellow_dye] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:manufactured/yellow_dye=false},team=black] only qfe:manufactured/yellow_dye
+
+schedule function qfe:checks/check_nature_and_loot 10s

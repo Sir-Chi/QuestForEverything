@@ -862,3 +862,5 @@ execute as @e[type=area_effect_cloud,name="Purple Team",x=0,y=80,z=0,tag=!trophy
 execute as @e[type=area_effect_cloud,name="Aqua Team",x=0,y=80,z=0,tag=!trophy_nether,tag=weeping_vines] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:nether/weeping_vines=false},team=aqua] only qfe:nether/weeping_vines
 execute as @e[type=area_effect_cloud,name="Gold Team",x=0,y=80,z=0,tag=!trophy_nether,tag=weeping_vines] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:nether/weeping_vines=false},team=gold] only qfe:nether/weeping_vines
 execute as @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_nether,tag=weeping_vines] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:nether/weeping_vines=false},team=black] only qfe:nether/weeping_vines
+
+schedule function qfe:checks/check_ocean 10s

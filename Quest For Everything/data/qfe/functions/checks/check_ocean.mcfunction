@@ -547,3 +547,5 @@ execute as @e[type=area_effect_cloud,name="Purple Team",x=0,y=80,z=0,tag=!trophy
 execute as @e[type=area_effect_cloud,name="Aqua Team",x=0,y=80,z=0,tag=!trophy_ocean,tag=wet_sponge] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:ocean/wet_sponge=false},team=aqua] only qfe:ocean/wet_sponge
 execute as @e[type=area_effect_cloud,name="Gold Team",x=0,y=80,z=0,tag=!trophy_ocean,tag=wet_sponge] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:ocean/wet_sponge=false},team=gold] only qfe:ocean/wet_sponge
 execute as @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_ocean,tag=wet_sponge] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:ocean/wet_sponge=false},team=black] only qfe:ocean/wet_sponge
+
+schedule function qfe:checks/check_redstone_and_transport 10s

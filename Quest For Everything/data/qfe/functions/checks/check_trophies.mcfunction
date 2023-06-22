@@ -133,3 +133,5 @@ execute as @e[type=area_effect_cloud,name="Purple Team",x=0,y=80,z=0,tag=trophy_
 execute as @e[type=area_effect_cloud,name="Aqua Team",x=0,y=80,z=0,tag=trophy_wool] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[team=aqua] from qfe:wool/root
 execute as @e[type=area_effect_cloud,name="Gold Team",x=0,y=80,z=0,tag=trophy_wool] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[team=gold] from qfe:wool/root
 execute as @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=trophy_wool] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[team=black] from qfe:wool/root
+
+schedule function qfe:checks/check_agriculture 10s

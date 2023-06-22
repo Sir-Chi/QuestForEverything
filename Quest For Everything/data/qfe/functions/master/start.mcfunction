@@ -35,4 +35,4 @@ scoreboard objectives add teams trigger "Teams"
 
 ##Starts Timer & Advancement Checking
 
-function qfe:checks/check_repeat
+function qfe:checks/check_agriculture

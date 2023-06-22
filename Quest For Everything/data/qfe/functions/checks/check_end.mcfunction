@@ -313,3 +313,5 @@ execute as @e[type=area_effect_cloud,name="Purple Team",x=0,y=80,z=0,tag=!trophy
 execute as @e[type=area_effect_cloud,name="Aqua Team",x=0,y=80,z=0,tag=!trophy_end,tag=yellow_shulker_box] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:end/yellow_shulker_box=false},team=aqua] only qfe:end/yellow_shulker_box
 execute as @e[type=area_effect_cloud,name="Gold Team",x=0,y=80,z=0,tag=!trophy_end,tag=yellow_shulker_box] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:end/yellow_shulker_box=false},team=gold] only qfe:end/yellow_shulker_box
 execute as @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_end,tag=yellow_shulker_box] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:end/yellow_shulker_box=false},team=black] only qfe:end/yellow_shulker_box
+
+schedule function qfe:checks/check_manufactured 10s

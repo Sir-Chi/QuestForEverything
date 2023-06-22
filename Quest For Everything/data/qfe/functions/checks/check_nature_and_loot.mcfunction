@@ -1348,3 +1348,5 @@ execute as @e[type=area_effect_cloud,name="Purple Team",x=0,y=80,z=0,tag=!trophy
 execute as @e[type=area_effect_cloud,name="Aqua Team",x=0,y=80,z=0,tag=!trophy_nature_and_loot,tag=zombie_head] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:nature_and_loot/zombie_head=false},team=aqua] only qfe:nature_and_loot/zombie_head
 execute as @e[type=area_effect_cloud,name="Gold Team",x=0,y=80,z=0,tag=!trophy_nature_and_loot,tag=zombie_head] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:nature_and_loot/zombie_head=false},team=gold] only qfe:nature_and_loot/zombie_head
 execute as @e[type=area_effect_cloud,name="Black Team",x=0,y=80,z=0,tag=!trophy_nature_and_loot,tag=zombie_head] unless score oneItemPerPerson GameSetup matches 1 if score Teams GameSetup matches 1 run advancement grant @a[advancements={qfe:nature_and_loot/zombie_head=false},team=black] only qfe:nature_and_loot/zombie_head
+
+schedule function qfe:checks/check_nether 10s

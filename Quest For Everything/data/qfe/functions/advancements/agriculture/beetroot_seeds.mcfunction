@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'beetroot_seeds', 'item':'minecraft:beetroot_seeds'}

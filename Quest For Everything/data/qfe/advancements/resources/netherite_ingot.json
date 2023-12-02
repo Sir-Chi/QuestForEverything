@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:netherite_ingot"
-      },
-      "title": "Netherite Ingot",
-      "description": "Obtain Netherite Ingot",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_ingot"
     },
-    "parent": "qfe:resources/netherite_scrap",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:netherite_ingot"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Netherite Ingot",
+    "description": "Obtain Netherite Ingot",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:resources/netherite_scrap",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:resources/netherite_ingot"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/resources/netherite_ingot"
   }
+}

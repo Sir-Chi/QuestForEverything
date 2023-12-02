@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:bubble_coral_fan"
-      },
-      "title": "Bubble Coral Fan",
-      "description": "Obtain Bubble Coral Fan",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:bubble_coral_fan"
     },
-    "parent": "qfe:ocean/dead_bubble_coral_block",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:bubble_coral_fan"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Bubble Coral Fan",
+    "description": "Obtain Bubble Coral Fan",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:ocean/dead_bubble_coral_block",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bubble_coral_fan"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:ocean/bubble_coral_fan"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/ocean/bubble_coral_fan"
   }
+}

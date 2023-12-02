@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'packed_ice', 'item':'minecraft:packed_ice'}

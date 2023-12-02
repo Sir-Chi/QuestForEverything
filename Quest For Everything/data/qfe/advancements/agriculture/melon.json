@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:melon"
-      },
-      "title": "Melon",
-      "description": "Obtain Melon",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:melon"
     },
-    "parent": "qfe:agriculture/melon_slice",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:melon"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Melon",
+    "description": "Obtain Melon",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:agriculture/melon_slice",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:melon"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:agriculture/melon"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/agriculture/melon"
   }
+}

@@ -1,8 +1,8 @@
 {
-    "parent": "qfe:wood/dark_oak_chest_boat",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
-      }
+  "parent": "qfe:wood/birch_chest_boat",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
   }
+}

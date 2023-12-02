@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'invisibility_lingering_potion', 'item':'minecraft:lingering_potion{Potion:"minecraft:invisibility"}'}

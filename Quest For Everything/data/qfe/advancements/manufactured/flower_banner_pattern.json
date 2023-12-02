@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:flower_banner_pattern"
-      },
-      "title": "Flower Banner Pattern",
-      "description": "Obtain Flower Banner Pattern",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:flower_banner_pattern"
     },
-    "parent": "qfe:manufactured/loom",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:flower_banner_pattern"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Flower Banner Pattern",
+    "description": "Obtain Flower Banner Pattern",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/loom",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flower_banner_pattern"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/flower_banner_pattern"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/manufactured/flower_banner_pattern"
   }
+}

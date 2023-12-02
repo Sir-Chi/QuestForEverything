@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'night_vision_suspicious_stew', 'item':'minecraft:suspicious_stew{effects:[{id:"minecraft:night_vision"}]}'}

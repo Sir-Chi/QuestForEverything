@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'glistering_melon_slice', 'item':'minecraft:glistering_melon_slice'}

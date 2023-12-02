@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:potion",
-        "nbt": "{Potion:'minecraft:strong_healing'}"
-      },
-      "title": "Potion of Healing",
-      "description": "Instant Health II",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_healing\"}"
     },
-    "parent": "qfe:brewing/healing_tipped_arrow",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-                "items": ["minecraft:potion"],
-                "potion": "minecraft:strong_healing",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Potion of Healing",
+    "description": "Instant Health II",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/healing_tipped_arrow",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "potion": "minecraft:strong_healing"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/strong_healing_potion"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/strong_healing_potion"
   }
+}

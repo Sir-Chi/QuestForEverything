@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'fishing_rod', 'item':'minecraft:fishing_rod'}

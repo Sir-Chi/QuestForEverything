@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:tools_and_weapons/powder_snow_bucket",
+  "parent": "qfe:tools_and_weapons/chainmail_boots",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:bricks"
-      },
-      "title": "Bricks",
-      "description": "Obtain Bricks",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:bricks"
     },
-    "parent": "qfe:manufactured/brick",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:bricks"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Bricks",
+    "description": "Obtain Bricks",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/brick",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bricks"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/bricks"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/manufactured/bricks"
   }
+}

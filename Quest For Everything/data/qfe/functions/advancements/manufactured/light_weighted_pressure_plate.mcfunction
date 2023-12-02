@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'light_weighted_pressure_plate', 'item':'minecraft:light_weighted_pressure_plate'}

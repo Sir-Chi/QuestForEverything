@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'tube_coral', 'item':'minecraft:tube_coral'}

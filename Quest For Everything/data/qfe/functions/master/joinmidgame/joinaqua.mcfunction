@@ -1,5 +1,0 @@
-team join aqua @a[scores={teams=6}]
-execute if score AquaTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=aqua] run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Aqua Team"}'}
-execute if score AquaTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=aqua] run team join aqua AquaTeam
-execute if score AquaTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=aqua] run scoreboard players add AquaTeam score 0
-execute if score AquaTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=aqua] run scoreboard players set AquaTeam teamactive 1

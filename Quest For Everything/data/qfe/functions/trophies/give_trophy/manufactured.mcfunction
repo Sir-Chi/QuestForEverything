@@ -1,0 +1,2 @@
+tag @s add trophy_manufactured
+give @s minecraft:player_head{display:{Name:'{"text":"Trophy - Manufactured"}'},SkullOwner:{Id:[I;-860574225,1539526366,-2114441869,1275589769],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU2NDQwYThkNTk5MmMyNjdkMmEzMzYzODgyOTY0YWMyYmE1MjJmMmY5MTE0YTZmN2QxN2IzNTcyMmQyZjVmOCJ9fX0="}]}},BlockEntityTag:{note_block_sound:"minecraft:block.chiseled_bookshelf.insert.enchanted"}} 1

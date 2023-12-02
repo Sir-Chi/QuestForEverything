@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:lingering_potion",
-        "nbt": "{Potion:'minecraft:mundane'}"
-      },
-      "title": "Mundane Lingering Potion",
-      "description": "Obtain Mundane Lingering Potion",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:lingering_potion",
+      "nbt": "{Potion:\"minecraft:mundane\"}"
     },
-    "parent": "qfe:brewing/mundane_splash_potion",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-                "items": ["minecraft:lingering_potion"],
-                "potion": "minecraft:mundane",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Mundane Lingering Potion",
+    "description": "Obtain Mundane Lingering Potion",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/mundane_splash_potion",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lingering_potion"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "potion": "minecraft:mundane"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/mundane_lingering_potion"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/mundane_lingering_potion"
   }
+}

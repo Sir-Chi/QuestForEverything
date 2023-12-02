@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:spore_blossom"
-      },
-      "title": "Spore Blossom",
-      "description": "Obtain Spore Blossom",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:spore_blossom"
     },
-    "parent": "qfe:nature_and_loot/big_dripleaf",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:spore_blossom"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Spore Blossom",
+    "description": "Obtain Spore Blossom",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nature_and_loot/big_dripleaf",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spore_blossom"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nature_and_loot/spore_blossom"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nature_and_loot/spore_blossom"
   }
+}

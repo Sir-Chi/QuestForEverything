@@ -1,0 +1,2 @@
+tag @s add trophy_agriculture
+give @s minecraft:player_head{display:{Name:'{"text":"Trophy - Agriculture"}'},SkullOwner:{Id:[I;1480778329,316624888,-1611935903,1148907210],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVlMmUwOTU5NzEyZGNkMzM1N2NjM2NlYTg1Zjk5YjNmZDgwOTc4NTVjNzU0YjliMTcxZjk2MzUxNDIyNWQifX19"}]}},BlockEntityTag:{note_block_sound:"minecraft:entity.generic.eat"}} 1

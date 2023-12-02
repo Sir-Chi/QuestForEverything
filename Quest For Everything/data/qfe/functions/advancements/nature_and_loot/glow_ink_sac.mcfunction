@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'glow_ink_sac', 'item':'minecraft:glow_ink_sac'}

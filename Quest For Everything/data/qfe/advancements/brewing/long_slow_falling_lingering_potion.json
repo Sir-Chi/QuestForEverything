@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:lingering_potion",
-        "nbt": "{Potion:'minecraft:long_slow_falling'}"
-      },
-      "title": "Lingering Potion of Slow Falling",
-      "description": "Slow Falling (1:00)",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:lingering_potion",
+      "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
     },
-    "parent": "qfe:brewing/long_slow_falling_splash_potion",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-                "items": ["minecraft:lingering_potion"],
-                "potion": "minecraft:long_slow_falling",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Lingering Potion of Slow Falling",
+    "description": "Slow Falling (1:00)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/long_slow_falling_splash_potion",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lingering_potion"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "potion": "minecraft:long_slow_falling"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/long_slow_falling_lingering_potion"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/long_slow_falling_lingering_potion"
   }
+}

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'wood', 'name':'bamboo_hanging_sign', 'item':'minecraft:bamboo_hanging_sign'}

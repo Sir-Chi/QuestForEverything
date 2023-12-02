@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'regeneration_potion', 'item':'minecraft:potion{Potion:"minecraft:regeneration"}'}

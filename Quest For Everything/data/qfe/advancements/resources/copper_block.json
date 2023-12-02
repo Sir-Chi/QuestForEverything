@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:copper_block"
-      },
-      "title": "Block of Copper",
-      "description": "Obtain Block of Copper",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:copper_block"
     },
-    "parent": "qfe:resources/copper_ingot",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:copper_block"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Block of Copper",
+    "description": "Obtain Block of Copper",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:resources/copper_ingot",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:resources/copper_block"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/resources/copper_block"
   }
+}

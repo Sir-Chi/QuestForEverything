@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:waxed_exposed_copper"
-      },
-      "title": "Waxed Exposed Copper",
-      "description": "Obtain Waxed Exposed Copper",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:waxed_exposed_copper"
     },
-    "parent": "qfe:resources/waxed_cut_copper_stairs",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:waxed_exposed_copper"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Waxed Exposed Copper",
+    "description": "Obtain Waxed Exposed Copper",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:resources/waxed_cut_copper_stairs",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:waxed_exposed_copper"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:resources/waxed_exposed_copper"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/resources/waxed_exposed_copper"
   }
+}

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'netherite_block', 'item':'minecraft:netherite_block'}

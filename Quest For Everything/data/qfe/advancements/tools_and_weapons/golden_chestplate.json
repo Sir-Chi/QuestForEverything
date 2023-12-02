@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:golden_chestplate"
-      },
-      "title": "Golden Chestplate",
-      "description": "Obtain Golden Chestplate",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_chestplate"
     },
-    "parent": "qfe:tools_and_weapons/golden_helmet",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:golden_chestplate"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Golden Chestplate",
+    "description": "Obtain Golden Chestplate",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:tools_and_weapons/golden_helmet",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_chestplate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:tools_and_weapons/golden_chestplate"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/tools_and_weapons/golden_chestplate"
   }
+}

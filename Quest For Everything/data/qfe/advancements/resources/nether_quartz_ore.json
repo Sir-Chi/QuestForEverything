@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:nether_quartz_ore"
-      },
-      "title": "Nether Quartz Ore",
-      "description": "Obtain Nether Quartz Ore",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_quartz_ore"
     },
-    "parent": "qfe:resources/nether_gold_ore",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:nether_quartz_ore"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Nether Quartz Ore",
+    "description": "Obtain Nether Quartz Ore",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:resources/nether_gold_ore",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_quartz_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:resources/nether_quartz_ore"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/resources/nether_quartz_ore"
   }
+}

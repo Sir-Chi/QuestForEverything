@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:iron_block"
-      },
-      "title": "Block of Iron",
-      "description": "Obtain Block of Iron",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_block"
     },
-    "parent": "qfe:resources/iron_ingot",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:iron_block"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Block of Iron",
+    "description": "Obtain Block of Iron",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:resources/iron_ingot",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:resources/iron_block"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/resources/iron_block"
   }
+}

@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:splash_potion",
-        "nbt": "{Potion:'minecraft:healing'}"
-      },
-      "title": "Splash Potion of Healing",
-      "description": "Instant Health",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:healing\"}"
     },
-    "parent": "qfe:brewing/healing_potion",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-                "items": ["minecraft:splash_potion"],
-                "potion": "minecraft:healing",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Splash Potion of Healing",
+    "description": "Instant Health",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/healing_potion",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:splash_potion"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "potion": "minecraft:healing"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/healing_splash_potion"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/healing_splash_potion"
   }
+}

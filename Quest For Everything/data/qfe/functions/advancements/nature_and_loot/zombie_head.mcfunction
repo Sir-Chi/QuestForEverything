@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'zombie_head', 'item':'minecraft:zombie_head'}

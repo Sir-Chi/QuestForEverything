@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'polished_basalt', 'item':'minecraft:polished_basalt'}

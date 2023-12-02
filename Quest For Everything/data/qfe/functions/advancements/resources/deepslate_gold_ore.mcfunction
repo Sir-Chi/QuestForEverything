@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'deepslate_gold_ore', 'item':'minecraft:deepslate_gold_ore'}

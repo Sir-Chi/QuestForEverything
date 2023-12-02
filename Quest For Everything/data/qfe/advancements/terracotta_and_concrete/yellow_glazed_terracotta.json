@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:yellow_glazed_terracotta"
-      },
-      "title": "Yellow Glazed Terracotta",
-      "description": "Obtain Yellow Glazed Terracotta",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:yellow_glazed_terracotta"
     },
-    "parent": "qfe:terracotta_and_concrete/orange_glazed_terracotta",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:yellow_glazed_terracotta"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Yellow Glazed Terracotta",
+    "description": "Obtain Yellow Glazed Terracotta",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:terracotta_and_concrete/orange_glazed_terracotta",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_glazed_terracotta"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:terracotta_and_concrete/yellow_glazed_terracotta"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/terracotta_and_concrete/yellow_glazed_terracotta"
   }
+}

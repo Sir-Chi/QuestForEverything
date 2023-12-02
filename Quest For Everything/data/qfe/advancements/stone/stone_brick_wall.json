@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:stone_brick_wall"
-      },
-      "title": "Stone Brick Wall",
-      "description": "Obtain Stone Brick Wall",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_brick_wall"
     },
-    "parent": "qfe:stone/stone_brick_stairs",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:stone_brick_wall"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Stone Brick Wall",
+    "description": "Obtain Stone Brick Wall",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:stone/stone_brick_stairs",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_brick_wall"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:stone/stone_brick_wall"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/stone/stone_brick_wall"
   }
+}

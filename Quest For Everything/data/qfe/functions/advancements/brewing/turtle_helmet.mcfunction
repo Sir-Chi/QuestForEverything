@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'turtle_helmet', 'item':'minecraft:turtle_helmet'}

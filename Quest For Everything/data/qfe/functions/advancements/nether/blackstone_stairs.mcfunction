@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'blackstone_stairs', 'item':'minecraft:blackstone_stairs'}

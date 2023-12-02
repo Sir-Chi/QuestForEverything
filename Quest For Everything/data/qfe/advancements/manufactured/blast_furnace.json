@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:blast_furnace"
-      },
-      "title": "Blast Furnace",
-      "description": "Obtain Blast Furnace",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:blast_furnace"
     },
-    "parent": "qfe:manufactured/smoker",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:blast_furnace"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Blast Furnace",
+    "description": "Obtain Blast Furnace",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/smoker",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blast_furnace"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/blast_furnace"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/manufactured/blast_furnace"
   }
+}

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:polished_blackstone"
-      },
-      "title": "Polished Blackstone",
-      "description": "Obtain Polished Blackstone",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_blackstone"
     },
-    "parent": "qfe:nether/gilded_blackstone",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:polished_blackstone"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Polished Blackstone",
+    "description": "Obtain Polished Blackstone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nether/gilded_blackstone",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nether/polished_blackstone"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nether/polished_blackstone"
   }
+}

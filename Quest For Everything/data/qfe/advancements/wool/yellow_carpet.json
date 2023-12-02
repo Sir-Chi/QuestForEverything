@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:yellow_carpet"
-      },
-      "title": "Yellow Carpet",
-      "description": "Obtain Yellow Carpet",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:yellow_carpet"
     },
-    "parent": "qfe:wool/orange_carpet",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:yellow_carpet"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Yellow Carpet",
+    "description": "Obtain Yellow Carpet",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wool/orange_carpet",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_carpet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wool/yellow_carpet"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wool/yellow_carpet"
   }
+}

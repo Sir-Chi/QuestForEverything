@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:black_stained_glass_pane"
-      },
-      "title": "Black Stained Glass Pane",
-      "description": "Obtain Black Stained Glass Pane",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:black_stained_glass_pane"
     },
-    "parent": "qfe:sand_and_glass/brown_stained_glass_pane",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:black_stained_glass_pane"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Black Stained Glass Pane",
+    "description": "Obtain Black Stained Glass Pane",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:sand_and_glass/brown_stained_glass_pane",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_stained_glass_pane"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:sand_and_glass/black_stained_glass_pane"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/sand_and_glass/black_stained_glass_pane"
   }
+}

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'lily_of_the_valley', 'item':'minecraft:lily_of_the_valley'}

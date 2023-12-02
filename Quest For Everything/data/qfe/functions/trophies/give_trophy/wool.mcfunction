@@ -1,0 +1,2 @@
+tag @s add trophy_wool
+give @s minecraft:player_head{display:{Name:'{"text":"Trophy - Wool"}'},SkullOwner:{Id:[I;775398644,-1788787824,-1651766630,152117032],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA4ZGY2MGM1MTA3NGVlZjI1NDRmZjM4Y2VhZDllMTY2NzVhZTQyNTE5MTYxMDUxODBlMWY4Y2UxOTdhYjNiYyJ9fX0="}]}},BlockEntityTag:{note_block_sound:"minecraft:block.wool.place"}} 1

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:blaze_rod"
-      },
-      "title": "Blaze Rod",
-      "description": "Obtain Blaze Rod",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_rod"
     },
-    "parent": "qfe:brewing/root",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:blaze_rod"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Blaze Rod",
+    "description": "Obtain Blaze Rod",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_rod"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/blaze_rod"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/blaze_rod"
   }
+}

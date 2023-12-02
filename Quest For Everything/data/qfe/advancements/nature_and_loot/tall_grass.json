@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:tall_grass"
-      },
-      "title": "Tall Grass",
-      "description": "Obtain Tall Grass",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:tall_grass"
     },
-    "parent": "qfe:nature_and_loot/grass",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:tall_grass"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Tall Grass",
+    "description": "Obtain Tall Grass",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nature_and_loot/short_grass",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tall_grass"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nature_and_loot/tall_grass"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nature_and_loot/tall_grass"
   }
+}

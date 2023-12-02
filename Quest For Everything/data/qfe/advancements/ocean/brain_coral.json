@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:brain_coral"
-      },
-      "title": "Brain Coral",
-      "description": "Obtain Brain Coral",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:brain_coral"
     },
-    "parent": "qfe:ocean/dead_brain_coral_fan",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:brain_coral"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Brain Coral",
+    "description": "Obtain Brain Coral",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:ocean/dead_brain_coral_fan",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brain_coral"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:ocean/brain_coral"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/ocean/brain_coral"
   }
+}

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:pink_banner"
-      },
-      "title": "Pink Banner",
-      "description": "Obtain Pink Banner",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_banner"
     },
-    "parent": "qfe:wool/magenta_banner",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:pink_banner"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Pink Banner",
+    "description": "Obtain Pink Banner",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wool/magenta_banner",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_banner"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wool/pink_banner"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wool/pink_banner"
   }
+}

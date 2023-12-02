@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:lightning_rod"
-      },
-      "title": "Lightning Rod",
-      "description": "Obtain Lightning Rod",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:lightning_rod"
     },
-    "parent": "qfe:manufactured/bell",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:lightning_rod"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Lightning Rod",
+    "description": "Obtain Lightning Rod",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/bell",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lightning_rod"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/lightning_rod"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/manufactured/lightning_rod"
   }
+}

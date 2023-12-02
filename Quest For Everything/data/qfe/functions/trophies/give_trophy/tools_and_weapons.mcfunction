@@ -1,0 +1,2 @@
+tag @s add trophy_tools_and_weapons
+give @s minecraft:player_head{display:{Name:'{"text":"Trophy - Tools & Weapons"}'},SkullOwner:{Id:[I;-1559759950,-1804712304,-1193791539,-1570788189],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZlYTIxMzU4Mzg0NjE1MzQzNzJmMmRhNmM4NjJkMjFjZDVmM2QyYzcxMTlmMmJiNjc0YmJkNDI3OTEifX19"}]}},BlockEntityTag:{note_block_sound:"minecraft:block.smithing_table.use"}} 1

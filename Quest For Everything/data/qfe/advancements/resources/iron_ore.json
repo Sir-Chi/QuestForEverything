@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:iron_ore"
-      },
-      "title": "Iron Ore",
-      "description": "Obtain Iron Ore",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ore"
     },
-    "parent": "qfe:resources/root",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:iron_ore"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Iron Ore",
+    "description": "Obtain Iron Ore",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:resources/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:resources/iron_ore"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/resources/iron_ore"
   }
+}

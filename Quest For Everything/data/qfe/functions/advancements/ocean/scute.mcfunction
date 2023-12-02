@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'scute', 'item':'minecraft:scute'}

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:beacon"
-      },
-      "title": "Beacon",
-      "description": "Obtain Beacon",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon"
     },
-    "parent": "qfe:manufactured/nether_star",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:beacon"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Beacon",
+    "description": "Obtain Beacon",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/nether_star",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beacon"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/beacon"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/manufactured/beacon"
   }
+}

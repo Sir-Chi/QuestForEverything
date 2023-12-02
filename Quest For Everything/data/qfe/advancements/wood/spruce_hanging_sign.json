@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:spruce_hanging_sign"
-      },
-      "title": "Spruce Hanging Sign",
-      "description": "Obtain Spruce Hanging Sign",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_hanging_sign"
     },
-    "parent": "qfe:wood/spruce_sign",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:spruce_hanging_sign"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Spruce Hanging Sign",
+    "description": "Obtain Spruce Hanging Sign",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/spruce_sign",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_hanging_sign"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wood/spruce_hanging_sign"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wood/spruce_hanging_sign"
   }
+}

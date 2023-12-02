@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:potion",
-        "nbt": "{Potion:'minecraft:strong_strength'}"
-      },
-      "title": "Potion of Strength",
-      "description": "Strength II (1:30)",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_strength\"}"
     },
-    "parent": "qfe:brewing/long_strength_tipped_arrow",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-                "items": ["minecraft:potion"],
-                "potion": "minecraft:strong_strength",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Potion of Strength",
+    "description": "Strength II (1:30)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/long_strength_tipped_arrow",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "potion": "minecraft:strong_strength"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/strong_strength_potion"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/strong_strength_potion"
   }
+}

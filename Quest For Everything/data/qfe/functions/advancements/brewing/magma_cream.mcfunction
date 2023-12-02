@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'magma_cream', 'item':'minecraft:magma_cream'}

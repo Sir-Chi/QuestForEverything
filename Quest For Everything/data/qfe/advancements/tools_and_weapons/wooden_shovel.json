@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:wooden_shovel"
-      },
-      "title": "Wooden Shovel",
-      "description": "Obtain Wooden Shovel",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_shovel"
     },
-    "parent": "qfe:tools_and_weapons/wooden_pickaxe",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:wooden_shovel"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Wooden Shovel",
+    "description": "Obtain Wooden Shovel",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:tools_and_weapons/wooden_pickaxe",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_shovel"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:tools_and_weapons/wooden_shovel"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/tools_and_weapons/wooden_shovel"
   }
+}

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'nether_star', 'item':'minecraft:nether_star'}

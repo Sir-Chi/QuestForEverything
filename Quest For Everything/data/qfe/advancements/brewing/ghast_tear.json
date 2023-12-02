@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:ghast_tear"
-      },
-      "title": "Ghast Tear",
-      "description": "Obtain Ghast Tear",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:ghast_tear"
     },
-    "parent": "qfe:brewing/root",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:ghast_tear"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Ghast Tear",
+    "description": "Obtain Ghast Tear",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ghast_tear"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/ghast_tear"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/ghast_tear"
   }
+}

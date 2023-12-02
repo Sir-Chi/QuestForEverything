@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:diamond_ore"
-      },
-      "title": "Diamond Ore",
-      "description": "Obtain Diamond Ore",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_ore"
     },
-    "parent": "qfe:resources/root",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:diamond_ore"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Diamond Ore",
+    "description": "Obtain Diamond Ore",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:resources/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:resources/diamond_ore"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/resources/diamond_ore"
   }
+}

@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:lingering_potion",
-        "nbt": "{Potion:'minecraft:weakness'}"
-      },
-      "title": "Lingering Potion of Weakness",
-      "description": "Weakness (0:22)",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:lingering_potion",
+      "nbt": "{Potion:\"minecraft:weakness\"}"
     },
-    "parent": "qfe:brewing/weakness_splash_potion",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-                "items": ["minecraft:lingering_potion"],
-                "potion": "minecraft:weakness",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Lingering Potion of Weakness",
+    "description": "Weakness (0:22)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/weakness_splash_potion",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lingering_potion"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "potion": "minecraft:weakness"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/weakness_lingering_potion"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/weakness_lingering_potion"
   }
+}

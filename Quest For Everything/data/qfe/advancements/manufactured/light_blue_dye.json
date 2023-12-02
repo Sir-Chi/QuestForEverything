@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:light_blue_dye"
-      },
-      "title": "Light Blue Dye",
-      "description": "Obtain Light Blue Dye",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:light_blue_dye"
     },
-    "parent": "qfe:manufactured/cyan_dye",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:light_blue_dye"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Light Blue Dye",
+    "description": "Obtain Light Blue Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/cyan_dye",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_blue_dye"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/light_blue_dye"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/manufactured/light_blue_dye"
   }
+}

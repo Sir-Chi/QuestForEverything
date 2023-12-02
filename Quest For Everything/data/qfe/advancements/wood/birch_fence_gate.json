@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:birch_fence_gate"
-      },
-      "title": "Birch Fence Gate",
-      "description": "Obtain Birch Fence Gate",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:birch_fence_gate"
     },
-    "parent": "qfe:wood/birch_fence",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:birch_fence_gate"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Birch Fence Gate",
+    "description": "Obtain Birch Fence Gate",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/birch_fence",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_fence_gate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wood/birch_fence_gate"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wood/birch_fence_gate"
   }
+}

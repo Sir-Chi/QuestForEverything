@@ -16,7 +16,6 @@ gamerule disableElytraMovementCheck true
 scoreboard objectives add GameSetup dummy "Game Setup"
 scoreboard objectives setdisplay sidebar GameSetup
 scoreboard players set Teams GameSetup 0
-scoreboard players set oneItemPerPerson GameSetup 1
 scoreboard players set allRecipesUnlocked GameSetup 0
 scoreboard players set naturalRegeneration GameSetup 1
 scoreboard players set announceAdvancements GameSetup 1
@@ -28,12 +27,22 @@ scoreboard players set #gameended GameSetup 0
 scoreboard players set #dragonegg GameSetup 0
 scoreboard players set #lobbynumber GameSetup 0
 
+scoreboard players display name allRecipesUnlocked GameSetup "Unlock All Recipes"
+scoreboard players display name naturalRegeneration GameSetup "Natural Regeneration"
+scoreboard players display name announceAdvancements GameSetup "Announce Advancements"
+scoreboard players display name announceTrophies GameSetup "Announce Trophies"
+scoreboard players display name keepInventory GameSetup "Keep Inventory"
+scoreboard players display name takeItems GameSetup "Take Items"
+
 scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death
 
 scoreboard objectives add score dummy "Score"
-scoreboard players set TotalToGet score 1319
+scoreboard players set _TotalToGet score 1319
+scoreboard players display name _TotalToGet score "Total To Get"
 scoreboard players set #Leader score 0
+
+scoreboard objectives add SyncScore dummy "Sync Score"
 
 scoreboard objectives add teams trigger "Teams"
 
@@ -44,25 +53,52 @@ scoreboard players set systick time 0
 scoreboard players set seconds time 0
 scoreboard players set minutes time 0
 scoreboard players set hours time 0
+scoreboard players set trackedminutes time 0
 
-scoreboard objectives add teamactive dummy "Active Teams"
-scoreboard players set BlueTeam teamactive 0
-scoreboard players set GreenTeam teamactive 0
-scoreboard players set RedTeam teamactive 0
-scoreboard players set YellowTeam teamactive 0
-scoreboard players set PurpleTeam teamactive 0
-scoreboard players set AquaTeam teamactive 0
-scoreboard players set BlackTeam teamactive 0
-scoreboard players set GoldTeam teamactive 0
+scoreboard objectives add agriculture_score dummy "Agriculture Score"
+scoreboard players set _TotalToGet agriculture_score 63
+scoreboard objectives add brewing_score dummy "Brewing Score"
+scoreboard players set _TotalToGet brewing_score 178
+scoreboard objectives add end_score dummy "End Score"
+scoreboard players set _TotalToGet end_score 35
+scoreboard objectives add manufactured_score dummy "Manufactured Score"
+scoreboard players set _TotalToGet manufactured_score 103
+scoreboard objectives add nature_and_loot_score dummy "Nature & Loot Score"
+scoreboard players set _TotalToGet nature_and_loot_score 150
+scoreboard objectives add nether_score dummy "Nether Score"
+scoreboard players set _TotalToGet nether_score 96
+scoreboard objectives add ocean_score dummy "Ocean Score"
+scoreboard players set _TotalToGet ocean_score 61
+scoreboard objectives add redstone_and_transport_score dummy "Redstone & Transport Score"
+scoreboard players set _TotalToGet redstone_and_transport_score 34
+scoreboard objectives add resources_score dummy "Resources Score"
+scoreboard players set _TotalToGet resources_score 84
+scoreboard objectives add sand_and_glass_score dummy "Sand & Glass Score"
+scoreboard players set _TotalToGet sand_and_glass_score 57
+scoreboard objectives add stone_score dummy "Stone Score"
+scoreboard players set _TotalToGet stone_score 70
+scoreboard objectives add terracotta_and_concrete_score dummy "Terracotta & Concrete Score"
+scoreboard players set _TotalToGet terracotta_and_concrete_score 65
+scoreboard objectives add tools_and_weapons_score dummy "Tools & Weapons Score"
+scoreboard players set _TotalToGet tools_and_weapons_score 88
+scoreboard objectives add wood_score dummy "Wood Score"
+scoreboard players set _TotalToGet wood_score 171
+scoreboard objectives add wool_score dummy "Wool Score"
+scoreboard players set _TotalToGet wool_score 64
+
+# data modify storage qfe:section_counts SectionItemCount.SectionCounts set value {agriculture: 63, brewing: 178, end: 35, manufactured: 103, nature_and_loot: 150, nether: 96, ocean: 61, redstone_and_transport: 34, resources: 84, sand_and_glass: 57, stone: 70, terracotta_and_concrete: 65, tools_and_weapons: 88, wood: 171, wool: 64}
 
 ##Find Lobby Number
-execute if score #lobbynumber GameSetup matches ..0 run function qfe:master/lobby_number
+execute if score #lobbynumber GameSetup matches ..0 run function qfe:master/lobby/lobby_number
 
 ## Setup World Spawn/Lobby
 
-execute unless entity @e[tag=lobby_locator_bottom,tag=lobby_placed] run schedule function qfe:master/locate_lobby 2s
+execute unless entity @e[tag=lobby_locator_bottom,tag=lobby_placed] run schedule function qfe:master/lobby/locate_lobby 2s
 
 ##Teams Setup
+
+team leave @a
+
 team add blue "Blue"
 team modify blue color blue
 team add green "Green"
@@ -84,12 +120,11 @@ team modify spectator color gray
 team add admin "Admin"
 team modify admin color dark_red
 
-
 setblock 0 80 0 minecraft:air
 
 forceload add 0 0
 
-summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Timer"}'}
+execute unless entity @e[type=marker,x=0,y=80,z=0,name="Timer"] run summon marker 0 80 0 {CustomName:'{"text":"Timer"}'}
 
 execute as @e[tag=lobby_locator_bottom] at @e[tag=lobby_locator_bottom] run setworldspawn ~ ~1 ~
 

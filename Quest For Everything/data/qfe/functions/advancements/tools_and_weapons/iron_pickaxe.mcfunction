@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'iron_pickaxe', 'item':'minecraft:iron_pickaxe'}

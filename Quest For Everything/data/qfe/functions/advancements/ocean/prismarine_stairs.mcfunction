@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'prismarine_stairs', 'item':'minecraft:prismarine_stairs'}

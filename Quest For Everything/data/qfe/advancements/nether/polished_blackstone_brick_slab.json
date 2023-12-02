@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:polished_blackstone_brick_slab"
-      },
-      "title": "Polished Blackstone Brick Slabs",
-      "description": "Obtain Polished Blackstone Brick Slabs",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_blackstone_brick_slab"
     },
-    "parent": "qfe:nether/polished_blackstone_bricks",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:polished_blackstone_brick_slab"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Polished Blackstone Brick Slabs",
+    "description": "Obtain Polished Blackstone Brick Slabs",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nether/polished_blackstone_bricks",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone_brick_slab"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nether/polished_blackstone_brick_slab"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nether/polished_blackstone_brick_slab"
   }
+}

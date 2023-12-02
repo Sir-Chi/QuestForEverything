@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'netherite_boots', 'item':'minecraft:netherite_boots'}

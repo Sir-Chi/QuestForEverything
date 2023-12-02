@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'chiseled_quartz_block', 'item':'minecraft:chiseled_quartz_block'}

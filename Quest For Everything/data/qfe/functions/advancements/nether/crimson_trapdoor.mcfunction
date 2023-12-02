@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_trapdoor', 'item':'minecraft:crimson_trapdoor'}

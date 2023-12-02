@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:birch_door"
-      },
-      "title": "Birch Door",
-      "description": "Obtain Birch Door",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:birch_door"
     },
-    "parent": "qfe:wood/birch_trapdoor",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:birch_door"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Birch Door",
+    "description": "Obtain Birch Door",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/birch_trapdoor",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_door"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wood/birch_door"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wood/birch_door"
   }
+}

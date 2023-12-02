@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:tipped_arrow",
-        "nbt": "{Potion:'minecraft:long_regeneration'}"
-      },
-      "title": "Arrow of Regeneration",
-      "description": "Regeneration (0:11)",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:tipped_arrow",
+      "nbt": "{Potion:\"minecraft:long_regeneration\"}"
     },
-    "parent": "qfe:brewing/long_regeneration_lingering_potion",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:tipped_arrow"],
-              "potion": "minecraft:long_regeneration",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Arrow of Regeneration",
+    "description": "Regeneration (0:11)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/long_regeneration_lingering_potion",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tipped_arrow"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "potion": "minecraft:long_regeneration"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/long_regeneration_tipped_arrow"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/long_regeneration_tipped_arrow"
   }
+}

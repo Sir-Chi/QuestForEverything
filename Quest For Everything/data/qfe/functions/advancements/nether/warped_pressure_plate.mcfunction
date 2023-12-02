@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'warped_pressure_plate', 'item':'minecraft:warped_pressure_plate'}

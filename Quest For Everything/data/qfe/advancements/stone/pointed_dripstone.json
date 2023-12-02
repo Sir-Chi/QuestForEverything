@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:pointed_dripstone"
-      },
-      "title": "Pointed Dripstone",
-      "description": "Obtain Pointed Dripstone",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:pointed_dripstone"
     },
-    "parent": "qfe:stone/dripstone_block",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:pointed_dripstone"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Pointed Dripstone",
+    "description": "Obtain Pointed Dripstone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:stone/dripstone_block",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pointed_dripstone"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:stone/pointed_dripstone"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/stone/pointed_dripstone"
   }
+}

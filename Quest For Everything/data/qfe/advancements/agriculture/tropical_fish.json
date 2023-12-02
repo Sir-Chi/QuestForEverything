@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:tropical_fish"
-      },
-      "title": "Tropical Fish",
-      "description": "Obtain Tropical Fish",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:tropical_fish"
     },
-    "parent": "qfe:agriculture/cooked_salmon",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:tropical_fish"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Tropical Fish",
+    "description": "Obtain Tropical Fish",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:agriculture/cooked_salmon",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tropical_fish"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:agriculture/tropical_fish"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/agriculture/tropical_fish"
   }
+}

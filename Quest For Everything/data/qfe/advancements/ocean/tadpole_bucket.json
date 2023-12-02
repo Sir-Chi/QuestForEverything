@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:tadpole_bucket"
-      },
-      "title": "Tadpole Bucket",
-      "description": "Obtain Tadpole Bucket",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:tadpole_bucket"
     },
-    "parent": "qfe:ocean/axolotl_bucket",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:tadpole_bucket"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Tadpole Bucket",
+    "description": "Obtain Tadpole Bucket",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:ocean/axolotl_bucket",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tadpole_bucket"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:ocean/tadpole_bucket"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/ocean/tadpole_bucket"
   }
+}

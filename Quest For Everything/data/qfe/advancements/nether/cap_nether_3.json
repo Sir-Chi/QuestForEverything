@@ -1,8 +1,8 @@
 {
-    "parent": "qfe:nether/cracked_polished_blackstone_bricks",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
-      }
+  "parent": "qfe:nether/nether_sprouts",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
   }
+}

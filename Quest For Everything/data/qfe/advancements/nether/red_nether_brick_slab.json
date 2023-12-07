@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:red_nether_brick_slab"
-      },
-      "title": "Red Nether Brick Slab",
-      "description": "Obtain Red Nether Brick Slab",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:red_nether_brick_slab"
     },
-    "parent": "qfe:nether/red_nether_bricks",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:red_nether_brick_slab"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Red Nether Brick Slab",
+    "description": "Obtain Red Nether Brick Slab",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nether/red_nether_bricks",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_nether_brick_slab"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nether/red_nether_brick_slab"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nether/red_nether_brick_slab"
   }
+}

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:chorus_flower"
-      },
-      "title": "Chorus Flower",
-      "description": "Obtain Chorus Flower",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:chorus_flower"
     },
-    "parent": "qfe:end/root",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:chorus_flower"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Chorus Flower",
+    "description": "Obtain Chorus Flower",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:end/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chorus_flower"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:end/chorus_flower"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/end/chorus_flower"
   }
+}

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'dead_bush', 'item':'minecraft:dead_bush'}

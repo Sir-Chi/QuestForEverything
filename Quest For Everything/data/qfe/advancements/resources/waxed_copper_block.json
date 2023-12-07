@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:waxed_copper_block"
-      },
-      "title": "Waxed Block of Copper",
-      "description": "Obtain Waxed Block of Copper",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:waxed_copper_block"
     },
-    "parent": "qfe:resources/copper_ingot",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:waxed_copper_block"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Waxed Block of Copper",
+    "description": "Obtain Waxed Block of Copper",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:resources/copper_ingot",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:waxed_copper_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:resources/waxed_copper_block"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/resources/waxed_copper_block"
   }
+}

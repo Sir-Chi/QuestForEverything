@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:lilac"
-      },
-      "title": "Lilac",
-      "description": "Obtain Lilac",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:lilac"
     },
-    "parent": "qfe:nature_and_loot/wither_rose",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:lilac"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Lilac",
+    "description": "Obtain Lilac",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nature_and_loot/wither_rose",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lilac"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nature_and_loot/lilac"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nature_and_loot/lilac"
   }
+}

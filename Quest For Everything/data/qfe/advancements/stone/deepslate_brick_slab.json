@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:deepslate_brick_slab"
-      },
-      "title": "Deepslate Brick Slab",
-      "description": "Obtain Deepslate Brick Slab",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_brick_slab"
     },
-    "parent": "qfe:stone/deepslate_bricks",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:deepslate_brick_slab"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Deepslate Brick Slab",
+    "description": "Obtain Deepslate Brick Slab",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:stone/deepslate_bricks",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_brick_slab"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:stone/deepslate_brick_slab"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/stone/deepslate_brick_slab"
   }
+}

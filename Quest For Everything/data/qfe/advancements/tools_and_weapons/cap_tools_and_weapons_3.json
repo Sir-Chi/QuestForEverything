@@ -1,8 +1,8 @@
 {
-    "parent": "qfe:tools_and_weapons/golden_boots",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
-      }
+  "parent": "qfe:tools_and_weapons/recovery_compass",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
   }
+}

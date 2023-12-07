@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:polished_blackstone_wall"
-      },
-      "title": "Polished Blackstone Wall",
-      "description": "Obtain Polished Blackstone Wall",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_blackstone_wall"
     },
-    "parent": "qfe:nether/polished_blackstone_stairs",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:polished_blackstone_wall"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Polished Blackstone Wall",
+    "description": "Obtain Polished Blackstone Wall",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nether/polished_blackstone_stairs",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone_wall"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nether/polished_blackstone_wall"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nether/polished_blackstone_wall"
   }
+}

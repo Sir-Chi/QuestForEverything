@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'spore_blossom', 'item':'minecraft:spore_blossom'}

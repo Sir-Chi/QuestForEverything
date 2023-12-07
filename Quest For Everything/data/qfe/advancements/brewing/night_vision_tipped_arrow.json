@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:tipped_arrow",
-        "nbt": "{Potion:'minecraft:night_vision'}"
-      },
-      "title": "Arrow of Night Vision",
-      "description": "Night Vision (0:22)",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:tipped_arrow",
+      "nbt": "{Potion:\"minecraft:night_vision\"}"
     },
-    "parent": "qfe:brewing/night_vision_lingering_potion",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:tipped_arrow"],
-              "potion": "minecraft:night_vision",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Arrow of Night Vision",
+    "description": "Night Vision (0:22)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/night_vision_lingering_potion",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tipped_arrow"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "potion": "minecraft:night_vision"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/night_vision_tipped_arrow"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/night_vision_tipped_arrow"
   }
+}

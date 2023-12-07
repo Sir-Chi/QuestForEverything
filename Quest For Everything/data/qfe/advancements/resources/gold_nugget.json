@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:gold_nugget"
-      },
-      "title": "Gold Nugget",
-      "description": "Obtain Gold Nugget",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_nugget"
     },
-    "parent": "qfe:resources/gold_block",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:gold_nugget"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Gold Nugget",
+    "description": "Obtain Gold Nugget",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:resources/gold_block",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_nugget"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:resources/gold_nugget"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/resources/gold_nugget"
   }
+}

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:pink_dye"
-      },
-      "title": "Pink Dye",
-      "description": "Obtain Pink Dye",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_dye"
     },
-    "parent": "qfe:manufactured/magenta_dye",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:pink_dye"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Pink Dye",
+    "description": "Obtain Pink Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/magenta_dye",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_dye"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/pink_dye"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/manufactured/pink_dye"
   }
+}

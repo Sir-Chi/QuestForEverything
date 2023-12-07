@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:birch_log"
-      },
-      "title": "Birch Log",
-      "description": "Obtain Birch Log",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:birch_log"
     },
-    "parent": "qfe:wood/birch_leaves",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:birch_log"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Birch Log",
+    "description": "Obtain Birch Log",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/birch_leaves",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_log"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wood/birch_log"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wood/birch_log"
   }
+}

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:deepslate_gold_ore"
-      },
-      "title": "Deepslate Gold Ore",
-      "description": "Obtain Deepslate Gold Ore",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_gold_ore"
     },
-    "parent": "qfe:resources/gold_ore",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:deepslate_gold_ore"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Deepslate Gold Ore",
+    "description": "Obtain Deepslate Gold Ore",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:resources/gold_ore",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_gold_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:resources/deepslate_gold_ore"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/resources/deepslate_gold_ore"
   }
+}

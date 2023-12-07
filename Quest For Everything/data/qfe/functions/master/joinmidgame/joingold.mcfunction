@@ -1,5 +1,0 @@
-team join gold @a[scores={teams=7}]
-execute if score GoldTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=gold] run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Gold Team"}'}
-execute if score GoldTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=gold] run team join gold GoldTeam
-execute if score GoldTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=gold] run scoreboard players add GoldTeam score 0
-execute if score GoldTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=gold] run scoreboard players set GoldTeam teamactive 1

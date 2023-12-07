@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'disc_fragment_5', 'item':'minecraft:disc_fragment_5'}

@@ -1,8 +1,0 @@
-{
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "type": "minecraft:area_effect_cloud",
-      "nbt": "{Tags:['black_banner','black_bed','black_carpet','black_wool','blue_banner','blue_bed','blue_carpet','blue_wool','brown_banner','brown_bed','brown_carpet','brown_wool','cyan_banner','cyan_bed','cyan_carpet','cyan_wool','gray_banner','gray_bed','gray_carpet','gray_wool','green_banner','green_bed','green_carpet','green_wool','light_blue_banner','light_blue_bed','light_blue_carpet','light_blue_wool','light_gray_banner','light_gray_bed','light_gray_carpet','light_gray_wool','lime_banner','lime_bed','lime_carpet','lime_wool','magenta_banner','magenta_bed','magenta_carpet','magenta_wool','orange_banner','orange_bed','orange_carpet','orange_wool','pink_banner','pink_bed','pink_carpet','pink_wool','purple_banner','purple_bed','purple_carpet','purple_wool','red_banner','red_bed','red_carpet','red_wool','white_banner','white_bed','white_carpet','white_wool','yellow_banner','yellow_bed','yellow_carpet','yellow_wool']}"
-    }
-  }

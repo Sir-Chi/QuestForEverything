@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'oxidized_cut_copper_stairs', 'item':'minecraft:oxidized_cut_copper_stairs'}

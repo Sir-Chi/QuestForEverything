@@ -1,8 +1,8 @@
 {
-    "parent": "qfe:agriculture/tropical_fish",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
-      }
+  "parent": "qfe:agriculture/tropical_fish",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
   }
+}

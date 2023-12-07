@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:brown_glazed_terracotta"
-      },
-      "title": "Brown Glazed Terracotta",
-      "description": "Obtain Brown Glazed Terracotta",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_glazed_terracotta"
     },
-    "parent": "qfe:terracotta_and_concrete/pink_glazed_terracotta",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:brown_glazed_terracotta"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Brown Glazed Terracotta",
+    "description": "Obtain Brown Glazed Terracotta",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:terracotta_and_concrete/pink_glazed_terracotta",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_glazed_terracotta"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:terracotta_and_concrete/brown_glazed_terracotta"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/terracotta_and_concrete/brown_glazed_terracotta"
   }
+}

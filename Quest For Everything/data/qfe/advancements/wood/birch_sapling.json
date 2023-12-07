@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:birch_sapling"
-      },
-      "title": "Birch Sapling",
-      "description": "Obtain Birch Sapling",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:birch_sapling"
     },
-    "parent": "qfe:wood/root",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:birch_sapling"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Birch Sapling",
+    "description": "Obtain Birch Sapling",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_sapling"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wood/birch_sapling"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wood/birch_sapling"
   }
+}

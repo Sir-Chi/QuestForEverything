@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'skeleton_skull', 'item':'minecraft:skeleton_skull'}

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'echo_shard', 'item':'minecraft:echo_shard'}

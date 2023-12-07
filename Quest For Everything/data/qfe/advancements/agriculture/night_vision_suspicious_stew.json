@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:suspicious_stew",
-        "nbt": "{Effects:[{EffectId:16}]}"
-      },
-      "title": "Suspicious Stew",
-      "description": "Night Vision",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{effects:[{id:\"minecraft:night_vision\"}]}"
     },
-    "parent": "qfe:agriculture/regeneration_suspicious_stew",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:suspicious_stew"],
-              "nbt": "{Effects:[{EffectId:16}]}",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Suspicious Stew",
+    "description": "Night Vision",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:agriculture/regeneration_suspicious_stew",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:suspicious_stew"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "nbt": "{effects:[{id:\"minecraft:night_vision\"}]}"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:agriculture/night_vision_suspicious_stew"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/agriculture/night_vision_suspicious_stew"
   }
+}

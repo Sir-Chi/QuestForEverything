@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:orange_carpet"
-      },
-      "title": "Orange Carpet",
-      "description": "Obtain Orange Carpet",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_carpet"
     },
-    "parent": "qfe:wool/red_carpet",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:orange_carpet"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Orange Carpet",
+    "description": "Obtain Orange Carpet",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wool/red_carpet",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_carpet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wool/orange_carpet"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wool/orange_carpet"
   }
+}

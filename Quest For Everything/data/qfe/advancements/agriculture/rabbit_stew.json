@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:rabbit_stew"
-      },
-      "title": "Rabbit Stew",
-      "description": "Obtain Rabbit Stew",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_stew"
     },
-    "parent": "qfe:agriculture/cooked_rabbit",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:rabbit_stew"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Rabbit Stew",
+    "description": "Obtain Rabbit Stew",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:agriculture/cooked_rabbit",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_stew"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:agriculture/rabbit_stew"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/agriculture/rabbit_stew"
   }
+}

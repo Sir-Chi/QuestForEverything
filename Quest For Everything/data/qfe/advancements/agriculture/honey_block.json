@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:honey_block"
-      },
-      "title": "Honey Block",
-      "description": "Obtain Honey Block",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_block"
     },
-    "parent": "qfe:agriculture/honey_bottle",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:honey_block"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Honey Block",
+    "description": "Obtain Honey Block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:agriculture/honey_bottle",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honey_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:agriculture/honey_block"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/agriculture/honey_block"
   }
+}

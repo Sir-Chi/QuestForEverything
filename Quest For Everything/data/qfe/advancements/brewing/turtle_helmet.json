@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:turtle_helmet"
-      },
-      "title": "Turtle Shell",
-      "description": "Obtain Turtle Shell",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:turtle_helmet"
     },
-    "parent": "qfe:brewing/root",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:turtle_helmet"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Turtle Shell",
+    "description": "Obtain Turtle Shell",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:turtle_helmet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/turtle_helmet"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/turtle_helmet"
   }
+}

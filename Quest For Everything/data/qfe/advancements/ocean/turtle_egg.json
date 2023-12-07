@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:turtle_egg"
-      },
-      "title": "Turtle Egg",
-      "description": "Obtain Turtle Egg",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:turtle_egg"
     },
-    "parent": "qfe:ocean/tadpole_bucket",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:turtle_egg"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Turtle Egg",
+    "description": "Obtain Turtle Egg",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:ocean/tadpole_bucket",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:turtle_egg"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:ocean/turtle_egg"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/ocean/turtle_egg"
   }
+}

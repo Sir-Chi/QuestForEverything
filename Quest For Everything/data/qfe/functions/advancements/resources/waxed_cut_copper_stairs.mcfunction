@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'waxed_cut_copper_stairs', 'item':'minecraft:waxed_cut_copper_stairs'}

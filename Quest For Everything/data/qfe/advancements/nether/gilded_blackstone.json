@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:gilded_blackstone"
-      },
-      "title": "Gilded Blackstone",
-      "description": "Obtain Gilded Blackstone",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:gilded_blackstone"
     },
-    "parent": "qfe:nether/blackstone_wall",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:gilded_blackstone"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Gilded Blackstone",
+    "description": "Obtain Gilded Blackstone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nether/blackstone_wall",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gilded_blackstone"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nether/gilded_blackstone"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nether/gilded_blackstone"
   }
+}

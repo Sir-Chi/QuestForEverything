@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:weeping_vines"
-      },
-      "title": "Weeping Vines",
-      "description": "Obtain Weeping Vines",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:weeping_vines"
     },
-    "parent": "qfe:nether/crimson_roots",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:weeping_vines"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Weeping Vines",
+    "description": "Obtain Weeping Vines",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nether/crimson_roots",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:weeping_vines"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nether/weeping_vines"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nether/weeping_vines"
   }
+}

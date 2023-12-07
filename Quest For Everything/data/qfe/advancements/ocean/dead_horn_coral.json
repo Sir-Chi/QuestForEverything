@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:dead_horn_coral"
-      },
-      "title": "Dead Horn Coral",
-      "description": "Obtain Dead Horn Coral",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:dead_horn_coral"
     },
-    "parent": "qfe:ocean/horn_coral",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:dead_horn_coral"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Dead Horn Coral",
+    "description": "Obtain Dead Horn Coral",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:ocean/horn_coral",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dead_horn_coral"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:ocean/dead_horn_coral"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/ocean/dead_horn_coral"
   }
+}

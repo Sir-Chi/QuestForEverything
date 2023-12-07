@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:purple_carpet"
-      },
-      "title": "Purple Carpet",
-      "description": "Obtain Purple Carpet",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_carpet"
     },
-    "parent": "qfe:wool/blue_carpet",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:purple_carpet"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Purple Carpet",
+    "description": "Obtain Purple Carpet",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wool/blue_carpet",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_carpet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wool/purple_carpet"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wool/purple_carpet"
   }
+}

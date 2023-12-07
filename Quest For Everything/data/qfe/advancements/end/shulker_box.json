@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:shulker_box"
-      },
-      "title": "Shulker Box",
-      "description": "Obtain Shulker Box",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_box"
     },
-    "parent": "qfe:end/shulker_shell",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:shulker_box"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Shulker Box",
+    "description": "Obtain Shulker Box",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:end/shulker_shell",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shulker_box"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:end/shulker_box"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/end/shulker_box"
   }
+}

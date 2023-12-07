@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:cooked_rabbit"
-      },
-      "title": "Cooked Rabbit",
-      "description": "Obtain Cooked Rabbit",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_rabbit"
     },
-    "parent": "qfe:agriculture/rabbit",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:cooked_rabbit"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Cooked Rabbit",
+    "description": "Obtain Cooked Rabbit",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:agriculture/rabbit",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_rabbit"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:agriculture/cooked_rabbit"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/agriculture/cooked_rabbit"
   }
+}

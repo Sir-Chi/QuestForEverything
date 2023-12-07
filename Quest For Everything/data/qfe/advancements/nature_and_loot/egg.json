@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:egg"
-      },
-      "title": "Egg",
-      "description": "Obtain Egg",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
     },
-    "parent": "qfe:nature_and_loot/feather",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:egg"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Egg",
+    "description": "Obtain Egg",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nature_and_loot/feather",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:egg"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nature_and_loot/egg"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nature_and_loot/egg"
   }
+}

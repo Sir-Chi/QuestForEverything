@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:blue_carpet"
-      },
-      "title": "Blue Carpet",
-      "description": "Obtain Blue Carpet",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_carpet"
     },
-    "parent": "qfe:wool/light_blue_carpet",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:blue_carpet"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Blue Carpet",
+    "description": "Obtain Blue Carpet",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wool/light_blue_carpet",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_carpet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wool/blue_carpet"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wool/blue_carpet"
   }
+}

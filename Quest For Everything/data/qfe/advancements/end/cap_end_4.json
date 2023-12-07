@@ -1,8 +1,8 @@
 {
-    "parent": "qfe:end/elytra",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
-      }
+  "parent": "qfe:end/white_shulker_box",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
   }
+}

@@ -1,8 +1,8 @@
 {
-    "parent": "qfe:wood/bamboo_chest_raft",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
-      }
+  "parent": "qfe:wood/spruce_chest_boat",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
   }
+}

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:stripped_warped_stem"
-      },
-      "title": "Stripped Warped Stem",
-      "description": "Obtain Stripped Warped Stem",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:stripped_warped_stem"
     },
-    "parent": "qfe:nether/warped_stem",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:stripped_warped_stem"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Stripped Warped Stem",
+    "description": "Obtain Stripped Warped Stem",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nether/warped_stem",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_warped_stem"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nether/stripped_warped_stem"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nether/stripped_warped_stem"
   }
+}

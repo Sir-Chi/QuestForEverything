@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:acacia_fence_gate"
-      },
-      "title": "Acacia Fence Gate",
-      "description": "Obtain Acacia Fence Gate",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:acacia_fence_gate"
     },
-    "parent": "qfe:wood/acacia_fence",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:acacia_fence_gate"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Acacia Fence Gate",
+    "description": "Obtain Acacia Fence Gate",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/acacia_fence",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_fence_gate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wood/acacia_fence_gate"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wood/acacia_fence_gate"
   }
+}

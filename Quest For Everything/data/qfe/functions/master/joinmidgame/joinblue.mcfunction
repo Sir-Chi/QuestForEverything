@@ -1,5 +1,0 @@
-team join blue @a[scores={teams=1}]
-execute if score BlueTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=blue] run summon area_effect_cloud 0 80 0 {NoGravity:1b,Duration:2000000000,CustomName:'{"text":"Blue Team"}'}
-execute if score BlueTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=blue] run team join blue BlueTeam
-execute if score BlueTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=blue] run scoreboard players add BlueTeam score 0
-execute if score BlueTeam teamactive matches 0 if score Teams GameSetup matches 1 if score oneItemPerPerson GameSetup matches 0 as @p[team=blue] run scoreboard players set BlueTeam teamactive 1

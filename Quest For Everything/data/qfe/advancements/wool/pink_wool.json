@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:pink_wool"
-      },
-      "title": "Pink Wool",
-      "description": "Obtain Pink Wool",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_wool"
     },
-    "parent": "qfe:wool/magenta_wool",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:pink_wool"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Pink Wool",
+    "description": "Obtain Pink Wool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wool/magenta_wool",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_wool"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wool/pink_wool"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wool/pink_wool"
   }
+}

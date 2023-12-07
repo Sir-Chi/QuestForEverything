@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'emerald_ore', 'item':'minecraft:emerald_ore'}

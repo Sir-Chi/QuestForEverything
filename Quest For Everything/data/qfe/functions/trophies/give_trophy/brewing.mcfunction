@@ -1,0 +1,2 @@
+tag @s add trophy_brewing
+give @s minecraft:player_head{display:{Name:'{"text":"Trophy - Brewing"}'},SkullOwner:{Id:[I;-384032985,1094467713,-1688846213,1298347843],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ4YTE5Y2RmNDJkNzQ4YjQxYjcyZmI0Mzc2YWUzZjYzYzExNjVkMmRjZTA2NTE3MzNkZjI2MzQ0NmM3N2JhNiJ9fX0="}]}},BlockEntityTag:{note_block_sound:"minecraft:block.brewing_stand.brew"}} 1

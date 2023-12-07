@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:potion",
-        "nbt": "{Potion:'minecraft:water'}"
-      },
-      "title": "Water Bottle",
-      "description": "Obtain Water Bottle",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
     },
-    "parent": "qfe:brewing/glass_bottle",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-                "items": ["minecraft:potion"],
-                "potion": "minecraft:water",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Water Bottle",
+    "description": "Obtain Water Bottle",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/glass_bottle",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "potion": "minecraft:water"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/water_bottle"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/water_bottle"
   }
+}

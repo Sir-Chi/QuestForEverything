@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:mangrove_trapdoor"
-      },
-      "title": "Mangrove Trapdoor",
-      "description": "Obtain Mangrove Trapdoor",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:mangrove_trapdoor"
     },
-    "parent": "qfe:wood/mangrove_pressure_plate",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:mangrove_trapdoor"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Mangrove Trapdoor",
+    "description": "Obtain Mangrove Trapdoor",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/mangrove_pressure_plate",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_trapdoor"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wood/mangrove_trapdoor"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wood/mangrove_trapdoor"
   }
+}

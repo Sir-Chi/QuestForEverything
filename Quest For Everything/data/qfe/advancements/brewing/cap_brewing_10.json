@@ -1,8 +1,8 @@
 {
-    "parent": "qfe:brewing/strong_strength_tipped_arrow",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
-      }
+  "parent": "qfe:brewing/long_night_vision_tipped_arrow",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
   }
+}

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:mossy_stone_brick_slab"
-      },
-      "title": "Mossy Stone Brick Slab",
-      "description": "Obtain Mossy Stone Brick Slab",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:mossy_stone_brick_slab"
     },
-    "parent": "qfe:stone/mossy_stone_bricks",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:mossy_stone_brick_slab"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Mossy Stone Brick Slab",
+    "description": "Obtain Mossy Stone Brick Slab",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:stone/mossy_stone_bricks",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mossy_stone_brick_slab"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:stone/mossy_stone_brick_slab"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/stone/mossy_stone_brick_slab"
   }
+}

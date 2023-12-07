@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:purple_shulker_box"
-      },
-      "title": "Purple Shulker Box",
-      "description": "Obtain Purple Shulker Box",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_shulker_box"
     },
-    "parent": "qfe:end/blue_shulker_box",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:purple_shulker_box"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Purple Shulker Box",
+    "description": "Obtain Purple Shulker Box",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:end/blue_shulker_box",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_shulker_box"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:end/purple_shulker_box"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/end/purple_shulker_box"
   }
+}

@@ -1,0 +1,2 @@
+tag @s add trophy_end
+give @s minecraft:player_head{display:{Name:'{"text":"Trophy - End"}'},SkullOwner:{Id:[I;2058693373,-345421963,-1990497271,1334914587],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTJkZmI0YjBmZWQxODI3YWRhMjkyZmU5MTdmY2E2YWM4MDBhZmNmNTZmOGU0YTI5MGIyYmQ5Y2FhM2ExMmMzNiJ9fX0="}]}},BlockEntityTag:{note_block_sound:"minecraft:block.end_portal_frame.fill"}} 1

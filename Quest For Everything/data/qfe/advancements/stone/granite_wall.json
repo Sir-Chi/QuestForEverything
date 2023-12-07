@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:granite_wall"
-      },
-      "title": "Granite Wall",
-      "description": "Obtain Granite Wall",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:granite_wall"
     },
-    "parent": "qfe:stone/granite_stairs",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:granite_wall"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Granite Wall",
+    "description": "Obtain Granite Wall",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:stone/granite_stairs",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:granite_wall"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:stone/granite_wall"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/stone/granite_wall"
   }
+}

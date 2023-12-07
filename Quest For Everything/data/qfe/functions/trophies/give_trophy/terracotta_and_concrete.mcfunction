@@ -1,0 +1,2 @@
+tag @s add trophy_terracotta_and_concrete
+give @s minecraft:player_head{display:{Name:'{"text":"Trophy - Terracotta & Concrete"}'},SkullOwner:{Id:[I;536928860,-923448669,-1266304442,-2001152902],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJkNWZlZmUyMGRhZjMxYzIzOGVlMjI3ZGQxNDE4MjdhZGE1ZWY4NDgyZDhkMzU3YmJlNWE3Y2Y0MGFmODUifX19"}]}},BlockEntityTag:{note_block_sound:"minecraft:block.stone.break"}} 1

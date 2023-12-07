@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:gray_wool"
-      },
-      "title": "Gray Wool",
-      "description": "Obtain Gray Wool",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:gray_wool"
     },
-    "parent": "qfe:wool/black_wool",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:gray_wool"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Gray Wool",
+    "description": "Obtain Gray Wool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wool/black_wool",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_wool"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wool/gray_wool"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wool/gray_wool"
   }
+}

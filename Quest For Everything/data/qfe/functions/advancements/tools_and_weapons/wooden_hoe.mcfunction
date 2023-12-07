@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'wooden_hoe', 'item':'minecraft:wooden_hoe'}

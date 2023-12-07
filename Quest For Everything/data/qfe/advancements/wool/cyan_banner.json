@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:cyan_banner"
-      },
-      "title": "Cyan Banner",
-      "description": "Obtain Cyan Banner",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:cyan_banner"
     },
-    "parent": "qfe:wool/green_banner",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:cyan_banner"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Cyan Banner",
+    "description": "Obtain Cyan Banner",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wool/green_banner",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_banner"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wool/cyan_banner"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wool/cyan_banner"
   }
+}

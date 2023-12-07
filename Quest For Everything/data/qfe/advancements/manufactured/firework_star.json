@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:firework_star"
-      },
-      "title": "Firework Star",
-      "description": "Obtain Firework Star",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_star"
     },
-    "parent": "qfe:manufactured/fire_charge",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:firework_star"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Firework Star",
+    "description": "Obtain Firework Star",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/fire_charge",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:firework_star"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/firework_star"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/manufactured/firework_star"
   }
+}

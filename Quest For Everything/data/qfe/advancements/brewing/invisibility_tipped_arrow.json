@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:tipped_arrow",
-        "nbt": "{Potion:'minecraft:invisibility'}"
-      },
-      "title": "Arrow of Invisibility",
-      "description": "Invisibility (0:22)",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:tipped_arrow",
+      "nbt": "{Potion:\"minecraft:invisibility\"}"
     },
-    "parent": "qfe:brewing/invisibility_lingering_potion",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:tipped_arrow"],
-              "potion": "minecraft:invisibility",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Arrow of Invisibility",
+    "description": "Invisibility (0:22)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/invisibility_lingering_potion",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tipped_arrow"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "potion": "minecraft:invisibility"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/invisibility_tipped_arrow"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/invisibility_tipped_arrow"
   }
+}

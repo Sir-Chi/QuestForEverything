@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:lime_candle"
-      },
-      "title": "Lime Candle",
-      "description": "Obtain Lime Candle",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:lime_candle"
     },
-    "parent": "qfe:manufactured/yellow_candle",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:lime_candle"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Lime Candle",
+    "description": "Obtain Lime Candle",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/yellow_candle",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_candle"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/lime_candle"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/manufactured/lime_candle"
   }
+}

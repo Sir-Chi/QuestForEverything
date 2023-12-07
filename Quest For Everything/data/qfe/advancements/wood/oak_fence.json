@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:oak_fence"
-      },
-      "title": "Oak Fence",
-      "description": "Obtain Oak Fence",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_fence"
     },
-    "parent": "qfe:wood/oak_stairs",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:oak_fence"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Oak Fence",
+    "description": "Obtain Oak Fence",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/oak_stairs",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_fence"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wood/oak_fence"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wood/oak_fence"
   }
+}

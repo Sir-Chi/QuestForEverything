@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:smooth_stone"
-      },
-      "title": "Smooth Stone",
-      "description": "Obtain Smooth Stone",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:smooth_stone"
     },
-    "parent": "qfe:stone/stone_button",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:smooth_stone"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Smooth Stone",
+    "description": "Obtain Smooth Stone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:stone/stone_button",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_stone"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:stone/smooth_stone"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/stone/smooth_stone"
   }
+}

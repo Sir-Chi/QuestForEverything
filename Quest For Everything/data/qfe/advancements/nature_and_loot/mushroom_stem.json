@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:mushroom_stem"
-      },
-      "title": "Mushroom Stem",
-      "description": "Obtain Mushroom Stem",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:mushroom_stem"
     },
-    "parent": "qfe:nature_and_loot/brown_mushroom_block",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:mushroom_stem"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Mushroom Stem",
+    "description": "Obtain Mushroom Stem",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nature_and_loot/brown_mushroom_block",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mushroom_stem"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nature_and_loot/mushroom_stem"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nature_and_loot/mushroom_stem"
   }
+}

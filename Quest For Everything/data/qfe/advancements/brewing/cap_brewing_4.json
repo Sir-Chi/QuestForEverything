@@ -1,8 +1,8 @@
 {
-    "parent": "qfe:brewing/long_fire_resistance_tipped_arrow",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
-      }
+  "parent": "qfe:brewing/strong_regeneration_tipped_arrow",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
   }
+}

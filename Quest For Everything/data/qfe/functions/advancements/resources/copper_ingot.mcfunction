@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'copper_ingot', 'item':'minecraft:copper_ingot'}

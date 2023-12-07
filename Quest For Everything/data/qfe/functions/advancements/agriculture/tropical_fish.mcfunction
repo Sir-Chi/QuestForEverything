@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'tropical_fish', 'item':'minecraft:tropical_fish'}

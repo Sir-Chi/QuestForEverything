@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:torchflower_seeds"
-      },
-      "title": "Torchflower Seeds",
-      "description": "Obtain Torchflower Seeds",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:torchflower_seeds"
     },
-    "parent": "qfe:agriculture/jack_o_lantern",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:torchflower_seeds"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Torchflower Seeds",
+    "description": "Obtain Torchflower Seeds",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:agriculture/jack_o_lantern",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:torchflower_seeds"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:agriculture/torchflower_seeds"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/agriculture/torchflower_seeds"
   }
+}

@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:suspicious_stew",
-        "nbt": "{Effects:[{EffectId:15}]}"
-      },
-      "title": "Suspicious Stew",
-      "description": "Blindness",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{effects:[{id:\"minecraft:blindness\"}]}"
     },
-    "parent": "qfe:agriculture/fire_resistance_suspicious_stew",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:suspicious_stew"],
-              "nbt": "{Effects:[{EffectId:15}]}",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Suspicious Stew",
+    "description": "Blindness",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:agriculture/fire_resistance_suspicious_stew",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:suspicious_stew"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "nbt": "{effects:[{id:\"minecraft:blindness\"}]}"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:agriculture/blindness_suspicious_stew"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/agriculture/blindness_suspicious_stew"
   }
+}

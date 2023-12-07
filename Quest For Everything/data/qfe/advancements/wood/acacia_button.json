@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:acacia_button"
-      },
-      "title": "Acacia Button",
-      "description": "Obtain Acacia Button",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:acacia_button"
     },
-    "parent": "qfe:wood/acacia_door",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:acacia_button"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Acacia Button",
+    "description": "Obtain Acacia Button",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/acacia_door",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_button"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wood/acacia_button"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wood/acacia_button"
   }
+}

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:bubble_coral_block"
-      },
-      "title": "Bubble Coral Block",
-      "description": "Obtain Bubble Coral Block",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:bubble_coral_block"
     },
-    "parent": "qfe:ocean/sea_pickle",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:bubble_coral_block"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Bubble Coral Block",
+    "description": "Obtain Bubble Coral Block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:ocean/sea_pickle",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bubble_coral_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:ocean/bubble_coral_block"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/ocean/bubble_coral_block"
   }
+}

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:quartz_stairs"
-      },
-      "title": "Quartz Stairs",
-      "description": "Obtain Quartz Stairs",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:quartz_stairs"
     },
-    "parent": "qfe:nether/quartz_slab",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:quartz_stairs"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Quartz Stairs",
+    "description": "Obtain Quartz Stairs",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nether/quartz_slab",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_stairs"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nether/quartz_stairs"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nether/quartz_stairs"
   }
+}

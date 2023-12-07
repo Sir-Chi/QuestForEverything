@@ -1,35 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:tipped_arrow",
-        "nbt": "{Potion:'minecraft:strong_slowness'}"
-      },
-      "title": "Arrow of Slowness",
-      "description": "Slowness IV (0:02)",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:tipped_arrow",
+      "nbt": "{Potion:\"minecraft:strong_slowness\"}"
     },
-    "parent": "qfe:brewing/strong_slowness_lingering_potion",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:tipped_arrow"],
-              "potion": "minecraft:strong_slowness",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Arrow of Slowness",
+    "description": "Slowness IV (0:02)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/strong_slowness_lingering_potion",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tipped_arrow"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "potion": "minecraft:strong_slowness"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:brewing/strong_slowness_tipped_arrow"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/brewing/strong_slowness_tipped_arrow"
   }
+}

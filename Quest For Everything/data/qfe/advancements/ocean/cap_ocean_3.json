@@ -1,8 +1,8 @@
 {
-    "parent": "qfe:ocean/conduit",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
-      }
+  "parent": "qfe:ocean/conduit",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
   }
+}

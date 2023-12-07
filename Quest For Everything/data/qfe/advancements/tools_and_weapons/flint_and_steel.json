@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:flint_and_steel"
-      },
-      "title": "Flint and Steel",
-      "description": "Obtain Flint and Steel",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:flint_and_steel"
     },
-    "parent": "qfe:tools_and_weapons/root",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:flint_and_steel"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Flint and Steel",
+    "description": "Obtain Flint and Steel",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:tools_and_weapons/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flint_and_steel"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:tools_and_weapons/flint_and_steel"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/tools_and_weapons/flint_and_steel"
   }
+}

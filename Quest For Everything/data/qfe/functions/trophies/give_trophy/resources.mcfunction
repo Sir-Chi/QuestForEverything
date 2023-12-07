@@ -1,0 +1,2 @@
+tag @s add trophy_resources
+give @s minecraft:player_head{display:{Name:'{"text":"Trophy - Resources"}'},SkullOwner:{Id:[I;1426565942,1667910976,-1488321183,1457897535],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk2MGQ2ZmZhZjQ0ZThhZmNiZGY4YjI5YTc3ZDg0Y2UyMmM3MWQwMGM2NGJmZDk5YWYzNDBhNjk1MzViZmQ3In19fQ=="}]}},BlockEntityTag:{note_block_sound:"minecraft:block.amethyst_block.chime"}} 1

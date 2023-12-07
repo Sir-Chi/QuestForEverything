@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_stem', 'item':'minecraft:crimson_stem'}

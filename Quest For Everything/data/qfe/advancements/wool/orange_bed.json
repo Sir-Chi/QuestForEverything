@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:orange_bed"
-      },
-      "title": "Orange Bed",
-      "description": "Obtain Orange Bed",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_bed"
     },
-    "parent": "qfe:wool/red_bed",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:orange_bed"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Orange Bed",
+    "description": "Obtain Orange Bed",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wool/red_bed",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_bed"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wool/orange_bed"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wool/orange_bed"
   }
+}

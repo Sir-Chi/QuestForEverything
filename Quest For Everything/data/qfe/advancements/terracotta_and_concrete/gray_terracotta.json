@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:gray_terracotta"
-      },
-      "title": "Gray Terracotta",
-      "description": "Obtain Gray Terracotta",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:gray_terracotta"
     },
-    "parent": "qfe:terracotta_and_concrete/black_terracotta",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:gray_terracotta"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Gray Terracotta",
+    "description": "Obtain Gray Terracotta",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:terracotta_and_concrete/black_terracotta",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_terracotta"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:terracotta_and_concrete/gray_terracotta"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/terracotta_and_concrete/gray_terracotta"
   }
+}

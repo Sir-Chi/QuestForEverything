@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:item_frame"
-      },
-      "title": "Item Frame",
-      "description": "Obtain Item Frame",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:item_frame"
     },
-    "parent": "qfe:manufactured/bowl",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:item_frame"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Item Frame",
+    "description": "Obtain Item Frame",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/bowl",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:item_frame"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:manufactured/item_frame"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/manufactured/item_frame"
   }
+}

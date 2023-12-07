@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:music_disc_5"
-      },
-      "title": "Music Disc - 5",
-      "description": "Obtain Music Disc - 5",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_5"
     },
-    "parent": "qfe:nature_and_loot/music_disc_otherside",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:music_disc_5"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Music Disc - 5",
+    "description": "Obtain Music Disc - 5",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nature_and_loot/music_disc_otherside",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_5"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:nature_and_loot/music_disc_5"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/nature_and_loot/music_disc_5"
   }
+}

@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:spruce_fence_gate"
-      },
-      "title": "Spruce Fence Gate",
-      "description": "Obtain Fence Gate",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_fence_gate"
     },
-    "parent": "qfe:wood/spruce_fence",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:spruce_fence_gate"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Spruce Fence Gate",
+    "description": "Obtain Fence Gate",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/spruce_fence",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_fence_gate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:wood/spruce_fence_gate"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/wood/spruce_fence_gate"
   }
+}

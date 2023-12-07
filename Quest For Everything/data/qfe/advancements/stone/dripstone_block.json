@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:dripstone_block"
-      },
-      "title": "Dripstone Block",
-      "description": "Obtain Dripstone Block",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:dripstone_block"
     },
-    "parent": "qfe:stone/tuff",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:dripstone_block"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Dripstone Block",
+    "description": "Obtain Dripstone Block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:stone/tuff",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dripstone_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:stone/dripstone_block"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/stone/dripstone_block"
   }
+}

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'eye_armor_trim_smithing_template', 'item':'minecraft:eye_armor_trim_smithing_template'}

@@ -1,34 +1,37 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:goat_horn"
-      },
-      "title": "Goat Horn - Seek",
-      "description": "Obtain Goat Horn - Seek",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:goat_horn",
+      "nbt": "{instrument:\"minecraft:seek_goat_horn\"}"
     },
-    "parent": "qfe:tools_and_weapons/goat_horn_sing",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:goat_horn"],
-              "nbt": "{instrument:\"minecraft:seek_goat_horn\"}",
-              "count": {
-                "min": 1,
-                "max": 64
-              }
-            }
-          ]
-        }
+    "title": "Goat Horn - Seek",
+    "description": "Obtain Goat Horn - Seek",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:tools_and_weapons/goat_horn_sing",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "nbt": "{instrument:\"minecraft:seek_goat_horn\"}"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:tools_and_weapons/goat_horn_seek"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/tools_and_weapons/goat_horn_seek"
   }
+}

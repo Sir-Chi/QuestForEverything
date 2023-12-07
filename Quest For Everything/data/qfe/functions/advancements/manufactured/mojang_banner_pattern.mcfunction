@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'mojang_banner_pattern', 'item':'minecraft:mojang_banner_pattern'}

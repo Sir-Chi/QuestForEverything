@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:cut_red_sandstone"
-      },
-      "title": "Cut Red Sandstone",
-      "description": "Obtain Cut Red Sandstone",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:cut_red_sandstone"
     },
-    "parent": "qfe:sand_and_glass/smooth_red_sandstone_stairs",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:cut_red_sandstone"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Cut Red Sandstone",
+    "description": "Obtain Cut Red Sandstone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:sand_and_glass/smooth_red_sandstone_stairs",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cut_red_sandstone"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:sand_and_glass/cut_red_sandstone"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/sand_and_glass/cut_red_sandstone"
   }
+}

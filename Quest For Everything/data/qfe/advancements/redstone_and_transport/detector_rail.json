@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:detector_rail"
-      },
-      "title": "Detector Rail",
-      "description": "Obtain Detector Rail",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:detector_rail"
     },
-    "parent": "qfe:redstone_and_transport/powered_rail",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:detector_rail"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Detector Rail",
+    "description": "Obtain Detector Rail",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:redstone_and_transport/powered_rail",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:detector_rail"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:redstone_and_transport/detector_rail"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/redstone_and_transport/detector_rail"
   }
+}

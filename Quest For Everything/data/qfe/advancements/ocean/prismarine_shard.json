@@ -1,33 +1,35 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:prismarine_shard"
-      },
-      "title": "Prismarine Shard",
-      "description": "Obtain Prismarine Shard",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_shard"
     },
-    "parent": "qfe:ocean/root",
-    "criteria": {
-      "has_cobblestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:prismarine_shard"],
-              "count": {
-                "min": 1,
-                "max": 64
-              }
+    "title": "Prismarine Shard",
+    "description": "Obtain Prismarine Shard",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:ocean/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:prismarine_shard"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "qfe:ocean/prismarine_shard"
     }
+  },
+  "rewards": {
+    "function": "qfe:advancements/ocean/prismarine_shard"
   }
+}

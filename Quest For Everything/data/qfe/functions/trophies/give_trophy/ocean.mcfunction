@@ -1,0 +1,2 @@
+tag @s add trophy_ocean
+give @s minecraft:player_head{display:{Name:'{"text":"Trophy - Ocean"}'},SkullOwner:{Id:[I;1522064447,1838826504,-1792806733,201393392],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdiZjExMWQ2NzFiNTI3NzBkNmEyNGZkNzhjOGYwZTEwN2QzZjdjZmRmNjcxZDcyYjUzMjEwM2ZkOWVlOWI4OSJ9fX0="}]}},BlockEntityTag:{note_block_sound:"minecraft:entity.dolphin.splash"}} 1

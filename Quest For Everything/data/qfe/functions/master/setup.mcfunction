@@ -38,8 +38,8 @@ scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death
 
 scoreboard objectives add score dummy "Score"
-scoreboard players set _TotalToGet score 1319
-scoreboard players display name _TotalToGet score "Total To Get"
+scoreboard players set .TotalToGet score 1319
+scoreboard players display name .TotalToGet score "Total To Get"
 scoreboard players set #Leader score 0
 
 scoreboard objectives add SyncScore dummy "Sync Score"
@@ -56,35 +56,35 @@ scoreboard players set hours time 0
 scoreboard players set trackedminutes time 0
 
 scoreboard objectives add agriculture_score dummy "Agriculture Score"
-scoreboard players set _TotalToGet agriculture_score 63
+scoreboard players set .TotalToGet agriculture_score 63
 scoreboard objectives add brewing_score dummy "Brewing Score"
-scoreboard players set _TotalToGet brewing_score 178
+scoreboard players set .TotalToGet brewing_score 178
 scoreboard objectives add end_score dummy "End Score"
-scoreboard players set _TotalToGet end_score 35
+scoreboard players set .TotalToGet end_score 35
 scoreboard objectives add manufactured_score dummy "Manufactured Score"
-scoreboard players set _TotalToGet manufactured_score 103
+scoreboard players set .TotalToGet manufactured_score 103
 scoreboard objectives add nature_and_loot_score dummy "Nature & Loot Score"
-scoreboard players set _TotalToGet nature_and_loot_score 150
+scoreboard players set .TotalToGet nature_and_loot_score 150
 scoreboard objectives add nether_score dummy "Nether Score"
-scoreboard players set _TotalToGet nether_score 96
+scoreboard players set .TotalToGet nether_score 96
 scoreboard objectives add ocean_score dummy "Ocean Score"
-scoreboard players set _TotalToGet ocean_score 61
+scoreboard players set .TotalToGet ocean_score 61
 scoreboard objectives add redstone_and_transport_score dummy "Redstone & Transport Score"
-scoreboard players set _TotalToGet redstone_and_transport_score 34
+scoreboard players set .TotalToGet redstone_and_transport_score 34
 scoreboard objectives add resources_score dummy "Resources Score"
-scoreboard players set _TotalToGet resources_score 84
+scoreboard players set .TotalToGet resources_score 84
 scoreboard objectives add sand_and_glass_score dummy "Sand & Glass Score"
-scoreboard players set _TotalToGet sand_and_glass_score 57
+scoreboard players set .TotalToGet sand_and_glass_score 57
 scoreboard objectives add stone_score dummy "Stone Score"
-scoreboard players set _TotalToGet stone_score 70
+scoreboard players set .TotalToGet stone_score 70
 scoreboard objectives add terracotta_and_concrete_score dummy "Terracotta & Concrete Score"
-scoreboard players set _TotalToGet terracotta_and_concrete_score 65
+scoreboard players set .TotalToGet terracotta_and_concrete_score 65
 scoreboard objectives add tools_and_weapons_score dummy "Tools & Weapons Score"
-scoreboard players set _TotalToGet tools_and_weapons_score 88
+scoreboard players set .TotalToGet tools_and_weapons_score 88
 scoreboard objectives add wood_score dummy "Wood Score"
-scoreboard players set _TotalToGet wood_score 171
+scoreboard players set .TotalToGet wood_score 171
 scoreboard objectives add wool_score dummy "Wool Score"
-scoreboard players set _TotalToGet wool_score 64
+scoreboard players set .TotalToGet wool_score 64
 
 # data modify storage qfe:section_counts SectionItemCount.SectionCounts set value {agriculture: 63, brewing: 178, end: 35, manufactured: 103, nature_and_loot: 150, nether: 96, ocean: 61, redstone_and_transport: 34, resources: 84, sand_and_glass: 57, stone: 70, terracotta_and_concrete: 65, tools_and_weapons: 88, wood: 171, wool: 64}
 

@@ -31,7 +31,7 @@ scoreboard players set #lobbynumber GameSetup 0
 
 scoreboard players reset @e[type=marker] score
 scoreboard players reset @a score
-scoreboard players set _TotalToGet score 1319
+scoreboard players set .TotalToGet score 1319
 scoreboard players set #Leader score 0
 
 scoreboard players reset @a death

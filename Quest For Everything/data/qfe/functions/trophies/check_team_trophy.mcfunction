@@ -3,7 +3,7 @@
 # Parameters: section, team
 
 # Continue only if team's section item amount is all section items
-$execute if score @s $(section)_score < _TotalToGet $(section)_score run return 0
+$execute if score @s $(section)_score < .TotalToGet $(section)_score run return 0
 
 # Give team trophy tag
 $tag @s add trophy_$(section)

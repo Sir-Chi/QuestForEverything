@@ -1,6 +1,6 @@
-execute as @e[type=marker] if score @s score >= _TotalToGet score run tag @s add winner
-execute as @e[type=player] if score @s score >= _TotalToGet score run tag @s add winner
-execute as @e[tag=winner] if score @s score >= _TotalToGet score run function qfe:master/game_end/game_won
+execute as @e[type=marker] if score @s score >= .TotalToGet score run tag @s add winner
+execute as @e[type=player] if score @s score >= .TotalToGet score run tag @s add winner
+execute as @e[tag=winner] if score @s score >= .TotalToGet score run function qfe:master/game_end/game_won
 
 ##Calls The Game When A Set Time Is Reached
 execute if score trackedminutes time >= SetTime GameSetup run function qfe:master/game_end/win_condition_met

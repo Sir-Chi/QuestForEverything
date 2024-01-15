@@ -14,7 +14,6 @@ $execute if score takeItems GameSetup matches 1 run clear @s $(item) 1
 
 # Give all team players the advancement
 $advancement grant @a[team=$(team)] only qfe:$(section)/$(name)
-$scoreboard players add @a[team=$(team)] SyncScore 1
 
 # Check if last needed advancement for trophy
 $execute as @e[type=marker,tag=$(team),tag=!trophy_$(section),limit=1] run function qfe:trophies/check_team_trophy {section:$(section), team:$(team)}

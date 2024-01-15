@@ -12,6 +12,7 @@ gamerule doMobSpawning true
 gamerule doPatrolSpawning true
 gamerule fallDamage true
 gamerule doWeatherCycle true
+scoreboard players reset @a score
 
 ##Executes & Activates Chosen The Game Setups
 execute if score naturalRegeneration GameSetup matches 0 run gamerule naturalRegeneration false
@@ -22,6 +23,8 @@ execute in minecraft:the_end if score announceAdvancements GameSetup matches 0 r
 execute if score allRecipesUnlocked GameSetup matches 1 run recipe give @a *
 
 execute if score Teams GameSetup matches 0 run scoreboard players set @a[team=!spectator,team=!admin] score 0
+
+execute as @a[team=] if score Teams GameSetup matches 1 run tag @a[team=] remove joined
 
 summon marker 0 80 0 {Tags:["blue"],CustomName:'{"text":"Blue Team"}'}
 team join blue @e[type=marker,tag=blue]

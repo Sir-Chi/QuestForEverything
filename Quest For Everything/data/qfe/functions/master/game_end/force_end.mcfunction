@@ -34,6 +34,8 @@ scoreboard players reset @a score
 scoreboard players set .TotalToGet score 1319
 scoreboard players set #Leader score 0
 
+scoreboard objectives remove SyncScore
+
 scoreboard players reset @a death
 
 scoreboard objectives remove agriculture_score

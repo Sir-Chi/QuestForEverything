@@ -23,6 +23,8 @@ execute if score allRecipesUnlocked GameSetup matches 1 run recipe give @a *
 
 execute if score Teams GameSetup matches 0 run scoreboard players set @a[team=!spectator,team=!admin] score 0
 
+execute as @a[team=] if score Teams GameSetup matches 1 run tag @a[team=] remove joined
+
 summon marker 0 80 0 {Tags:["blue"],CustomName:'{"text":"Blue Team"}'}
 team join blue @e[type=marker,tag=blue]
 execute as @p[team=blue] if score Teams GameSetup matches 1 run scoreboard players add @e[type=marker,tag=blue] score 0

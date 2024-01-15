@@ -42,6 +42,7 @@ scoreboard players set .TotalToGet score 1319
 scoreboard players display name .TotalToGet score "Total To Get"
 scoreboard players set #Leader score 0
 
+scoreboard objectives remove SyncScore
 scoreboard objectives add SyncScore dummy "Sync Score"
 
 scoreboard objectives add teams trigger "Teams"

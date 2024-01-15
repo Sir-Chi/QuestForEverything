@@ -12,6 +12,7 @@ gamerule doMobSpawning true
 gamerule doPatrolSpawning true
 gamerule fallDamage true
 gamerule doWeatherCycle true
+scoreboard players reset @a score
 
 ##Executes & Activates Chosen The Game Setups
 execute if score naturalRegeneration GameSetup matches 0 run gamerule naturalRegeneration false

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stripped_crimson_hyphae"
+      "id": "minecraft:stripped_crimson_hyphae"
     },
     "title": "Stripped Crimson Hyphae",
     "description": "Obtain Stripped Crimson Hyphae",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:nautilus_shell"
+      "id": "minecraft:nautilus_shell"
     },
     "title": "Nautilus Shell",
     "description": "Obtain Nautilus Shell",

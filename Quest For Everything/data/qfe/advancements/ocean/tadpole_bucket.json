@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tadpole_bucket"
+      "id": "minecraft:tadpole_bucket"
     },
     "title": "Tadpole Bucket",
     "description": "Obtain Tadpole Bucket",

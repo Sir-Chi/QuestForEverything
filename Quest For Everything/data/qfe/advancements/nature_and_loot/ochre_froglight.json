@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ochre_froglight"
+      "id": "minecraft:ochre_froglight"
     },
     "title": "Ochre Froglight",
     "description": "Obtain Ochre Froglight",

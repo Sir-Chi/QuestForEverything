@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potato"
+      "id": "minecraft:potato"
     },
     "title": "Potato",
     "description": "Obtain Potato",

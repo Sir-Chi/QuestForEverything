@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:powder_snow_bucket"
+      "id": "minecraft:powder_snow_bucket"
     },
     "title": "Powder Snow Bucket",
     "description": "Obtain Powder Snow Bucket",

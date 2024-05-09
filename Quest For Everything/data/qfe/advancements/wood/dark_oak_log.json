@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dark_oak_log"
+      "id": "minecraft:dark_oak_log"
     },
     "title": "Dark Oak Log",
     "description": "Obtain Dark Oak Log",

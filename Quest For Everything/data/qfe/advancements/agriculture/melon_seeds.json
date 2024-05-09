@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:melon_seeds"
+      "id": "minecraft:melon_seeds"
     },
     "title": "Melon Seeds",
     "description": "Obtain Melon Seeds",

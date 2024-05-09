@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:furnace_minecart"
+      "id": "minecraft:furnace_minecart"
     },
-    "title": "Minecart with Furance",
-    "description": "Obtain Minecart with Furance",
+    "title": "Minecart with Furnace",
+    "description": "Obtain Minecart with Furnace",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

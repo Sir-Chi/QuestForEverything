@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tipped_arrow",
-      "nbt": "{Potion:\"minecraft:long_leaping\"}"
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_leaping"
+        }
+      }
     },
     "title": "Arrow of Leaping",
     "description": "Jump Boost (1:00)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:long_leaping"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:long_leaping"
+              }
+            }
           }
         ]
       }

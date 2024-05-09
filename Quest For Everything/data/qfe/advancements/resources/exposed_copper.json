@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:exposed_copper"
+      "id": "minecraft:exposed_copper"
     },
     "title": "Exposed Copper",
     "description": "Obtain Exposed Copper",

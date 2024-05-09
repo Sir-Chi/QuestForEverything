@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lily_pad"
+      "id": "minecraft:lily_pad"
     },
     "title": "Lily Pad",
     "description": "Obtain Lily Pad",

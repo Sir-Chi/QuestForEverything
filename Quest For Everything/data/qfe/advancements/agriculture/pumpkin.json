@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pumpkin"
+      "id": "minecraft:pumpkin"
     },
     "title": "Pumpkin",
     "description": "Obtain Pumpkin",

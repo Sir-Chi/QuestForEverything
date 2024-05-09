@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:oak_stairs"
+      "id": "minecraft:oak_stairs"
     },
     "title": "Oak Stairs",
     "description": "Obtain Oak Stairs",

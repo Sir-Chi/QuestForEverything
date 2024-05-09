@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:brown_dye"
+      "id": "minecraft:brown_dye"
     },
     "title": "Brown Dye",
     "description": "Obtain Brown Dye",

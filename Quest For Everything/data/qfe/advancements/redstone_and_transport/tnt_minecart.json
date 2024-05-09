@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tnt_minecart"
+      "id": "minecraft:tnt_minecart"
     },
     "title": "Minecart with TNT",
     "description": "Obtain Minecart with TNT",

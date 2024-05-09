@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:polished_basalt"
+      "id": "minecraft:polished_basalt"
     },
     "title": "Polished Basalt",
     "description": "Obtain Polished Basalt",

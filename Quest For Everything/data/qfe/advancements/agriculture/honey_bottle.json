@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:honey_bottle"
+      "id": "minecraft:honey_bottle"
     },
     "title": "Honey Bottle",
     "description": "Obtain Honey Bottle",

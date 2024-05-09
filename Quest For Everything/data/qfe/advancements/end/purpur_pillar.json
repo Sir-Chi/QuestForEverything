@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:purpur_pillar"
+      "id": "minecraft:purpur_pillar"
     },
     "title": "Purpur Pillar",
     "description": "Obtain Purpur Pillar",

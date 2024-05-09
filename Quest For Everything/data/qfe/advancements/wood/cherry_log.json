@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cherry_log"
+      "id": "minecraft:cherry_log"
     },
     "title": "Cherry Log",
     "description": "Obtain Cherry Log",

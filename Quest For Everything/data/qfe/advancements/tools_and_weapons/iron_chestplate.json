@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_chestplate"
+      "id": "minecraft:iron_chestplate"
     },
     "title": "Iron Chestplate",
     "description": "Obtain Iron Chestplate",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bamboo_mosaic"
+      "id": "minecraft:bamboo_mosaic"
     },
     "title": "Bamboo Mosaic",
     "description": "Obtain Bamboo Mosaic",

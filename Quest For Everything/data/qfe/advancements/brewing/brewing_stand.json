@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:brewing_stand"
+      "id": "minecraft:brewing_stand"
     },
     "title": "Brewing Stand",
     "description": "Obtain Brewing Stand",

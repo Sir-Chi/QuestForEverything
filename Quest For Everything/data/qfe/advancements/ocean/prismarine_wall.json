@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:prismarine_wall"
+      "id": "minecraft:prismarine_wall"
     },
     "title": "Prismarine Wall",
     "description": "Obtain Prismarine Wall",

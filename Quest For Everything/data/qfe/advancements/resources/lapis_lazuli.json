@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lapis_lazuli"
+      "id": "minecraft:lapis_lazuli"
     },
     "title": "Lapis Lazuli",
     "description": "Obtain Lapis Lazuli",

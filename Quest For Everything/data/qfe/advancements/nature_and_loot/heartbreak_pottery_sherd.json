@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:heartbreak_pottery_sherd"
+      "id": "minecraft:heartbreak_pottery_sherd"
     },
     "title": "Heartbreak Pottery Sherd",
     "description": "Obtain Heartbreak Pottery Sherd",

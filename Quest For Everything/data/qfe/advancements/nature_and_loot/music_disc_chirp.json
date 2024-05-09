@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:music_disc_chirp"
+      "id": "minecraft:music_disc_chirp"
     },
     "title": "Music Disc - Chirp",
     "description": "Obtain Music Disc - Chirp",

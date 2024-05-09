@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:glass_pane"
+      "id": "minecraft:glass_pane"
     },
     "title": "Glass Pane",
     "description": "Obtain Glass Pane",

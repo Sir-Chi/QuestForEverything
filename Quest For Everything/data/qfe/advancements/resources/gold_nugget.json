@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gold_nugget"
+      "id": "minecraft:gold_nugget"
     },
     "title": "Gold Nugget",
     "description": "Obtain Gold Nugget",

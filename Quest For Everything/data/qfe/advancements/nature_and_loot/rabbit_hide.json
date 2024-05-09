@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rabbit_hide"
+      "id": "minecraft:rabbit_hide"
     },
     "title": "Rabbit Hide",
     "description": "Obtain Rabbit Hide",

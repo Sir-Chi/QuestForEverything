@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:spore_blossom"
+      "id": "minecraft:spore_blossom"
     },
     "title": "Spore Blossom",
     "description": "Obtain Spore Blossom",

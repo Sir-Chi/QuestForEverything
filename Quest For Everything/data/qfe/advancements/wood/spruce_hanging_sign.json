@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:spruce_hanging_sign"
+      "id": "minecraft:spruce_hanging_sign"
     },
     "title": "Spruce Hanging Sign",
     "description": "Obtain Spruce Hanging Sign",

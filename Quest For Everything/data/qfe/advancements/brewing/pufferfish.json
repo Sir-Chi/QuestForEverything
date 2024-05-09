@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pufferfish"
+      "id": "minecraft:pufferfish"
     },
     "title": "Pufferfish",
     "description": "Obtain Pufferfish",

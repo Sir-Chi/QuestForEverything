@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:diorite"
+      "id": "minecraft:diorite"
     },
     "title": "Diorite",
     "description": "Obtain Diorite",

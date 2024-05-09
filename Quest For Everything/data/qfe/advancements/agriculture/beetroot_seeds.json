@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:beetroot_seeds"
+      "id": "minecraft:beetroot_seeds"
     },
     "title": "Beetroot Seeds",
     "description": "Obtain Beetroot Seeds",

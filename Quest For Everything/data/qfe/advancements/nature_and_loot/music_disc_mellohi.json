@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:music_disc_mellohi"
+      "id": "minecraft:music_disc_mellohi"
     },
     "title": "Music Disc - Mellohi",
     "description": "Obtain Music Disc - Mellohi",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cherry_fence_gate"
+      "id": "minecraft:cherry_fence_gate"
     },
     "title": "Cherry Fence Gate",
     "description": "Obtain Cherry Fence Gate",

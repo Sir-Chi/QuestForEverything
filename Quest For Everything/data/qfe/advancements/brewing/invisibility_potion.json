@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:invisibility\"}"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:invisibility"
+        }
+      }
     },
     "title": "Potion of Invisibility",
     "description": "Invisibility (3:00)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:invisibility"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:invisibility"
+              }
+            }
           }
         ]
       }

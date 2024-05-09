@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rail"
+      "id": "minecraft:rail"
     },
     "title": "Rail",
     "description": "Obtain Rail",

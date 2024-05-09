@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chicken"
+      "id": "minecraft:chicken"
     },
     "title": "Raw Chicken",
     "description": "Obtain Raw Chicken",

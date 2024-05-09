@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mangrove_trapdoor"
+      "id": "minecraft:mangrove_trapdoor"
     },
     "title": "Mangrove Trapdoor",
     "description": "Obtain Mangrove Trapdoor",

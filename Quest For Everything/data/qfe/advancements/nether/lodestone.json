@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lodestone"
+      "id": "minecraft:lodestone"
     },
     "title": "Lodestone",
     "description": "Obtain Lodestone",

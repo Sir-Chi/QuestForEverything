@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:copper_block"
+      "id": "minecraft:copper_block"
     },
     "title": "Block of Copper",
     "description": "Obtain Block of Copper",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "id": "minecraft:dark_oak_pressure_plate"
     },
     "title": "Dark Oak Pressure Plate",
     "description": "Dark Oak Pressure Plate",

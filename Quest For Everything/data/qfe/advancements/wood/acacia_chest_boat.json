@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:acacia_chest_boat"
+      "id": "minecraft:acacia_chest_boat"
     },
     "title": "Acacia Boat with Chest",
     "description": "Obtain Acacia Boat with Chest",

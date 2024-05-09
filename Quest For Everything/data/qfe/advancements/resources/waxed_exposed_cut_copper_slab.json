@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:waxed_exposed_cut_copper_slab"
+      "id": "minecraft:waxed_exposed_cut_copper_slab"
     },
     "title": "Waxed Exposed Cut Copper Slab",
     "description": "Obtain Waxed Exposed Cut Copper Slab",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:deepslate_tile_wall"
+      "id": "minecraft:deepslate_tile_wall"
     },
     "title": "Deepslate Tile Wall",
     "description": "Obtain Deepslate Tile Wall",

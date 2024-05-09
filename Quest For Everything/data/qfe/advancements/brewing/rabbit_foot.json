@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rabbit_foot"
+      "id": "minecraft:rabbit_foot"
     },
     "title": "Rabbit Foot",
     "description": "Obtain Rabbit Foot",

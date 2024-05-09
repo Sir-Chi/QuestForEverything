@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pitcher_plant"
+      "id": "minecraft:pitcher_plant"
     },
-    "title": "Pitcher Pod",
-    "description": "Obtain Pitcher Pod",
+    "title": "Pitcher Plant",
+    "description": "Obtain Pitcher Plant",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:magenta_banner"
+      "id": "minecraft:magenta_banner"
     },
     "title": "Magenta Banner",
     "description": "Obtain Magenta Banner",

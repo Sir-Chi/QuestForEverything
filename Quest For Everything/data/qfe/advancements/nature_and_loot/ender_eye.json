@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ender_eye"
+      "id": "minecraft:ender_eye"
     },
     "title": "Eye of Ender",
     "description": "Obtain Eye of Ender",

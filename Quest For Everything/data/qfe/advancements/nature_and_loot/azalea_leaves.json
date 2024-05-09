@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:azalea_leaves"
+      "id": "minecraft:azalea_leaves"
     },
     "title": "Azalea Leaves",
     "description": "Obtain Azalea Leaves",

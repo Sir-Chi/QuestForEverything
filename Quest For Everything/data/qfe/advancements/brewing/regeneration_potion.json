@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:regeneration\"}"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:regeneration"
+        }
+      }
     },
     "title": "Potion of Regeneration",
     "description": "Regeneration (0:45)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:regeneration"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:regeneration"
+              }
+            }
           }
         ]
       }

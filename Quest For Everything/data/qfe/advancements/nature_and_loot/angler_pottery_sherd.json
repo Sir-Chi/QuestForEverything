@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:angler_pottery_sherd"
+      "id": "minecraft:angler_pottery_sherd"
     },
     "title": "Angler Pottery Sherd",
     "description": "Obtain Angler Pottery Sherd",

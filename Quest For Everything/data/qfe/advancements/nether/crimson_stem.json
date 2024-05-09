@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crimson_stem"
+      "id": "minecraft:crimson_stem"
     },
     "title": "Crimson Stem",
     "description": "Obtain Crimson Stem",

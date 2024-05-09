@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lime_bed"
+      "id": "minecraft:lime_bed"
     },
     "title": "Lime Bed",
     "description": "Obtain Lime Bed",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_stem"
+      "id": "minecraft:warped_stem"
     },
     "title": "Warped Stem",
     "description": "Obtain Warped Stem",

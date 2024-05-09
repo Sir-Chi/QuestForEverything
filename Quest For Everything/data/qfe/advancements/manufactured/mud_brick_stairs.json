@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mud_brick_stairs"
+      "id": "minecraft:mud_brick_stairs"
     },
     "title": "Mud Brick Stairs",
     "description": "Obtain Mud Brick Stairs",

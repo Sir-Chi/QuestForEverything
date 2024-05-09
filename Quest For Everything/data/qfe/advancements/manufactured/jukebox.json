@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:jukebox"
+      "id": "minecraft:jukebox"
     },
     "title": "Jukebox",
     "description": "Obtain Jukebox",

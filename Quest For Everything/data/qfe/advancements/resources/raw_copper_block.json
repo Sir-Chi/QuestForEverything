@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:raw_copper_block"
+      "id": "minecraft:raw_copper_block"
     },
     "title": "Block of Raw Copper",
     "description": "Obtain Block of Raw Copper",

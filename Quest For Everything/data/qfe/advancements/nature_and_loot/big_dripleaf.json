@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:big_dripleaf"
+      "id": "minecraft:big_dripleaf"
     },
     "title": "Big Dripleaf",
     "description": "Obtain Big Dripleaf",

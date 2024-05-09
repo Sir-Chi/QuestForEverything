@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lingering_potion",
-      "nbt": "{Potion:\"minecraft:long_swiftness\"}"
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_swiftness"
+        }
+      }
     },
     "title": "Lingering of Swiftness",
     "description": "Speed (2:00)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:long_swiftness"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:long_swiftness"
+              }
+            }
           }
         ]
       }

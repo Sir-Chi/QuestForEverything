@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:raiser_armor_trim_smithing_template"
+      "id": "minecraft:raiser_armor_trim_smithing_template"
     },
     "title": "Raiser Armour Trim Smithing Template",
     "description": "Obtain Raiser Armour Trim Smithing Template",

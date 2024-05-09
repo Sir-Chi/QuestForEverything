@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lingering_potion",
-      "nbt": "{Potion:\"minecraft:healing\"}"
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:healing"
+        }
+      }
     },
     "title": "Lingering Potion of Healing",
     "description": "Instant Health",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:healing"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:healing"
+              }
+            }
           }
         ]
       }

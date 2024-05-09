@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tropical_fish"
+      "id": "minecraft:tropical_fish"
     },
     "title": "Tropical Fish",
     "description": "Obtain Tropical Fish",

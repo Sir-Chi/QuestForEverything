@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tipped_arrow",
-      "nbt": "{Potion:\"minecraft:long_poison\"}"
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_poison"
+        }
+      }
     },
     "title": "Arrow of Poison",
     "description": "Poison (0:11)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:long_poison"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:long_poison"
+              }
+            }
           }
         ]
       }

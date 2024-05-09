@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:shears"
+      "id": "minecraft:shears"
     },
     "title": "Shears",
     "description": "Obtain Shears",

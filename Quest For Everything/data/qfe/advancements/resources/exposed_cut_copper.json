@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:exposed_cut_copper"
+      "id": "minecraft:exposed_cut_copper"
     },
     "title": "Exposed Cut Copper",
     "description": "Obtain Exposed Cut Copper",

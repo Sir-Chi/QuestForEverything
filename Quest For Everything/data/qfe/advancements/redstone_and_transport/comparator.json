@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:comparator"
+      "id": "minecraft:comparator"
     },
     "title": "Redstone Comparator",
     "description": "Obtain Redstone Comparator",

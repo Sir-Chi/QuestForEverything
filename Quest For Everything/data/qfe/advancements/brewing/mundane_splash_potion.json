@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"minecraft:mundane\"}"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:mundane"
+        }
+      }
     },
     "title": "Mundane Splash Potion",
     "description": "Obtain Mundane Splash Potion",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:mundane"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:mundane"
+              }
+            }
           }
         ]
       }

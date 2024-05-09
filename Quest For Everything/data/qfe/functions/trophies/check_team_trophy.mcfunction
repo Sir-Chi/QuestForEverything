@@ -9,7 +9,7 @@ $execute if score @s $(section)_score < .TotalToGet $(section)_score run return 
 $tag @s add trophy_$(section)
 
 # Announce trophy
-$execute as @s run function qfe:trophies/announce_trophy {section:$(section)}
+$execute as @s run function qfe:trophies/announce_trophy with storage qfe:storage/info section_names.$(section)
 
 # Hand out trophy items
 $execute as @a[team=$(team)] run function qfe:trophies/give_trophy/$(section)

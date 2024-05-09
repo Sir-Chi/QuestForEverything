@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_wart_block"
+      "id": "minecraft:warped_wart_block"
     },
     "title": "Warped Wart Block",
     "description": "Obtain Warped Wart Block",

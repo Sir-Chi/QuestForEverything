@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:detector_rail"
+      "id": "minecraft:detector_rail"
     },
     "title": "Detector Rail",
     "description": "Obtain Detector Rail",

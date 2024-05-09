@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:long_swiftness\"}"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_swiftness"
+        }
+      }
     },
     "title": "Potion of Swiftness",
     "description": "Speed (8:00)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:long_swiftness"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:long_swiftness"
+              }
+            }
           }
         ]
       }

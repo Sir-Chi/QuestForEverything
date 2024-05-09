@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ender_pearl"
+      "id": "minecraft:ender_pearl"
     },
     "title": "Ender Pearl",
     "description": "Obtain Ender Pearl",

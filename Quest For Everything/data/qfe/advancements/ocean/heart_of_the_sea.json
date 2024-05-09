@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:heart_of_the_sea"
+      "id": "minecraft:heart_of_the_sea"
     },
     "title": "Heart of the Sea",
     "description": "Obtain Heart of the Sea",

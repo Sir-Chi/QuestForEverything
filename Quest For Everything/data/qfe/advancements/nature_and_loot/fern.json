@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:fern"
+      "id": "minecraft:fern"
     },
     "title": "Fern",
     "description": "Obtain Fern",

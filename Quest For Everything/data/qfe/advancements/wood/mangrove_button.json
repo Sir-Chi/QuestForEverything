@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mangrove_button"
+      "id": "minecraft:mangrove_button"
     },
     "title": "Mangrove Button",
     "description": "Obtain Mangrove Button",

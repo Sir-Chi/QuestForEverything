@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:brain_coral_block"
+      "id": "minecraft:brain_coral_block"
     },
     "title": "Brain Coral Block",
     "description": "Obtain Brain Coral Block",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:danger_pottery_sherd"
+      "id": "minecraft:danger_pottery_sherd"
     },
     "title": "Danger Pottery Sherd",
     "description": "Obtain Danger Pottery Sherd",

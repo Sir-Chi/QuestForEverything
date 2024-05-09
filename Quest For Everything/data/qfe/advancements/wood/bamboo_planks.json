@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bamboo_planks"
+      "id": "minecraft:bamboo_planks"
     },
     "title": "Bamboo Planks",
     "description": "Obtain Bamboo Planks",

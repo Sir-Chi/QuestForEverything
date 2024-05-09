@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chiseled_polished_blackstone"
+      "id": "minecraft:chiseled_polished_blackstone"
     },
     "title": "Chiseled Polished Blackstone",
     "description": "Obtain Chiseled Polished Blackstone",

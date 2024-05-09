@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dead_brain_coral_block"
+      "id": "minecraft:dead_brain_coral_block"
     },
     "title": "Dead Brain Coral Block",
     "description": "Obtain Dead Brain Coral Block",

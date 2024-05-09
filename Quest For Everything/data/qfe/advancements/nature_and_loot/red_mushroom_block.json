@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:red_mushroom_block"
+      "id": "minecraft:red_mushroom_block"
     },
     "title": "Red Mushroom Block",
     "description": "Obtain Red Mushroom Block",

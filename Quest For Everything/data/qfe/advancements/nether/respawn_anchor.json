@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:respawn_anchor"
+      "id": "minecraft:respawn_anchor"
     },
     "title": "Respawn Anchor",
     "description": "Obtain Respawn Anchor",

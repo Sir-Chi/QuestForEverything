@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:flint_and_steel"
+      "id": "minecraft:flint_and_steel"
     },
     "title": "Flint and Steel",
     "description": "Obtain Flint and Steel",

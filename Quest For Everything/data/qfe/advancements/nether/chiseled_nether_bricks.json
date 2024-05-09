@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chiseled_nether_bricks"
+      "id": "minecraft:chiseled_nether_bricks"
     },
     "title": "Chiseled Nether Brick",
     "description": "Obtain Chiseled Nether Brick",

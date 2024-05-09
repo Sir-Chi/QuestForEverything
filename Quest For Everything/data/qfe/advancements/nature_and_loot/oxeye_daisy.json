@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:oxeye_daisy"
+      "id": "minecraft:oxeye_daisy"
     },
     "title": "Oxeye Daisy",
     "description": "Obtain Oxeye Daisy",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:deepslate_copper_ore"
+      "id": "minecraft:deepslate_copper_ore"
     },
     "title": "Deepslate Copper Ore",
     "description": "Obtain Deepslate Copper Ore",

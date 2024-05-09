@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"minecraft:thick\"}"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:thick"
+        }
+      }
     },
     "title": "Thick Splash Potion",
     "description": "Obtain Thick Splash Potion",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:thick"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:thick"
+              }
+            }
           }
         ]
       }

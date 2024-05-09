@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:sniffer_egg"
+      "id": "minecraft:sniffer_egg"
     },
     "title": "Sniffer Egg",
     "description": "Obtain Sniffer Egg",

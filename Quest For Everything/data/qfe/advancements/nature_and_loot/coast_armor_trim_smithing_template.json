@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:coast_armor_trim_smithing_template"
+      "id": "minecraft:coast_armor_trim_smithing_template"
     },
     "title": "Coast Armour Trim Smithing Template",
     "description": "Obtain Coast Armour Trim Smithing Template",

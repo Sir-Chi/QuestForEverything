@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:music_disc_ward"
+      "id": "minecraft:music_disc_ward"
     },
     "title": "Music Disc - Ward",
     "description": "Obtain Music Disc - Ward",

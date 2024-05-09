@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_hoe"
+      "id": "minecraft:netherite_hoe"
     },
     "title": "Netherite Hoe",
     "description": "Obtain Netherite Hoe",

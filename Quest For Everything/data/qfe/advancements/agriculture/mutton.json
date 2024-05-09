@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mutton"
+      "id": "minecraft:mutton"
     },
     "title": "Raw Mutton",
     "description": "Obtain Raw Mutton",

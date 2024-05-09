@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:enchanting_table"
+      "id": "minecraft:enchanting_table"
     },
     "title": "Enchanting Table",
     "description": "Obtain Enchanting Table",

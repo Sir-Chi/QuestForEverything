@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:light_gray_terracotta"
+      "id": "minecraft:light_gray_terracotta"
     },
     "title": "Light Gray Terracotta",
     "description": "Obtain Light Gray Terracotta",

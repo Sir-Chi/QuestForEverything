@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:observer"
+      "id": "minecraft:observer"
     },
     "title": "Observer",
     "description": "Obtain Observer",

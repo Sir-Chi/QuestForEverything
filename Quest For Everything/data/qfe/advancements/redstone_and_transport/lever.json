@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lever"
+      "id": "minecraft:lever"
     },
     "title": "Lever",
     "description": "Obtain Lever",

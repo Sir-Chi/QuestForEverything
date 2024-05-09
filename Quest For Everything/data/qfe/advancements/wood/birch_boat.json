@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:birch_boat"
+      "id": "minecraft:birch_boat"
     },
     "title": "Birch Boat",
     "description": "Obtain Birch Boat",

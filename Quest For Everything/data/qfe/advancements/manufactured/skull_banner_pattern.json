@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:skull_banner_pattern"
+      "id": "minecraft:skull_banner_pattern"
     },
     "title": "Skull Banner Pattern",
     "description": "Obtain Skull Banner Pattern",

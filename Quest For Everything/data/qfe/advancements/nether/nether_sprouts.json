@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:nether_sprouts"
+      "id": "minecraft:nether_sprouts"
     },
     "title": "Nether Sprouts",
     "description": "Obtain Nether Sprouts",

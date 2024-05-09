@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:polished_diorite_stairs"
+      "id": "minecraft:polished_diorite_stairs"
     },
     "title": "Polished Diorite Stairs",
     "description": "Obtain Polished Diorite Stairs",

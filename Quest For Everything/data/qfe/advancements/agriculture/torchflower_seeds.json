@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:torchflower_seeds"
+      "id": "minecraft:torchflower_seeds"
     },
     "title": "Torchflower Seeds",
     "description": "Obtain Torchflower Seeds",

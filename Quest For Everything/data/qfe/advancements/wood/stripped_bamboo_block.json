@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stripped_bamboo_block"
+      "id": "minecraft:stripped_bamboo_block"
     },
     "title": "Stripped Bamboo Block",
     "description": "Obtain Stripped Bamboo Block",

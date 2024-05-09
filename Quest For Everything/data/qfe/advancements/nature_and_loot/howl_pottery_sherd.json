@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:howl_pottery_sherd"
+      "id": "minecraft:howl_pottery_sherd"
     },
     "title": "Howl Pottery Sherd",
     "description": "Obtain Howl Pottery Sherd",

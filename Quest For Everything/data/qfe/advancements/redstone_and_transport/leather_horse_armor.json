@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:leather_horse_armor"
+      "id": "minecraft:leather_horse_armor"
     },
     "title": "Leather Horse Armour",
     "description": "Obtain Leather Horse Armour",

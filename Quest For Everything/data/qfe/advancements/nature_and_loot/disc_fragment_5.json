@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:disc_fragment_5"
+      "id": "minecraft:disc_fragment_5"
     },
     "title": "Disc Fragment",
     "description": "Obtain Disc Fragment",

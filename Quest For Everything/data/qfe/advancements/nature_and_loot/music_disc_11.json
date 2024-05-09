@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:music_disc_11"
+      "id": "minecraft:music_disc_11"
     },
     "title": "Music Disc - 11",
     "description": "Obtain Music Disc - 11",

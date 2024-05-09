@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:white_banner"
+      "id": "minecraft:white_banner",
+      "components": {
+        "minecraft:banner_patterns": []
+      }
     },
     "title": "White Banner",
     "description": "Obtain White Banner",
@@ -23,6 +26,9 @@
             "count": {
               "min": 1,
               "max": 64
+            },
+            "components": {
+              "minecraft:banner_patterns": []
             }
           }
         ]

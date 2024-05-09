@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:coarse_dirt"
+      "id": "minecraft:coarse_dirt"
     },
     "title": "Coarse Dirt",
     "description": "Obtain Coarse Dirt",

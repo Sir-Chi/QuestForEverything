@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:deepslate_tiles"
+      "id": "minecraft:deepslate_tiles"
     },
     "title": "Deepslate Tiles",
     "description": "Obtain Deepslate Tiles",

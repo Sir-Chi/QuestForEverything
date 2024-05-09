@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'harming_tipped_arrow', 'item':'minecraft:tipped_arrow{Potion:"minecraft:harming"}'}
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'harming_tipped_arrow', 'item':'minecraft:tipped_arrow[minecraft:potion_contents={potion:"minecraft:harming"}]'}

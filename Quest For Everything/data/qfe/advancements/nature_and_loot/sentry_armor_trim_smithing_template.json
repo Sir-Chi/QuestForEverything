@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:sentry_armor_trim_smithing_template"
+      "id": "minecraft:sentry_armor_trim_smithing_template"
     },
     "title": "Sentry Armour Trim Smithing Template",
     "description": "Obtain Sentry Armour Trim Smithing Template",

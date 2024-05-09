@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:short_grass"
+      "id": "minecraft:short_grass"
     },
     "title": "Short Grass",
     "description": "Obtain Short Grass",

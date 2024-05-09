@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dead_bush"
+      "id": "minecraft:dead_bush"
     },
     "title": "Dead Bush",
     "description": "Obtain Dead Bush",

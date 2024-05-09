@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:music_disc_stal"
+      "id": "minecraft:music_disc_stal"
     },
     "title": "Music Disc - Stal",
     "description": "Obtain Music Disc - Stal",

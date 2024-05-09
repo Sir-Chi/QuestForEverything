@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:globe_banner_pattern"
+      "id": "minecraft:globe_banner_pattern"
     },
     "title": "Globe Banner Pattern",
     "description": "Obtain Globe Banner Pattern",

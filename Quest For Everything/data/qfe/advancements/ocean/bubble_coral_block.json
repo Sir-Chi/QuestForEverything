@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bubble_coral_block"
+      "id": "minecraft:bubble_coral_block"
     },
     "title": "Bubble Coral Block",
     "description": "Obtain Bubble Coral Block",

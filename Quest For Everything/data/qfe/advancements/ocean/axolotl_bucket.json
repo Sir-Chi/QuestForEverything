@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:axolotl_bucket"
+      "id": "minecraft:axolotl_bucket"
     },
     "title": "Bucket of Axolotl",
     "description": "Obtain Bucket of Axolotl",

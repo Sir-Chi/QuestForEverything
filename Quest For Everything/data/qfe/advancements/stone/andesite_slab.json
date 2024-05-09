@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:andesite_slab"
+      "id": "minecraft:andesite_slab"
     },
     "title": "Andesite Slab",
     "description": "Obtain Andesite Slab",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:silence_armor_trim_smithing_template"
+      "id": "minecraft:silence_armor_trim_smithing_template"
     },
     "title": "Silence Armour Trim Smithing Template",
     "description": "Obtain Silence Armour Trim Smithing Template",

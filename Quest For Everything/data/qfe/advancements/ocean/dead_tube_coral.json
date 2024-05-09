@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dead_tube_coral"
+      "id": "minecraft:dead_tube_coral"
     },
     "title": "Dead Tube Coral",
     "description": "Obtain Dead Tube Coral",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:small_dripleaf"
+      "id": "minecraft:small_dripleaf"
     },
     "title": "Small Dripleaf",
     "description": "Obtain Small Dripleaf",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lime_wool"
+      "id": "minecraft:lime_wool"
     },
     "title": "Lime Wool",
     "description": "Obtain Lime Wool",

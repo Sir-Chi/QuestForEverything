@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:spider_eye"
+      "id": "minecraft:spider_eye"
     },
     "title": "Spider Eye",
     "description": "Obtain Spider Eye",

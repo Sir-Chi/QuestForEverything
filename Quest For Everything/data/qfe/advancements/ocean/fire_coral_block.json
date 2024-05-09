@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:fire_coral_block"
+      "id": "minecraft:fire_coral_block"
     },
     "title": "Fire Coral Block",
     "description": "Obtain Fire Coral Block",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stripped_cherry_wood"
+      "id": "minecraft:stripped_cherry_wood"
     },
     "title": "Stripped Cherry Wood",
     "description": "Obtain Stripped Cherry Wood",

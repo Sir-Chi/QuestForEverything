@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:purpur_slab"
+      "id": "minecraft:purpur_slab"
     },
     "title": "Purpur Slab",
     "description": "Obtain Purpur Slab",

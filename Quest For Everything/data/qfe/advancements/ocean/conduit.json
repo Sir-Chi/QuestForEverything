@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:conduit"
+      "id": "minecraft:conduit"
     },
     "title": "Conduit",
     "description": "Obtain Conduit",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:deepslate_redstone_ore"
+      "id": "minecraft:deepslate_redstone_ore"
     },
     "title": "Deepslate Redstone Ore",
     "description": "Obtain Deepslate Redstone Ore",

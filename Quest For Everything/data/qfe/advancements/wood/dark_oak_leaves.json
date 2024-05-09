@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dark_oak_leaves"
+      "id": "minecraft:dark_oak_leaves"
     },
     "title": "Dark Oak Leaves",
     "description": "Obtain Dark Oak Leaves",

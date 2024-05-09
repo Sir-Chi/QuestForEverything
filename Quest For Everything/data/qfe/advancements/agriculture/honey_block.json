@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:honey_block"
+      "id": "minecraft:honey_block"
     },
     "title": "Honey Block",
     "description": "Obtain Honey Block",

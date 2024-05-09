@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cocoa_beans"
+      "id": "minecraft:cocoa_beans"
     },
     "title": "Cocoa Beans",
     "description": "Obtain Cocoa Beans",

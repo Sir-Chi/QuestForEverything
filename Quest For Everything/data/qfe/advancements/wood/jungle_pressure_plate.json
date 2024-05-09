@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:jungle_pressure_plate"
+      "id": "minecraft:jungle_pressure_plate"
     },
     "title": "Jungle Pressure Plate",
     "description": "Obtain Jungle Pressure Plate",

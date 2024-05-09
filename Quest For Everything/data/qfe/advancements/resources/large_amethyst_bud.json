@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:large_amethyst_bud"
+      "id": "minecraft:large_amethyst_bud"
     },
     "title": "Large Amethyst Bud",
     "description": "Obtain Large Amethyst Bud",

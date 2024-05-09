@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:flower_pot"
+      "id": "minecraft:flower_pot"
     },
     "title": "Flower Pot",
     "description": "Obtain Flower Pot",

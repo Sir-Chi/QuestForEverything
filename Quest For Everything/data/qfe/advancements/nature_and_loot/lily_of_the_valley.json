@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lily_of_the_valley"
+      "id": "minecraft:lily_of_the_valley"
     },
     "title": "Lily of the Valley",
     "description": "Obtain Lily of the Valley",

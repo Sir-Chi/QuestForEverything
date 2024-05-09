@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bamboo_fence"
+      "id": "minecraft:bamboo_fence"
     },
     "title": "Bamboo Fence",
     "description": "Obtain Bamboo Fence",

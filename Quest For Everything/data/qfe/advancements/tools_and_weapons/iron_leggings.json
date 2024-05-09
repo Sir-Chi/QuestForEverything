@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_leggings"
+      "id": "minecraft:iron_leggings"
     },
     "title": "Iron Leggings",
     "description": "Obtain Iron Leggings",

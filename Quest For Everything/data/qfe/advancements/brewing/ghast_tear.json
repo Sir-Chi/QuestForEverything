@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ghast_tear"
+      "id": "minecraft:ghast_tear"
     },
     "title": "Ghast Tear",
     "description": "Obtain Ghast Tear",

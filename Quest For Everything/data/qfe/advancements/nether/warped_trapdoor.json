@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_trapdoor"
+      "id": "minecraft:warped_trapdoor"
     },
     "title": "Warped Trapdoor",
     "description": "Obtain Warped Trapdoor",

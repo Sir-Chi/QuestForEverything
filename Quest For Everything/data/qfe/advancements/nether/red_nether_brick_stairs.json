@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:red_nether_brick_stairs"
+      "id": "minecraft:red_nether_brick_stairs"
     },
     "title": "Red Nether Brick Stairs",
     "description": "Obtain Red Nether Brick Stairs",

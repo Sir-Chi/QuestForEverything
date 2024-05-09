@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mangrove_planks"
+      "id": "minecraft:mangrove_planks"
     },
     "title": "Mangrove Planks",
     "description": "Obtain Mangrove Planks",

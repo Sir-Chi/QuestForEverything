@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tropical_fish_bucket"
+      "id": "minecraft:tropical_fish_bucket"
     },
     "title": "Bucket of Tropical Fish",
     "description": "Obtain Bucket of Tropical Fish",

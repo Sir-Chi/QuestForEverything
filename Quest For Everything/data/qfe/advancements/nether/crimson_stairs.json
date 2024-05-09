@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crimson_stairs"
+      "id": "minecraft:crimson_stairs"
     },
     "title": "Crimson Stairs",
     "description": "Obtain Crimson Stairs",

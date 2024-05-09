@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dark_oak_button"
+      "id": "minecraft:dark_oak_button"
     },
     "title": "Dark Oak Button",
     "description": "Dark Oak Button",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_ore"
+      "id": "minecraft:iron_ore"
     },
     "title": "Iron Ore",
     "description": "Obtain Iron Ore",

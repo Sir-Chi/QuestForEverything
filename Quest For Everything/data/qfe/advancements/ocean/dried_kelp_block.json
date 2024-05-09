@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dried_kelp_block"
+      "id": "minecraft:dried_kelp_block"
     },
     "title": "Dried Kelp Block",
     "description": "Obtain Dried Kelp Block",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_block"
+      "id": "minecraft:netherite_block"
     },
     "title": "Block of Netherite",
     "description": "Obtain Block of Netherite",

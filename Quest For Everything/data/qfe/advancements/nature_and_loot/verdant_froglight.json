@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:verdant_froglight"
+      "id": "minecraft:verdant_froglight"
     },
     "title": "Verdant Froglight",
     "description": "Obtain Verdant Froglight",

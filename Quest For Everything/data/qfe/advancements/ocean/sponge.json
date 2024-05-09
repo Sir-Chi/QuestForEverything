@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:sponge"
+      "id": "minecraft:sponge"
     },
     "title": "Sponge",
     "description": "Obtain Sponge",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:decorated_pot"
+      "id": "minecraft:decorated_pot"
     },
     "title": "Decorated Pot",
     "description": "Obtain Decorated Pot",

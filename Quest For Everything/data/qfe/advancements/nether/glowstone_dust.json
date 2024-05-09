@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:glowstone_dust"
+      "id": "minecraft:glowstone_dust"
     },
     "title": "Glowstone Dust",
     "description": "Obtain Glowstone Dust",

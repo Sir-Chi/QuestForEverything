@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dark_prismarine"
+      "id": "minecraft:dark_prismarine"
     },
     "title": "Dark Prismarine",
     "description": "Obtain Dark Prismarine",

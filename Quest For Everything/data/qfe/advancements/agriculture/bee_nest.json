@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bee_nest"
+      "id": "minecraft:bee_nest"
     },
     "title": "Bee Nest",
     "description": "Obtain Bee Nest",

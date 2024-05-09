@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:quartz_stairs"
+      "id": "minecraft:quartz_stairs"
     },
     "title": "Quartz Stairs",
     "description": "Obtain Quartz Stairs",

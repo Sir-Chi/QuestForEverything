@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_upgrade_smithing_template"
+      "id": "minecraft:netherite_upgrade_smithing_template"
     },
     "title": "Netherite Upgrade Smithing Template",
     "description": "Obtain Netherite Upgrade Smithing Template",

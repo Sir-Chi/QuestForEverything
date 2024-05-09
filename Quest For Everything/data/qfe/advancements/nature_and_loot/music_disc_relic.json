@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:music_disc_relic"
+      "id": "minecraft:music_disc_relic"
     },
     "title": "Music Disc - Relic",
     "description": "Obtain Music Disc - Relic",

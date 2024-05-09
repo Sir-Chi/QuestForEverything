@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:fermented_spider_eye"
+      "id": "minecraft:fermented_spider_eye"
     },
     "title": "Fermented Spider Eye",
     "description": "Obtain Fermented Spider Eye",

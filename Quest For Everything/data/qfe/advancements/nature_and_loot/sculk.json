@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:sculk"
+      "id": "minecraft:sculk"
     },
     "title": "Sculk",
     "description": "Obtain Sculk",

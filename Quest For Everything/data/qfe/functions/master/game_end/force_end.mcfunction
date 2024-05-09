@@ -26,12 +26,12 @@ scoreboard players set keepInventory GameSetup 0
 scoreboard players set takeItems GameSetup 1
 scoreboard players set #gamestarted GameSetup 0
 scoreboard players set #gameended GameSetup 0
-scoreboard players set #dragonegg GameSetup 0
+scoreboard players set #dragon_egg GameSetup 0
 scoreboard players set #lobbynumber GameSetup 0
 
 scoreboard players reset @e[type=marker] score
 scoreboard players reset @a score
-scoreboard players set .TotalToGet score 1319
+scoreboard players set .TotalToGet score 1321
 scoreboard players set #Leader score 0
 
 scoreboard objectives remove SyncScore

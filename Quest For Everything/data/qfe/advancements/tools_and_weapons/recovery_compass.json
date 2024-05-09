@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:recovery_compass"
+      "id": "minecraft:recovery_compass"
     },
     "title": "Recovery compass",
     "description": "Obtain Recovery compass",

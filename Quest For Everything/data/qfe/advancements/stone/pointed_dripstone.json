@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pointed_dripstone"
+      "id": "minecraft:pointed_dripstone"
     },
     "title": "Pointed Dripstone",
     "description": "Obtain Pointed Dripstone",

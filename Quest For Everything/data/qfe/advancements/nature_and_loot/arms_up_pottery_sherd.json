@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:arms_up_pottery_sherd"
+      "id": "minecraft:arms_up_pottery_sherd"
     },
     "title": "Arms Up Pottery Sherd",
     "description": "Obtain Arms Up Pottery Sherd",

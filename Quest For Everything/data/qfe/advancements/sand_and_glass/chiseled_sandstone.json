@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chiseled_sandstone"
+      "id": "minecraft:chiseled_sandstone"
     },
-    "title": "Chisled Sandstone",
-    "description": "Obtain Chisled Sandstone",
+    "title": "Chiseled Sandstone",
+    "description": "Obtain Chiseled Sandstone",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rabbit"
+      "id": "minecraft:rabbit"
     },
     "title": "Raw Rabbit",
     "description": "Obtain Raw Rabbit",

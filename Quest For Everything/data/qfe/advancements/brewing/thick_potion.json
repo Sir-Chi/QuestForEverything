@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:thick\"}"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:thick"
+        }
+      }
     },
     "title": "Thick Potion",
     "description": "Obtain Thick Potion",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:thick"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:thick"
+              }
+            }
           }
         ]
       }

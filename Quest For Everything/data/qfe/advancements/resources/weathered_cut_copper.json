@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:weathered_cut_copper"
+      "id": "minecraft:weathered_cut_copper"
     },
     "title": "Weathered Cut Copper",
     "description": "Obtain Weathered Cut Copper",

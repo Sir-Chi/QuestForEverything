@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:spruce_leaves"
+      "id": "minecraft:spruce_leaves"
     },
     "title": "Spruce Leaves",
     "description": "Obtain Spruce Leaves",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cherry_chest_boat"
+      "id": "minecraft:cherry_chest_boat"
     },
     "title": "Cherry Boat with Chest",
     "description": "Obtain Cherry Boat with Chest",

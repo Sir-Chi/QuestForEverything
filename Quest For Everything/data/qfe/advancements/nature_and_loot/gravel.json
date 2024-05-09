@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gravel"
+      "id": "minecraft:gravel"
     },
     "title": "Gravel",
     "description": "Obtain Gravel",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cherry_hanging_sign"
+      "id": "minecraft:cherry_hanging_sign"
     },
     "title": "Cherry Hanging Sign",
     "description": "Obtain Cherry Hanging Sign",

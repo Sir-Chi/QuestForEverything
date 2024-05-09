@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:polished_granite"
+      "id": "minecraft:polished_granite"
     },
     "title": "Polished Granite",
     "description": "Obtain Polished Granite",

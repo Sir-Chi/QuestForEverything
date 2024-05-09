@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tipped_arrow",
-      "nbt": "{Potion:\"minecraft:slowness\"}"
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:slowness"
+        }
+      }
     },
     "title": "Arrow of Slowness",
     "description": "Slowness (0:11)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:slowness"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:slowness"
+              }
+            }
           }
         ]
       }

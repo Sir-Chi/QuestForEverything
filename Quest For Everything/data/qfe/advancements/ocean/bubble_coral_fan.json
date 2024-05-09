@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bubble_coral_fan"
+      "id": "minecraft:bubble_coral_fan"
     },
     "title": "Bubble Coral Fan",
     "description": "Obtain Bubble Coral Fan",

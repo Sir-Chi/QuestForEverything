@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:quartz_block"
+      "id": "minecraft:quartz_block"
     },
     "title": "Block of Quartz",
     "description": "Obtain Block of Quartz",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:deepslate_brick_wall"
+      "id": "minecraft:deepslate_brick_wall"
     },
     "title": "Deepslate Brick Wall",
     "description": "Obtain Deepslate Brick Wall",

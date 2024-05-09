@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:snow"
+      "id": "minecraft:snow"
     },
     "title": "Snow",
     "description": "Obtain Snow",

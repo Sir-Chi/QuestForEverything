@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:yellow_stained_glass"
+      "id": "minecraft:yellow_stained_glass"
     },
     "title": "Yellow Stained Glass",
     "description": "Obtain Yellow Stained Glass",

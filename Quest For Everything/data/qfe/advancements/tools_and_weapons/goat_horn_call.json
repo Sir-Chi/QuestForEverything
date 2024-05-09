@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:goat_horn",
-      "nbt": "{instrument:\"minecraft:call_goat_horn\"}"
+      "id": "minecraft:goat_horn",
+      "components": {
+        "minecraft:instrument": "minecraft:call_goat_horn"
+      }
     },
     "title": "Goat Horn - Call",
     "description": "Obtain Goat Horn - Call",
@@ -25,7 +27,9 @@
               "min": 1,
               "max": 64
             },
-            "nbt": "{instrument:\"minecraft:call_goat_horn\"}"
+            "components": {
+              "minecraft:instrument": "minecraft:call_goat_horn"
+            }
           }
         ]
       }

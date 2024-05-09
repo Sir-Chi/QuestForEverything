@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:soul_sand"
+      "id": "minecraft:soul_sand"
     },
     "title": "Soul Sand",
     "description": "Obtain Soul Sand",

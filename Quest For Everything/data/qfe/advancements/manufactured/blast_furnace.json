@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:blast_furnace"
+      "id": "minecraft:blast_furnace"
     },
     "title": "Blast Furnace",
     "description": "Obtain Blast Furnace",

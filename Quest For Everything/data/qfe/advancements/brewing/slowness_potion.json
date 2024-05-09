@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:slowness\"}"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:slowness"
+        }
+      }
     },
     "title": "Potion of Slowness",
     "description": "Slowness (1:30)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:slowness"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:slowness"
+              }
+            }
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "id": "minecraft:stripped_dark_oak_wood"
     },
     "title": "Stripped Dark Oak Wood",
     "description": "Stripped Dark Oak Wood",

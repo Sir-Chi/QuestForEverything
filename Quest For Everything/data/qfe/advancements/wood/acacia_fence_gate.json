@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:acacia_fence_gate"
+      "id": "minecraft:acacia_fence_gate"
     },
     "title": "Acacia Fence Gate",
     "description": "Obtain Acacia Fence Gate",

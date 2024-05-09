@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_slow_falling"
+        }
+      }
     },
     "title": "Potion of Slow Falling",
     "description": "Slow Falling (4:00)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:long_slow_falling"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:long_slow_falling"
+              }
+            }
           }
         ]
       }

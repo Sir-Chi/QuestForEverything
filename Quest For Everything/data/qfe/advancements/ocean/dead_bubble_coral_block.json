@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dead_bubble_coral_block"
+      "id": "minecraft:dead_bubble_coral_block"
     },
     "title": "Dead Bubble Coral Block",
     "description": "Obtain Dead Bubble Coral Block",

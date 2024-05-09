@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tripwire_hook"
+      "id": "minecraft:tripwire_hook"
     },
     "title": "Tripwire Hook",
     "description": "Obtain Tripwire Hook",

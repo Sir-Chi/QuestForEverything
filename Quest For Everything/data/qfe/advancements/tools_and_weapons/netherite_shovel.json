@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_shovel"
+      "id": "minecraft:netherite_shovel"
     },
     "title": "Netherite Shovel",
     "description": "Obtain Netherite Shovel",

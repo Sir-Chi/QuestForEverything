@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mangrove_propagule"
+      "id": "minecraft:mangrove_propagule"
     },
     "title": "Mangrove Propagule",
     "description": "Obtain Mangrove Propagule",

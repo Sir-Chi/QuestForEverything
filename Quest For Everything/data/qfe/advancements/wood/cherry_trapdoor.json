@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cherry_trapdoor"
+      "id": "minecraft:cherry_trapdoor"
     },
     "title": "Cherry Trapdoor",
     "description": "Obtain Cherry Trapdoor",

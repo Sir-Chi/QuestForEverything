@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:jungle_log"
+      "id": "minecraft:jungle_log"
     },
     "title": "Jungle Log",
     "description": "Obtain Jungle Log",

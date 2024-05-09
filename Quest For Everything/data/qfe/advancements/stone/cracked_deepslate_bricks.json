@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cracked_deepslate_bricks"
+      "id": "minecraft:cracked_deepslate_bricks"
     },
     "title": "Cracked Deepslate Bricks",
     "description": "Obtain Cracked Deepslate Bricks",

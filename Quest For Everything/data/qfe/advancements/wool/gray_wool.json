@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gray_wool"
+      "id": "minecraft:gray_wool"
     },
     "title": "Gray Wool",
     "description": "Obtain Gray Wool",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:orange_dye"
+      "id": "minecraft:orange_dye"
     },
     "title": "Orange Dye",
     "description": "Obtain Orange Dye",

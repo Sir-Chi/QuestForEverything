@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:slime_block"
+      "id": "minecraft:slime_block"
     },
     "title": "Slime Block",
     "description": "Obtain Slime Block",

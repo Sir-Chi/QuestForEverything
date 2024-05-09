@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:light_gray_carpet"
+      "id": "minecraft:light_gray_carpet"
     },
     "title": "Light Gray Carpet",
     "description": "Obtain Light Gray Carpet",

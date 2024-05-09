@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crimson_roots"
+      "id": "minecraft:crimson_roots"
     },
     "title": "Crimson Roots",
     "description": "Obtain Crimson Roots",

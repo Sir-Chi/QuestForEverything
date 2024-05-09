@@ -24,7 +24,7 @@ scoreboard players set keepInventory GameSetup 0
 scoreboard players set takeItems GameSetup 1
 scoreboard players set #gamestarted GameSetup 0
 scoreboard players set #gameended GameSetup 0
-scoreboard players set dragon_egg GameSetup 0
+scoreboard players set #dragon_egg GameSetup 0
 scoreboard players set #lobbynumber GameSetup 0
 
 scoreboard players display name allRecipesUnlocked GameSetup "Unlock All Recipes"
@@ -87,7 +87,7 @@ scoreboard players set .TotalToGet wood_score 171
 scoreboard objectives add wool_score dummy "Wool Score"
 scoreboard players set .TotalToGet wool_score 64
 
-data modify storage qfe:storage/info section_names set value {agriculture:{section:'Agriculture'},brewing:{section:'Brewing'},end:{section:'End'},manufactured:{section:'Manufactured'},nature_and_loot:{section:'Nature & Loot'},nether:{section:'Nether'},ocean:{section:'Ocean'},redstone_and_transport:{section:'Redstone & Transport'},resources:{section:'Resources'},sand_and_glass:{section:'Sand & Glass'},Stone:{section:'stone'},terracotta_and_concrete:{section:'Terracotta & Concrete'},tools_and_weapons:{section:'Tools & Weapons'},wood:{section:'Wood'},wool:{section:'wool'}}
+data modify storage qfe:storage/info section_names set value {agriculture:{section:'Agriculture'},brewing:{section:'Brewing'},end:{section:'End'},manufactured:{section:'Manufactured'},nature_and_loot:{section:'Nature & Loot'},nether:{section:'Nether'},ocean:{section:'Ocean'},redstone_and_transport:{section:'Redstone & Transport'},resources:{section:'Resources'},sand_and_glass:{section:'Sand & Glass'},Stone:{section:'stone'},terracotta_and_concrete:{section:'Terracotta & Concrete'},tools_and_weapons:{section:'Tools & Weapons'},wood:{section:'Wood'},wool:{section:'Wool'}}
 
 # data modify storage qfe:section_counts SectionItemCount.SectionCounts set value {agriculture: 63, brewing: 178, end: 35, manufactured: 103, nature_and_loot: 151, nether: 96, ocean: 61, redstone_and_transport: 35, resources: 84, sand_and_glass: 57, stone: 70, terracotta_and_concrete: 65, tools_and_weapons: 88, wood: 171, wool: 64}
 

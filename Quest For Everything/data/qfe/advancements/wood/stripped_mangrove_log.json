@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stripped_mangrove_log"
+      "id": "minecraft:stripped_mangrove_log"
     },
     "title": "Stripped Mangrove Log",
     "description": "Obtain Stripped Mangrove Log",

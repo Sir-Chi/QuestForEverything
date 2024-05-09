@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lingering_potion",
-      "nbt": "{Potion:\"minecraft:water\"}"
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:water"
+        }
+      }
     },
     "title": "Lingering Water Bottle",
     "description": "Obtain Lingering Water Bottle",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:water"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:water"
+              }
+            }
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dark_oak_fence_gate"
+      "id": "minecraft:dark_oak_fence_gate"
     },
     "title": "Dark Oak Fence Gate",
     "description": "Dark Oak Fence Gate",

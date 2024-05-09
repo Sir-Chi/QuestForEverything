@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rooted_dirt"
+      "id": "minecraft:rooted_dirt"
     },
     "title": "Rooted Dirt",
     "description": "Obtain Rooted Dirt",

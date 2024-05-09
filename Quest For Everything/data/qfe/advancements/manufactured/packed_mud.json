@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:packed_mud"
+      "id": "minecraft:packed_mud"
     },
     "title": "Packed Mud",
     "description": "Obtain Packed Mud",

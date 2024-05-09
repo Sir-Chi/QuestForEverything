@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cod_bucket"
+      "id": "minecraft:cod_bucket"
     },
     "title": "Bucket of Cod",
     "description": "Obtain Bucket of Cod",

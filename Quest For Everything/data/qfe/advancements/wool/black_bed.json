@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:black_bed"
+      "id": "minecraft:black_bed"
     },
     "title": "Black Bed",
     "description": "Obtain Black Bed",

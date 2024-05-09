@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:scaffolding"
+      "id": "minecraft:scaffolding"
     },
     "title": "Scaffolding",
     "description": "Obtain Scaffolding",

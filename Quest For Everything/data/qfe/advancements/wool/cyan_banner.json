@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cyan_banner"
+      "id": "minecraft:cyan_banner"
     },
     "title": "Cyan Banner",
     "description": "Obtain Cyan Banner",

@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lingering_potion",
-      "nbt": "{Potion:\"minecraft:mundane\"}"
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:mundane"
+        }
+      }
     },
     "title": "Mundane Lingering Potion",
     "description": "Obtain Mundane Lingering Potion",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:mundane"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:mundane"
+              }
+            }
           }
         ]
       }

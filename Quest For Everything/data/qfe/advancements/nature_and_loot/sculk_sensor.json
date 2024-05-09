@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:sculk_sensor"
+      "id": "minecraft:sculk_sensor"
     },
     "title": "Sculk Sensor",
     "description": "Obtain Sculk Sensor",

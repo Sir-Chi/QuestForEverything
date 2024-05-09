@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:light_gray_bed"
+      "id": "minecraft:light_gray_bed"
     },
     "title": "Light Gray Bed",
     "description": "Obtain Light Gray Bed",

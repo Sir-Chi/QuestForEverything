@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:oxidized_copper"
+      "id": "minecraft:oxidized_copper"
     },
     "title": "Oxidized Copper",
     "description": "Obtain Oxidized Copper",

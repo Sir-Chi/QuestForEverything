@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_boots"
+      "id": "minecraft:netherite_boots"
     },
     "title": "Netherite Boots",
     "description": "Obtain Netherite Boots",

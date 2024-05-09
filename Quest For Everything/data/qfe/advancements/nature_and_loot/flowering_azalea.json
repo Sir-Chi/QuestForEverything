@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:flowering_azalea"
+      "id": "minecraft:flowering_azalea"
     },
     "title": "Flowering Azalea",
     "description": "Obtain Flowering Azalea",

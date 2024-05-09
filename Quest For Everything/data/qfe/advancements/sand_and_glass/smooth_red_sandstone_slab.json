@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:smooth_red_sandstone_slab"
+      "id": "minecraft:smooth_red_sandstone_slab"
     },
     "title": "Smooth Red Sandstone Slab",
     "description": "Obtain Smooth Red Sandstone Slab",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:prismarine_brick_stairs"
+      "id": "minecraft:prismarine_brick_stairs"
     },
     "title": "Prismarine Brick Stairs",
     "description": "Obtain Prismarine Brick Stairs",

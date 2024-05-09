@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pearlescent_froglight"
+      "id": "minecraft:pearlescent_froglight"
     },
     "title": "Pearlescent Froglight",
     "description": "Obtain Pearlescent Froglight",

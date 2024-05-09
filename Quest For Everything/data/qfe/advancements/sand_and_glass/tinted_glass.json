@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tinted_glass"
+      "id": "minecraft:tinted_glass"
     },
     "title": "Tinted Glass",
     "description": "Obtain Tinted Glass",

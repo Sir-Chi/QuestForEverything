@@ -10,7 +10,7 @@ execute if score Teams GameSetup matches 1 if score #gamestarted GameSetup match
 
 execute unless score #gameended GameSetup matches 1 run function qfe:master/game_end/win_conditions
 
-execute if score #dragonegg GameSetup matches 1 run advancement grant @a[advancements={qfe:end/dragon_egg=false}] only qfe:end/dragon_egg
+execute if score #dragon_egg GameSetup matches 1 run advancement grant @a[advancements={qfe:end/dragon_egg=false}] only qfe:end/dragon_egg
 
 #Just in case, to maintain timing integrity
 schedule clear qfe:master/second_master

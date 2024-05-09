@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chainmail_boots"
+      "id": "minecraft:chainmail_boots"
     },
     "title": "Chainmail Boots",
     "description": "Obtain Chainmail Boots",

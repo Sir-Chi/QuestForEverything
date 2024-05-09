@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_horse_armor"
+      "id": "minecraft:iron_horse_armor"
     },
     "title": "Iron Horse Armour",
     "description": "Obtain Iron Horse Armour",

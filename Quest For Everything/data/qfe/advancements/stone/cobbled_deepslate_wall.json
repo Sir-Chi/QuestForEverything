@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cobbled_deepslate_wall"
+      "id": "minecraft:cobbled_deepslate_wall"
     },
     "title": "Cobbled Deepslate Wall",
     "description": "Obtain Cobbled Deepslate Wall",

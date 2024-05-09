@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:music_disc_far"
+      "id": "minecraft:music_disc_far"
     },
     "title": "Music Disc - Far",
     "description": "Obtain Music Disc - Far",

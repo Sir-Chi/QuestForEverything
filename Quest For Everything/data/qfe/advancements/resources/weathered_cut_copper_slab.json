@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:weathered_cut_copper_slab"
+      "id": "minecraft:weathered_cut_copper_slab"
     },
     "title": "Weathered Cut Copper Slab",
     "description": "Obtain Weathered Cut Copper Slab",

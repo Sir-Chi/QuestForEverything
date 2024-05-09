@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:clock"
+      "id": "minecraft:clock"
     },
     "title": "Clock",
     "description": "Obtain Clock",

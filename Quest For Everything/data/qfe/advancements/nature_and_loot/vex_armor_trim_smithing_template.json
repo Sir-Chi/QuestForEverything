@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:vex_armor_trim_smithing_template"
+      "id": "minecraft:vex_armor_trim_smithing_template"
     },
     "title": "Vex Armour Trim Smithing Template",
     "description": "Obtain Vex Armour Trim Smithing Template",

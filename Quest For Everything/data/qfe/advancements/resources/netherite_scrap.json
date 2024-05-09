@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_scrap"
+      "id": "minecraft:netherite_scrap"
     },
     "title": "Netherite Scrap",
     "description": "Obtain Netherite Scrap",

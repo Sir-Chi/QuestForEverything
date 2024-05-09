@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crimson_button"
+      "id": "minecraft:crimson_button"
     },
     "title": "Crimson Button",
     "description": "Obtain Crimson Button",

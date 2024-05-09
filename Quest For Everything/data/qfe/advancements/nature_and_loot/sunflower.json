@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:sunflower"
+      "id": "minecraft:sunflower"
     },
     "title": "Sunflower",
     "description": "Obtain Sunflower",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:end_stone_brick_stairs"
+      "id": "minecraft:end_stone_brick_stairs"
     },
     "title": "End Stone Brick Stairs",
     "description": "Obtain End Stone Brick Stairs",

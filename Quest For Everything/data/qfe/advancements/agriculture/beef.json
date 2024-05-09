@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:beef"
+      "id": "minecraft:beef"
     },
     "title": "Raw Beef",
     "description": "Obtain Raw Beef",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:glass_bottle"
+      "id": "minecraft:glass_bottle"
     },
     "title": "Glass Bottle",
     "description": "Obtain Glass Bottle",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_hoe"
+      "id": "minecraft:stone_hoe"
     },
     "title": "Stone Hoe",
     "description": "Obtain Stone Hoe",

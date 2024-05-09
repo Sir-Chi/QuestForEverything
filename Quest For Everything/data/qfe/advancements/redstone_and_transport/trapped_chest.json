@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:trapped_chest"
+      "id": "minecraft:trapped_chest"
     },
     "title": "Trapped Chest",
     "description": "Obtain Trapped Chest",

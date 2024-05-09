@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lime_concrete"
+      "id": "minecraft:lime_concrete"
     },
     "title": "Lime Concrete",
     "description": "Obtain Lime Concrete",

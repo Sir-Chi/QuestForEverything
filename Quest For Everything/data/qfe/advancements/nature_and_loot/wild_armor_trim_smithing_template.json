@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:wild_armor_trim_smithing_template"
+      "id": "minecraft:wild_armor_trim_smithing_template"
     },
     "title": "Wild Armour Trim Smithing Template",
     "description": "Obtain Wild Armour Trim Smithing Template",

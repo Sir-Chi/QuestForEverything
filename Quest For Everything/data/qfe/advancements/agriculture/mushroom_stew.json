@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mushroom_stew"
+      "id": "minecraft:mushroom_stew"
     },
     "title": "Mushroom Stew",
     "description": "Obtain Mushroom Stew",

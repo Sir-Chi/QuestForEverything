@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:fletching_table"
+      "id": "minecraft:fletching_table"
     },
     "title": "Fletching Table",
     "description": "Obtain Fletching Table",

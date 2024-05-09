@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:oak_planks"
+      "id": "minecraft:oak_planks"
     },
     "title": "Oak Planks",
     "description": "Obtain Oak Planks",

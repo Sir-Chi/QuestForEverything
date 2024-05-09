@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cherry_fence"
+      "id": "minecraft:cherry_fence"
     },
     "title": "Cherry Fence",
     "description": "Obtain Cherry Fence",

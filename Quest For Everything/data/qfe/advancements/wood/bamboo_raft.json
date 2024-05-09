@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bamboo_raft"
+      "id": "minecraft:bamboo_raft"
     },
     "title": "Bamboo Raft",
     "description": "Obtain Bamboo Raft",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stripped_spruce_wood"
+      "id": "minecraft:stripped_spruce_wood"
     },
     "title": "Stripped Spruce Wood",
     "description": "Obtain Stripped Spruce Wood",

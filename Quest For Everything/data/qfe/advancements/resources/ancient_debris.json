@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ancient_debris"
+      "id": "minecraft:ancient_debris"
     },
     "title": "Ancient Debris",
     "description": "Obtain Ancient Debris",

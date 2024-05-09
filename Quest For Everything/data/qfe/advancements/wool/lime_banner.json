@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lime_banner"
+      "id": "minecraft:lime_banner"
     },
     "title": "Lime Banner",
     "description": "Obtain Lime Banner",

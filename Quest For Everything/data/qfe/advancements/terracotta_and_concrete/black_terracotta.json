@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:black_terracotta"
+      "id": "minecraft:black_terracotta"
     },
     "title": "Black Terracotta",
     "description": "Obtain Black Terracotta",

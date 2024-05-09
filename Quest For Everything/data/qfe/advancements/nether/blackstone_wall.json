@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:blackstone_wall"
+      "id": "minecraft:blackstone_wall"
     },
     "title": "Blackstone Wall",
     "description": "Obtain Blackstone Wall",

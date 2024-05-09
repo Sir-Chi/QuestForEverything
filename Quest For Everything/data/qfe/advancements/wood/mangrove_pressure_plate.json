@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mangrove_pressure_plate"
+      "id": "minecraft:mangrove_pressure_plate"
     },
     "title": "Mangrove Pressure Plate",
     "description": "Obtain Mangrove Pressure Plate",

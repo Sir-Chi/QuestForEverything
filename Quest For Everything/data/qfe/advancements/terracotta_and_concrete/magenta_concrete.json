@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:magenta_concrete"
+      "id": "minecraft:magenta_concrete"
     },
     "title": "Magenta Concrete",
     "description": "Obtain Magenta Concrete",

@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tipped_arrow",
-      "nbt": "{Potion:\"minecraft:night_vision\"}"
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:night_vision"
+        }
+      }
     },
     "title": "Arrow of Night Vision",
     "description": "Night Vision (0:22)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:night_vision"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:night_vision"
+              }
+            }
           }
         ]
       }

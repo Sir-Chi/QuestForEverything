@@ -6,6 +6,6 @@
 $execute if score @s $(section)_score < .TotalToGet $(section)_score run return 0
 
 # Announce trophy
-$execute if entity @s[tag=!trophy_$(section)] run function qfe:trophies/announce_trophy {section:$(section)}
+$execute if entity @s[tag=!trophy_$(section)] run function qfe:trophies/announce_trophy with storage qfe:storage/info section_names.$(section)
 
 $execute if entity @s[tag=!trophy_$(section)] run function qfe:trophies/give_trophy/$(section)

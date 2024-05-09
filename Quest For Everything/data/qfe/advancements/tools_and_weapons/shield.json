@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:shield"
+      "id": "minecraft:shield"
     },
     "title": "Shield",
     "description": "Obtain Shield",

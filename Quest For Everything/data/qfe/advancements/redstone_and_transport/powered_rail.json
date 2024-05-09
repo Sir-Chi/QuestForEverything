@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:powered_rail"
+      "id": "minecraft:powered_rail"
     },
     "title": "Powered Rail",
     "description": "Obtain Powered Rail",

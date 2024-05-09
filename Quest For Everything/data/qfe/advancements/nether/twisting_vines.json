@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:twisting_vines"
+      "id": "minecraft:twisting_vines"
     },
     "title": "Twisting Vines",
     "description": "Obtain Twisting Vines",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bamboo_hanging_sign"
+      "id": "minecraft:bamboo_hanging_sign"
     },
     "title": "Bamboo Hanging Sign",
     "description": "Obtain Bamboo Hanging Sign",

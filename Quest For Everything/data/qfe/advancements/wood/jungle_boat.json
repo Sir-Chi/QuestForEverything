@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:jungle_boat"
+      "id": "minecraft:jungle_boat"
     },
     "title": "Jungle Boat",
     "description": "Obtain Jungle Boat",

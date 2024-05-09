@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:polished_andesite_stairs"
+      "id": "minecraft:polished_andesite_stairs"
     },
     "title": "Polished Andesite Stairs",
     "description": "Obtain Polished Andesite Stairs",

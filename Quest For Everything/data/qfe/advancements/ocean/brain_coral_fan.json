@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:brain_coral_fan"
+      "id": "minecraft:brain_coral_fan"
     },
     "title": "Brain Coral Fan",
     "description": "Obtain Brain Coral Fan",

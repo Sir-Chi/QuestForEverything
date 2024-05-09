@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:horn_coral"
+      "id": "minecraft:horn_coral"
     },
     "title": "Horn Coral",
     "description": "Obtain Horn Coral",

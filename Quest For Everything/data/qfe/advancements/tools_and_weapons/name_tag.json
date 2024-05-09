@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:name_tag"
+      "id": "minecraft:name_tag"
     },
     "title": "Name Tag",
     "description": "Obtain Name Tag",

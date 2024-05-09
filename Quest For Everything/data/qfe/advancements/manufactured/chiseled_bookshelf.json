@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chiseled_bookshelf"
+      "id": "minecraft:chiseled_bookshelf"
     },
     "title": "Chiseled Bookshelf",
     "description": "Obtain Chiseled Bookshelf",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cherry_planks"
+      "id": "minecraft:cherry_planks"
     },
     "title": "Cherry Planks",
     "description": "Obtain Cherry Planks",

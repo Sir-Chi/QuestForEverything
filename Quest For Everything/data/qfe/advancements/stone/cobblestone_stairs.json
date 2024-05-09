@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cobblestone_stairs"
+      "id": "minecraft:cobblestone_stairs"
     },
     "title": "Cobblestone Stairs",
     "description": "Obtain Cobblestone Stairs",

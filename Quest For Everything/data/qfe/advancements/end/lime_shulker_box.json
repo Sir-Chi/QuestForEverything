@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lime_shulker_box"
+      "id": "minecraft:lime_shulker_box"
     },
     "title": "Lime Shulker Box",
     "description": "Obtain Lime Shulker Box",

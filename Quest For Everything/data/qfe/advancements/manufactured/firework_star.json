@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:firework_star"
+      "id": "minecraft:firework_star"
     },
     "title": "Firework Star",
     "description": "Obtain Firework Star",

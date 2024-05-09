@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'long_fire_resistance_splash_potion', 'item':'minecraft:splash_potion{Potion:"minecraft:long_fire_resistance"}'}
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'long_fire_resistance_splash_potion', 'item':'minecraft:splash_potion[minecraft:potion_contents={potion:"minecraft:long_fire_resistance"}]'}

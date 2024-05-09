@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:smooth_basalt"
+      "id": "minecraft:smooth_basalt"
     },
     "title": "Smooth Basalt",
     "description": "Obtain Smooth Basalt",

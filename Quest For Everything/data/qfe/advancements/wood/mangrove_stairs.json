@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mangrove_stairs"
+      "id": "minecraft:mangrove_stairs"
     },
     "title": "Mangrove Stairs",
     "description": "Obtain Mangrove Stairs",

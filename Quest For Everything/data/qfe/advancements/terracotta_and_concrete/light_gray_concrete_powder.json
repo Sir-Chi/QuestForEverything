@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:light_gray_concrete_powder"
+      "id": "minecraft:light_gray_concrete_powder"
     },
     "title": "Light Gray Concrete Powder",
     "description": "Obtain Light Gray Concrete Powder",

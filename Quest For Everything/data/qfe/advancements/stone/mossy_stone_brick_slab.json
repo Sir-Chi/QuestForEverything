@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mossy_stone_brick_slab"
+      "id": "minecraft:mossy_stone_brick_slab"
     },
     "title": "Mossy Stone Brick Slab",
     "description": "Obtain Mossy Stone Brick Slab",

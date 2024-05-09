@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_sign"
+      "id": "minecraft:warped_sign"
     },
     "title": "Warped Sign",
     "description": "Obtain Warped Sign",

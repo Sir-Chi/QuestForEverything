@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:birch_button"
+      "id": "minecraft:birch_button"
     },
     "title": "Birch Button",
     "description": "Obtain Birch Button",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_fungus"
+      "id": "minecraft:warped_fungus"
     },
     "title": "Warped Fungus",
     "description": "Obtain Warped Fungus",

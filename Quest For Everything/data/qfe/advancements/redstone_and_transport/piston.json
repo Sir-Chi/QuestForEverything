@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:piston"
+      "id": "minecraft:piston"
     },
     "title": "Piston",
     "description": "Obtain Piston",

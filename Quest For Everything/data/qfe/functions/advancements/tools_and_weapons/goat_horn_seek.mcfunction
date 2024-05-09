@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'goat_horn_seek', 'item':'minecraft:goat_horn{instrument:"minecraft:seek_goat_horn"}'}
+function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'goat_horn_seek', 'item':'minecraft:goat_horn[minecraft:instrument="minecraft:seek_goat_horn"]'}

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:wheat_seeds"
+      "id": "minecraft:wheat_seeds"
     },
     "title": "Wheat Seeds",
     "description": "Obtain Wheat Seeds",

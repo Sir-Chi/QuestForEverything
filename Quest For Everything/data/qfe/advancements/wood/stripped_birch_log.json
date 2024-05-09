@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stripped_birch_log"
+      "id": "minecraft:stripped_birch_log"
     },
     "title": "Stripped Birch Log",
     "description": "Obtain Stripped Birch Log",

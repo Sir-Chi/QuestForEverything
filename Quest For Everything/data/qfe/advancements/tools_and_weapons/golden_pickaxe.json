@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:golden_pickaxe"
+      "id": "minecraft:golden_pickaxe"
     },
     "title": "Golden Pickaxe",
     "description": "Obtain Golden Pickaxe",

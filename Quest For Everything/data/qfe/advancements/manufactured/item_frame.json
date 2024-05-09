@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:item_frame"
+      "id": "minecraft:item_frame"
     },
     "title": "Item Frame",
     "description": "Obtain Item Frame",

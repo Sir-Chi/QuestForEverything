@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mushroom_stem"
+      "id": "minecraft:mushroom_stem"
     },
     "title": "Mushroom Stem",
     "description": "Obtain Mushroom Stem",

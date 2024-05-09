@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crimson_planks"
+      "id": "minecraft:crimson_planks"
     },
     "title": "Crimson Planks",
     "description": "Obtain Crimson Planks",

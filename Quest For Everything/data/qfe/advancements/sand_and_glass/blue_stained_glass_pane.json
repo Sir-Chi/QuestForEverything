@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:blue_stained_glass_pane"
+      "id": "minecraft:blue_stained_glass_pane"
     },
     "title": "Blue Stained Glass Pane",
     "description": "Obtain Blue Stained Glass Pane",

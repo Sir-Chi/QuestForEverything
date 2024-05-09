@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:flower_banner_pattern"
+      "id": "minecraft:flower_banner_pattern"
     },
     "title": "Flower Banner Pattern",
     "description": "Obtain Flower Banner Pattern",

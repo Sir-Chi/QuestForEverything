@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'long_regeneration_tipped_arrow', 'item':'minecraft:tipped_arrow{Potion:"minecraft:long_regeneration"}'}
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'long_regeneration_tipped_arrow', 'item':'minecraft:tipped_arrow[minecraft:potion_contents={potion:"minecraft:long_regeneration"}]'}

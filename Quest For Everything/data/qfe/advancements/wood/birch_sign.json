@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:birch_sign"
+      "id": "minecraft:birch_sign"
     },
     "title": "Birch Sign",
     "description": "Obtain Birch Sign",

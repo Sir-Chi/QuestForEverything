@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cherry_slab"
+      "id": "minecraft:cherry_slab"
     },
     "title": "Cherry Slab",
     "description": "Obtain Cherry Slab",

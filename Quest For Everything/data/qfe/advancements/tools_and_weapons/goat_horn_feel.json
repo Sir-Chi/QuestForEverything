@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:goat_horn",
-      "nbt": "{instrument:\"minecraft:feel_goat_horn\"}"
+      "id": "minecraft:goat_horn",
+      "components": {
+        "minecraft:instrument": "minecraft:feel_goat_horn"
+      }
     },
     "title": "Goat Horn - Feel",
     "description": "Obtain Goat Horn - Feel",
@@ -25,7 +27,9 @@
               "min": 1,
               "max": 64
             },
-            "nbt": "{instrument:\"minecraft:feel_goat_horn\"}"
+            "components": {
+              "minecraft:instrument": "minecraft:feel_goat_horn"
+            }
           }
         ]
       }

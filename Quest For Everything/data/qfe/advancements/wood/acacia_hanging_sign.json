@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:acacia_hanging_sign"
+      "id": "minecraft:acacia_hanging_sign"
     },
     "title": "Acacia Hanging Sign",
     "description": "Obtain Acacia Hanging Sign",

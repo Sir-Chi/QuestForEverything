@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lingering_potion",
-      "nbt": "{Potion:\"minecraft:thick\"}"
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:thick"
+        }
+      }
     },
     "title": "Thick Lingering Potion",
     "description": "Obtain Thick Lingering Potion",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:thick"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:thick"
+              }
+            }
           }
         ]
       }

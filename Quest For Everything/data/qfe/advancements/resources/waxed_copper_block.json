@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:waxed_copper_block"
+      "id": "minecraft:waxed_copper_block"
     },
     "title": "Waxed Block of Copper",
     "description": "Obtain Waxed Block of Copper",

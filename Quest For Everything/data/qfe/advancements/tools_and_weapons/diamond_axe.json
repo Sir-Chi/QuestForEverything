@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:diamond_axe"
+      "id": "minecraft:diamond_axe"
     },
     "title": "Diamond Axe",
     "description": "Obtain Diamond Axe",

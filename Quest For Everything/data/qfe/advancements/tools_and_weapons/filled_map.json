@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:filled_map"
+      "id": "minecraft:filled_map"
     },
     "title": "Filled Map",
     "description": "Obtain Filled Map",

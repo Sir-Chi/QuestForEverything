@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:soul_soil"
+      "id": "minecraft:soul_soil"
     },
     "title": "Soul Soil",
     "description": "Obtain Soul Soil",

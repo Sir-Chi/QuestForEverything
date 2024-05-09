@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rabbit_stew"
+      "id": "minecraft:rabbit_stew"
     },
     "title": "Rabbit Stew",
     "description": "Obtain Rabbit Stew",

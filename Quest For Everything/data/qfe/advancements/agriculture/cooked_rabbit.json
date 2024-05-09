@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cooked_rabbit"
+      "id": "minecraft:cooked_rabbit"
     },
     "title": "Cooked Rabbit",
     "description": "Obtain Cooked Rabbit",

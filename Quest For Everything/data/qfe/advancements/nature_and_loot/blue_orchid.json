@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:blue_orchid"
+      "id": "minecraft:blue_orchid"
     },
     "title": "Blue Orchid",
     "description": "Obtain Blue Orchid",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dark_oak_sapling"
+      "id": "minecraft:dark_oak_sapling"
     },
     "title": "Dark Oak Sapling",
     "description": "Obtain Dark Oak Sapling",

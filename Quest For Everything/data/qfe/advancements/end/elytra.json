@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:elytra"
+      "id": "minecraft:elytra"
     },
     "title": "Elytra",
     "description": "Obtain Elytra",

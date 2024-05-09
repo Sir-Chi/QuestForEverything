@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:calcite"
+      "id": "minecraft:calcite"
     },
     "title": "Calcite",
     "description": "Obtain Calcite",

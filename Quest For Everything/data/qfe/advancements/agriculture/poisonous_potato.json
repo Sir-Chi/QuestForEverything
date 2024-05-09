@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:poisonous_potato"
+      "id": "minecraft:poisonous_potato"
     },
     "title": "Poisonous Potato",
     "description": "Obtain Poisonous Potato",

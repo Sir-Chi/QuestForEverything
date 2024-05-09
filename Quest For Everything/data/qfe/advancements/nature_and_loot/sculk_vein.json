@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:sculk_vein"
+      "id": "minecraft:sculk_vein"
     },
     "title": "Sculk Vein",
     "description": "Obtain Sculk Vein",

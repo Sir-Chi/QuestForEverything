@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:deepslate_brick_stairs"
+      "id": "minecraft:deepslate_brick_stairs"
     },
     "title": "Deepslate Brick Stairs",
     "description": "Obtain Deepslate Brick Stairs",

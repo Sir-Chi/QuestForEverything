@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chainmail_leggings"
+      "id": "minecraft:chainmail_leggings"
     },
     "title": "Chainmail Leggings",
     "description": "Obtain Chainmail Leggings",

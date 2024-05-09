@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_brick_slab"
+      "id": "minecraft:stone_brick_slab"
     },
     "title": "Stone Brick Slab",
     "description": "Obtain Stone Brick Slab",

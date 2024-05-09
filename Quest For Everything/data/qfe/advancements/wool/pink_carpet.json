@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pink_carpet"
+      "id": "minecraft:pink_carpet"
     },
     "title": "Pink Carpet",
     "description": "Obtain Pink Carpet",

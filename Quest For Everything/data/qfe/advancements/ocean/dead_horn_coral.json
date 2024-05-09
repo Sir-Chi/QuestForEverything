@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dead_horn_coral"
+      "id": "minecraft:dead_horn_coral"
     },
     "title": "Dead Horn Coral",
     "description": "Obtain Dead Horn Coral",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dark_oak_trapdoor"
+      "id": "minecraft:dark_oak_trapdoor"
     },
     "title": "Dark Oak Trapdoor",
     "description": "Dark Oak Trapdoor",

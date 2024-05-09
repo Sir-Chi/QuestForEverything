@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:redstone_ore"
+      "id": "minecraft:redstone_ore"
     },
     "title": "Redstone Ore",
     "description": "Obtain Redstone Ore",

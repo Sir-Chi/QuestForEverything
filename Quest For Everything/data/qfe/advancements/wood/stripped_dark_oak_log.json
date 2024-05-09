@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stripped_dark_oak_log"
+      "id": "minecraft:stripped_dark_oak_log"
     },
     "title": "Stripped Dark Oak Log",
     "description": "Obtain Stripped Dark Oak Log",

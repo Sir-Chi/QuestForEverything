@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:brush"
+      "id": "minecraft:brush"
     },
     "title": "Brush",
     "description": "Obtain Brush",

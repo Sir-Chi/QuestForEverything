@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mangrove_log"
+      "id": "minecraft:mangrove_log"
     },
     "title": "Mangrove Log",
     "description": "Obtain Mangrove Log",

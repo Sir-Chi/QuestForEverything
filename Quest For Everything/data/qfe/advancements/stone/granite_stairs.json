@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:granite_stairs"
+      "id": "minecraft:granite_stairs"
     },
     "title": "Granite Stairs",
     "description": "Obtain Granite Stairs",

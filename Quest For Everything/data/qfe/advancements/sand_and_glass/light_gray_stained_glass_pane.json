@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "id": "minecraft:light_gray_stained_glass_pane"
     },
     "title": "Light Gray Stained Glass Pane",
     "description": "Obtain Light Gray Stained Glass Pane",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "id": "minecraft:chiseled_red_sandstone"
     },
     "title": "Chiseled Red Sandstone",
     "description": "Obtain Chiseled Red Sandstone",

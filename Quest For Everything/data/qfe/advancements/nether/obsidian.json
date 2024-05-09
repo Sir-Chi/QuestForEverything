@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:obsidian"
+      "id": "minecraft:obsidian"
     },
     "title": "Obsidian",
     "description": "Obtain Obsidian",

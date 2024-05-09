@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:wither_rose"
+      "id": "minecraft:wither_rose"
     },
     "title": "Wither Rose",
     "description": "Obtain Wither Rose",

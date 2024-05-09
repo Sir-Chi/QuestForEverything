@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bricks"
+      "id": "minecraft:bricks"
     },
     "title": "Bricks",
     "description": "Obtain Bricks",

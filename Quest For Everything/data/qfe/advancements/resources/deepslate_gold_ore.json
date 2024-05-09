@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:deepslate_gold_ore"
+      "id": "minecraft:deepslate_gold_ore"
     },
     "title": "Deepslate Gold Ore",
     "description": "Obtain Deepslate Gold Ore",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:grindstone"
+      "id": "minecraft:grindstone"
     },
     "title": "Grindstone",
     "description": "Obtain Grindstone",

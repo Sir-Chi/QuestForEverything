@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:glow_item_frame"
+      "id": "minecraft:glow_item_frame"
     },
     "title": "Glow Item Frame",
     "description": "Obtain Glow Item Frame",

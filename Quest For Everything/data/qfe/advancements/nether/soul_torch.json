@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:soul_torch"
+      "id": "minecraft:soul_torch"
     },
     "title": "Soul Torch",
     "description": "Obtain Soul Torch",

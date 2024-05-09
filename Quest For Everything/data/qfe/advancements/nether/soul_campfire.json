@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:soul_campfire"
+      "id": "minecraft:soul_campfire"
     },
     "title": "Soul Campfire",
     "description": "Obtain Soul Campfire",

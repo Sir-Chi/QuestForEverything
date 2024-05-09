@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:seagrass"
+      "id": "minecraft:seagrass"
     },
     "title": "Seagrass",
     "description": "Obtain Seagrass",
@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:ocean/scute",
+  "parent": "qfe:ocean/turtle_scute",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

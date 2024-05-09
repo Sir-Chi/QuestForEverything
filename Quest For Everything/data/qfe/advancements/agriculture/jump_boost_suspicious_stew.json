@@ -1,11 +1,18 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:suspicious_stew",
-      "nbt": "{effects:[{id:\"minecraft:jump_boost\"}]}"
+      "id": "minecraft:suspicious_stew",
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 120
+          }
+        ]
+      }
     },
-    "title": "Suspicious Stew",
-    "description": "Jump Boost",
+    "title": "Suspicious Stew - Jump Boost",
+    "description": "Obtain Suspicious Stew - Jump Boost",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -16,16 +23,87 @@
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
+        "player": [
           {
-            "items": [
-              "minecraft:suspicious_stew"
-            ],
-            "count": {
-              "min": 1,
-              "max": 64
-            },
-            "nbt": "{effects:[{id:\"minecraft:jump_boost\"}]}"
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:jump_boost",
+                            "duration": 120
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:jump_boost",
+                            "duration": 160
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:jump_boost",
+                            "duration": 180
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:jump_boost",
+                            "duration": 200
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
           }
         ]
       }

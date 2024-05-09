@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cooked_cod"
+      "id": "minecraft:cooked_cod"
     },
     "title": "Cooked Cod",
     "description": "Obtain Cooked Cod",

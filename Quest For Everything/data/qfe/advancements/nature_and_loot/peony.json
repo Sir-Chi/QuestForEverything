@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:peony"
+      "id": "minecraft:peony"
     },
     "title": "Peony",
     "description": "Obtain Peony",

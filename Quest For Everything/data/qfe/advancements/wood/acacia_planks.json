@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:acacia_planks"
+      "id": "minecraft:acacia_planks"
     },
     "title": "Acacia Planks",
     "description": "Obtain Acacia Planks",

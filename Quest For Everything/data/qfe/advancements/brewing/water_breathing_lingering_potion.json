@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lingering_potion",
-      "nbt": "{Potion:\"minecraft:water_breathing\"}"
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:water_breathing"
+        }
+      }
     },
     "title": "Lingering Potion of Water Breathing",
     "description": "Water Breathing (0:45)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:water_breathing"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:water_breathing"
+              }
+            }
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:golden_boots"
+      "id": "minecraft:golden_boots"
     },
     "title": "Golden Boots",
     "description": "Obtain Golden Boots",

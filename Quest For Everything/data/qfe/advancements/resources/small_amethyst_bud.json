@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:small_amethyst_bud"
+      "id": "minecraft:small_amethyst_bud"
     },
     "title": "Small Amethyst Bud",
     "description": "Obtain Small Amethyst Bud",

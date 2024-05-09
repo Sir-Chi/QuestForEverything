@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:sweet_berries"
+      "id": "minecraft:sweet_berries"
     },
     "title": "Sweet Berries",
     "description": "Obtain Sweet Berries",

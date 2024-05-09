@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:moss_block"
+      "id": "minecraft:moss_block"
     },
     "title": "Moss Block",
     "description": "Obtain Moss Block",

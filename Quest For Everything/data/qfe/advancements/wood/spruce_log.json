@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:spruce_log"
+      "id": "minecraft:spruce_log"
     },
     "title": "Spruce Log",
     "description": "Obtain Spruce Log",

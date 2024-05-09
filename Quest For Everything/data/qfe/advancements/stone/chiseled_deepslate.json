@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chiseled_deepslate"
+      "id": "minecraft:chiseled_deepslate"
     },
     "title": "Chiseled Deepslate",
     "description": "Obtain Chiseled Deepslate",

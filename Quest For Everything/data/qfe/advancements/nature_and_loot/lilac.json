@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lilac"
+      "id": "minecraft:lilac"
     },
     "title": "Lilac",
     "description": "Obtain Lilac",

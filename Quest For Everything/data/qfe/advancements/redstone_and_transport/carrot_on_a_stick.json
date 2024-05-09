@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:carrot_on_a_stick"
+      "id": "minecraft:carrot_on_a_stick"
     },
     "title": "Carrot on a Stick",
     "description": "Obtain Carrot on a Stick",
@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:redstone_and_transport/saddle",
+  "parent": "qfe:redstone_and_transport/wolf_armor",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

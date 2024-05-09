@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stripped_jungle_log"
+      "id": "minecraft:stripped_jungle_log"
     },
     "title": "Stripped Jungle Log",
     "description": "Obtain Stripped Jungle Log",

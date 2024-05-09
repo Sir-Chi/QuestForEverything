@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:salmon_bucket"
+      "id": "minecraft:salmon_bucket"
     },
     "title": "Bucket of Salmon",
     "description": "Obtain Bucket of Salmon",

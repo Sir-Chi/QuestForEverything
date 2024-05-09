@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:written_book"
+      "id": "minecraft:written_book"
     },
     "title": "Written Book",
     "description": "Obtain Written Book",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_leggings"
+      "id": "minecraft:netherite_leggings"
     },
     "title": "Netherite Leggings",
     "description": "Obtain Netherite Leggings",

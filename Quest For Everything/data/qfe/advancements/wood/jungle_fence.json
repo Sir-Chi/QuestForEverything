@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:jungle_fence"
+      "id": "minecraft:jungle_fence"
     },
     "title": "Jungle Fence",
     "description": "Obtain Jungle Fence",

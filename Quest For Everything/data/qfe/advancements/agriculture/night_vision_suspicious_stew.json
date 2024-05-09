@@ -1,11 +1,18 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:suspicious_stew",
-      "nbt": "{effects:[{id:\"minecraft:night_vision\"}]}"
+      "id": "minecraft:suspicious_stew",
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 100
+          }
+        ]
+      }
     },
-    "title": "Suspicious Stew",
-    "description": "Night Vision",
+    "title": "Suspicious Stew - Night Vision",
+    "description": "Obtain Suspicious Stew - Night Vision",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -16,16 +23,106 @@
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
+        "player": [
           {
-            "items": [
-              "minecraft:suspicious_stew"
-            ],
-            "count": {
-              "min": 1,
-              "max": 64
-            },
-            "nbt": "{effects:[{id:\"minecraft:night_vision\"}]}"
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:night_vision",
+                            "duration": 100
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:night_vision",
+                            "duration": 140
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:night_vision",
+                            "duration": 160
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:night_vision",
+                            "duration": 180
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:night_vision",
+                            "duration": 200
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
           }
         ]
       }

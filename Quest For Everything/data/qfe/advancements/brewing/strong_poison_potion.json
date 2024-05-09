@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:strong_poison\"}"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_poison"
+        }
+      }
     },
     "title": "Potion of Poison",
     "description": "Poison II (0:21)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:strong_poison"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strong_poison"
+              }
+            }
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:glow_ink_sac"
+      "id": "minecraft:glow_ink_sac"
     },
     "title": "Glow Ink Sac",
     "description": "Obtain Glow Ink Sac",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:porkchop"
+      "id": "minecraft:porkchop"
     },
     "title": "Raw Porkchop",
     "description": "Obtain Raw Porkchop",

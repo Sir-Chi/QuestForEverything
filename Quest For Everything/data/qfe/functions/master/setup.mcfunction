@@ -24,7 +24,7 @@ scoreboard players set keepInventory GameSetup 0
 scoreboard players set takeItems GameSetup 1
 scoreboard players set #gamestarted GameSetup 0
 scoreboard players set #gameended GameSetup 0
-scoreboard players set #dragonegg GameSetup 0
+scoreboard players set dragon_egg GameSetup 0
 scoreboard players set #lobbynumber GameSetup 0
 
 scoreboard players display name allRecipesUnlocked GameSetup "Unlock All Recipes"
@@ -38,7 +38,7 @@ scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death
 
 scoreboard objectives add score dummy "Score"
-scoreboard players set .TotalToGet score 1319
+scoreboard players set .TotalToGet score 1321
 scoreboard players display name .TotalToGet score "Total To Get"
 scoreboard players set #Leader score 0
 
@@ -65,13 +65,13 @@ scoreboard players set .TotalToGet end_score 35
 scoreboard objectives add manufactured_score dummy "Manufactured Score"
 scoreboard players set .TotalToGet manufactured_score 103
 scoreboard objectives add nature_and_loot_score dummy "Nature & Loot Score"
-scoreboard players set .TotalToGet nature_and_loot_score 150
+scoreboard players set .TotalToGet nature_and_loot_score 151
 scoreboard objectives add nether_score dummy "Nether Score"
 scoreboard players set .TotalToGet nether_score 96
 scoreboard objectives add ocean_score dummy "Ocean Score"
 scoreboard players set .TotalToGet ocean_score 61
 scoreboard objectives add redstone_and_transport_score dummy "Redstone & Transport Score"
-scoreboard players set .TotalToGet redstone_and_transport_score 34
+scoreboard players set .TotalToGet redstone_and_transport_score 35
 scoreboard objectives add resources_score dummy "Resources Score"
 scoreboard players set .TotalToGet resources_score 84
 scoreboard objectives add sand_and_glass_score dummy "Sand & Glass Score"
@@ -87,7 +87,9 @@ scoreboard players set .TotalToGet wood_score 171
 scoreboard objectives add wool_score dummy "Wool Score"
 scoreboard players set .TotalToGet wool_score 64
 
-# data modify storage qfe:section_counts SectionItemCount.SectionCounts set value {agriculture: 63, brewing: 178, end: 35, manufactured: 103, nature_and_loot: 150, nether: 96, ocean: 61, redstone_and_transport: 34, resources: 84, sand_and_glass: 57, stone: 70, terracotta_and_concrete: 65, tools_and_weapons: 88, wood: 171, wool: 64}
+data modify storage qfe:storage/info section_names set value {agriculture:{section:'Agriculture'},brewing:{section:'Brewing'},end:{section:'End'},manufactured:{section:'Manufactured'},nature_and_loot:{section:'Nature & Loot'},nether:{section:'Nether'},ocean:{section:'Ocean'},redstone_and_transport:{section:'Redstone & Transport'},resources:{section:'Resources'},sand_and_glass:{section:'Sand & Glass'},Stone:{section:'stone'},terracotta_and_concrete:{section:'Terracotta & Concrete'},tools_and_weapons:{section:'Tools & Weapons'},wood:{section:'Wood'},wool:{section:'wool'}}
+
+# data modify storage qfe:section_counts SectionItemCount.SectionCounts set value {agriculture: 63, brewing: 178, end: 35, manufactured: 103, nature_and_loot: 151, nether: 96, ocean: 61, redstone_and_transport: 35, resources: 84, sand_and_glass: 57, stone: 70, terracotta_and_concrete: 65, tools_and_weapons: 88, wood: 171, wool: 64}
 
 ##Find Lobby Number
 execute if score #lobbynumber GameSetup matches ..0 run function qfe:master/lobby/lobby_number

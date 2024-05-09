@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:waxed_exposed_copper"
+      "id": "minecraft:waxed_exposed_copper"
     },
     "title": "Waxed Exposed Copper",
     "description": "Obtain Waxed Exposed Copper",

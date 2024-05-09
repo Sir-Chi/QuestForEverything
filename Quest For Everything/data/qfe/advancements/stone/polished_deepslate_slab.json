@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:polished_deepslate_slab"
+      "id": "minecraft:polished_deepslate_slab"
     },
     "title": "Polished Deepslate Slab",
     "description": "Obtain Polished Deepslate Slab",

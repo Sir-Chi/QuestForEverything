@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_nylium"
+      "id": "minecraft:warped_nylium"
     },
     "title": "Warped Nylium",
     "description": "Obtain Warped Nylium",

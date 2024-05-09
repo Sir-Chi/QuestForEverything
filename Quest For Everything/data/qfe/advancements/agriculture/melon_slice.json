@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:melon_slice"
+      "id": "minecraft:melon_slice"
     },
     "title": "Melon Slice",
     "description": "Obtain Melon Slice",

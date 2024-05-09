@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cooked_salmon"
+      "id": "minecraft:cooked_salmon"
     },
     "title": "Cooked Salmon",
     "description": "Obtain Cooked Salmon",

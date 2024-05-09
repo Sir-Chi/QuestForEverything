@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:turtle_helmet"
+      "id": "minecraft:turtle_helmet"
     },
     "title": "Turtle Shell",
     "description": "Obtain Turtle Shell",

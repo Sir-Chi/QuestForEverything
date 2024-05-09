@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pitcher_pod"
+      "id": "minecraft:pitcher_pod"
     },
     "title": "Pitcher Pod",
     "description": "Obtain Pitcher Pod",

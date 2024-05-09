@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:golden_hoe"
+      "id": "minecraft:golden_hoe"
     },
     "title": "Golden Hoe",
     "description": "Obtain Golden Hoe",

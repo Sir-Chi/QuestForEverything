@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:waxed_cut_copper_stairs"
+      "id": "minecraft:waxed_cut_copper_stairs"
     },
     "title": "Waxed Cut Copper Stairs",
     "description": "Obtain Waxed Cut Copper Stairs",

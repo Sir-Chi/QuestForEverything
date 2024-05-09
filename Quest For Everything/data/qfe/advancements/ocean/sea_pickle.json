@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:sea_pickle"
+      "id": "minecraft:sea_pickle"
     },
     "title": "Sea Pickle",
     "description": "Obtain Sea Pickle",

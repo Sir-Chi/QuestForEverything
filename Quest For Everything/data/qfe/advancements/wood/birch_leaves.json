@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:birch_leaves"
+      "id": "minecraft:birch_leaves"
     },
     "title": "Birch Leaves",
     "description": "Obtain Birch Leaves",

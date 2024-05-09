@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:golden_shovel"
+      "id": "minecraft:golden_shovel"
     },
     "title": "Golden Shovel",
     "description": "Obtain Golden Shovel",

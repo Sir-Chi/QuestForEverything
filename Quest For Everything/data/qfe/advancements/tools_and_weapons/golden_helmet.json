@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:golden_helmet"
+      "id": "minecraft:golden_helmet"
     },
     "title": "Golden Helmet",
     "description": "Obtain Golden Helmet",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_pressure_plate"
+      "id": "minecraft:stone_pressure_plate"
     },
     "title": "Stone Pressure Plate",
     "description": "Obtain Stone Pressure Plate",

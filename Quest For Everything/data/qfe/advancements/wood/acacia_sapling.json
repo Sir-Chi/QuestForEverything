@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:acacia_sapling"
+      "id": "minecraft:acacia_sapling"
     },
     "title": "Acacia Sapling",
     "description": "Obtain Acacia Sapling",

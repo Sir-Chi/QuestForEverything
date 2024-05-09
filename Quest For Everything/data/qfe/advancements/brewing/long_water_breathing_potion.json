@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:long_water_breathing\"}"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_water_breathing"
+        }
+      }
     },
     "title": "Potion of Water Breathing",
     "description": "Water Breathing (8:00)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:long_water_breathing"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:long_water_breathing"
+              }
+            }
           }
         ]
       }

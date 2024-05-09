@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:soul_lantern"
+      "id": "minecraft:soul_lantern"
     },
     "title": "Soul Lantern",
     "description": "Obtain Soul Lantern",

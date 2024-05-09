@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:acacia_log"
+      "id": "minecraft:acacia_log"
     },
     "title": "Acacia Log",
     "description": "Obtain Acacia Log",

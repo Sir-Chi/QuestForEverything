@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:hanging_roots"
+      "id": "minecraft:hanging_roots"
     },
     "title": "Hanging Roots",
     "description": "Obtain Hanging Roots",

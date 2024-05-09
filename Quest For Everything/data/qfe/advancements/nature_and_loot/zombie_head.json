@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:zombie_head"
+      "id": "minecraft:zombie_head"
     },
     "title": "Zombie Head",
     "description": "Obtain Zombie Head",

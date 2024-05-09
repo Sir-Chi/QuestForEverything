@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_brick_wall"
+      "id": "minecraft:stone_brick_wall"
     },
     "title": "Stone Brick Wall",
     "description": "Obtain Stone Brick Wall",

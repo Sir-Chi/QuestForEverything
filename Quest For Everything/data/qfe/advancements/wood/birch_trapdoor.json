@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:birch_trapdoor"
+      "id": "minecraft:birch_trapdoor"
     },
     "title": "Birch Trapdoor",
     "description": "Obtain Birch Trapdoor",

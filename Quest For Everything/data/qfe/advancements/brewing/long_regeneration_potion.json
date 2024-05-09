@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:long_regeneration\"}"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_regeneration"
+        }
+      }
     },
     "title": "Potion of Regeneration",
     "description": "Regeneration (1:30)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:long_regeneration"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:long_regeneration"
+              }
+            }
           }
         ]
       }

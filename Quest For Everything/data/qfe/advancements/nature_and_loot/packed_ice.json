@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:packed_ice"
+      "id": "minecraft:packed_ice"
     },
     "title": "Packed Ice",
     "description": "Obtain Packed Ice",

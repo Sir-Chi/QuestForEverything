@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"minecraft:strong_strength\"}"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_strength"
+        }
+      }
     },
     "title": "Splash Potion of Strength",
     "description": "Strength II (1:30)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:strong_strength"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strong_strength"
+              }
+            }
           }
         ]
       }

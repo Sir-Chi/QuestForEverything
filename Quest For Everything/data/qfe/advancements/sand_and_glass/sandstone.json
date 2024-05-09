@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:sandstone"
+      "id": "minecraft:sandstone"
     },
     "title": "Sandstone",
     "description": "Obtain Sandstone",

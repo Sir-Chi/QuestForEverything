@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:goat_horn",
-      "nbt": "{instrument:\"minecraft:seek_goat_horn\"}"
+      "id": "minecraft:goat_horn",
+      "components": {
+        "minecraft:instrument": "minecraft:seek_goat_horn"
+      }
     },
     "title": "Goat Horn - Seek",
     "description": "Obtain Goat Horn - Seek",
@@ -25,7 +27,9 @@
               "min": 1,
               "max": 64
             },
-            "nbt": "{instrument:\"minecraft:seek_goat_horn\"}"
+            "components": {
+              "minecraft:instrument": "minecraft:seek_goat_horn"
+            }
           }
         ]
       }

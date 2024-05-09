@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:amethyst_block"
+      "id": "minecraft:amethyst_block"
     },
     "title": "Block of Amethyst",
     "description": "Obtain Block of Amethyst",

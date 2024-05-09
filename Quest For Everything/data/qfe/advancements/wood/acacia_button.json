@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:acacia_button"
+      "id": "minecraft:acacia_button"
     },
     "title": "Acacia Button",
     "description": "Obtain Acacia Button",

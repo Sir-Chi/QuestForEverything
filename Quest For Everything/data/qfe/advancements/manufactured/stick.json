@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stick"
+      "id": "minecraft:stick"
     },
     "title": "Stick",
     "description": "Obtain Stick",

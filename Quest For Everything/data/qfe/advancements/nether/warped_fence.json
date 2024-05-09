@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_fence"
+      "id": "minecraft:warped_fence"
     },
     "title": "Warped Fence",
     "description": "Obtain Warped Fence",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "id": "minecraft:mossy_cobblestone_wall"
     },
     "title": "Mossy Cobblestone Wall",
     "description": "Obtain Mossy Cobblestone Wall",

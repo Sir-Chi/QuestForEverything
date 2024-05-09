@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:green_banner"
+      "id": "minecraft:green_banner"
     },
     "title": "Green Banner",
     "description": "Obtain Green Banner",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bamboo_pressure_plate"
+      "id": "minecraft:bamboo_pressure_plate"
     },
     "title": "Bamboo Pressure Plate",
     "description": "Obtain Bamboo Pressure Plate",

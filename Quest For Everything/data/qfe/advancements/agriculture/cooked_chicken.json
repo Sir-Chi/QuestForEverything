@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cooked_chicken"
+      "id": "minecraft:cooked_chicken"
     },
     "title": "Cooked Chicken",
     "description": "Obtain Cooked Chicken",

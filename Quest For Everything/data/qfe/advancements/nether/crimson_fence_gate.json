@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crimson_fence_gate"
+      "id": "minecraft:crimson_fence_gate"
     },
     "title": "Crimson Fence Gate",
     "description": "Obtain Crimson Fence Gate",

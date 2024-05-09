@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:hopper_minecart"
+      "id": "minecraft:hopper_minecart"
     },
     "title": "Minecart with Hopper",
     "description": "Obtain Minecart with Hopper",

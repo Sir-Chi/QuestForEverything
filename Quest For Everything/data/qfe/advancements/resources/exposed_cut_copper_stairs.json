@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:exposed_cut_copper_stairs"
+      "id": "minecraft:exposed_cut_copper_stairs"
     },
     "title": "Exposed Cut Copper Stairs",
     "description": "Obtain Exposed Cut Copper Stairs",

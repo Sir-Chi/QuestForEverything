@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:oak_hanging_sign"
+      "id": "minecraft:oak_hanging_sign"
     },
     "title": "Oak Hanging Sign",
     "description": "Obtain Oak Hanging Sign",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bamboo_trapdoor"
+      "id": "minecraft:bamboo_trapdoor"
     },
     "title": "Bamboo Trapdoor",
     "description": "Obtain Bamboo Trapdoor",

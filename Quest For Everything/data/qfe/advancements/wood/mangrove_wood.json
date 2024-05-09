@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mangrove_wood"
+      "id": "minecraft:mangrove_wood"
     },
     "title": "Mangrove Wood",
     "description": "Obtain Mangrove Wood",

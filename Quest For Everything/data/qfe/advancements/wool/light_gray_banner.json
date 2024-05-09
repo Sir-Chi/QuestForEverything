@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:light_gray_banner"
+      "id": "minecraft:light_gray_banner"
     },
     "title": "Light Gray Banner",
     "description": "Obtain Light Gray Banner",

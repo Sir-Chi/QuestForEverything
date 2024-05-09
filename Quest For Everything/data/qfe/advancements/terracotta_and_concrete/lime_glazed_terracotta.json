@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lime_glazed_terracotta"
+      "id": "minecraft:lime_glazed_terracotta"
     },
     "title": "Lime Glazed Terracotta",
     "description": "Obtain Lime Glazed Terracotta",

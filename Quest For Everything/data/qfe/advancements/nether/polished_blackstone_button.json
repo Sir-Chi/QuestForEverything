@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:polished_blackstone_button"
+      "id": "minecraft:polished_blackstone_button"
     },
     "title": "Polished Blackstone Button",
     "description": "Obtain Polished Blackstone Button",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:clay_ball"
+      "id": "minecraft:clay_ball"
     },
     "title": "Clay Ball",
     "description": "Obtain Clay Ball",

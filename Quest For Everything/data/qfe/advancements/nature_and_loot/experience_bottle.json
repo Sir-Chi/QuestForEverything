@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:experience_bottle"
+      "id": "minecraft:experience_bottle"
     },
     "title": "Experience Bottle",
     "description": "Obtain Experience Bottle",

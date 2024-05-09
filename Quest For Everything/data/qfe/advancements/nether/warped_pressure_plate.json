@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_pressure_plate"
+      "id": "minecraft:warped_pressure_plate"
     },
     "title": "Warped Pressure Plate",
     "description": "Obtain Warped Pressure Plate",

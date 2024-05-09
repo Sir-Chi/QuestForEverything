@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:note_block"
+      "id": "minecraft:note_block"
     },
     "title": "Note Block",
     "description": "Obtain Note Block",

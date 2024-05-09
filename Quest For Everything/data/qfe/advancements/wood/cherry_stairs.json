@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cherry_stairs"
+      "id": "minecraft:cherry_stairs"
     },
     "title": "Cherry Stairs",
     "description": "Obtain Cherry Stairs",

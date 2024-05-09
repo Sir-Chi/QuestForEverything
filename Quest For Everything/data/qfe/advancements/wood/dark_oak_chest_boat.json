@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dark_oak_chest_boat"
+      "id": "minecraft:dark_oak_chest_boat"
     },
     "title": "Dark Oak Boat with Chest",
     "description": "Obtain Dark Oak Boat with Chest",

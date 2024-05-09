@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:white_tulip"
+      "id": "minecraft:white_tulip"
     },
     "title": "White Tulip",
     "description": "Obtain White Tulip",

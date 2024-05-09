@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rose_bush"
+      "id": "minecraft:rose_bush"
     },
     "title": "Rose Bush",
     "description": "Obtain Rose Bush",

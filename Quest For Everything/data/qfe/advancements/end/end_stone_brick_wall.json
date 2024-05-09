@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:end_stone_brick_wall"
+      "id": "minecraft:end_stone_brick_wall"
     },
     "title": "End Stone Brick Wall",
     "description": "Obtain End Stone Brick Wall",

@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"minecraft:long_weakness\"}"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_weakness"
+        }
+      }
     },
     "title": "Splash Potion of Weakness",
     "description": "Weakness (4:00)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:long_weakness"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:long_weakness"
+              }
+            }
           }
         ]
       }

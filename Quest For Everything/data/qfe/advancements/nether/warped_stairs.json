@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_stairs"
+      "id": "minecraft:warped_stairs"
     },
     "title": "Warped Stairs",
     "description": "Obtain Warped Stairs",

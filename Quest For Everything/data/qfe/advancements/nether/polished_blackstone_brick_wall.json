@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:polished_blackstone_brick_wall"
+      "id": "minecraft:polished_blackstone_brick_wall"
     },
     "title": "Polished Blackstone Brick Wall",
     "description": "Obtain Polished Blackstone Brick Wall",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:amethyst_shard"
+      "id": "minecraft:amethyst_shard"
     },
     "title": "Amethyst Shard",
     "description": "Obtain Amethyst Shard",

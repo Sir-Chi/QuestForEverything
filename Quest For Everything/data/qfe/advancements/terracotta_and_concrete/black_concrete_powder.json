@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:black_concrete_powder"
+      "id": "minecraft:black_concrete_powder"
     },
     "title": "Black Concrete Powder",
     "description": "Obtain Black Concrete Powder",

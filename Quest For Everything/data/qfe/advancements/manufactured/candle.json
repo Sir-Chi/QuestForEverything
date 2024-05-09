@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:candle"
+      "id": "minecraft:candle"
     },
     "title": "Candle",
     "description": "Obtain Candle",

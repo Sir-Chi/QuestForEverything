@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ink_sac"
+      "id": "minecraft:ink_sac"
     },
     "title": "Ink Sac",
     "description": "Obtain Ink Sac",
@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:nature_and_loot/rabbit_hide",
+  "parent": "qfe:nature_and_loot/armadillo_scute",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

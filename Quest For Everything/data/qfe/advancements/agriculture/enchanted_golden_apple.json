@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:enchanted_golden_apple"
+      "id": "minecraft:enchanted_golden_apple"
     },
     "title": "Enchanted Golden Apple",
     "description": "Obtain Enchanted Golden Apple",

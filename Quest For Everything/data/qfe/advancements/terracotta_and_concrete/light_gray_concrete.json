@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:light_gray_concrete"
+      "id": "minecraft:light_gray_concrete"
     },
     "title": "Light Gray Concrete",
     "description": "Obtain Light Gray Concrete",

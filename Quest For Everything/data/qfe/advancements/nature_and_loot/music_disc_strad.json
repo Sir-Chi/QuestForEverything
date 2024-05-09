@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:music_disc_strad"
+      "id": "minecraft:music_disc_strad"
     },
     "title": "Music Disc - Strad",
     "description": "Obtain Music Disc - Strad",

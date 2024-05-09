@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:hay_block"
+      "id": "minecraft:hay_block"
     },
     "title": "Hay Bale",
     "description": "Obtain Hay Bale",

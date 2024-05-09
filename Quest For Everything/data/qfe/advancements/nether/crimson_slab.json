@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crimson_slab"
+      "id": "minecraft:crimson_slab"
     },
     "title": "Crimson Slab",
     "description": "Obtain Crimson Slab",

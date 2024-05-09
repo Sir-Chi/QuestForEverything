@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:amethyst_cluster"
+      "id": "minecraft:amethyst_cluster"
     },
     "title": "Amethyst Cluster",
     "description": "Obtain Amethyst Cluster",

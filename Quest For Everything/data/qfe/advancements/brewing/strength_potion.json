@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:strength\"}"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strength"
+        }
+      }
     },
     "title": "Potion of Strength",
     "description": "Strength (3:00)",
@@ -25,7 +29,11 @@
               "min": 1,
               "max": 64
             },
-            "potion": "minecraft:strength"
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strength"
+              }
+            }
           }
         ]
       }

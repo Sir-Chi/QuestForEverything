@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:activator_rail"
+      "id": "minecraft:activator_rail"
     },
     "title": "Activator Rail",
     "description": "Obtain Activator Rail",

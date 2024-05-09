@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cracked_polished_blackstone_bricks"
+      "id": "minecraft:cracked_polished_blackstone_bricks"
     },
     "title": "Cracked Polished Blackstone Bricks",
     "description": "Obtain Cracked Polished Blackstone Bricks",

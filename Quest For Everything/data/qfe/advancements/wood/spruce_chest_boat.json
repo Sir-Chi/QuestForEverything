@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:spruce_chest_boat"
+      "id": "minecraft:spruce_chest_boat"
     },
     "title": "Spruce Boat with Chest",
     "description": "Obtain Spruce Boat with Chest",

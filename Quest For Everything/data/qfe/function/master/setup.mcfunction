@@ -22,6 +22,7 @@ scoreboard players set announceAdvancements GameSetup 1
 scoreboard players set announceTrophies GameSetup 1
 scoreboard players set keepInventory GameSetup 0
 scoreboard players set takeItems GameSetup 1
+scoreboard players set showTimer GameSetup 1
 scoreboard players set #gamestarted GameSetup 0
 scoreboard players set #gameended GameSetup 0
 scoreboard players set #dragon_egg GameSetup 0
@@ -33,6 +34,7 @@ scoreboard players display name announceAdvancements GameSetup "Announce Advance
 scoreboard players display name announceTrophies GameSetup "Announce Trophies"
 scoreboard players display name keepInventory GameSetup "Keep Inventory"
 scoreboard players display name takeItems GameSetup "Take Items"
+scoreboard players display name showTimer GameSetup "Show Timer"
 
 scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death

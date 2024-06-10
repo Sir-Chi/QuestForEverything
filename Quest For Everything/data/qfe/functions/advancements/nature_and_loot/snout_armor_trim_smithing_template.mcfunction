@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'snout_armor_trim_smithing_template', 'item':'minecraft:snout_armor_trim_smithing_template'}

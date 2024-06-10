@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'wooden_pickaxe', 'item':'minecraft:wooden_pickaxe'}

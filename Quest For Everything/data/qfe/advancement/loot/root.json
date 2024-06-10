@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2ZlMmY1MTE2NzdkMzljNDNlYTM3NjUxMmI2OTIxMmU0NWU4MTBkYzljZjk2NmRiY2M4OTgwZDllMDE2NzY3NCJ9fX0="
+						}
+					]
+				}
+			}
+		},
+		"title": "Loot Items",
+		"frame": "challenge",
+		"description": ["",{"text":"All Loot related Items & Blocks\n","color":"gold"}],
+		"background": "minecraft:textures/block/sculk_catalyst_top.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

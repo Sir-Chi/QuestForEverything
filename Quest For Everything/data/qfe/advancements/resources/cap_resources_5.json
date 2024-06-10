@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:resources/copper_ingot",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

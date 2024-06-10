@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'copper', 'name':'oxidized_cut_copper_slab', 'item':'minecraft:oxidized_cut_copper_slab'}

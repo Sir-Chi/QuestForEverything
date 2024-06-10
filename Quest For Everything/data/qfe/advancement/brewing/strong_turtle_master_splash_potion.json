@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_turtle_master"
+        }
+      }
+    },
+    "title": "Splash Potion of Turtle Master",
+    "description": "Slowness VI (0:20), Resistance IV (0:20)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/strong_turtle_master_potion",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:splash_potion"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strong_turtle_master"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/brewing/strong_turtle_master_splash_potion"
+  }
+}

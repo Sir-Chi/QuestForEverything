@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:wind_charged"
+        }
+      }
+    },
+    "title": "Potion of Wind Charging",
+    "description": "Wind Charged (3:00)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/root",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:wind_charged"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/brewing/wind_charged_potion"
+  }
+}

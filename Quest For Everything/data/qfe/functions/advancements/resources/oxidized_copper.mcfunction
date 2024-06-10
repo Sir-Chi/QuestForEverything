@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'oxidized_copper', 'item':'minecraft:oxidized_copper'}

@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:nether/warped_hanging_sign",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_glazed_terracotta"
+    },
+    "title": "Pink Glazed Terracotta",
+    "description": "Obtain Pink Glazed Terracotta",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:terracotta_and_concrete/magenta_glazed_terracotta",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_glazed_terracotta"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/terracotta_and_concrete/pink_glazed_terracotta"
+  }
+}

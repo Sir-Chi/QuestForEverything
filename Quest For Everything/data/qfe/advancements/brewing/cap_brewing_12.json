@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:brewing/long_fire_resistance_tipped_arrow",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

@@ -1,2 +1,0 @@
-tag @s add trophy_manufactured
-give @s minecraft:player_head[minecraft:item_name="'Trophy - Manufactured'",minecraft:note_block_sound="minecraft:block.chiseled_bookshelf.insert.enchanted",minecraft:profile={properties:[{"name": "textures","value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU2NDQwYThkNTk5MmMyNjdkMmEzMzYzODgyOTY0YWMyYmE1MjJmMmY5MTE0YTZmN2QxN2IzNTcyMmQyZjVmOCJ9fX0="}]}] 1

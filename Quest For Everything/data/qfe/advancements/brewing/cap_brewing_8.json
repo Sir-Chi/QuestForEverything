@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:brewing/glistering_melon_slice",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

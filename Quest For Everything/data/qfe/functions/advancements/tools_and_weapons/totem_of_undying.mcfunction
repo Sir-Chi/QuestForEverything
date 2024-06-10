@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'totem_of_undying', 'item':'minecraft:totem_of_undying'}

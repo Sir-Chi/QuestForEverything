@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_strength"
+        }
+      }
+    },
+    "title": "Potion of Strength",
+    "description": "Strength (8:00)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/strength_tipped_arrow",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:long_strength"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/brewing/long_strength_potion"
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:nature_and_loot/snort_pottery_sherd",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'heavy_core', 'item':'minecraft:heavy_core'}

@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:resources/amethyst_block",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

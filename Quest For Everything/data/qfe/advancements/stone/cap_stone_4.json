@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:stone/mossy_cobblestone_wall",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

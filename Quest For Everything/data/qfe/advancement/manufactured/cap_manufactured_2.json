@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:manufactured/guster_banner_pattern",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

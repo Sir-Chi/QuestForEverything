@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'fermented_spider_eye', 'item':'minecraft:fermented_spider_eye'}

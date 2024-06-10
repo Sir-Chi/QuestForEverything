@@ -1,0 +1,248 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_stew",
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:poison",
+            "duration": 200
+          }
+        ]
+      }
+    },
+    "title": "Suspicious Stew - Poison",
+    "description": "Obtain Suspicious Stew - Poison",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:agriculture/jump_boost_suspicious_stew",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:poison",
+                            "duration": 200
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:poison",
+                            "duration": 220
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:poison",
+                            "duration": 240
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:poison",
+                            "duration": 260
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:poison",
+                            "duration": 280
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:poison",
+                            "duration": 300
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:poison",
+                            "duration": 320
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:poison",
+                            "duration": 340
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:poison",
+                            "duration": 360
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:poison",
+                            "duration": 380
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:poison",
+                            "duration": 400
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/agriculture/poison_suspicious_stew"
+  }
+}

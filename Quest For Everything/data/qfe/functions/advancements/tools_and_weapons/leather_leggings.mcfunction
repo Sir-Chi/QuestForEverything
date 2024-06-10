@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'leather_leggings', 'item':'minecraft:leather_leggings'}

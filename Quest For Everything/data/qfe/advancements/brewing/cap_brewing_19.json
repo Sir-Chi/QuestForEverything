@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:brewing/sugar",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

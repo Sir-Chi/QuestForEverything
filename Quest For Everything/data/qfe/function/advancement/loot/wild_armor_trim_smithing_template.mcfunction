@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'wild_armor_trim_smithing_template', 'item':'minecraft:wild_armor_trim_smithing_template'}

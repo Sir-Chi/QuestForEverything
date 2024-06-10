@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:ocean/dead_fire_coral",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

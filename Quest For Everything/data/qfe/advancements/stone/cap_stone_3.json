@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:stone/polished_deepslate_wall",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

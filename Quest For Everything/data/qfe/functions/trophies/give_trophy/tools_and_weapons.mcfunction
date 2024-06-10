@@ -1,2 +1,0 @@
-tag @s add trophy_tools_and_weapons
-give @s minecraft:player_head[minecraft:item_name="'Trophy - Tools & Weapons'",minecraft:note_block_sound="minecraft:block.smithing_table.use",minecraft:profile={properties:[{"name": "textures","value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZlYTIxMzU4Mzg0NjE1MzQzNzJmMmRhNmM4NjJkMjFjZDVmM2QyYzcxMTlmMmJiNjc0YmJkNDI3OTEifX19"}]}] 1

@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:sand_and_glass/chiseled_sandstone",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

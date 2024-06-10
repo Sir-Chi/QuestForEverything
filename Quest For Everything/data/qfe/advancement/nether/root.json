@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTliOTRlNWFkOTNkYzdhZGY1OTAwNTZkNGExZTAzNDA5MjUzZGZlY2ZjODhlODMxNTQxYzhkZjU0ZmYwNWNhNiJ9fX0="
+						}
+					]
+				}
+			}
+		},
+		"title": "Nether Items",
+		"frame": "challenge",
+		"description": ["",{"text":"All Nether related Items & Blocks\n","color":"gold"}],
+		"background": "minecraft:textures/block/stripped_crimson_stem.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

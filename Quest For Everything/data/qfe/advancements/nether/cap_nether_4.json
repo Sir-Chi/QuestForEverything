@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:nether/red_nether_brick_wall",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

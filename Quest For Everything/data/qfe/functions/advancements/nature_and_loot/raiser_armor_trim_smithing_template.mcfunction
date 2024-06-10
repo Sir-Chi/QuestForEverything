@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'raiser_armor_trim_smithing_template', 'item':'minecraft:raiser_armor_trim_smithing_template'}

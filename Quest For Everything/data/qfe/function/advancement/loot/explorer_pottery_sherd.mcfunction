@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'explorer_pottery_sherd', 'item':'minecraft:explorer_pottery_sherd'}

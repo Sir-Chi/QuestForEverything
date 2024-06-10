@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:end/purpur_pillar",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:brewing/strong_healing_tipped_arrow",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

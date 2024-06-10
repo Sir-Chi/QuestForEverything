@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:nature_and_loot/red_mushroom",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

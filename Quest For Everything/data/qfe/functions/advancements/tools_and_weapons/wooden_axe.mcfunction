@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'wooden_axe', 'item':'minecraft:wooden_axe'}

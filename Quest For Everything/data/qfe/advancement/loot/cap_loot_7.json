@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:loot/phantom_membrane",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

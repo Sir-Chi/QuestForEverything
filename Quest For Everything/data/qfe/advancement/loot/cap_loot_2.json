@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:loot/plenty_pottery_sherd",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

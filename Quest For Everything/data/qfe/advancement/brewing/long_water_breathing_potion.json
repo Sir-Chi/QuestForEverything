@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_water_breathing"
+        }
+      }
+    },
+    "title": "Potion of Water Breathing",
+    "description": "Water Breathing (8:00)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:brewing/water_breathing_tipped_arrow",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:long_water_breathing"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/brewing/long_water_breathing_potion"
+  }
+}

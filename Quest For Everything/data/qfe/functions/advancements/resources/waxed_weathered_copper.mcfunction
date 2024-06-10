@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'waxed_weathered_copper', 'item':'minecraft:waxed_weathered_copper'}

@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'recovery_compass', 'item':'minecraft:recovery_compass'}

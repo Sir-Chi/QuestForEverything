@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_stew",
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:regeneration",
+            "duration": 160
+          }
+        ]
+      }
+    },
+    "title": "Suspicious Stew - Regeneration",
+    "description": "Obtain Suspicious Stew - Regeneration",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:agriculture/poison_suspicious_stew",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:suspicious_stew"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "components": {
+              "minecraft:suspicious_stew_effects": [
+                {
+                  "id": "minecraft:regeneration",
+                  "duration": 160
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/agriculture/regeneration_suspicious_stew"
+  }
+}

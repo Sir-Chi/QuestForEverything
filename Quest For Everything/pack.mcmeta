@@ -1,13 +1,13 @@
 {
     "pack": {
         "pack_format": 41, 
-        "description": "Created by \u00A72SirChi               \u00a75Version 2.1 (Small Biomes Edition)"
+        "description": "Created by \u00A72SirChi               \u00a75Version 2.1"
     },
     "filter": {
         "block": [
             {
                 "namespace": "minecraft",
-                "path": "advancements/.*"
+                "path": "advancement/.*"
             }
         ]
     }

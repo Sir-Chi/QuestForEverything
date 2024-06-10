@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:wood/cherry_chest_boat",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

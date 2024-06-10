@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'pitcher_pod', 'item':'minecraft:pitcher_pod'}

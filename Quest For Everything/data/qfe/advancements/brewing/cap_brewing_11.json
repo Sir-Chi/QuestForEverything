@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:brewing/golden_carrot",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

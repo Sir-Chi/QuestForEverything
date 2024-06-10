@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:ocean/dead_bubble_coral",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

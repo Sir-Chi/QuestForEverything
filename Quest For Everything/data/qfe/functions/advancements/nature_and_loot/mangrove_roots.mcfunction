@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nature_and_loot', 'name':'mangrove_roots', 'item':'minecraft:mangrove_roots'}

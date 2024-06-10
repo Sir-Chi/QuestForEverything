@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:copper/weathered_copper_bulb",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

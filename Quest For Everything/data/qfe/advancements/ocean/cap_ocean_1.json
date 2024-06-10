@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:ocean/dried_kelp_block",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

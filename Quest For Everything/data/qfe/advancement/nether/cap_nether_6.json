@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:nether/quartz_pillar",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

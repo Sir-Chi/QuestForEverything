@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:tools_and_weapons/leather_boots",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

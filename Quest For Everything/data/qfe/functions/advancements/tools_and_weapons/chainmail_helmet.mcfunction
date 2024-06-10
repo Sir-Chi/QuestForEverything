@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_weapons', 'name':'chainmail_helmet', 'item':'minecraft:chainmail_helmet'}

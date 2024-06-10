@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:brewing/long_invisibility_tipped_arrow",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

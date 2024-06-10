@@ -1,0 +1,2 @@
+tag @s add trophy_manufactured
+give @s minecraft:player_head[minecraft:item_name="'Trophy - Manufactured'",minecraft:note_block_sound="minecraft:block.crafter.craft",minecraft:profile={properties:[{"name": "textures","value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU3YzdlOTZhODAyYzI3MDgwYzdmODA1MzgxNDM2OGVhOTRkZjg2NDQ1OTEyMGU1MTU1NzE4YjUwM2MzZWQ3In19fQ=="}]}] 1

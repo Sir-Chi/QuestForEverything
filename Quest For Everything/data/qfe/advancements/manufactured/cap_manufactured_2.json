@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:manufactured/mud_brick_wall",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

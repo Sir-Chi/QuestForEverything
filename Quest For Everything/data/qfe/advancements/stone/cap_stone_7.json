@@ -1,8 +1,0 @@
-{
-  "parent": "qfe:stone/polished_granite_stairs",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  }
-}

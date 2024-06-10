@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:wood/acacia_chest_boat",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

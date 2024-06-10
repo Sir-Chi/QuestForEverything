@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:end/shulker_box",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

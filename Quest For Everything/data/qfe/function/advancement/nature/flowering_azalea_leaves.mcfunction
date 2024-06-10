@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'flowering_azalea_leaves', 'item':'minecraft:flowering_azalea_leaves'}

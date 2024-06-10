@@ -39,6 +39,7 @@ During the game setup period, the side of the screen shows certain custom Game C
 - Set Time - You can set the game to end after a set amount of time.
 - Set Score - You can set the game to end after a set amount of advancements/score has been reached.
 - Teams - When teams are active, signs will appear in the Lobby giving everyone the option of joining a team. There are 8 team colours to choose from!
+- Show Timer - If OFF, the timer will not be displayed!
 
 #### The Dragon Egg
 

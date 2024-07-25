@@ -12,21 +12,197 @@
   },
   "parent": "qfe:wood/root",
   "criteria": {
-    "has_obtained_item": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_sapling"
-            ],
-            "count": {
-              "min": 1,
-              "max": 64
-            }
-          }
-        ]
-      }
+    "has_1": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_2": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_3": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_4": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_5": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_6": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_7": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_8": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_9": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_10": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_11": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_12": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_13": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_14": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_15": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_16": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_17": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_18": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_19": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_20": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_21": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_22": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_23": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_24": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_25": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_26": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_27": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_28": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_29": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_30": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_31": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_32": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_33": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_34": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_35": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_36": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_37": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_38": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_39": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_40": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_41": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_42": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_43": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_44": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_45": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_46": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_47": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_48": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_49": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_50": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_51": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_52": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_53": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_54": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_55": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_56": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_57": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_58": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_59": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_60": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_61": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_62": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_63": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_64": {
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {

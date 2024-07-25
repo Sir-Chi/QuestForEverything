@@ -19,7 +19,7 @@ execute as @e[tag=lobby_locator_bottom] at @e[tag=lobby_locator_bottom] run setw
 
 #Setup Player Spawn Point
 kill @e[type=marker,tag=spawnPointLocator]
-execute at @e[tag=lobby_locator_bottom] positioned ~-10 ~ ~ positioned over motion_blocking_no_leaves run summon marker ~ ~ ~ {Invulnerable:1,Tags:["spawnPointLocator"]}
+execute at @e[tag=lobby_locator_bottom] positioned ~-10 ~ ~ positioned over motion_blocking_no_leaves run summon marker ~ ~ ~ {Invulnerable:true,Tags:["spawnPointLocator"]}
 execute at @e[tag=spawnPointLocator] run setblock ~ ~-1 ~ dirt replace
 
 ##Teleports Players Into Lobby

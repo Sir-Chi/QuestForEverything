@@ -23,7 +23,6 @@ scoreboard players set naturalRegeneration GameSetup 1
 scoreboard players set announceAdvancements GameSetup 1
 scoreboard players set announceTrophies GameSetup 1
 scoreboard players set keepInventory GameSetup 0
-scoreboard players set takeItems GameSetup 1
 scoreboard players set showTimer GameSetup 1
 scoreboard players set #gamestarted GameSetup 0
 scoreboard players set #gameended GameSetup 0
@@ -36,6 +35,8 @@ scoreboard players set .TotalToGet score 1414
 scoreboard players set #Leader score 0
 
 scoreboard objectives remove SyncScore
+scoreboard objectives remove SyncCriteria
+scoreboard objectives remove SyncSubmitted
 
 scoreboard players reset @a death
 
@@ -113,14 +114,8 @@ tag @e remove trophy_wool
 tag @e remove winner
 
 ##Removes Team Tracking Markers 
-kill @e[type=marker,tag=blue]
-kill @e[type=marker,tag=green]
-kill @e[type=marker,tag=red]
-kill @e[type=marker,tag=yellow]
-kill @e[type=marker,tag=purple]
-kill @e[type=marker,tag=aqua]
-kill @e[type=marker,tag=gold]
-kill @e[type=marker,tag=black]
+kill @e[type=marker,tag=q4eTeam]
+kill @e[type=marker,tag=q4ePlayerData]
 
 ##Resets Game Setup
 gamerule naturalRegeneration true
@@ -146,6 +141,7 @@ schedule clear qfe:sync_team_items/sync_loop
 
 data remove storage qfe:storage SyncTeam
 data remove storage qfe:section_counts SectionItemCount
+data remove storage qfe:storage/stack data
 
 scoreboard players set hours time 0
 scoreboard players set minutes time 0

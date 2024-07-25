@@ -24,7 +24,20 @@ If you wish to restart the game at any point run the function - "/function qfe:m
 
 ## Small Biomes
 
-There are two different versions of Quest for Everything. One is the basic datapack which can be used as normal in any new minecraft world on any minecraft seed. The other is a special version which gives a custom world with small biomes. This means that you do not need to travel for hours to find a Jungle or a Swamp.  
+There are two different base versions of Quest for Everything. One is the basic datapack which can be used as normal in any new minecraft world on any minecraft seed. The other is a special version which gives a custom world with small biomes. This means that you do not need to travel for hours to find a Jungle or a Swamp.  
+
+## Stack Edition
+
+This is an addition version of Quest for Everything where the player will need to gain a full stack (64) of an item or block in order to complete its advancement.
+
+The amount you have turned in of each block/item will be displayed on each advancement.
+
+In stack edition, items will not automatically be taken from your inventory. Instead there are two methods of turning in items:
+
+> Using the command /trigger submitHeldItem will attempt to turn the item/items in your main hand.
+> Using the command /trigger submitChestItems will locate the chest, barrel or shulker box you are currently looking at (within 10 blocks) and attempt to turn in the items from within it.
+
+Any items that are excess will not be taken.
 
 ## Game Features
 

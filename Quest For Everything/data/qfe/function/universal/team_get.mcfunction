@@ -1,8 +1,8 @@
 # Ran by every item advancement as player who got advancement when Teams is active
 # Parameters: section, name, item
-
+$say get team $(name) $(item) $(section)
 # Increase player's SyncScore whenever they individually get the advancement
-scoreboard players add @s SyncScore 1
+# scoreboard players add @s SyncScore 1
 
 # Get player's team
 $execute as @s[team=blue] run return run function qfe:universal/team_item_check {section:'$(section)', name:'$(name)', item:'$(item)', team:'blue'}

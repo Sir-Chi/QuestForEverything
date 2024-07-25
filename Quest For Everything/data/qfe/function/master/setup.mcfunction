@@ -21,7 +21,6 @@ scoreboard players set naturalRegeneration GameSetup 1
 scoreboard players set announceAdvancements GameSetup 1
 scoreboard players set announceTrophies GameSetup 1
 scoreboard players set keepInventory GameSetup 0
-scoreboard players set takeItems GameSetup 1
 scoreboard players set showTimer GameSetup 1
 scoreboard players set #gamestarted GameSetup 0
 scoreboard players set #gameended GameSetup 0
@@ -33,7 +32,6 @@ scoreboard players display name naturalRegeneration GameSetup "Natural Regenerat
 scoreboard players display name announceAdvancements GameSetup "Announce Advancements"
 scoreboard players display name announceTrophies GameSetup "Announce Trophies"
 scoreboard players display name keepInventory GameSetup "Keep Inventory"
-scoreboard players display name takeItems GameSetup "Take Items"
 scoreboard players display name showTimer GameSetup "Show Timer"
 
 scoreboard objectives add death deathCount "Deaths"
@@ -44,8 +42,9 @@ scoreboard players set .TotalToGet score 1414
 scoreboard players display name .TotalToGet score "Total To Get"
 scoreboard players set #Leader score 0
 
-scoreboard objectives remove SyncScore
 scoreboard objectives add SyncScore dummy "Sync Score"
+scoreboard objectives add SyncCriteria dummy "Sync Criteria"
+scoreboard objectives add SyncSubmitted dummy "Sync Submitted"
 
 scoreboard objectives add teams trigger "Teams"
 
@@ -97,6 +96,23 @@ scoreboard players set .TotalToGet wool_score 64
 data modify storage qfe:storage/info section_names set value {agriculture:{section:'Agriculture'},brewing:{section:'Brewing'},copper:{section:'Copper'},end:{section:'End'},loot:{section:'Loot'},manufactured:{section:'Manufactured'},nature:{section:'Nature'},nether:{section:'Nether'},ocean:{section:'Ocean'},redstone_and_transport:{section:'Redstone & Transport'},resources:{section:'Resources'},sand_and_glass:{section:'Sand & Glass'},Stone:{section:'stone'},terracotta_and_concrete:{section:'Terracotta & Concrete'},tools_and_combat:{section:'Tools & Combat'},wood:{section:'Wood'},wool:{section:'Wool'}}
 
 # data modify storage qfe:section_counts SectionItemCount.SectionCounts set value {agriculture: 63, brewing: 178, end: 35, manufactured: 103, nature_and_loot: 151, nether: 96, ocean: 61, redstone_and_transport: 35, resources: 84, sand_and_glass: 57, stone: 70, terracotta_and_concrete: 65, tools_and_combat: 88, wood: 171, wool: 64}
+
+##Stack commands
+scoreboard objectives add submitHeldItem trigger "Submit Held Items"
+scoreboard objectives add submitChestItems trigger "Submit All Items From Chest You're Looking At"
+
+scoreboard objectives add PlayerMarkers dummy
+scoreboard objectives add ItemCheck dummy
+scoreboard objectives add ItemsSubmitted dummy
+scoreboard objectives add ItemsSurplus dummy
+scoreboard objectives add ItemCriteria dummy
+scoreboard objectives add SubmissionAmount dummy
+scoreboard objectives add BulkSubmissionAmount dummy
+scoreboard objectives add WelcomeMessage dummy
+
+scoreboard objectives add chestCheck dummy
+
+function qfe:master/set_item_data
 
 ##Find Lobby Number
 execute if score #lobbynumber GameSetup matches ..0 run function qfe:master/lobby/lobby_number

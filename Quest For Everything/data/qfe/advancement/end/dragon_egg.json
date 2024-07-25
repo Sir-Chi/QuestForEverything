@@ -12,21 +12,8 @@
   },
   "parent": "qfe:end/end_crystal",
   "criteria": {
-    "has_obtained_item": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dragon_egg"
-            ],
-            "count": {
-              "min": 1,
-              "max": 64
-            }
-          }
-        ]
-      }
+    "has_1": {
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {

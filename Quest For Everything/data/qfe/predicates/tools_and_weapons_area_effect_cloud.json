@@ -1,8 +1,0 @@
-{
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "type": "minecraft:area_effect_cloud",
-      "nbt": "{Tags:['arrow','bow','brush','bucket','chainmail_boots','chainmail_chestplate','chainmail_helmet','chainmail_leggings','clock','compass','crossbow','diamond_axe','diamond_boots','diamond_chestplate','diamond_helmet','diamond_hoe','diamond_leggings','diamond_pickaxe','diamond_shovel','diamond_sword','filled_map','fishing_rod','flint_and_steel','goat_horn_admire','goat_horn_call','goat_horn_dream','goat_horn_feel','goat_horn_ponder','goat_horn_seek','goat_horn_sing','goat_horn_yearn','golden_axe','golden_boots','golden_chestplate','golden_helmet','golden_hoe','golden_leggings','golden_pickaxe','golden_shovel','golden_sword','iron_axe','iron_boots','iron_chestplate','iron_helmet','iron_hoe','iron_leggings','iron_pickaxe','iron_shovel','iron_sword','lava_bucket','lead','leather_boots','leather_chestplate','leather_helmet','leather_leggings','map','milk_bucket','name_tag','netherite_axe','netherite_boots','netherite_chestplate','netherite_helmet','netherite_hoe','netherite_leggings','netherite_pickaxe','netherite_shovel','netherite_sword','ocean_explorer_map','powder_snow_bucket','recovery_compass','shears','shield','spectral_arrow','spyglass','stone_axe','stone_hoe','stone_pickaxe','stone_shovel','stone_sword','totem_of_undying','trident','water_bucket','wooden_axe','wooden_hoe','wooden_pickaxe','wooden_shovel','wooden_sword','woodland_explorer_map']}"
-    }
-  }

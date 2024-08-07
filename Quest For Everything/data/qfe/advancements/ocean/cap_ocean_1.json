@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:ocean/dark_prismarine_stairs",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

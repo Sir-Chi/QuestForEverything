@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coast_armor_trim_smithing_template"
+    },
+    "title": "Coast Armour Trim Smithing Template",
+    "description": "Obtain Coast Armour Trim Smithing Template",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:loot/wild_armor_trim_smithing_template",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coast_armor_trim_smithing_template"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/loot/coast_armor_trim_smithing_template"
+  }
+}

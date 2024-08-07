@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:resources/gold_nugget",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

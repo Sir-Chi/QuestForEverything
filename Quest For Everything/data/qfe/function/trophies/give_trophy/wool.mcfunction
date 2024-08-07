@@ -1,0 +1,2 @@
+tag @s add trophy_wool
+give @s minecraft:player_head[minecraft:item_name="'Trophy - Wool'",minecraft:note_block_sound="minecraft:block.wool.place",minecraft:profile={properties:[{"name": "textures","value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA4ZGY2MGM1MTA3NGVlZjI1NDRmZjM4Y2VhZDllMTY2NzVhZTQyNTE5MTYxMDUxODBlMWY4Y2UxOTdhYjNiYyJ9fX0="}]}] 1

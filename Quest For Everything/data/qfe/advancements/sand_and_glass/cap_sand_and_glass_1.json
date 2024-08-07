@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:sand_and_glass/tinted_glass",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

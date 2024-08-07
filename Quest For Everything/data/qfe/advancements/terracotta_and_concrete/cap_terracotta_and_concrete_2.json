@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:terracotta_and_concrete/white_concrete",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

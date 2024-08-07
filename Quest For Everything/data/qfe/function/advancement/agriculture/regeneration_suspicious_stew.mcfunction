@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'regeneration_suspicious_stew', 'item':'minecraft:suspicious_stew[minecraft:suspicious_stew_effects=[{"id": "minecraft:regeneration", "duration": 160}]]'}

@@ -1,0 +1,2 @@
+tag @s add trophy_stone
+give @s minecraft:player_head[minecraft:item_name="'Trophy - Stone'",minecraft:note_block_sound="minecraft:block.grindstone.use",minecraft:profile={properties:[{"name": "textures","value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk1NTM0ZTAyYzU5YjMzZWNlNTYxOTI4MDMzMTk3OTc3N2UwMjVmYTVmYTgxYWU3NWU5OWZkOGVmZGViYjgifX19"}]}] 1

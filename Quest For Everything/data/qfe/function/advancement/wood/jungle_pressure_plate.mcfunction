@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'wood', 'name':'jungle_pressure_plate', 'item':'minecraft:jungle_pressure_plate'}

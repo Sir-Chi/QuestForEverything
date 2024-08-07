@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:brewing/thick_lingering_potion",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

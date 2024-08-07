@@ -1,0 +1,47 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "type_specific": {
+      "type": "player",
+      "advancements": {
+        "qfe:end/black_shulker_box": true,
+        "qfe:end/blue_shulker_box": true,
+        "qfe:end/brown_shulker_box": true,
+        "qfe:end/chorus_flower": true,
+        "qfe:end/chorus_fruit": true,
+        "qfe:end/cyan_shulker_box": true,
+        "qfe:end/dragon_egg": true,
+        "qfe:end/dragon_head": true,
+        "qfe:end/elytra": true,
+        "qfe:end/end_crystal": true,
+        "qfe:end/end_rod": true,
+        "qfe:end/end_stone_brick_slab": true,
+        "qfe:end/end_stone_brick_stairs": true,
+        "qfe:end/end_stone_brick_wall": true,
+        "qfe:end/end_stone_bricks": true,
+        "qfe:end/end_stone": true,
+        "qfe:end/gray_shulker_box": true,
+        "qfe:end/green_shulker_box": true,
+        "qfe:end/light_blue_shulker_box": true,
+        "qfe:end/light_gray_shulker_box": true,
+        "qfe:end/lime_shulker_box": true,
+        "qfe:end/magenta_shulker_box": true,
+        "qfe:end/orange_shulker_box": true,
+        "qfe:end/pink_shulker_box": true,
+        "qfe:end/popped_chorus_fruit": true,
+        "qfe:end/purple_shulker_box": true,
+        "qfe:end/purpur_block": true,
+        "qfe:end/purpur_pillar": true,
+        "qfe:end/purpur_slab": true,
+        "qfe:end/purpur_stairs": true,
+        "qfe:end/red_shulker_box": true,
+        "qfe:end/shulker_box": true,
+        "qfe:end/shulker_shell": true,
+        "qfe:end/white_shulker_box": true,
+        "qfe:end/yellow_shulker_box": true
+      }
+    }
+  }
+}

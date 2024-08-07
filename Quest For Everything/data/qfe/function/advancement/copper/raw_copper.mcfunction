@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'copper', 'name':'raw_copper', 'item':'minecraft:raw_copper'}

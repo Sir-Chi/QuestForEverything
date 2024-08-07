@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'white_tulip', 'item':'minecraft:white_tulip'}

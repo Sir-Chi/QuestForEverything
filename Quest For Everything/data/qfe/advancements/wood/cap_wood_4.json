@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:wood/jungle_chest_boat",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

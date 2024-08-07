@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:redstone_and_transport/tnt_minecart",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

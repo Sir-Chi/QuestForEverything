@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'dead_bubble_coral_fan', 'item':'minecraft:dead_bubble_coral_fan'}

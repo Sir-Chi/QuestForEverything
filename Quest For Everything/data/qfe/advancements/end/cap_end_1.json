@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:end/end_stone_brick_wall",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

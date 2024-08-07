@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:tools_and_weapons/chainmail_boots",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'chiseled_nether_bricks', 'item':'minecraft:chiseled_nether_bricks'}

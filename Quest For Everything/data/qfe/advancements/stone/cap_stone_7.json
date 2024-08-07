@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:stone/pointed_dripstone",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

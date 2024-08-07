@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:stone/chiseled_tuff_bricks",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

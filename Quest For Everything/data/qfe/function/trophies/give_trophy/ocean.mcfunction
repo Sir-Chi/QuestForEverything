@@ -1,0 +1,2 @@
+tag @s add trophy_ocean
+give @s minecraft:player_head[minecraft:item_name="'Trophy - Ocean'",minecraft:note_block_sound="minecraft:entity.dolphin.splash",minecraft:profile={properties:[{"name": "textures","value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdiZjExMWQ2NzFiNTI3NzBkNmEyNGZkNzhjOGYwZTEwN2QzZjdjZmRmNjcxZDcyYjUzMjEwM2ZkOWVlOWI4OSJ9fX0="}]}] 1

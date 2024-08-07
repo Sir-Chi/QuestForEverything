@@ -1,0 +1,1 @@
+tellraw @a {"text": "Q4E code has loaded successfully", "color": "#0000FF"}

@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:manufactured/white_dye",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

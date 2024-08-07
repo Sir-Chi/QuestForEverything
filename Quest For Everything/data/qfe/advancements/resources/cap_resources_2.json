@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:resources/redstone_block",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'wool', 'name':'white_banner', 'item':'minecraft:white_banner[minecraft:banner_patterns=[]]'}

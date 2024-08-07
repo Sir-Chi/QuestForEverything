@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'end', 'name':'magenta_shulker_box', 'item':'minecraft:magenta_shulker_box'}

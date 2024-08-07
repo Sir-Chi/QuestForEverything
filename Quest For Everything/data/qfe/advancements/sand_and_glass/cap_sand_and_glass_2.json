@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:sand_and_glass/white_stained_glass_pane",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

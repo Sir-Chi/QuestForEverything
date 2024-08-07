@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:agriculture/pufferfish",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

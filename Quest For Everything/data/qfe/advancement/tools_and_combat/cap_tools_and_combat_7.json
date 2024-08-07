@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:tools_and_combat/golden_boots",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

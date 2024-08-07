@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:stone/deepslate_tile_wall",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

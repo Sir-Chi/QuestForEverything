@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:brewing/long_weakness_tipped_arrow",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

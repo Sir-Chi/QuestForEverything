@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'trial_explorer_map', 'item':'minecraft:filled_map[minecraft:map_color=12741452]'}

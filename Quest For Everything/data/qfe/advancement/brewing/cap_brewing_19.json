@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:brewing/infested_tipped_arrow",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

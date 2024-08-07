@@ -1,0 +1,2 @@
+tag @s add trophy_wood
+give @s minecraft:player_head[minecraft:item_name="'Trophy - Wood'",minecraft:note_block_sound="minecraft:block.bamboo_wood.step",minecraft:profile={properties:[{"name": "textures","value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTlkMDhjMGE4ZDAwMWE3ODhlMjYwZDZiYTFmNGYwOGFkYTBlYTcxOWEwZjRlNjExZDZjNGI3YWM4M2JiMDM1ZSJ9fX0="}]}] 1

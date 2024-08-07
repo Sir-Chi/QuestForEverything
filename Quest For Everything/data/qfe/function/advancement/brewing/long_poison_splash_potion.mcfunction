@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'long_poison_splash_potion', 'item':'minecraft:splash_potion[minecraft:potion_contents={potion:"minecraft:long_poison"}]'}

@@ -1,0 +1,2 @@
+tag @s add trophy_sand_and_glass
+give @s minecraft:player_head[minecraft:item_name="'Trophy - Sand & Glass'",minecraft:note_block_sound="minecraft:block.suspicious_sand.break",minecraft:profile={properties:[{"name": "textures","value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY0OTNkZDgwNjUzM2Q5ZDIwZTg0OTUzOTU0MzY1ZjRkMzY5NzA5Y2ViYzlkZGVmMDIyZDFmZDQwZDg2YTY4ZiJ9fX0="}]}] 1

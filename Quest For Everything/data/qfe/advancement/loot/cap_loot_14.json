@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:loot/sculk_sensor",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

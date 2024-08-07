@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'wood', 'name':'oak_door', 'item':'minecraft:oak_door'}

@@ -1,8 +1,0 @@
-{
-    "parent": "qfe:brewing/long_water_breathing_tipped_arrow",
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }

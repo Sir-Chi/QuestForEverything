@@ -1,7 +1,6 @@
 
 scoreboard objectives remove GameSetup
 scoreboard objectives add GameSetup dummy "Game Setup"
-scoreboard objectives setdisplay sidebar GameSetup
 scoreboard players set Teams GameSetup 0
 scoreboard players set allRecipesUnlocked GameSetup 0
 scoreboard players set naturalRegeneration GameSetup 1

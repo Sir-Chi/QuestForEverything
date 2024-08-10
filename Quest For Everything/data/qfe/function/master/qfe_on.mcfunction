@@ -2,7 +2,7 @@ tellraw @p {"text":"You've enabled Quest 4 Everything advancements.","color":"go
 
 scoreboard players set @p q4e 1
 
-execute if entity @p[scores={disableq4e=1..}] run scoreboard players reset @s[scores={disableq4e=1..}] disableq4e
+execute if entity @p[scores={disableq4e=1..}] run scoreboard players reset @p[scores={disableq4e=1..}] disableq4e
 
 advancement grant @p only qfe:agriculture/root
 advancement grant @p only qfe:agriculture/cap_agriculture_1

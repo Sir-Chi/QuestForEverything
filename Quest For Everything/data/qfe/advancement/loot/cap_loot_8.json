@@ -2,7 +2,7 @@
   "parent": "qfe:loot/wind_charge",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

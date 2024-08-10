@@ -2,7 +2,7 @@
   "parent": "qfe:tools_and_combat/recovery_compass",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

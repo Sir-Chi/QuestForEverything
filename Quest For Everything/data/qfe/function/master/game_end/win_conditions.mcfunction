@@ -1,0 +1,2 @@
+execute as @e[type=player,scores={q4e=1..}] if score @s score_mindcrack >= .TotalToGet score_mindcrack run tag @s add winner
+execute as @e[type=player,scores={q4e=1..},tag=winner] if score @s score_mindcrack >= .TotalToGet score_mindcrack run function qfe:master/game_end/game_won

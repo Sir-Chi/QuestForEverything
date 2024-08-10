@@ -2,7 +2,7 @@
 # Parameters: section, item
 
 # Increase player's score
-scoreboard players add @s score 1
+scoreboard players add @s score_mindcrack 1
 $scoreboard players add @s $(section)_score 1
 
 # When takeItems, clear item from player

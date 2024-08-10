@@ -3,10 +3,12 @@ execute unless data storage minecraft:general/secondtimer active run data merge 
 
 #Functions to call once per second
 
-function qfe:master/winconditions
+function qfe:master/game_end/win_conditions
 
 scoreboard players enable @a disableq4e
 execute as @a[scores={disableq4e=1..}] run function qfe:master/qfe_off_confirmed
+
+execute as @a[scores={score=1..}] run function qfe:master/mindcrack/reset
 
 #Just in case, to maintain timing integrity
 schedule clear qfe:master/secondmaster

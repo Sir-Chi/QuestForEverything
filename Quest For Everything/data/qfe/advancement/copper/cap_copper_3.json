@@ -2,7 +2,7 @@
   "parent": "qfe:copper/exposed_copper_bulb",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

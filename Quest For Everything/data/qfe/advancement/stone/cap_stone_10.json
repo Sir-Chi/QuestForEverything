@@ -2,7 +2,7 @@
   "parent": "qfe:stone/mossy_stone_brick_wall",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

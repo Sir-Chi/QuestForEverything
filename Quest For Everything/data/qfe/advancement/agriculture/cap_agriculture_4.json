@@ -2,7 +2,7 @@
   "parent": "qfe:agriculture/enchanted_golden_apple",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

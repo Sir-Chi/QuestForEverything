@@ -2,7 +2,7 @@
   "parent": "qfe:redstone_and_transport/warped_fungus_on_a_stick",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

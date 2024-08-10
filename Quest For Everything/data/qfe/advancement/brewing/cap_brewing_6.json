@@ -2,7 +2,7 @@
   "parent": "qfe:brewing/strong_harming_tipped_arrow",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

@@ -2,7 +2,7 @@
   "parent": "qfe:manufactured/lightning_rod",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

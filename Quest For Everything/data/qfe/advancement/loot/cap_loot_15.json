@@ -2,7 +2,7 @@
   "parent": "qfe:loot/heavy_core",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

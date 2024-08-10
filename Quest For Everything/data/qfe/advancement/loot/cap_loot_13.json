@@ -2,7 +2,7 @@
   "parent": "qfe:loot/netherite_upgrade_smithing_template",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

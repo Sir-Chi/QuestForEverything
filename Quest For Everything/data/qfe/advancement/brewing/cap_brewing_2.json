@@ -2,7 +2,7 @@
   "parent": "qfe:brewing/dragon_breath",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

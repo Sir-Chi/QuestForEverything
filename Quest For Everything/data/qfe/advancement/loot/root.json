@@ -22,7 +22,7 @@
 	},
 	"criteria": {
 		"tick": {
-			"trigger": "minecraft:tick"
+			"trigger": "minecraft:impossible"
 		}
 	}
 }

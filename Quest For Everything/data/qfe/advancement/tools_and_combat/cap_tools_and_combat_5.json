@@ -2,7 +2,7 @@
   "parent": "qfe:tools_and_combat/totem_of_undying",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

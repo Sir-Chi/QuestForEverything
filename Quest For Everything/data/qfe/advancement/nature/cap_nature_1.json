@@ -2,7 +2,7 @@
   "parent": "qfe:nature/sunflower",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

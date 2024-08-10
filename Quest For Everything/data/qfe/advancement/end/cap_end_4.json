@@ -2,7 +2,7 @@
   "parent": "qfe:end/blue_shulker_box",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

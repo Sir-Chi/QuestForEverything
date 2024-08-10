@@ -2,7 +2,7 @@
   "parent": "qfe:agriculture/wither_suspicious_stew",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

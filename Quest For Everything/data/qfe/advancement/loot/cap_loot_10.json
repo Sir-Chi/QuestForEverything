@@ -2,7 +2,7 @@
   "parent": "qfe:loot/music_disc_creator",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

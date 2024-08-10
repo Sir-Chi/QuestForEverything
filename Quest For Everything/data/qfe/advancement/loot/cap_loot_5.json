@@ -2,7 +2,7 @@
   "parent": "qfe:loot/decorated_pot",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   }
 }

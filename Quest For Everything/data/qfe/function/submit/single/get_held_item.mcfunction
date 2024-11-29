@@ -27,4 +27,5 @@ execute unless score @s ItemsSurplus matches 0 if score @s SubmissionAmount matc
 function qfe:submit/grant_advancement with entity @s data.itemCheck.foundItem
 
 # Message player what was submitted
-tellraw @p ["You submitted ", {"entity":"@s","nbt":"data.itemCheck.foundItem.display","color":"aqua"}, " x ", {"score":{"name":"@s","objective":"SubmissionAmount"},"color":"aqua"}, ", and you have submitted ", {"score":{"name":"@s","objective":"ItemsSubmitted"},"color":"aqua"}," in total!"]
+execute if score Teams GameSetup matches 1 run return run function qfe:submit/single/announce_team_submitted with entity @s data.itemCheck.foundItem
+tellraw @p [{"text":"You submitted ","color":"white"}, {"entity":"@s","nbt":"data.itemCheck.foundItem.display","color":"aqua"},{"text":" x ","color":"white"}, {"score":{"name":"@s","objective":"SubmissionAmount"},"color":"aqua"},{"text":", and you have submitted ","color":"white"}, {"score":{"name":"@s","objective":"ItemsSubmitted"},"color":"aqua"},{"text":" in total!","color":"white"}]

@@ -36,6 +36,7 @@ say after loop
 # Set new item list as container's items
 data modify block ~ ~ ~ Items set from entity @s data.itemCheck.itemList
 
+say get_container_message
 # Message player what was submitted
+execute if score Teams GameSetup matches 1 run return run function qfe:submit/bulk/announce_team_submitted with entity @s data.itemCheck.foundItem
 execute at @a if score @s PlayerMarkers = @p PlayerMarkers run tellraw @p ["You submitted ", {"score":{"name":"@s","objective":"BulkSubmissionAmount"},"color":"aqua"}, " items!"]
-say get_contaioner_item_end

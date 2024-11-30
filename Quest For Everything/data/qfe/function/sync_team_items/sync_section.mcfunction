@@ -1,5 +1,7 @@
 # @s = team player to sync
-# Parameters = team section
+# Parameters = team, section
+
+$say sync_section | $(section) | $(team)
 
 # If player does not have trophy, and team has section trophy, sync that trophy and stop from syncing individual items
 $execute as @s[tag=!trophy_$(section)] at @e[type=marker,tag=$(team),tag=trophy_$(section)] run return run function qfe:sync_team_items/sync_trophy {section: $(section)}

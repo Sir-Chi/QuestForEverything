@@ -4,7 +4,6 @@
 # add new player to team
 $team join $(team) @s
 gamemode survival @s[team=!admin]
-effect clear @s[team=!admin]
 
 # Set team's display name (also show's it on sidebar)
 $scoreboard players display name @e[type=marker,tag=$(team)] score "$(team_name)"

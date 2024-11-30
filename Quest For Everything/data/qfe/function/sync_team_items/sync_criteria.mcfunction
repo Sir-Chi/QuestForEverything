@@ -1,7 +1,9 @@
 # @s = team player to sync
 # Parameters = section, item, criteriaCount
 
-$advancement grant @s only qfe:$(section)/$(name) has_$(criteriaCount)
+$say sync_criteria | $(section) | $(item) | $(criteriaCount)
+
+$advancement grant @s only qfe:$(section)/$(item) has_$(criteriaCount)
 
 # Increase criteria number
 execute store result storage qfe:storage SyncTeam.ItemsSync.CurrentItem.criteriaCount int 1 run scoreboard players add @s SyncCriteria 1

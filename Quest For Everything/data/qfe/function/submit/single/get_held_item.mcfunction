@@ -15,7 +15,7 @@ function qfe:submit/get_item_type with entity @s data.itemCheck.selectedItem
 function qfe:submit/get_item_surplus with entity @s data.itemCheck.foundItem
 
 # If item not found, give error
-execute unless data entity @s data.itemCheck.foundItem run return run tellraw @p [{"color":"red","text":"Invalid Item Type. If you think this item should be included please report the bug "},{"clickEvent":{"action":"open_url","value":"https://github.com/Sir-Chi/QuestForEverything/issues"},"color":"dark_aqua","text":"here","underlined":true}]
+execute unless data entity @s data.itemCheck.foundItem run return run tellraw @p [{"color":"red","text":"Invalid Item Type. If you think this item should be included, please report the bug "},{"clickEvent":{"action":"open_url","value":"https://github.com/Sir-Chi/QuestForEverything/issues"},"color":"dark_aqua","text":"here","underlined":true}]
 
 # If surplus is 0 clear item
 execute if score @s ItemsSurplus matches 0 run item replace entity @p weapon.mainhand with air

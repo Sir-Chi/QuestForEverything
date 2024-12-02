@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'experience_bottle', 'item':'minecraft:experience_bottle'}

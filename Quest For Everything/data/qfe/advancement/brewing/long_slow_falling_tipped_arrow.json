@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:long_slow_falling"
-        }
-      }
+      "id": "minecraft:tipped_arrow"
     },
     "title": "Arrow of Slow Falling",
     "description": "Slow Falling (0:30)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/long_slow_falling_tipped_arrow"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

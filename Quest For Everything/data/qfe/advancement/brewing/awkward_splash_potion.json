@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:awkward"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Awkward Splash Potion",
     "description": "Obtain Awkward Splash Potion",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/awkward_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

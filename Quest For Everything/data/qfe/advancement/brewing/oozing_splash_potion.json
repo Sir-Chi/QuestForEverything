@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:oozing"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Splash Potion of Oozing",
     "description": "Oozing (3:00)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/oozing_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

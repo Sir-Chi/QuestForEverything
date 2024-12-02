@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nature', 'name':'clay_ball', 'item':'minecraft:clay_ball'}

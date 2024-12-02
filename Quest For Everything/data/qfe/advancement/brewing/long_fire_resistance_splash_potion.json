@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:long_fire_resistance"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Splash Potion of Fire Resistance",
     "description": "Fire Resistance (8:00)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/long_fire_resistance_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

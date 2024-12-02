@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/ocean/salmon_bucket"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

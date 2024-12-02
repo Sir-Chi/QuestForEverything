@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'crafting_table', 'item':'minecraft:crafting_table'}

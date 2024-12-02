@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/terracotta_and_concrete/black_terracotta"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

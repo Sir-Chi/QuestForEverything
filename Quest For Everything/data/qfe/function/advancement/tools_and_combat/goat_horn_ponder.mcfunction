@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'goat_horn_ponder', 'item':'minecraft:goat_horn[minecraft:instrument="minecraft:ponder_goat_horn"]'}

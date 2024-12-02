@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:wind_charged"
-        }
-      }
+      "id": "minecraft:potion"
     },
     "title": "Potion of Wind Charging",
     "description": "Wind Charged (3:00)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/wind_charged_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

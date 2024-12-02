@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lingering_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:long_fire_resistance"
-        }
-      }
+      "id": "minecraft:lingering_potion"
     },
     "title": "Lingering Potion of Fire Resistance",
     "description": "Fire Resistance (2:00)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/long_fire_resistance_lingering_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

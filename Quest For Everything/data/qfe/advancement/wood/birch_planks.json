@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/wood/birch_planks"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

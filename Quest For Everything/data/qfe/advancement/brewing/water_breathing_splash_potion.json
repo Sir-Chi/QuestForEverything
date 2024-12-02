@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:water_breathing"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Splash Potion of Water Breathing",
     "description": "Water Breathing (3:00)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/water_breathing_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

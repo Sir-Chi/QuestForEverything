@@ -4,7 +4,7 @@
       "id": "minecraft:stripped_dark_oak_wood"
     },
     "title": "Stripped Dark Oak Wood",
-    "description": "Stripped Dark Oak Wood",
+    "description": "Obtain Stripped Dark Oak Wood",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/wood/stripped_dark_oak_wood"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

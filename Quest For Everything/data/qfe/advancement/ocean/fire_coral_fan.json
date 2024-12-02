@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/ocean/fire_coral_fan"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

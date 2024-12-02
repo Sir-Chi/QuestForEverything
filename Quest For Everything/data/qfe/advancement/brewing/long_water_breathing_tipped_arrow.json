@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:long_water_breathing"
-        }
-      }
+      "id": "minecraft:tipped_arrow"
     },
     "title": "Arrow of Water Breathing",
     "description": "Water Breathing (1:00)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/long_water_breathing_tipped_arrow"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

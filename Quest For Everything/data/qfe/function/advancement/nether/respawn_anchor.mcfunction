@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'respawn_anchor', 'item':'minecraft:respawn_anchor'}

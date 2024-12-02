@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'deepslate_iron_ore', 'item':'minecraft:deepslate_iron_ore'}

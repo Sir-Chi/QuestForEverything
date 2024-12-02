@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/copper/waxed_copper_door"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:long_night_vision"
-        }
-      }
+      "id": "minecraft:tipped_arrow"
     },
     "title": "Arrow of Night Vision",
     "description": "Night Vision (1:00)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/long_night_vision_tipped_arrow"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

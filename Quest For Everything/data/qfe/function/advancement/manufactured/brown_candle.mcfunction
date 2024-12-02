@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'brown_candle', 'item':'minecraft:brown_candle'}

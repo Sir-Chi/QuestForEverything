@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nature', 'name':'glow_lichen', 'item':'minecraft:glow_lichen'}

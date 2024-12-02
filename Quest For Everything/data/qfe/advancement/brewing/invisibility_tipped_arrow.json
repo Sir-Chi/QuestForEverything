@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:invisibility"
-        }
-      }
+      "id": "minecraft:tipped_arrow"
     },
     "title": "Arrow of Invisibility",
     "description": "Invisibility (0:22)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/invisibility_tipped_arrow"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

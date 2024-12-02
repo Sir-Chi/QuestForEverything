@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/manufactured/brick_stairs"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

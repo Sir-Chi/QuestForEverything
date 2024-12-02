@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:weaving"
-        }
-      }
+      "id": "minecraft:tipped_arrow"
     },
     "title": "Arrow of Weaving",
     "description": "Weaving (0:22)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/weaving_tipped_arrow"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

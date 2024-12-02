@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nature', 'name':'big_dripleaf', 'item':'minecraft:big_dripleaf'}

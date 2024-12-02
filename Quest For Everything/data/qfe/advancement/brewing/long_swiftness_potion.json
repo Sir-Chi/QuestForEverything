@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:long_swiftness"
-        }
-      }
+      "id": "minecraft:potion"
     },
     "title": "Potion of Swiftness",
     "description": "Speed (8:00)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/long_swiftness_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

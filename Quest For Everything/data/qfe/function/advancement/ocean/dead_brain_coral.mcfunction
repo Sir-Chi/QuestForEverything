@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'dead_brain_coral', 'item':'minecraft:dead_brain_coral'}

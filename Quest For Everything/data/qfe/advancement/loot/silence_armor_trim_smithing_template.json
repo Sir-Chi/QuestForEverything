@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:silence_armor_trim_smithing_template"
     },
-    "title": "Silence Armour Trim Smithing Template",
-    "description": "Obtain Silence Armour Trim Smithing Template",
+    "title": "Silence Armour Trim",
+    "description": "Obtain Silence Armour Trim",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/loot/silence_armor_trim_smithing_template"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

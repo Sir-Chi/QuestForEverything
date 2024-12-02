@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:long_turtle_master"
-        }
-      }
+      "id": "minecraft:tipped_arrow"
     },
     "title": "Arrow of Turtle Master",
     "description": "Slowness IV (0:05), Resistance III (0:05)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/long_turtle_master_tipped_arrow"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

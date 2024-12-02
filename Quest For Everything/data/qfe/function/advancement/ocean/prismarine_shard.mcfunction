@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'prismarine_shard', 'item':'minecraft:prismarine_shard'}

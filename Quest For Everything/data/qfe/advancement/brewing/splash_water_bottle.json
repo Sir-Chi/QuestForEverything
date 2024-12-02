@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:water"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Splash Water Bottle",
     "description": "Obtain Splash Water Bottle",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/splash_water_bottle"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

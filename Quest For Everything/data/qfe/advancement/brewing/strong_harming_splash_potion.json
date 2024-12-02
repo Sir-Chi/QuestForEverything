@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:strong_harming"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Splash Potion of Harming",
     "description": "Instant Damage II",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/strong_harming_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

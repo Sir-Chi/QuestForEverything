@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lingering_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:mundane"
-        }
-      }
+      "id": "minecraft:lingering_potion"
     },
     "title": "Mundane Lingering Potion",
     "description": "Obtain Mundane Lingering Potion",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/mundane_lingering_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

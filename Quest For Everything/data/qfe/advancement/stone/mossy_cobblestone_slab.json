@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/stone/mossy_cobblestone_slab"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

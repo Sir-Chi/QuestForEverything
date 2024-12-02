@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/stone/pointed_dripstone"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

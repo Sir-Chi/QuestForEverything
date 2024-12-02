@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'long_turtle_master_splash_potion', 'item':'minecraft:splash_potion[minecraft:potion_contents={potion:"minecraft:long_turtle_master"}]'}

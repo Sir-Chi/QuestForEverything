@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:strong_strength"
-        }
-      }
+      "id": "minecraft:tipped_arrow"
     },
     "title": "Arrow of Strength",
     "description": "Strength II (0:11)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/strong_strength_tipped_arrow"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

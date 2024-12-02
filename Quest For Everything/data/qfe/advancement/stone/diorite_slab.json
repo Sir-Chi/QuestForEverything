@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/stone/diorite_slab"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

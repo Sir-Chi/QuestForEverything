@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'firework_star', 'item':'minecraft:firework_star'}

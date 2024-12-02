@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": 
+      "components": [
         {
           "minecraft:suspicious_stew_effects": [
             {
@@ -10,7 +10,40 @@
               "duration": 100
             }
           ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:night_vision",
+              "duration": 140
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:night_vision",
+              "duration": 160
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:night_vision",
+              "duration": 180
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:night_vision",
+              "duration": 200
+            }
+          ]
         }
+      ]
     },
     "title": "Suspicious Stew - Night Vision",
     "description": "Obtain Suspicious Stew - Night Vision",
@@ -215,6 +248,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/agriculture/night_vision_suspicious_stew"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

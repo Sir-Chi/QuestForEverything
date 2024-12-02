@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": 
+      "components": [
         {
           "minecraft:suspicious_stew_effects": [
             {
@@ -10,7 +10,88 @@
               "duration": 200
             }
           ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 220
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 240
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 260
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 280
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 300
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 320
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 340
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 360
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 380
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 400
+            }
+          ]
         }
+      ]
     },
     "title": "Suspicious Stew - Poison",
     "description": "Obtain Suspicious Stew - Poison",
@@ -215,6 +296,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/agriculture/poison_suspicious_stew"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

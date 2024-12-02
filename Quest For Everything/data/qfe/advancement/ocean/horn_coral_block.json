@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/ocean/horn_coral_block"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

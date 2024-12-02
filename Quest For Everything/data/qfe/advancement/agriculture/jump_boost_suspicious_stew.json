@@ -2,15 +2,48 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": 
+      "components": [
         {
           "minecraft:suspicious_stew_effects": [
             {
               "id": "minecraft:jump_boost",
-              "duration": 120
+              "duration": 100
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:jump_boost",
+              "duration": 140
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:jump_boost",
+              "duration": 160
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:jump_boost",
+              "duration": 180
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:jump_boost",
+              "duration": 200
             }
           ]
         }
+      ]
     },
     "title": "Suspicious Stew - Jump Boost",
     "description": "Obtain Suspicious Stew - Jump Boost",
@@ -19,7 +52,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:agriculture/saturation_suspicious_stew",
+  "parent": "qfe:agriculture/nausea_suspicious_stew",
   "criteria": {
     "has_1": {
       "trigger": "minecraft:impossible"
@@ -215,6 +248,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/agriculture/jump_boost_suspicious_stew"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

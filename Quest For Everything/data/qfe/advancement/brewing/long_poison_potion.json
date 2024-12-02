@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:long_poison"
-        }
-      }
+      "id": "minecraft:potion"
     },
     "title": "Potion of Poison",
     "description": "Poison (1:30)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/long_poison_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:nature/moss_carpet",
+  "parent": "qfe:nature/flowering_azalea",
   "criteria": {
     "has_1": {
       "trigger": "minecraft:impossible"
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/nature/azalea_leaves"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

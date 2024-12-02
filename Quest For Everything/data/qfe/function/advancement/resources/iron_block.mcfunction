@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'iron_block', 'item':'minecraft:iron_block'}

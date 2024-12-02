@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:poison"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Splash Potion of Poison",
     "description": "Poison (0:45)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/poison_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

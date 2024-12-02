@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:weaving"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Splash Potion of Weaving",
     "description": "Weaving (3:00)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/weaving_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

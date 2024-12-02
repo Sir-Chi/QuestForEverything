@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'stone', 'name':'polished_tuff', 'item':'minecraft:polished_tuff'}

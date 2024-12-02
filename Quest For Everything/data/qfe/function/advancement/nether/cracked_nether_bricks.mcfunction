@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'cracked_nether_bricks', 'item':'minecraft:cracked_nether_bricks'}

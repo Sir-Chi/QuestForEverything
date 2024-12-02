@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'lingering_water_bottle', 'item':'minecraft:lingering_potion[minecraft:potion_contents={potion:"minecraft:water"}]'}

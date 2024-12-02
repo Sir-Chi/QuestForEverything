@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:oozing"
-        }
-      }
+      "id": "minecraft:tipped_arrow"
     },
     "title": "Arrow of Oozing",
     "description": "Oozing (0:22)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/oozing_tipped_arrow"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

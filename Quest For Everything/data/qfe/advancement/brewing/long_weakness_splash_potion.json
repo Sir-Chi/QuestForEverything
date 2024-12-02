@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:long_weakness"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Splash Potion of Weakness",
     "description": "Weakness (4:00)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/long_weakness_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

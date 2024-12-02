@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:slow_falling"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Splash Potion of Slow Falling",
     "description": "Slow Falling (1:30)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/slow_falling_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'medium_amethyst_bud', 'item':'minecraft:medium_amethyst_bud'}

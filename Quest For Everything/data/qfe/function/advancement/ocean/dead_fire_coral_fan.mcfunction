@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'dead_fire_coral_fan', 'item':'minecraft:dead_fire_coral_fan'}

@@ -1,7 +1,7 @@
 
 # Quest for Everything
 
-Quest for Everything is a scavenger hunt game for survival minecraft. The objective of the game is for the players to obtain all the items and blocks that are available in survival minecraft. There are currently a total of 1414 items and blocks that can be collected. To obtain these, players will need to explore, slay, mine and craft.
+Quest for Everything is a scavenger hunt game for survival minecraft. The objective of the game is for the players to obtain all the items and blocks that are available in survival minecraft. There are currently a total of 1466 items and blocks that can be collected. To obtain these, players will need to explore, slay, mine and craft.
 
 Players will track their progress using custom advancements, one for each of the available items & blocks. These advancements are split up into Sections, grouping similar items together such as all the wood items/blocks or all the wool items/blocks. On completion of all advancements in a Section a Trophy will be awarded!
 
@@ -11,7 +11,7 @@ On commencement of the game, a scoreboard will appear at the side of the screen.
 
 ## How To Install
 
-> 1) First find the right datapack you'd like (one of either the "original" or the "small biomes" version). Download it and then unzip the file.
+> 1) First find the right datapack you'd like (one of either the "original", "small biomes" or "stack" versions). Download it and then unzip the file.
 > 2) To play the game, start by beginning to create a new minecraft world.
 > 3) On the world creation screen, select the tab at the top of the screen called "More", then click the button called "Data Packs".
 > 4) In this menu, click "Open Pack Folder" and copy and paste into this the unzipped "Quest For Everything" folder.
@@ -22,13 +22,17 @@ On commencement of the game, a scoreboard will appear at the side of the screen.
 
 If you wish to restart the game at any point run the function - "/function qfe:master/game_end/force_end" and it will reset you and send you back to the lobby to start over.
 
-## Small Biomes
+## Special Versions
 
-There are two different base versions of Quest for Everything. One is the basic datapack which can be used as normal in any new minecraft world on any minecraft seed. The other is a special version which gives a custom world with small biomes. This means that you do not need to travel for hours to find a Jungle or a Swamp.  
+There are two different special sub versions of Quest for Everything in addition to the original version of the game. The original is the basic datapack which can be used as normal in any new minecraft world on any minecraft seed.
 
-## Stack Edition
+### Small Biomes
 
-This is an addition version of Quest for Everything where the player will need to gain a full stack (64) of an item or block in order to complete its advancement.
+The first special version which gives a custom world with small biomes. This means that you do not need to travel for hours to find a Jungle, Swamp, Flower Forest, etc.  
+
+### Stack Edition
+
+This second special version of Quest for Everything where the player will need to gain a full stack (64) of an item or block in order to complete its advancement and gain a point.
 
 The amount you have turned in of each block/item will be displayed on each advancement.
 
@@ -52,7 +56,7 @@ During the game setup period, the side of the screen shows certain custom Game C
 - Set Time - You can set the game to end after a set amount of time.
 - Set Score - You can set the game to end after a set amount of advancements/score has been reached.
 - Teams - When teams are active, signs will appear in the Lobby giving everyone the option of joining a team. There are 8 team colours to choose from!
-- Show Timer - If OFF, the timer will not be displayed!
+- Show Timer - If OFF, the timer will not be displayed.
 
 #### The Dragon Egg
 

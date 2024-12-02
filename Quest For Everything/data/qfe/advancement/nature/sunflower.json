@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/nature/sunflower"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

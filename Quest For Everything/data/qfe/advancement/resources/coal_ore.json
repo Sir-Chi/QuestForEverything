@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/resources/coal_ore"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

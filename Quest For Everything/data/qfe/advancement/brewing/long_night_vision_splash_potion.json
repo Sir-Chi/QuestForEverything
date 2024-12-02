@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:long_night_vision"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Splash Potion of Night Vision",
     "description": "Night Vision (8:00)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/long_night_vision_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

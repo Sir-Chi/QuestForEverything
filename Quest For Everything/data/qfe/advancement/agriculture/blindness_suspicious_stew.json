@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": 
+      "components": [
         {
           "minecraft:suspicious_stew_effects": [
             {
@@ -10,7 +10,32 @@
               "duration": 100
             }
           ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:blindness",
+              "duration": 120
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:blindness",
+              "duration": 140
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:blindness",
+              "duration": 220
+            }
+          ]
         }
+      ]
     },
     "title": "Suspicious Stew - Blindness",
     "description": "Obtain Suspicious Stew - Blindness",
@@ -215,6 +240,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/agriculture/blindness_suspicious_stew"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

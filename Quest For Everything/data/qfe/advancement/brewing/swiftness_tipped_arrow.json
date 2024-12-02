@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:swiftness"
-        }
-      }
+      "id": "minecraft:tipped_arrow"
     },
     "title": "Arrow of Swiftness",
     "description": "Speed (0:22)",
@@ -211,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/swiftness_tipped_arrow"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

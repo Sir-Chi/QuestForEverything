@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'iron_leggings', 'item':'minecraft:iron_leggings'}

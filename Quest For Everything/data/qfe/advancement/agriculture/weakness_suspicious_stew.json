@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": 
+      "components": [
         {
           "minecraft:suspicious_stew_effects": [
             {
@@ -10,7 +10,24 @@
               "duration": 120
             }
           ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:weakness",
+              "duration": 140
+            }
+          ]
+        },
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:weakness",
+              "duration": 160
+            }
+          ]
         }
+      ]
     },
     "title": "Suspicious Stew - Weakness",
     "description": "Obtain Suspicious Stew - Weakness",
@@ -215,6 +232,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/agriculture/weakness_suspicious_stew"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

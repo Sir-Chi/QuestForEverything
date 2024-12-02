@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'wood', 'name':'jungle_stairs', 'item':'minecraft:jungle_stairs'}

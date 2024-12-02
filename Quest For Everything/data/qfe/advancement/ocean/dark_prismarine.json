@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/ocean/dark_prismarine"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

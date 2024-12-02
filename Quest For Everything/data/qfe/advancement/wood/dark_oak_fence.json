@@ -4,7 +4,7 @@
       "id": "minecraft:dark_oak_fence"
     },
     "title": "Dark Oak Fence",
-    "description": "Dark Oak Fence",
+    "description": "Obtain Dark Oak Fence",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

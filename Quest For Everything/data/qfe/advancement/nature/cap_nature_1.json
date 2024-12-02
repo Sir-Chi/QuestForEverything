@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:nature/sunflower",
+  "parent": "qfe:nature/open_eyeblossom",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:piglin_banner_pattern"
     },
-    "title": "Piglin Banner Pattern",
-    "description": "Obtain Piglin Banner Pattern",
+    "title": "Snout Banner Pattern",
+    "description": "Obtain Snout Banner Pattern",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

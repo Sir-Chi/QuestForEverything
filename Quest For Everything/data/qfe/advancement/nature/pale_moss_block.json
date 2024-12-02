@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_block"
+    },
+    "title": "Pale Moss Block",
+    "description": "Obtain Pale Moss Block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:nature/moss_carpet",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pale_moss_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/nature/pale_moss_block"
+  }
+}

@@ -4,7 +4,7 @@
       "id": "minecraft:cherry_button"
     },
     "title": "Cherry Button",
-    "description": "Cherry Button",
+    "description": "Obtain Cherry Button",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

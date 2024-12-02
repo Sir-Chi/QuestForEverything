@@ -4,7 +4,7 @@
       "id": "minecraft:dark_oak_trapdoor"
     },
     "title": "Dark Oak Trapdoor",
-    "description": "Dark Oak Trapdoor",
+    "description": "Obtain Dark Oak Trapdoor",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

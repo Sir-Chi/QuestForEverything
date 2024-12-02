@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bordure_indented_banner_pattern"
+    },
+    "title": "Bordure Indented Banner Pattern",
+    "description": "Obtain Bordure Indented Banner Pattern",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:manufactured/field_masoned_banner_pattern",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bordure_indented_banner_pattern"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/manufactured/bordure_indented_banner_pattern"
+  }
+}

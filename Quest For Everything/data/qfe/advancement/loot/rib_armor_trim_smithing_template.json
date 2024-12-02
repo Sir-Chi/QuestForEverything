@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:rib_armor_trim_smithing_template"
     },
-    "title": "Rib Armour Trim Smithing Template",
-    "description": "Obtain Rib Armour Trim Smithing Template",
+    "title": "Rib Armour Trim",
+    "description": "Obtain Rib Armour Trim",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

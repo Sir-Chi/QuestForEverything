@@ -6,7 +6,7 @@
         "minecraft:suspicious_stew_effects": [
           {
             "id": "minecraft:regeneration",
-            "duration": 160
+            "duration": 140
           }
         ]
       }
@@ -36,7 +36,7 @@
               "minecraft:suspicious_stew_effects": [
                 {
                   "id": "minecraft:regeneration",
-                  "duration": 160
+                  "duration": 140
                 }
               ]
             }

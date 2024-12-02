@@ -4,7 +4,7 @@
       "id": "minecraft:dark_oak_stairs"
     },
     "title": "Dark Oak Stairs",
-    "description": "Dark Oak Stairs",
+    "description": "Obtain Dark Oak Stairs",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

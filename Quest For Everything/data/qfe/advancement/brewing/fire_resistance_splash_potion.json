@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:fire_resistance"
-        }
-      }
+      "id": "minecraft:splash_potion"
     },
     "title": "Splash Potion of Fire Resistance",
     "description": "Fire Resistance (3:00)",
@@ -28,11 +23,6 @@
             "count": {
               "min": 1,
               "max": 64
-            },
-            "components": {
-              "minecraft:potion_contents": {
-                "potion": "minecraft:fire_resistance"
-              }
             }
           }
         ]

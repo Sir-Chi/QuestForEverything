@@ -4,7 +4,7 @@
       "id": "minecraft:dark_oak_button"
     },
     "title": "Dark Oak Button",
-    "description": "Dark Oak Button",
+    "description": "Obtain Dark Oak Button",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

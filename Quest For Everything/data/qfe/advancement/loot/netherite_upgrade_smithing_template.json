@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:netherite_upgrade_smithing_template"
     },
-    "title": "Netherite Upgrade Smithing Template",
-    "description": "Obtain Netherite Upgrade Smithing Template",
+    "title": "Netherite Upgrade",
+    "description": "Obtain Netherite Upgrade",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

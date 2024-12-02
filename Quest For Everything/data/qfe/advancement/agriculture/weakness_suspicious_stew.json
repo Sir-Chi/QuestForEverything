@@ -2,32 +2,14 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": [
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:weakness",
-              "duration": 120
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:weakness",
-              "duration": 140
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:weakness",
-              "duration": 160
-            }
-          ]
-        }
-      ]
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 120
+          }
+        ]
+      }
     },
     "title": "Suspicious Stew - Weakness",
     "description": "Obtain Suspicious Stew - Weakness",

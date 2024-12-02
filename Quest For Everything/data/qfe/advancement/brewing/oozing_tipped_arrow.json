@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow"
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:oozing"
+        }
+      }
     },
     "title": "Arrow of Oozing",
     "description": "Oozing (0:22)",

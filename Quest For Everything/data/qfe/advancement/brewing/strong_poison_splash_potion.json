@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_poison"
+        }
+      }
     },
     "title": "Splash Potion of Poison",
     "description": "Poison II (0:21)",

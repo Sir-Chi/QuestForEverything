@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:wood/pale_oak_chest_boat",
+  "parent": "qfe:nature/glow_lichen",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

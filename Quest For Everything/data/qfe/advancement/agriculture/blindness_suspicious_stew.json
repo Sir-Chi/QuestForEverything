@@ -2,40 +2,14 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": [
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:blindness",
-              "duration": 100
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:blindness",
-              "duration": 120
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:blindness",
-              "duration": 140
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:blindness",
-              "duration": 220
-            }
-          ]
-        }
-      ]
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 100
+          }
+        ]
+      }
     },
     "title": "Suspicious Stew - Blindness",
     "description": "Obtain Suspicious Stew - Blindness",

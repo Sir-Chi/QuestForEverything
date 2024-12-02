@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:wood/pale_oak_chest_boat",
+  "parent": "qfe:manufactured/chiseled_resin_bricks",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

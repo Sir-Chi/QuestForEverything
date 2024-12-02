@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:potion"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_night_vision"
+        }
+      }
     },
     "title": "Potion of Night Vision",
     "description": "Night Vision (8:00)",

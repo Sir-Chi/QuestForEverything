@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:regeneration"
+        }
+      }
     },
     "title": "Splash Potion of Regeneration",
     "description": "Regeneration (0:45)",

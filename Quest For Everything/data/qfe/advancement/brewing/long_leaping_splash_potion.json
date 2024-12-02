@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_leaping"
+        }
+      }
     },
     "title": "Splash Potion of Leaping",
     "description": "Jump Boost (8:00)",

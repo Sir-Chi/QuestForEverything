@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:potion"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:invisibility"
+        }
+      }
     },
     "title": "Potion of Invisibility",
     "description": "Invisibility (3:00)",

@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow"
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:long_fire_resistance"
+        }
+      }
     },
     "title": "Arrow of Fire Resistance",
     "description": "Fire Resistance (1:00)",

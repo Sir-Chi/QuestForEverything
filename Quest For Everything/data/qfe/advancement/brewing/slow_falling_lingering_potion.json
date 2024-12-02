@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lingering_potion"
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:slow_falling"
+        }
+      }
     },
     "title": "Lingering Potion of Slow Falling",
     "description": "Slow Falling (0:22)",

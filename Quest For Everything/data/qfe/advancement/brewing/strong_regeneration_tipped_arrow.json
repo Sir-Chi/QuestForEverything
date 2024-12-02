@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow"
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_regeneration"
+        }
+      }
     },
     "title": "Arrow of Regeneration",
     "description": "Regeneration II (0:02)",

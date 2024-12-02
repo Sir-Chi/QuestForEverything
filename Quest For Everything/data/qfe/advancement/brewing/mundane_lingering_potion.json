@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lingering_potion"
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:mundane"
+        }
+      }
     },
     "title": "Mundane Lingering Potion",
     "description": "Obtain Mundane Lingering Potion",

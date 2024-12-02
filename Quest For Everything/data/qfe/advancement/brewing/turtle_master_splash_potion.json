@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:turtle_master"
+        }
+      }
     },
     "title": "Splash Potion of Turtle Master",
     "description": "Slowness IV (0:20), Resistance III (0:20)",

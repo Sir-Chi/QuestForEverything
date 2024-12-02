@@ -2,48 +2,14 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": [
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:jump_boost",
-              "duration": 100
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:jump_boost",
-              "duration": 140
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:jump_boost",
-              "duration": 160
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:jump_boost",
-              "duration": 180
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:jump_boost",
-              "duration": 200
-            }
-          ]
-        }
-      ]
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 100
+          }
+        ]
+      }
     },
     "title": "Suspicious Stew - Jump Boost",
     "description": "Obtain Suspicious Stew - Jump Boost",

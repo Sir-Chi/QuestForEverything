@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:water_breathing"
+        }
+      }
     },
     "title": "Splash Potion of Water Breathing",
     "description": "Water Breathing (3:00)",

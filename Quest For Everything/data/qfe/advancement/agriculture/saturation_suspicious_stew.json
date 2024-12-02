@@ -2,40 +2,14 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": [
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:saturation",
-              "duration": 7
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:saturation",
-              "duration": 8
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:saturation",
-              "duration": 9
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:saturation",
-              "duration": 10
-            }
-          ]
-        }
-      ]
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:saturation",
+            "duration": 7
+          }
+        ]
+      }
     },
     "title": "Suspicious Stew - Saturation",
     "description": "Obtain Suspicious Stew - Saturation",

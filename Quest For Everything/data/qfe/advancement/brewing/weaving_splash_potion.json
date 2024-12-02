@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:weaving"
+        }
+      }
     },
     "title": "Splash Potion of Weaving",
     "description": "Weaving (3:00)",

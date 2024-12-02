@@ -2,48 +2,14 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": [
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:night_vision",
-              "duration": 100
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:night_vision",
-              "duration": 140
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:night_vision",
-              "duration": 160
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:night_vision",
-              "duration": 180
-            }
-          ]
-        },
-        {
-          "minecraft:suspicious_stew_effects": [
-            {
-              "id": "minecraft:night_vision",
-              "duration": 200
-            }
-          ]
-        }
-      ]
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 100
+          }
+        ]
+      }
     },
     "title": "Suspicious Stew - Night Vision",
     "description": "Obtain Suspicious Stew - Night Vision",

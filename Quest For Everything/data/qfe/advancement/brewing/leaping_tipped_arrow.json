@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow"
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:leaping"
+        }
+      }
     },
     "title": "Arrow of Leaping",
     "description": "Jump Boost (0:22)",

@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:potion"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_harming"
+        }
+      }
     },
     "title": "Potion of Harming",
     "description": "Instant Damage II",
@@ -23,6 +28,11 @@
             "count": {
               "min": 1,
               "max": 64
+            },
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strong_harming"
+              }
             }
           }
         ]

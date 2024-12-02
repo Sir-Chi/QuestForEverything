@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow"
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_turtle_master"
+        }
+      }
     },
     "title": "Arrow of Turtle Master",
     "description": "Slowness IV (0:02), Resistance IIV (0:02)",
@@ -23,6 +28,11 @@
             "count": {
               "min": 1,
               "max": 64
+            },
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strong_turtle_master"
+              }
             }
           }
         ]

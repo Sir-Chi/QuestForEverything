@@ -1,7 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:poison"
+        }
+      }
     },
     "title": "Splash Potion of Poison",
     "description": "Poison (0:45)",
@@ -23,6 +28,11 @@
             "count": {
               "min": 1,
               "max": 64
+            },
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:poison"
+              }
             }
           }
         ]

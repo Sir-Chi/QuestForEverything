@@ -4,7 +4,7 @@
       "id": "minecraft:dark_oak_planks"
     },
     "title": "Dark Oak Planks",
-    "description": "Dark Oak Planks",
+    "description": "Obtain Dark Oak Planks",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

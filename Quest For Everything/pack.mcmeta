@@ -1,7 +1,12 @@
 {
     "pack": {
+<<<<<<< HEAD
         "pack_format": 48, 
         "description": "Created by \u00A72SirChi               \u00a75Version 3.0 (Small Biomes Edition)"
+=======
+        "pack_format": 61, 
+        "description": "Created by \u00A72SirChi               \u00a75Version 4.0"
+>>>>>>> main
     },
     "filter": {
         "block": [

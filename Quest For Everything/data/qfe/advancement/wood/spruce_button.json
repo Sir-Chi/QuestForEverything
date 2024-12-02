@@ -4,7 +4,7 @@
       "id": "minecraft:spruce_button"
     },
     "title": "Spruce Button",
-    "description": "Obtain Button",
+    "description": "Obtain Spruce Button",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

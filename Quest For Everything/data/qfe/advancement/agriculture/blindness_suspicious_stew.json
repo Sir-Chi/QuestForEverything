@@ -95,7 +95,7 @@
                         "minecraft:suspicious_stew_effects": [
                           {
                             "id": "minecraft:blindness",
-                            "duration": 160
+                            "duration": 220
                           }
                         ]
                       }

@@ -4,7 +4,7 @@
       "id": "minecraft:cherry_boat"
     },
     "title": "Cherry Boat",
-    "description": "Cherry Boat",
+    "description": "Obtain Cherry Boat",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

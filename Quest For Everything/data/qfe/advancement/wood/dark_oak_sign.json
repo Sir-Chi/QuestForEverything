@@ -4,7 +4,7 @@
       "id": "minecraft:dark_oak_sign"
     },
     "title": "Dark Oak Sign",
-    "description": "Dark Oak Sign",
+    "description": "Obtain Dark Oak Sign",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

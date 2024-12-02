@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'resin_brick_wall', 'item':'minecraft:resin_brick_wall'}

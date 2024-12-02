@@ -4,7 +4,7 @@
       "id": "minecraft:spruce_fence_gate"
     },
     "title": "Spruce Fence Gate",
-    "description": "Obtain Fence Gate",
+    "description": "Obtain Spruce Fence Gate",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -6,7 +6,7 @@
         "minecraft:suspicious_stew_effects": [
           {
             "id": "minecraft:jump_boost",
-            "duration": 120
+            "duration": 100
           }
         ]
       }
@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:agriculture/saturation_suspicious_stew",
+  "parent": "qfe:agriculture/nausea_suspicious_stew",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
@@ -38,7 +38,26 @@
                         "minecraft:suspicious_stew_effects": [
                           {
                             "id": "minecraft:jump_boost",
-                            "duration": 120
+                            "duration": 100
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:suspicious_stew",
+                      "components": {
+                        "minecraft:suspicious_stew_effects": [
+                          {
+                            "id": "minecraft:jump_boost",
+                            "duration": 140
                           }
                         ]
                       }

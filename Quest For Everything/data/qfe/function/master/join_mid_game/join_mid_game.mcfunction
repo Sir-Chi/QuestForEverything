@@ -1,5 +1,6 @@
 
 clear @a[scores={teams=1..9}]
+effect clear @a[scores={teams=1..9}]
 advancement revoke @a[scores={teams=1..9}] everything
 
 execute if score allRecipesUnlocked GameSetup matches 1 run recipe give @a[scores={teams=1..9}] *

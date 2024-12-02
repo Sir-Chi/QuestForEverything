@@ -4,7 +4,7 @@
       "id": "minecraft:spruce_trapdoor"
     },
     "title": "Spruce Trapdoor",
-    "description": "Obtain Trapdoor",
+    "description": "Obtain Spruce Trapdoor",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

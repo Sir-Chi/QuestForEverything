@@ -4,7 +4,7 @@
       "id": "minecraft:dark_oak_slab"
     },
     "title": "Dark Oak Slab",
-    "description": "Dark Oak Slab",
+    "description": "Obtain Dark Oak Slab",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

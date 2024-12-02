@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:wood/spruce_chest_boat",
+  "parent": "qfe:wood/pale_oak_chest_boat",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

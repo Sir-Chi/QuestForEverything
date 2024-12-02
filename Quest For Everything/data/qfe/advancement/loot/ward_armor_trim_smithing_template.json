@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:ward_armor_trim_smithing_template"
     },
-    "title": "Ward Armour Trim Smithing Template",
-    "description": "Obtain Ward Armour Trim Smithing Template",
+    "title": "Ward Armour Trim",
+    "description": "Obtain Ward Armour Trim",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

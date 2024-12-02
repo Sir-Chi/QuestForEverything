@@ -4,7 +4,7 @@
       "id": "minecraft:spruce_boat"
     },
     "title": "Spruce Boat",
-    "description": "Obtain Boat",
+    "description": "Obtain Spruce Boat",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

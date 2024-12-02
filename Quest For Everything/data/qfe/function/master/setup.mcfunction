@@ -40,7 +40,7 @@ scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death
 
 scoreboard objectives add score dummy "Score"
-scoreboard players set .TotalToGet score 1414
+scoreboard players set .TotalToGet score 1466
 scoreboard players display name .TotalToGet score "Total To Get"
 scoreboard players set #Leader score 0
 
@@ -76,12 +76,12 @@ scoreboard objectives add tools_and_combat_score dummy "Tools & Combat Score"
 scoreboard objectives add wood_score dummy "Wood Score"
 scoreboard objectives add wool_score dummy "Wool Score"
 
-scoreboard players set .TotalToGet agriculture_score 64
+scoreboard players set .TotalToGet agriculture_score 65
 scoreboard players set .TotalToGet brewing_score 181
 scoreboard players set .TotalToGet end_score 35
 scoreboard players set .TotalToGet loot_score 115
-scoreboard players set .TotalToGet manufactured_score 105
-scoreboard players set .TotalToGet nature_score 66
+scoreboard players set .TotalToGet manufactured_score 116
+scoreboard players set .TotalToGet nature_score 71
 scoreboard players set .TotalToGet nether_score 96
 scoreboard players set .TotalToGet ocean_score 61
 scoreboard players set .TotalToGet redstone_and_transport_score 35
@@ -90,8 +90,8 @@ scoreboard players set .TotalToGet resources_score 47
 scoreboard players set .TotalToGet sand_and_glass_score 57
 scoreboard players set .TotalToGet stone_score 83
 scoreboard players set .TotalToGet terracotta_and_concrete_score 65
-scoreboard players set .TotalToGet tools_and_combat_score 92
-scoreboard players set .TotalToGet wood_score 171
+scoreboard players set .TotalToGet tools_and_combat_score 108
+scoreboard players set .TotalToGet wood_score 190
 scoreboard players set .TotalToGet wool_score 64
 
 data modify storage qfe:storage/info section_names set value {agriculture:{section:'Agriculture'},brewing:{section:'Brewing'},copper:{section:'Copper'},end:{section:'End'},loot:{section:'Loot'},manufactured:{section:'Manufactured'},nature:{section:'Nature'},nether:{section:'Nether'},ocean:{section:'Ocean'},redstone_and_transport:{section:'Redstone & Transport'},resources:{section:'Resources'},sand_and_glass:{section:'Sand & Glass'},Stone:{section:'stone'},terracotta_and_concrete:{section:'Terracotta & Concrete'},tools_and_combat:{section:'Tools & Combat'},wood:{section:'Wood'},wool:{section:'Wool'}}

@@ -2,14 +2,15 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": {
-        "minecraft:suspicious_stew_effects": [
-          {
-            "id": "minecraft:poison",
-            "duration": 200
-          }
-        ]
-      }
+      "components": 
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 200
+            }
+          ]
+        }
     },
     "title": "Suspicious Stew - Poison",
     "description": "Obtain Suspicious Stew - Poison",
@@ -214,6 +215,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:universal/handle_item_obtained"
+    "function": "qfe:advancement/agriculture/poison_suspicious_stew"
   }
 }

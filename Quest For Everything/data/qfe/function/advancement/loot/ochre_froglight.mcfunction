@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'ochre_froglight', 'item':'minecraft:ochre_froglight'}

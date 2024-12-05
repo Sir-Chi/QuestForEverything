@@ -1,6 +1,5 @@
 # Get player's held item and try to submit it
 # Run: as = player's data marker, at = player
-say get held item
 
 # Stop execution if player is not holding an item, and tell them that they need to
 execute unless data entity @p SelectedItem run return run tellraw @p {"text":"You have to hold an item to submit it!","color":"gold"}

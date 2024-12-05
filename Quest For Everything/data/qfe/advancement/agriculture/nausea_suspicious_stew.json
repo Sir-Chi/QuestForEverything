@@ -214,6 +214,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:universal/handle_item_obtained"
+    "function": "qfe:advancement/agriculture/nausea_suspicious_stew"
   }
 }

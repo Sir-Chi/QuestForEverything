@@ -4,7 +4,7 @@
       "id": "minecraft:spruce_button"
     },
     "title": "Spruce Button",
-    "description": "Obtain Spruce Button",
+    "description": "Obtain Button",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:universal/handle_item_obtained"
+    "function": "qfe:advancement/wood/spruce_button"
   }
 }

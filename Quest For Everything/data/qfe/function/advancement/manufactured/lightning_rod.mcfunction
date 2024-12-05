@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'lightning_rod', 'item':'minecraft:lightning_rod'}

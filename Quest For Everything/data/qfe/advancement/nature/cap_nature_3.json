@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:nature/pale_hanging_moss",
+  "parent": "qfe:nature/glow_lichen",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

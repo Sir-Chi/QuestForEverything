@@ -1,6 +1,7 @@
 # Ran by every item advancement as player who got advancement when Teams is active
 # Parameters: section, name, item
-$say get team $(name) $(item) $(section)
+#$say get team $(name) $(item) $(section)
+
 # Increase player's SyncScore whenever they individually get the advancement
 # scoreboard players add @s SyncScore 1
 

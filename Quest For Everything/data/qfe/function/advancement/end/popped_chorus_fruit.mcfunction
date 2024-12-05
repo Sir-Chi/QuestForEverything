@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'end', 'name':'popped_chorus_fruit', 'item':'minecraft:popped_chorus_fruit'}

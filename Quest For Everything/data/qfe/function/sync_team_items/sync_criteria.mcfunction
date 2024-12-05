@@ -1,7 +1,7 @@
 # @s = team player to sync
 # Parameters = section, item, criteriaCount
 
-$say sync_criteria | $(section) | $(item) | $(criteriaCount)
+#$say sync_criteria | $(section) | $(item) | $(criteriaCount)
 
 $advancement grant @s only qfe:$(section)/$(item) has_$(criteriaCount)
 

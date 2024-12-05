@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'raw_gold', 'item':'minecraft:raw_gold'}

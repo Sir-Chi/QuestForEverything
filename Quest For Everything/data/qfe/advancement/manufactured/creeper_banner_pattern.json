@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:universal/handle_item_obtained"
+    "function": "qfe:advancement/manufactured/creeper_banner_pattern"
   }
 }

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'lily_pad', 'item':'minecraft:lily_pad'}

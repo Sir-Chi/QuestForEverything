@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:universal/handle_item_obtained"
+    "function": "qfe:advancement/wood/stripped_mangrove_log"
   }
 }

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'piglin_head', 'item':'minecraft:piglin_head'}

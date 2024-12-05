@@ -209,6 +209,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:universal/handle_item_obtained"
+    "function": "qfe:advancement/tools_and_combat/goat_horn_yearn"
   }
 }

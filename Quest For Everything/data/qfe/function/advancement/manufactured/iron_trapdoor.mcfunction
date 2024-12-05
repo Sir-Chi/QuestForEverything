@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'iron_trapdoor', 'item':'minecraft:iron_trapdoor'}

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'stone', 'name':'deepslate_tiles', 'item':'minecraft:deepslate_tiles'}

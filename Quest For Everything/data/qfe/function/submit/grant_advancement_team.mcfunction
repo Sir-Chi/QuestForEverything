@@ -1,6 +1,6 @@
 # Run: as = player/team marker, at = player
 # Parameters: team, section, name
-$say $(team) $(name) $(section)
+#$say $(team) $(name) $(section)
 
 # Increase team marker's sync scores
 scoreboard players operation @s SyncScore += @s SubmissionAmount
@@ -19,4 +19,4 @@ $execute if score @s ItemsSubmitted matches 64 run advancement grant @a[team=$(t
 $execute if score @s ItemsSubmitted matches 64 run return run execute as @s[tag=!trophy_$(section)] run function qfe:trophies/check_team_trophy {section:$(section), team:$(team)}
 
 # If less than 64 submitted, loop over advancement criteria
-function qfe:submit/grant_advancement_criteria with entity @s data.itemCheck.foundItem
+function qfe:submit/grant_advancement_criteria_team with entity @s data.itemCheck.foundItem

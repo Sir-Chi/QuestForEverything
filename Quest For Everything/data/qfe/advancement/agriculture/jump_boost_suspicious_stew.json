@@ -2,14 +2,15 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": {
-        "minecraft:suspicious_stew_effects": [
-          {
-            "id": "minecraft:jump_boost",
-            "duration": 100
-          }
-        ]
-      }
+      "components": 
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:jump_boost",
+              "duration": 120
+            }
+          ]
+        }
     },
     "title": "Suspicious Stew - Jump Boost",
     "description": "Obtain Suspicious Stew - Jump Boost",
@@ -214,6 +215,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:universal/handle_item_obtained"
+    "function": "qfe:advancement/agriculture/jump_boost_suspicious_stew"
   }
 }

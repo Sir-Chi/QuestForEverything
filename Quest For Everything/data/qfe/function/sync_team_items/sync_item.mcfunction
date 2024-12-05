@@ -1,7 +1,7 @@
 # @s = team player to sync
 # Parameters = section, item
 
-$say sync_item | $(section) | $(item)
+#$say sync_item | $(section) | $(item)
 
 # Get item submitted amount
 # $execute store result score @s SyncSubmitted run data get entity @s data.submitted.$(section).$(item)

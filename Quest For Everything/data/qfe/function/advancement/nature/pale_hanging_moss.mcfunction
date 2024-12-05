@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'pale_hanging_moss', 'item':'minecraft:pale_hanging_moss'}

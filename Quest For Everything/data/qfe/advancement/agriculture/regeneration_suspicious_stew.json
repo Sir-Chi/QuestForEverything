@@ -6,7 +6,7 @@
         "minecraft:suspicious_stew_effects": [
           {
             "id": "minecraft:regeneration",
-            "duration": 140
+            "duration": 160
           }
         ]
       }
@@ -214,6 +214,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:universal/handle_item_obtained"
+    "function": "qfe:advancement/agriculture/regeneration_suspicious_stew"
   }
 }

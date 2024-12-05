@@ -6,7 +6,7 @@
         "minecraft:suspicious_stew_effects": [
           {
             "id": "minecraft:fire_resistance",
-            "duration": 60
+            "duration": 80
           }
         ]
       }
@@ -214,6 +214,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:universal/handle_item_obtained"
+    "function": "qfe:advancement/agriculture/fire_resistance_suspicious_stew"
   }
 }

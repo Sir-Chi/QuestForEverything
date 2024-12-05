@@ -2,14 +2,15 @@
   "display": {
     "icon": {
       "id": "minecraft:suspicious_stew",
-      "components": {
-        "minecraft:suspicious_stew_effects": [
-          {
-            "id": "minecraft:saturation",
-            "duration": 7
-          }
-        ]
-      }
+      "components": 
+        {
+          "minecraft:suspicious_stew_effects": [
+            {
+              "id": "minecraft:saturation",
+              "duration": 7
+            }
+          ]
+        }
     },
     "title": "Suspicious Stew - Saturation",
     "description": "Obtain Suspicious Stew - Saturation",
@@ -214,6 +215,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:universal/handle_item_obtained"
+    "function": "qfe:advancement/agriculture/saturation_suspicious_stew"
   }
 }

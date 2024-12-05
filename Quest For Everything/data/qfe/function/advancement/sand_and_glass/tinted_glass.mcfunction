@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'sand_and_glass', 'name':'tinted_glass', 'item':'minecraft:tinted_glass'}

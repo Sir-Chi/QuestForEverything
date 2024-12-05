@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'twisting_vines', 'item':'minecraft:twisting_vines'}

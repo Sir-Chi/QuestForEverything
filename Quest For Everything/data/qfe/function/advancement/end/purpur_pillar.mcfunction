@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'end', 'name':'purpur_pillar', 'item':'minecraft:purpur_pillar'}

@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:waxed_weathered_copper"
     },
-    "title": "Waxed Block of Weathered Copper",
-    "description": "Obtain Waxed Block of Weathered Copper",
+    "title": "Waxed Weathered Copper",
+    "description": "Obtain Waxed Weathered Copper",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

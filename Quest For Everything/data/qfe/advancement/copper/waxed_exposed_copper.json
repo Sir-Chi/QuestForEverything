@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:waxed_exposed_copper"
     },
-    "title": "Waxed Block of Exposed Copper",
-    "description": "Obtain Waxed Block of Exposed Copper",
+    "title": "Waxed Exposed Copper",
+    "description": "Obtain Waxed Exposed Copper",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

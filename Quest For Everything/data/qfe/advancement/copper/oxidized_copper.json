@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:oxidized_copper"
     },
-    "title": "Block of Oxidized Copper",
-    "description": "Obtain Block of Oxidized Copper",
+    "title": "Oxidized Copper",
+    "description": "Obtain Oxidized Copper",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

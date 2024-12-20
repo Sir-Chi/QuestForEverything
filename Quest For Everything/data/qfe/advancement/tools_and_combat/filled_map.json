@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:filled_map"
     },
-    "title": "Filled Map",
-    "description": "Obtain Filled Map",
+    "title": "Map",
+    "description": "Obtain Map",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

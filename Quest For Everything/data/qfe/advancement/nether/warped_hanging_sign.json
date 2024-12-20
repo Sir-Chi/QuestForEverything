@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:warped_hanging_sign"
     },
-    "title": "Warped Warped Sign",
-    "description": "Obtain Warped Warped Sign",
+    "title": "Warped Hanging Sign",
+    "description": "Obtain Warped Hanging Sign",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

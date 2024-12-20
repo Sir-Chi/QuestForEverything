@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:cracked_nether_bricks"
     },
-    "title": "Cracked Nether Brick",
-    "description": "Obtain Cracked Nether Brick",
+    "title": "Cracked Nether Bricks",
+    "description": "Obtain Cracked Nether Bricks",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -67,7 +67,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "cooked_beef",\
       "section": "agriculture",\
-      "display": "Cooked Beef"\
+      "display": "Steak"\
     }\
   ],\
   "minecraft:porkchop": [\
@@ -2992,7 +2992,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "rabbit_foot",\
       "section": "loot",\
-      "display": "Rabbit Foot"\
+      "display": "Rabbit's Foot"\
     }\
   ],\
   "minecraft:ink_sac": [\
@@ -3097,7 +3097,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "slime_ball",\
       "section": "loot",\
-      "display": "Slime Ball"\
+      "display": "Slimeball"\
     }\
   ],\
   "minecraft:slime_block": [\
@@ -3475,7 +3475,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "experience_bottle",\
       "section": "loot",\
-      "display": "Experience Bottle"\
+      "display": "Bottle o' Enchanting"\
     }\
   ],\
   "minecraft:echo_shard": [\
@@ -4415,7 +4415,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "resin_block",\
       "section": "manufactured",\
-      "display": "Resin Block"\
+      "display": "Block of Resin"\
     }\
   ],\
   "minecraft:resin_bricks": [\
@@ -5045,7 +5045,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "polished_blackstone_brick_slab",\
       "section": "nether",\
-      "display": "Polished Blackstone Brick Slabs"\
+      "display": "Polished Blackstone Brick Slab"\
     }\
   ],\
   "minecraft:polished_blackstone_brick_stairs": [\
@@ -5290,14 +5290,14 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "cracked_nether_bricks",\
       "section": "nether",\
-      "display": "Cracked Nether Brick"\
+      "display": "Cracked Nether Bricks"\
     }\
   ],\
   "minecraft:chiseled_nether_bricks": [\
     {\
       "name": "chiseled_nether_bricks",\
       "section": "nether",\
-      "display": "Chiseled Nether Brick"\
+      "display": "Chiseled Nether Bricks"\
     }\
   ],\
   "minecraft:red_nether_bricks": [\
@@ -5465,7 +5465,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "smooth_quartz",\
       "section": "nether",\
-      "display": "Smooth Quartz"\
+      "display": "Smooth Quartz Block"\
     }\
   ],\
   "minecraft:smooth_quartz_slab": [\
@@ -5619,7 +5619,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "warped_hanging_sign",\
       "section": "nether",\
-      "display": "Warped Warped Sign"\
+      "display": "Warped Hanging Sign"\
     }\
   ],\
   "minecraft:cod_bucket": [\
@@ -5661,7 +5661,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "tadpole_bucket",\
       "section": "ocean",\
-      "display": "Tadpole Bucket"\
+      "display": "Bucket of Tadpole"\
     }\
   ],\
   "minecraft:turtle_egg": [\
@@ -6396,7 +6396,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "exposed_copper",\
       "section": "copper",\
-      "display": "Block of Exposed Copper"\
+      "display": "Exposed Copper"\
     }\
   ],\
   "minecraft:exposed_chiseled_copper": [\
@@ -6459,7 +6459,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "weathered_copper",\
       "section": "copper",\
-      "display": "Block of Weathered Copper"\
+      "display": "Weathered Copper"\
     }\
   ],\
   "minecraft:weathered_chiseled_copper": [\
@@ -6522,7 +6522,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "oxidized_copper",\
       "section": "copper",\
-      "display": "Block of Oxidized Copper"\
+      "display": "Oxidized Copper"\
     }\
   ],\
   "minecraft:oxidized_chiseled_copper": [\
@@ -6648,7 +6648,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "waxed_exposed_copper",\
       "section": "copper",\
-      "display": "Waxed Block of Exposed Copper"\
+      "display": "Waxed Exposed Copper"\
     }\
   ],\
   "minecraft:waxed_exposed_chiseled_copper": [\
@@ -6711,7 +6711,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "waxed_weathered_copper",\
       "section": "copper",\
-      "display": "Waxed Block of Weathered Copper"\
+      "display": "Waxed Weathered Copper"\
     }\
   ],\
   "minecraft:waxed_weathered_chiseled_copper": [\
@@ -6774,7 +6774,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "waxed_oxidized_copper",\
       "section": "copper",\
-      "display": "Waxed Block of Oxidized Copper"\
+      "display": "Waxed Oxidized Copper"\
     }\
   ],\
   "minecraft:waxed_oxidized_chiseled_copper": [\
@@ -6879,7 +6879,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "quartz",\
       "section": "resources",\
-      "display": "Quartz"\
+      "display": "Nether Quartz"\
     }\
   ],\
   "minecraft:coal_ore": [\
@@ -6914,14 +6914,14 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "lapis_ore",\
       "section": "resources",\
-      "display": "Lapis Ore"\
+      "display": "Lapis Lazuli Ore"\
     }\
   ],\
   "minecraft:deepslate_lapis_ore": [\
     {\
       "name": "deepslate_lapis_ore",\
       "section": "resources",\
-      "display": "Deepslate Lapis Ore"\
+      "display": "Deepslate Lapis Lazuli Ore"\
     }\
   ],\
   "minecraft:lapis_lazuli": [\
@@ -6956,7 +6956,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "redstone",\
       "section": "resources",\
-      "display": "Redstone"\
+      "display": "Redstone Dust"\
     }\
   ],\
   "minecraft:redstone_block": [\
@@ -8699,7 +8699,7 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "map",\
       "section": "tools_and_combat",\
-      "display": "Map"\
+      "display": "Empty Map"\
     }\
   ],\
   "minecraft:filled_map": [\
@@ -8738,14 +8738,14 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "filled_map",\
       "section": "tools_and_combat",\
-      "display": "Filled Map"\
+      "display": "Map"\
     }\
   ],\
   "minecraft:recovery_compass": [\
     {\
       "name": "recovery_compass",\
       "section": "tools_and_combat",\
-      "display": "Recovery compass"\
+      "display": "Recovery Compass"\
     }\
   ],\
   "minecraft:diamond_axe": [\
@@ -9511,14 +9511,14 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "bamboo_block",\
       "section": "wood",\
-      "display": "Bamboo Block"\
+      "display": "Block of Bamboo"\
     }\
   ],\
   "minecraft:stripped_bamboo_block": [\
     {\
       "name": "stripped_bamboo_block",\
       "section": "wood",\
-      "display": "Stripped Bamboo Block"\
+      "display": "Block of Stripped Bamboo"\
     }\
   ],\
   "minecraft:bamboo_mosaic": [\

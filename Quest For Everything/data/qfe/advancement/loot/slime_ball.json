@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:slime_ball"
     },
-    "title": "Slime Ball",
-    "description": "Obtain Slime Ball",
+    "title": "Slimeball",
+    "description": "Obtain Slimeball",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

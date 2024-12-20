@@ -741,888 +741,1768 @@ data modify storage qfe:storage/stack data.itemTypes set value \
     {\
       "name": "strength_potion",\
       "section": "brewing",\
-      "display": "Potion of Strength"\
+      "display": "Potion of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strength"\
+        }\
+      }\
     },\
     {\
       "name": "long_strength_potion",\
       "section": "brewing",\
-      "display": "Potion of Strength"\
+      "display": "Potion of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_strength"\
+        }\
+      }\
     },\
     {\
       "name": "strong_strength_potion",\
       "section": "brewing",\
-      "display": "Potion of Strength"\
+      "display": "Potion of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_strength"\
+        }\
+      }\
     },\
     {\
       "name": "weakness_potion",\
       "section": "brewing",\
-      "display": "Potion of Weakness"\
+      "display": "Potion of Weakness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:weakness"\
+        }\
+      }\
     },\
     {\
       "name": "long_weakness_potion",\
       "section": "brewing",\
-      "display": "Potion of Weakness"\
+      "display": "Potion of Weakness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_weakness"\
+        }\
+      }\
     },\
     {\
       "name": "regeneration_potion",\
       "section": "brewing",\
-      "display": "Potion of Regeneration"\
+      "display": "Potion of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "long_regeneration_potion",\
       "section": "brewing",\
-      "display": "Potion of Regeneration"\
+      "display": "Potion of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "strong_regeneration_potion",\
       "section": "brewing",\
-      "display": "Potion of Regeneration"\
+      "display": "Potion of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "water_bottle",\
       "section": "brewing",\
-      "display": "Water Bottle"\
+      "display": "Water Bottle",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:water"\
+        }\
+      }\
     },\
     {\
       "name": "awkward_potion",\
       "section": "brewing",\
-      "display": "Awkward Potion"\
+      "display": "Awkward Potion",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:awkward"\
+        }\
+      }\
     },\
     {\
       "name": "mundane_potion",\
       "section": "brewing",\
-      "display": "Mundane Potion"\
+      "display": "Mundane Potion",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:mundane"\
+        }\
+      }\
     },\
     {\
       "name": "thick_potion",\
       "section": "brewing",\
-      "display": "Thick Potion"\
+      "display": "Thick Potion",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:thick"\
+        }\
+      }\
     },\
     {\
       "name": "harming_potion",\
       "section": "brewing",\
-      "display": "Potion of Harming"\
+      "display": "Potion of Harming",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:harming"\
+        }\
+      }\
     },\
     {\
       "name": "strong_harming_potion",\
       "section": "brewing",\
-      "display": "Potion of Harming"\
+      "display": "Potion of Harming",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_harming"\
+        }\
+      }\
     },\
     {\
       "name": "healing_potion",\
       "section": "brewing",\
-      "display": "Potion of Healing"\
+      "display": "Potion of Healing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:healing"\
+        }\
+      }\
     },\
     {\
       "name": "strong_healing_potion",\
       "section": "brewing",\
-      "display": "Potion of Healing"\
+      "display": "Potion of Healing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_healing"\
+        }\
+      }\
     },\
     {\
       "name": "invisibility_potion",\
       "section": "brewing",\
-      "display": "Potion of Invisibility"\
+      "display": "Potion of Invisibility",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:invisibility"\
+        }\
+      }\
     },\
     {\
       "name": "long_invisibility_potion",\
       "section": "brewing",\
-      "display": "Potion of Invisibility"\
+      "display": "Potion of Invisibility",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_invisibility"\
+        }\
+      }\
     },\
     {\
       "name": "night_vision_potion",\
       "section": "brewing",\
-      "display": "Potion of Night Vision"\
+      "display": "Potion of Night Vision",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:night_vision"\
+        }\
+      }\
     },\
     {\
       "name": "long_night_vision_potion",\
       "section": "brewing",\
-      "display": "Potion of Night Vision"\
+      "display": "Potion of Night Vision",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_night_vision"\
+        }\
+      }\
     },\
     {\
       "name": "fire_resistance_potion",\
       "section": "brewing",\
-      "display": "Potion of Fire Resistance"\
+      "display": "Potion of Fire Resistance",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:fire_resistance"\
+        }\
+      }\
     },\
     {\
       "name": "long_fire_resistance_potion",\
       "section": "brewing",\
-      "display": "Potion of Fire Resistance"\
+      "display": "Potion of Fire Resistance",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_fire_resistance"\
+        }\
+      }\
     },\
     {\
       "name": "slow_falling_potion",\
       "section": "brewing",\
-      "display": "Potion of Slow Falling"\
+      "display": "Potion of Slow Falling",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:slow_falling"\
+        }\
+      }\
     },\
     {\
       "name": "long_slow_falling_potion",\
       "section": "brewing",\
-      "display": "Potion of Slow Falling"\
+      "display": "Potion of Slow Falling",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_slow_falling"\
+        }\
+      }\
     },\
     {\
       "name": "water_breathing_potion",\
       "section": "brewing",\
-      "display": "Potion of Water Breathing"\
+      "display": "Potion of Water Breathing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:water_breathing"\
+        }\
+      }\
     },\
     {\
       "name": "long_water_breathing_potion",\
       "section": "brewing",\
-      "display": "Potion of Water Breathing"\
+      "display": "Potion of Water Breathing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_water_breathing"\
+        }\
+      }\
     },\
     {\
       "name": "leaping_potion",\
       "section": "brewing",\
-      "display": "Potion of Leaping"\
+      "display": "Potion of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:leaping"\
+        }\
+      }\
     },\
     {\
       "name": "long_leaping_potion",\
       "section": "brewing",\
-      "display": "Potion of Leaping"\
+      "display": "Potion of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_leaping"\
+        }\
+      }\
     },\
     {\
       "name": "strong_leaping_potion",\
       "section": "brewing",\
-      "display": "Potion of Leaping"\
+      "display": "Potion of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_leaping"\
+        }\
+      }\
     },\
     {\
       "name": "poison_potion",\
       "section": "brewing",\
-      "display": "Potion of Poison"\
+      "display": "Potion of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:poison"\
+        }\
+      }\
     },\
     {\
       "name": "long_poison_potion",\
       "section": "brewing",\
-      "display": "Potion of Poison"\
+      "display": "Potion of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_poison"\
+        }\
+      }\
     },\
     {\
       "name": "strong_poison_potion",\
       "section": "brewing",\
-      "display": "Potion of Poison"\
+      "display": "Potion of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_poison"\
+        }\
+      }\
     },\
     {\
       "name": "slowness_potion",\
       "section": "brewing",\
-      "display": "Potion of Slowness"\
+      "display": "Potion of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:slowness"\
+        }\
+      }\
     },\
     {\
       "name": "long_slowness_potion",\
       "section": "brewing",\
-      "display": "Potion of Slowness"\
+      "display": "Potion of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_slowness"\
+        }\
+      }\
     },\
     {\
       "name": "strong_slowness_potion",\
       "section": "brewing",\
-      "display": "Potion of Slowness"\
+      "display": "Potion of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_slowness"\
+        }\
+      }\
     },\
     {\
       "name": "swiftness_potion",\
       "section": "brewing",\
-      "display": "Potion of Swiftness"\
+      "display": "Potion of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "long_swiftness_potion",\
       "section": "brewing",\
-      "display": "Potion of Swiftness"\
+      "display": "Potion of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "strong_swiftness_potion",\
       "section": "brewing",\
-      "display": "Potion of Swiftness"\
+      "display": "Potion of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "turtle_master_potion",\
       "section": "brewing",\
-      "display": "Potion of Turtle Master"\
+      "display": "Potion of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "long_turtle_master_potion",\
       "section": "brewing",\
-      "display": "Potion of Turtle Master"\
+      "display": "Potion of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "strong_turtle_master_potion",\
       "section": "brewing",\
-      "display": "Potion of Turtle Master"\
+      "display": "Potion of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "wind_charged_potion",\
       "section": "brewing",\
-      "display": "Potion of Wind Charging"\
+      "display": "Potion of Wind Charging",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:wind_charged"\
+        }\
+      }\
     },\
     {\
       "name": "weaving_potion",\
       "section": "brewing",\
-      "display": "Potion of Weaving"\
+      "display": "Potion of Weaving",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:weaving"\
+        }\
+      }\
     },\
     {\
       "name": "oozing_potion",\
       "section": "brewing",\
-      "display": "Potion of Oozing"\
+      "display": "Potion of Oozing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:oozing"\
+        }\
+      }\
     },\
     {\
       "name": "infested_potion",\
       "section": "brewing",\
-      "display": "Potion of Infestation"\
+      "display": "Potion of Infestation",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:infested"\
+        }\
+      }\
     }\
   ],\
   "minecraft:splash_potion": [\
     {\
       "name": "strength_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Strength"\
+      "display": "Splash Potion of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strength"\
+        }\
+      }\
     },\
     {\
       "name": "long_strength_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Strength"\
+      "display": "Splash Potion of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_strength"\
+        }\
+      }\
     },\
     {\
       "name": "strong_strength_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Strength"\
+      "display": "Splash Potion of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_strength"\
+        }\
+      }\
     },\
     {\
       "name": "weakness_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Weakness"\
+      "display": "Splash Potion of Weakness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:weakness"\
+        }\
+      }\
     },\
     {\
       "name": "long_weakness_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Weakness"\
+      "display": "Splash Potion of Weakness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_weakness"\
+        }\
+      }\
     },\
     {\
       "name": "regeneration_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Regeneration"\
+      "display": "Splash Potion of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "long_regeneration_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Regeneration"\
+      "display": "Splash Potion of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "strong_regeneration_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Regeneration"\
+      "display": "Splash Potion of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "splash_water_bottle",\
       "section": "brewing",\
-      "display": "Splash Water Bottle"\
+      "display": "Splash Water Bottle",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:water"\
+        }\
+      }\
     },\
     {\
       "name": "awkward_splash_potion",\
       "section": "brewing",\
-      "display": "Awkward Splash Potion"\
+      "display": "Awkward Splash Potion",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:awkward"\
+        }\
+      }\
     },\
     {\
       "name": "mundane_splash_potion",\
       "section": "brewing",\
-      "display": "Mundane Splash Potion"\
+      "display": "Mundane Splash Potion",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:mundane"\
+        }\
+      }\
     },\
     {\
       "name": "thick_splash_potion",\
       "section": "brewing",\
-      "display": "Thick Splash Potion"\
+      "display": "Thick Splash Potion",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:thick"\
+        }\
+      }\
     },\
     {\
       "name": "harming_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Harming"\
+      "display": "Splash Potion of Harming",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:harming"\
+        }\
+      }\
     },\
     {\
       "name": "strong_harming_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Harming"\
+      "display": "Splash Potion of Harming",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_harming"\
+        }\
+      }\
     },\
     {\
       "name": "healing_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Healing"\
+      "display": "Splash Potion of Healing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:healing"\
+        }\
+      }\
     },\
     {\
       "name": "strong_healing_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Healing"\
+      "display": "Splash Potion of Healing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_healing"\
+        }\
+      }\
     },\
     {\
       "name": "invisibility_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Invisibility"\
+      "display": "Splash Potion of Invisibility",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:invisibility"\
+        }\
+      }\
     },\
     {\
       "name": "long_invisibility_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Invisibility"\
+      "display": "Splash Potion of Invisibility",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_invisibility"\
+        }\
+      }\
     },\
     {\
       "name": "night_vision_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Night Vision"\
+      "display": "Splash Potion of Night Vision",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:night_vision"\
+        }\
+      }\
     },\
     {\
       "name": "long_night_vision_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Night Vision"\
+      "display": "Splash Potion of Night Vision",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_night_vision"\
+        }\
+      }\
     },\
     {\
       "name": "fire_resistance_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Fire Resistance"\
+      "display": "Splash Potion of Fire Resistance",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:fire_resistance"\
+        }\
+      }\
     },\
     {\
       "name": "long_fire_resistance_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Fire Resistance"\
+      "display": "Splash Potion of Fire Resistance",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_fire_resistance"\
+        }\
+      }\
     },\
     {\
       "name": "slow_falling_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Slow Falling"\
+      "display": "Splash Potion of Slow Falling",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:slow_falling"\
+        }\
+      }\
     },\
     {\
       "name": "long_slow_falling_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Slow Falling"\
+      "display": "Splash Potion of Slow Falling",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_slow_falling"\
+        }\
+      }\
     },\
     {\
       "name": "water_breathing_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Water Breathing"\
+      "display": "Splash Potion of Water Breathing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:water_breathing"\
+        }\
+      }\
     },\
     {\
       "name": "long_water_breathing_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Water Breathing"\
+      "display": "Splash Potion of Water Breathing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_water_breathing"\
+        }\
+      }\
     },\
     {\
       "name": "leaping_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Leaping"\
+      "display": "Splash Potion of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:leaping"\
+        }\
+      }\
     },\
     {\
       "name": "long_leaping_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Leaping"\
+      "display": "Splash Potion of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_leaping"\
+        }\
+      }\
     },\
     {\
       "name": "strong_leaping_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Leaping"\
+      "display": "Splash Potion of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_leaping"\
+        }\
+      }\
     },\
     {\
       "name": "poison_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Poison"\
+      "display": "Splash Potion of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:poison"\
+        }\
+      }\
     },\
     {\
       "name": "long_poison_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Poison"\
+      "display": "Splash Potion of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_poison"\
+        }\
+      }\
     },\
     {\
       "name": "strong_poison_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Poison"\
+      "display": "Splash Potion of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_poison"\
+        }\
+      }\
     },\
     {\
       "name": "slowness_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Slowness"\
+      "display": "Splash Potion of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:slowness"\
+        }\
+      }\
     },\
     {\
       "name": "long_slowness_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Slowness"\
+      "display": "Splash Potion of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_slowness"\
+        }\
+      }\
     },\
     {\
       "name": "strong_slowness_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Slowness"\
+      "display": "Splash Potion of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_slowness"\
+        }\
+      }\
     },\
     {\
       "name": "swiftness_splash_potion",\
       "section": "brewing",\
-      "display": "Splash of Swiftness"\
+      "display": "Splash of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "long_swiftness_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Swiftness"\
+      "display": "Splash Potion of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "strong_swiftness_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Swiftness"\
+      "display": "Splash Potion of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "turtle_master_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Turtle Master"\
+      "display": "Splash Potion of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "long_turtle_master_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Turtle Master"\
+      "display": "Splash Potion of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "strong_turtle_master_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Turtle Master"\
+      "display": "Splash Potion of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "wind_charged_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Wind Charging"\
+      "display": "Splash Potion of Wind Charging",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:wind_charged"\
+        }\
+      }\
     },\
     {\
       "name": "weaving_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Weaving"\
+      "display": "Splash Potion of Weaving",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:weaving"\
+        }\
+      }\
     },\
     {\
       "name": "oozing_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Oozing"\
+      "display": "Splash Potion of Oozing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:oozing"\
+        }\
+      }\
     },\
     {\
       "name": "infested_splash_potion",\
       "section": "brewing",\
-      "display": "Splash Potion of Infestation"\
+      "display": "Splash Potion of Infestation",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:infested"\
+        }\
+      }\
     }\
   ],\
   "minecraft:lingering_potion": [\
     {\
       "name": "strength_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Strength"\
+      "display": "Lingering Potion of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strength"\
+        }\
+      }\
     },\
     {\
       "name": "long_strength_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Strength"\
+      "display": "Lingering Potion of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_strength"\
+        }\
+      }\
     },\
     {\
       "name": "strong_strength_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Strength"\
+      "display": "Lingering Potion of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_strength"\
+        }\
+      }\
     },\
     {\
       "name": "weakness_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Weakness"\
+      "display": "Lingering Potion of Weakness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:weakness"\
+        }\
+      }\
     },\
     {\
       "name": "long_weakness_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Weakness"\
+      "display": "Lingering Potion of Weakness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_weakness"\
+        }\
+      }\
     },\
     {\
       "name": "regeneration_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Regeneration"\
+      "display": "Lingering Potion of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "long_regeneration_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Regeneration"\
+      "display": "Lingering Potion of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "strong_regeneration_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Regeneration"\
+      "display": "Lingering Potion of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "lingering_water_bottle",\
       "section": "brewing",\
-      "display": "Lingering Water Bottle"\
+      "display": "Lingering Water Bottle",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:water"\
+        }\
+      }\
     },\
     {\
       "name": "awkward_lingering_potion",\
       "section": "brewing",\
-      "display": "Awkward Lingering Potion"\
+      "display": "Awkward Lingering Potion",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:awkward"\
+        }\
+      }\
     },\
     {\
       "name": "mundane_lingering_potion",\
       "section": "brewing",\
-      "display": "Mundane Lingering Potion"\
+      "display": "Mundane Lingering Potion",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:mundane"\
+        }\
+      }\
     },\
     {\
       "name": "thick_lingering_potion",\
       "section": "brewing",\
-      "display": "Thick Lingering Potion"\
+      "display": "Thick Lingering Potion",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:thick"\
+        }\
+      }\
     },\
     {\
       "name": "harming_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Harming"\
+      "display": "Lingering Potion of Harming",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:harming"\
+        }\
+      }\
     },\
     {\
       "name": "strong_harming_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Harming"\
+      "display": "Lingering Potion of Harming",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_harming"\
+        }\
+      }\
     },\
     {\
       "name": "healing_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Healing"\
+      "display": "Lingering Potion of Healing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:healing"\
+        }\
+      }\
     },\
     {\
       "name": "strong_healing_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Healing"\
+      "display": "Lingering Potion of Healing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_healing"\
+        }\
+      }\
     },\
     {\
       "name": "invisibility_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Invisibility"\
+      "display": "Lingering Potion of Invisibility",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:invisibility"\
+        }\
+      }\
     },\
     {\
       "name": "long_invisibility_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Invisibility"\
+      "display": "Lingering Potion of Invisibility",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_invisibility"\
+        }\
+      }\
     },\
     {\
       "name": "night_vision_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Night Vision"\
+      "display": "Lingering Potion of Night Vision",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:night_vision"\
+        }\
+      }\
     },\
     {\
       "name": "long_night_vision_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Night Vision"\
+      "display": "Lingering Potion of Night Vision",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_night_vision"\
+        }\
+      }\
     },\
     {\
       "name": "fire_resistance_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Fire Resistance"\
+      "display": "Lingering Potion of Fire Resistance",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:fire_resistance"\
+        }\
+      }\
     },\
     {\
       "name": "long_fire_resistance_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Fire Resistance"\
+      "display": "Lingering Potion of Fire Resistance",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_fire_resistance"\
+        }\
+      }\
     },\
     {\
       "name": "slow_falling_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Slow Falling"\
+      "display": "Lingering Potion of Slow Falling",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:slow_falling"\
+        }\
+      }\
     },\
     {\
       "name": "long_slow_falling_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Slow Falling"\
+      "display": "Lingering Potion of Slow Falling",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_slow_falling"\
+        }\
+      }\
     },\
     {\
       "name": "water_breathing_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Water Breathing"\
+      "display": "Lingering Potion of Water Breathing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:water_breathing"\
+        }\
+      }\
     },\
     {\
       "name": "long_water_breathing_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Water Breathing"\
+      "display": "Lingering Potion of Water Breathing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_water_breathing"\
+        }\
+      }\
     },\
     {\
       "name": "leaping_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Leaping"\
+      "display": "Lingering Potion of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:leaping"\
+        }\
+      }\
     },\
     {\
       "name": "long_leaping_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Leaping"\
+      "display": "Lingering Potion of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_leaping"\
+        }\
+      }\
     },\
     {\
       "name": "strong_leaping_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Leaping"\
+      "display": "Lingering Potion of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_leaping"\
+        }\
+      }\
     },\
     {\
       "name": "poison_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Poison"\
+      "display": "Lingering Potion of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:poison"\
+        }\
+      }\
     },\
     {\
       "name": "long_poison_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Poison"\
+      "display": "Lingering Potion of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_poison"\
+        }\
+      }\
     },\
     {\
       "name": "strong_poison_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Poison"\
+      "display": "Lingering Potion of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_poison"\
+        }\
+      }\
     },\
     {\
       "name": "slowness_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Slowness"\
+      "display": "Lingering Potion of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:slowness"\
+        }\
+      }\
     },\
     {\
       "name": "long_slowness_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Slowness"\
+      "display": "Lingering Potion of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_slowness"\
+        }\
+      }\
     },\
     {\
       "name": "strong_slowness_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Slowness"\
+      "display": "Lingering Potion of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_slowness"\
+        }\
+      }\
     },\
     {\
       "name": "swiftness_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering of Swiftness"\
+      "display": "Lingering of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "long_swiftness_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering of Swiftness"\
+      "display": "Lingering of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "strong_swiftness_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering of Swiftness"\
+      "display": "Lingering of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "turtle_master_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Turtle Master"\
+      "display": "Lingering Potion of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "long_turtle_master_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Turtle Master"\
+      "display": "Lingering Potion of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "strong_turtle_master_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Turtle Master"\
+      "display": "Lingering Potion of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "wind_charged_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Wind Charging"\
+      "display": "Lingering Potion of Wind Charging",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:wind_charged"\
+        }\
+      }\
     },\
     {\
       "name": "weaving_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Weaving"\
+      "display": "Lingering Potion of Weaving",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:weaving"\
+        }\
+      }\
     },\
     {\
       "name": "oozing_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Oozing"\
+      "display": "Lingering Potion of Oozing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:oozing"\
+        }\
+      }\
     },\
     {\
       "name": "infested_lingering_potion",\
       "section": "brewing",\
-      "display": "Lingering Potion of Infestation"\
+      "display": "Lingering Potion of Infestation",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:infested"\
+        }\
+      }\
     }\
   ],\
   "minecraft:tipped_arrow": [\
     {\
       "name": "strength_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Strength"\
+      "display": "Arrow of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strength"\
+        }\
+      }\
     },\
     {\
       "name": "long_strength_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Strength"\
+      "display": "Arrow of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_strength"\
+        }\
+      }\
     },\
     {\
       "name": "strong_strength_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Strength"\
+      "display": "Arrow of Strength",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_strength"\
+        }\
+      }\
     },\
     {\
       "name": "weakness_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Weakness"\
+      "display": "Arrow of Weakness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:weakness"\
+        }\
+      }\
     },\
     {\
       "name": "long_weakness_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Weakness"\
+      "display": "Arrow of Weakness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_weakness"\
+        }\
+      }\
     },\
     {\
       "name": "regeneration_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Regeneration"\
+      "display": "Arrow of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "long_regeneration_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Regeneration"\
+      "display": "Arrow of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "strong_regeneration_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Regeneration"\
+      "display": "Arrow of Regeneration",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_regeneration"\
+        }\
+      }\
     },\
     {\
       "name": "harming_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Harming"\
+      "display": "Arrow of Harming",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:harming"\
+        }\
+      }\
     },\
     {\
       "name": "strong_harming_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Harming"\
+      "display": "Arrow of Harming",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_harming"\
+        }\
+      }\
     },\
     {\
       "name": "healing_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Healing"\
+      "display": "Arrow of Healing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:healing"\
+        }\
+      }\
     },\
     {\
       "name": "strong_healing_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Healing"\
+      "display": "Arrow of Healing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_healing"\
+        }\
+      }\
     },\
     {\
       "name": "invisibility_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Invisibility"\
+      "display": "Arrow of Invisibility",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:invisibility"\
+        }\
+      }\
     },\
     {\
       "name": "long_invisibility_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Invisibility"\
+      "display": "Arrow of Invisibility",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_invisibility"\
+        }\
+      }\
     },\
     {\
       "name": "night_vision_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Night Vision"\
+      "display": "Arrow of Night Vision",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:night_vision"\
+        }\
+      }\
     },\
     {\
       "name": "long_night_vision_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Night Vision"\
+      "display": "Arrow of Night Vision",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_night_vision"\
+        }\
+      }\
     },\
     {\
       "name": "fire_resistance_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Fire Resistance"\
+      "display": "Arrow of Fire Resistance",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:fire_resistance"\
+        }\
+      }\
     },\
     {\
       "name": "long_fire_resistance_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Fire Resistance"\
+      "display": "Arrow of Fire Resistance",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_fire_resistance"\
+        }\
+      }\
     },\
     {\
       "name": "slow_falling_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Slow Falling"\
+      "display": "Arrow of Slow Falling",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:slow_falling"\
+        }\
+      }\
     },\
     {\
       "name": "long_slow_falling_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Slow Falling"\
+      "display": "Arrow of Slow Falling",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_slow_falling"\
+        }\
+      }\
     },\
     {\
       "name": "water_breathing_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Water Breathing"\
+      "display": "Arrow of Water Breathing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:water_breathing"\
+        }\
+      }\
     },\
     {\
       "name": "long_water_breathing_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Water Breathing"\
+      "display": "Arrow of Water Breathing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_water_breathing"\
+        }\
+      }\
     },\
     {\
       "name": "leaping_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Leaping"\
+      "display": "Arrow of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:leaping"\
+        }\
+      }\
     },\
     {\
       "name": "long_leaping_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Leaping"\
+      "display": "Arrow of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_leaping"\
+        }\
+      }\
     },\
     {\
       "name": "strong_leaping_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Leaping"\
+      "display": "Arrow of Leaping",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_leaping"\
+        }\
+      }\
     },\
     {\
       "name": "poison_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Poison"\
+      "display": "Arrow of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:poison"\
+        }\
+      }\
     },\
     {\
       "name": "long_poison_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Poison"\
+      "display": "Arrow of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_poison"\
+        }\
+      }\
     },\
     {\
       "name": "strong_poison_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Poison"\
+      "display": "Arrow of Poison",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_poison"\
+        }\
+      }\
     },\
     {\
       "name": "slowness_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Slowness"\
+      "display": "Arrow of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:slowness"\
+        }\
+      }\
     },\
     {\
       "name": "long_slowness_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Slowness"\
+      "display": "Arrow of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_slowness"\
+        }\
+      }\
     },\
     {\
       "name": "strong_slowness_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Slowness"\
+      "display": "Arrow of Slowness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_slowness"\
+        }\
+      }\
     },\
     {\
       "name": "swiftness_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Swiftness"\
+      "display": "Arrow of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "long_swiftness_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Swiftness"\
+      "display": "Arrow of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "strong_swiftness_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Swiftness"\
+      "display": "Arrow of Swiftness",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_swiftness"\
+        }\
+      }\
     },\
     {\
       "name": "turtle_master_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Turtle Master"\
+      "display": "Arrow of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "long_turtle_master_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Turtle Master"\
+      "display": "Arrow of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:long_turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "strong_turtle_master_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Turtle Master"\
+      "display": "Arrow of Turtle Master",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:strong_turtle_master"\
+        }\
+      }\
     },\
     {\
       "name": "wind_charged_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Wind Charging"\
+      "display": "Arrow of Wind Charging",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:wind_charged"\
+        }\
+      }\
     },\
     {\
       "name": "weaving_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Weaving"\
+      "display": "Arrow of Weaving",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:weaving"\
+        }\
+      }\
     },\
     {\
       "name": "oozing_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Oozing"\
+      "display": "Arrow of Oozing",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:oozing"\
+        }\
+      }\
     },\
     {\
       "name": "infested_tipped_arrow",\
       "section": "brewing",\
-      "display": "Arrow of Infestation"\
+      "display": "Arrow of Infestation",\
+      "components": {\
+        "minecraft:potion_contents": {\
+          "potion": "minecraft:infested"\
+        }\
+      }\
     }\
   ],\
   "minecraft:brewing_stand": [\

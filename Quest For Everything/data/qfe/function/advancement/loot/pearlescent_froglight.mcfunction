@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'pearlescent_froglight', 'item':'minecraft:pearlescent_froglight'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'pearlescent_froglight'}

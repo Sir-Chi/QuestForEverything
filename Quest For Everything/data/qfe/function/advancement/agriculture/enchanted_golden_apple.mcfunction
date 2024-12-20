@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'enchanted_golden_apple', 'item':'minecraft:enchanted_golden_apple'}
+function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'enchanted_golden_apple'}

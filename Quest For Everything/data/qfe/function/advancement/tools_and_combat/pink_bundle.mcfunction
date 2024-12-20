@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'pink_bundle', 'item':'minecraft:pink_bundle'}
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'pink_bundle'}

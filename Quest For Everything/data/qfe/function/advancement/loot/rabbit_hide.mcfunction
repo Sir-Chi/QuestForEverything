@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'rabbit_hide', 'item':'minecraft:rabbit_hide'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'rabbit_hide'}

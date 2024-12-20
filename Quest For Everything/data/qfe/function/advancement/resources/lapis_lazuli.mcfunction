@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'lapis_lazuli', 'item':'minecraft:lapis_lazuli'}
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'lapis_lazuli'}

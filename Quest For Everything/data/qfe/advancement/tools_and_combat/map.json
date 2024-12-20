@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:map"
     },
-    "title": "Map",
-    "description": "Obtain Map",
+    "title": "Empty Map",
+    "description": "Obtain Empty Map",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

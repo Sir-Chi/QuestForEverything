@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'soul_lantern', 'item':'minecraft:soul_lantern'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'soul_lantern'}

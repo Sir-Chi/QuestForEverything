@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nature', 'name':'pitcher_pod', 'item':'minecraft:pitcher_pod'}
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'pitcher_pod'}

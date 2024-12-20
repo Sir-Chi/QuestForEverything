@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:chiseled_nether_bricks"
     },
-    "title": "Chiseled Nether Brick",
-    "description": "Obtain Chiseled Nether Brick",
+    "title": "Chiseled Nether Bricks",
+    "description": "Obtain Chiseled Nether Bricks",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

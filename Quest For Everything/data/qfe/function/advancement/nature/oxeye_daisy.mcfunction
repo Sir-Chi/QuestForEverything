@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nature', 'name':'oxeye_daisy', 'item':'minecraft:oxeye_daisy'}
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'oxeye_daisy'}

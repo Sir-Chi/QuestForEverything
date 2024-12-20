@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'creaking_heart', 'item':'minecraft:creaking_heart'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'creaking_heart'}

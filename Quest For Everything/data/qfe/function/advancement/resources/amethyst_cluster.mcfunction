@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'amethyst_cluster', 'item':'minecraft:amethyst_cluster'}
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'amethyst_cluster'}

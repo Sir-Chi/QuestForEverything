@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_fence', 'item':'minecraft:crimson_fence'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_fence'}

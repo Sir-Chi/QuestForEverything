@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'wither_skeleton_skull', 'item':'minecraft:wither_skeleton_skull'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'wither_skeleton_skull'}

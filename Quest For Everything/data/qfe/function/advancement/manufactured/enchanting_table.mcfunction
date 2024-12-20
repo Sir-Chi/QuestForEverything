@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'enchanting_table', 'item':'minecraft:enchanting_table'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'enchanting_table'}

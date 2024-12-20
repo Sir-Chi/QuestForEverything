@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'soul_soil', 'item':'minecraft:soul_soil'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'soul_soil'}

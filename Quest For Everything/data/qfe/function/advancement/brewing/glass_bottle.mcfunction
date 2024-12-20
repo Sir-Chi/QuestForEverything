@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'glass_bottle', 'item':'minecraft:glass_bottle'}
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'glass_bottle'}

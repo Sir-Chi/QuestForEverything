@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_planks', 'item':'minecraft:crimson_planks'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_planks'}

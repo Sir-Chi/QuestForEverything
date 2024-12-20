@@ -1,6 +1,6 @@
 # Ran by every item advancement as player who got advancement when Teams is active
-# Parameters: section, name, item, team
-#$say team addpoint $(team) $(name) $(item) $(section)
+# Parameters: section, name, team
+#$say team addpoint $(team) $(name) $(section)
 
 # Add item tag to markers data
 # $data modify entity @e[type=marker,tag=$(team),limit=1] data.items.$(section) append value $(name)

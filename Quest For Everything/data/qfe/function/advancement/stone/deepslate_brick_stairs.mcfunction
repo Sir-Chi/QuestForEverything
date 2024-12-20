@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'stone', 'name':'deepslate_brick_stairs', 'item':'minecraft:deepslate_brick_stairs'}
+function qfe:universal/handle_item_obtained {'section':'stone', 'name':'deepslate_brick_stairs'}

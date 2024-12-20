@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'warped_stem', 'item':'minecraft:warped_stem'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'warped_stem'}

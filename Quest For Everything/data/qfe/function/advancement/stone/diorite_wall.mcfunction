@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'stone', 'name':'diorite_wall', 'item':'minecraft:diorite_wall'}
+function qfe:universal/handle_item_obtained {'section':'stone', 'name':'diorite_wall'}

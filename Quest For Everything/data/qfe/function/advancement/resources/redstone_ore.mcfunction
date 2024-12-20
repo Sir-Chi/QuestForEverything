@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'redstone_ore', 'item':'minecraft:redstone_ore'}
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'redstone_ore'}

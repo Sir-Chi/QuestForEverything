@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'glow_ink_sac', 'item':'minecraft:glow_ink_sac'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'glow_ink_sac'}

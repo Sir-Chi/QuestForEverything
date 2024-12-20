@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'cartography_table', 'item':'minecraft:cartography_table'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'cartography_table'}

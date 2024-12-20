@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:pink_bundle"
+      "id": "minecraft:magenta_bundle"
     },
-    "title": "Pink Bundle",
-    "description": "Obtain Pink Bundle",
+    "title": "Magenta Bundle",
+    "description": "Obtain Magenta Bundle",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:tools_and_combat/magenta_bundle",
+  "parent": "qfe:tools_and_combat/purple_bundle",
   "criteria": {
     "has_1": {
       "trigger": "minecraft:impossible"
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/tools_and_combat/pink_bundle"
+    "function": "qfe:advancement/tools_and_combat/magenta_bundle"
   }
 }

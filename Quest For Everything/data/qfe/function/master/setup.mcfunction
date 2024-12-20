@@ -38,7 +38,7 @@ scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death
 
 scoreboard objectives add score dummy "Score"
-scoreboard players set .TotalToGet score 1466
+scoreboard players set .TotalToGet score 1467
 scoreboard players display name .TotalToGet score "Total To Get"
 scoreboard players set #Leader score 0
 
@@ -89,7 +89,7 @@ scoreboard players set .TotalToGet resources_score 47
 scoreboard players set .TotalToGet sand_and_glass_score 57
 scoreboard players set .TotalToGet stone_score 83
 scoreboard players set .TotalToGet terracotta_and_concrete_score 65
-scoreboard players set .TotalToGet tools_and_combat_score 108
+scoreboard players set .TotalToGet tools_and_combat_score 109
 scoreboard players set .TotalToGet wood_score 190
 scoreboard players set .TotalToGet wool_score 64
 

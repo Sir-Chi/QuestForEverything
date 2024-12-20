@@ -9325,6 +9325,13 @@ data modify storage qfe:storage/stack data.itemTypes set value \
       "display": "Purple Bundle"\
     }\
   ],\
+  "minecraft:magenta_bundle": [\
+    {\
+      "name": "magenta_bundle",\
+      "section": "tools_and_combat",\
+      "display": "Magenta Bundle"\
+    }\
+  ],\
   "minecraft:pink_bundle": [\
     {\
       "name": "pink_bundle",\

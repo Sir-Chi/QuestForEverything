@@ -7824,11 +7824,6 @@ data modify storage qfe:storage/stack data.itemTypes set value \
   ],\
   "minecraft:filled_map": [\
     {\
-      "name": "filled_map",\
-      "section": "tools_and_combat",\
-      "display": "Filled Map"\
-    },\
-    {\
       "name": "buried_treasure_map",\
       "section": "tools_and_combat",\
       "display": "Buried Treasure Map",\
@@ -7859,6 +7854,11 @@ data modify storage qfe:storage/stack data.itemTypes set value \
       "components": {\
         "minecraft:map_color": 12741452\
       }\
+    },\
+    {\
+      "name": "filled_map",\
+      "section": "tools_and_combat",\
+      "display": "Filled Map"\
     }\
   ],\
   "minecraft:recovery_compass": [\

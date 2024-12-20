@@ -2,3 +2,6 @@ tellraw @a ["",{"text":"To start the pregame for Stack Quest For Everything, run
 
 # Reset all WelcomeMessage scores so players see the welcome message on login
 scoreboard players reset * WelcomeMessage
+
+# Refresh item data if necessary
+execute if data storage qfe:storage/stack data.itemTypes run function qfe:master/set_item_data

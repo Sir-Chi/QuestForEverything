@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'dune_armor_trim_smithing_template', 'item':'minecraft:dune_armor_trim_smithing_template'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'dune_armor_trim_smithing_template'}

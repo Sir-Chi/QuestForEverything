@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'scaffolding', 'item':'minecraft:scaffolding'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'scaffolding'}

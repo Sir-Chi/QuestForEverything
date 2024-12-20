@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'blast_furnace', 'item':'minecraft:blast_furnace'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'blast_furnace'}

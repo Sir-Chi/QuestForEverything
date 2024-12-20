@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'redstone_and_transport', 'name':'redstone_lamp', 'item':'minecraft:redstone_lamp'}
+function qfe:universal/handle_item_obtained {'section':'redstone_and_transport', 'name':'redstone_lamp'}

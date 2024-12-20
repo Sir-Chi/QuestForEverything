@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'blackstone', 'item':'minecraft:blackstone'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'blackstone'}

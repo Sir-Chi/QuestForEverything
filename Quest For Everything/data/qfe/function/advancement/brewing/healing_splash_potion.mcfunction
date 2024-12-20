@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'healing_splash_potion', 'item':'minecraft:splash_potion'}
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'healing_splash_potion'}

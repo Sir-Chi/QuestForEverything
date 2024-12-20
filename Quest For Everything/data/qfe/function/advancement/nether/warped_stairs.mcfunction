@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'warped_stairs', 'item':'minecraft:warped_stairs'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'warped_stairs'}

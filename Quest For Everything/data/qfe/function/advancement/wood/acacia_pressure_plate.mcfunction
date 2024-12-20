@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'wood', 'name':'acacia_pressure_plate', 'item':'minecraft:acacia_pressure_plate'}
+function qfe:universal/handle_item_obtained {'section':'wood', 'name':'acacia_pressure_plate'}

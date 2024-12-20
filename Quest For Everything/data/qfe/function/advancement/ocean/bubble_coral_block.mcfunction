@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'bubble_coral_block', 'item':'minecraft:bubble_coral_block'}
+function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'bubble_coral_block'}

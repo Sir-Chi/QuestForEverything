@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'nautilus_shell', 'item':'minecraft:nautilus_shell'}
+function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'nautilus_shell'}

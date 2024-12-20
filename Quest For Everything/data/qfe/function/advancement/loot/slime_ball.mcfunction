@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'slime_ball', 'item':'minecraft:slime_ball'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'slime_ball'}

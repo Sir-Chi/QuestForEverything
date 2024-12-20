@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'deepslate_redstone_ore', 'item':'minecraft:deepslate_redstone_ore'}
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'deepslate_redstone_ore'}

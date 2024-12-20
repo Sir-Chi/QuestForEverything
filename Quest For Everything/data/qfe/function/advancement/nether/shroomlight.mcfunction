@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'shroomlight', 'item':'minecraft:shroomlight'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'shroomlight'}

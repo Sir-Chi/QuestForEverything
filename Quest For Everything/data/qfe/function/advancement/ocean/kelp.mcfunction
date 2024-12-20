@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'kelp', 'item':'minecraft:kelp'}
+function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'kelp'}

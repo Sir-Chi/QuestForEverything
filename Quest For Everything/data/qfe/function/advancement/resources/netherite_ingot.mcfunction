@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'netherite_ingot', 'item':'minecraft:netherite_ingot'}
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'netherite_ingot'}

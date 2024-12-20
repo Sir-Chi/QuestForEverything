@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'end', 'name':'end_stone_bricks', 'item':'minecraft:end_stone_bricks'}
+function qfe:universal/handle_item_obtained {'section':'end', 'name':'end_stone_bricks'}

@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'polished_blackstone_pressure_plate', 'item':'minecraft:polished_blackstone_pressure_plate'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'polished_blackstone_pressure_plate'}

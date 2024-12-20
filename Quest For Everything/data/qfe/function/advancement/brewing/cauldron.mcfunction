@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'cauldron', 'item':'minecraft:cauldron'}
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'cauldron'}

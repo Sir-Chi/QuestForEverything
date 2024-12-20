@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'dried_kelp_block', 'item':'minecraft:dried_kelp_block'}
+function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'dried_kelp_block'}

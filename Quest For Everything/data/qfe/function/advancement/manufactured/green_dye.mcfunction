@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'green_dye', 'item':'minecraft:green_dye'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'green_dye'}

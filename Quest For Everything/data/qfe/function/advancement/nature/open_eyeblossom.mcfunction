@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nature', 'name':'open_eyeblossom', 'item':'minecraft:open_eyeblossom'}
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'open_eyeblossom'}

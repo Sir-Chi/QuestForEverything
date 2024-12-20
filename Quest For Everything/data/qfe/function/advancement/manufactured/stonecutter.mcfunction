@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'stonecutter', 'item':'minecraft:stonecutter'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'stonecutter'}

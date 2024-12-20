@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'red_nether_bricks', 'item':'minecraft:red_nether_bricks'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'red_nether_bricks'}

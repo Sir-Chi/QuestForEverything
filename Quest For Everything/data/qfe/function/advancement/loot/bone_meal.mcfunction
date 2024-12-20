@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'bone_meal', 'item':'minecraft:bone_meal'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'bone_meal'}

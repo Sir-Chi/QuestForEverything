@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'wood', 'name':'dark_oak_button', 'item':'minecraft:dark_oak_button'}
+function qfe:universal/handle_item_obtained {'section':'wood', 'name':'dark_oak_button'}

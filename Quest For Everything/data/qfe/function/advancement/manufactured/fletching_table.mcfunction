@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'fletching_table', 'item':'minecraft:fletching_table'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'fletching_table'}

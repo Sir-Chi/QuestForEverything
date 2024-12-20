@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_hanging_sign', 'item':'minecraft:crimson_hanging_sign'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_hanging_sign'}

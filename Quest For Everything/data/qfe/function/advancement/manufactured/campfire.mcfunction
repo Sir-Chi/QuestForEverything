@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'campfire', 'item':'minecraft:campfire'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'campfire'}

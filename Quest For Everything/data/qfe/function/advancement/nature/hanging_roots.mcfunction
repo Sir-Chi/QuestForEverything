@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nature', 'name':'hanging_roots', 'item':'minecraft:hanging_roots'}
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'hanging_roots'}

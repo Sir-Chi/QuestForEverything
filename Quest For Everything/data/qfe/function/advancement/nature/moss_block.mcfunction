@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nature', 'name':'moss_block', 'item':'minecraft:moss_block'}
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'moss_block'}

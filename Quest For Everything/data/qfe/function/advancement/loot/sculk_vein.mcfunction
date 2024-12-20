@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'sculk_vein', 'item':'minecraft:sculk_vein'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'sculk_vein'}

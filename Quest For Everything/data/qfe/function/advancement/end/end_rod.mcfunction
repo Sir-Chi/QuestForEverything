@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'end', 'name':'end_rod', 'item':'minecraft:end_rod'}
+function qfe:universal/handle_item_obtained {'section':'end', 'name':'end_rod'}

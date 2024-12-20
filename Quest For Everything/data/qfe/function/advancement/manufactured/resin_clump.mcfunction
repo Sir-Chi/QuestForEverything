@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'resin_clump', 'item':'minecraft:resin_clump'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'resin_clump'}

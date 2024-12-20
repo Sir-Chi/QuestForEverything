@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'netherrack', 'item':'minecraft:netherrack'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'netherrack'}

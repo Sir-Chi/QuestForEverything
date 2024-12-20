@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'flower_pot', 'item':'minecraft:flower_pot'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'flower_pot'}

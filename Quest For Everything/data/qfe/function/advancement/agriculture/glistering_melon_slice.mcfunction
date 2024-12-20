@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'glistering_melon_slice', 'item':'minecraft:glistering_melon_slice'}
+function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'glistering_melon_slice'}

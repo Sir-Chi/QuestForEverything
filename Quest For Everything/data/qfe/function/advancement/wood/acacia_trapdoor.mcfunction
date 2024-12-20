@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'wood', 'name':'acacia_trapdoor', 'item':'minecraft:acacia_trapdoor'}
+function qfe:universal/handle_item_obtained {'section':'wood', 'name':'acacia_trapdoor'}

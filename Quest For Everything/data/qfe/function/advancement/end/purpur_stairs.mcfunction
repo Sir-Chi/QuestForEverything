@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'end', 'name':'purpur_stairs', 'item':'minecraft:purpur_stairs'}
+function qfe:universal/handle_item_obtained {'section':'end', 'name':'purpur_stairs'}

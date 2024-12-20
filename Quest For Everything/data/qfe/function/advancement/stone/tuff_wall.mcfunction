@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'stone', 'name':'tuff_wall', 'item':'minecraft:tuff_wall'}
+function qfe:universal/handle_item_obtained {'section':'stone', 'name':'tuff_wall'}

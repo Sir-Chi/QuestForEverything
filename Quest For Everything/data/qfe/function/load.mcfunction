@@ -5,3 +5,4 @@ scoreboard players reset * WelcomeMessage
 
 # Refresh item data if necessary
 execute if data storage qfe:storage/stack data.itemTypes run function qfe:master/set_item_data
+execute if data storage qfe:storage/stack data.itemTypes run function qfe:master/set_item_count

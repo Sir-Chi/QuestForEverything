@@ -3529,6 +3529,14 @@ data modify storage qfe:storage/stack data.itemTypes set value \
   ],\
   "minecraft:white_banner": [\
     {\
+      "name": "white_banner",\
+      "section": "wool",\
+      "display": "White Banner",\
+      "components": {\
+        "minecraft:banner_patterns": []\
+      }\
+    },\
+    {\
       "name": "ominous_banner",\
       "section": "loot",\
       "display": "Ominous Banner",\
@@ -3567,14 +3575,6 @@ data modify storage qfe:storage/stack data.itemTypes set value \
             "pattern": "minecraft:border"\
           }\
         ]\
-      }\
-    },\
-    {\
-      "name": "white_banner",\
-      "section": "wool",\
-      "display": "White Banner",\
-      "components": {\
-        "minecraft:banner_patterns": []\
       }\
     }\
   ],\

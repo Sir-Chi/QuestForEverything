@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'resin_brick_slab', 'item':'minecraft:resin_brick_slab'}
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'resin_brick_slab'}

@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_pressure_plate', 'item':'minecraft:crimson_pressure_plate'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_pressure_plate'}

@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'rotten_flesh', 'item':'minecraft:rotten_flesh'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'rotten_flesh'}

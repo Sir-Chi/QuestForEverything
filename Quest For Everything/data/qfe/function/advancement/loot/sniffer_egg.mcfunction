@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'sniffer_egg', 'item':'minecraft:sniffer_egg'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'sniffer_egg'}

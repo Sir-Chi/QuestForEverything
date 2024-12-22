@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:stripped_bamboo_block"
     },
-    "title": "Stripped Bamboo Block",
-    "description": "Obtain Stripped Bamboo Block",
+    "title": "Block of Stripped Bamboo",
+    "description": "Obtain Block of Stripped Bamboo",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

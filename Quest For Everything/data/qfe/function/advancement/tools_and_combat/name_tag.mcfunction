@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'name_tag', 'item':'minecraft:name_tag'}
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'name_tag'}

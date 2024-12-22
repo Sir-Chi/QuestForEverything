@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'filled_map', 'item':'minecraft:filled_map'}
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'filled_map'}

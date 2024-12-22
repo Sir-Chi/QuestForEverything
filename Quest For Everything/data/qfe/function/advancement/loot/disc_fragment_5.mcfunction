@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'disc_fragment_5', 'item':'minecraft:disc_fragment_5'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'disc_fragment_5'}

@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'redstone_and_transport', 'name':'sticky_piston', 'item':'minecraft:sticky_piston'}
+function qfe:universal/handle_item_obtained {'section':'redstone_and_transport', 'name':'sticky_piston'}

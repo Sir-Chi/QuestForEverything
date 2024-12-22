@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_nylium', 'item':'minecraft:crimson_nylium'}
+function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_nylium'}

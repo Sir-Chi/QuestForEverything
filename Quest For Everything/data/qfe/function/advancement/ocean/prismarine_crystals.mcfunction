@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'prismarine_crystals', 'item':'minecraft:prismarine_crystals'}
+function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'prismarine_crystals'}

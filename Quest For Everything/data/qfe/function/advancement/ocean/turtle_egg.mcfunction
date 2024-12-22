@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'turtle_egg', 'item':'minecraft:turtle_egg'}
+function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'turtle_egg'}

@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'end', 'name':'dragon_head', 'item':'minecraft:dragon_head'}
+function qfe:universal/handle_item_obtained {'section':'end', 'name':'dragon_head'}

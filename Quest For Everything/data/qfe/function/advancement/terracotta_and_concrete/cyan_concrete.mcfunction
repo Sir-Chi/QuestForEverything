@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'terracotta_and_concrete', 'name':'cyan_concrete', 'item':'minecraft:cyan_concrete'}
+function qfe:universal/handle_item_obtained {'section':'terracotta_and_concrete', 'name':'cyan_concrete'}

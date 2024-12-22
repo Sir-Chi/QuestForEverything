@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'blaze_rod', 'item':'minecraft:blaze_rod'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'blaze_rod'}

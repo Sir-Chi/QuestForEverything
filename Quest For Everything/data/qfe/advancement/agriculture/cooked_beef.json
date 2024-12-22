@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:cooked_beef"
     },
-    "title": "Cooked Beef",
-    "description": "Obtain Cooked Beef",
+    "title": "Steak",
+    "description": "Obtain Steak",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

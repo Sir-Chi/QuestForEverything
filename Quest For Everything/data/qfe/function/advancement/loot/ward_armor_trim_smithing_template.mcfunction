@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'ward_armor_trim_smithing_template', 'item':'minecraft:ward_armor_trim_smithing_template'}
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'ward_armor_trim_smithing_template'}

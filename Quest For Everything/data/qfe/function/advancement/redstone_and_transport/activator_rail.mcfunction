@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'redstone_and_transport', 'name':'activator_rail', 'item':'minecraft:activator_rail'}
+function qfe:universal/handle_item_obtained {'section':'redstone_and_transport', 'name':'activator_rail'}

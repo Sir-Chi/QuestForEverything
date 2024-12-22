@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'long_invisibility_tipped_arrow', 'item':'minecraft:tipped_arrow'}
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'long_invisibility_tipped_arrow'}

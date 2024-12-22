@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'chicken', 'item':'minecraft:chicken'}
+function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'chicken'}

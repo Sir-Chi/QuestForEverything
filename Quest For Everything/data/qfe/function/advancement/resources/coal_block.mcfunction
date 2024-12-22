@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'coal_block', 'item':'minecraft:coal_block'}
+function qfe:universal/handle_item_obtained {'section':'resources', 'name':'coal_block'}

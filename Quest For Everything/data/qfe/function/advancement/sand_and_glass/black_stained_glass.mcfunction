@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'sand_and_glass', 'name':'black_stained_glass', 'item':'minecraft:black_stained_glass'}
+function qfe:universal/handle_item_obtained {'section':'sand_and_glass', 'name':'black_stained_glass'}

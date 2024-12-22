@@ -1,5 +1,5 @@
 # Ran by every item advancement as player who got advancement
-# Parameters: section, item
+# Parameters: section
 
 # Increase player's score
 scoreboard players add @s score 1

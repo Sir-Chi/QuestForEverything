@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:redstone"
     },
-    "title": "Redstone",
-    "description": "Obtain Redstone",
+    "title": "Redstone Dust",
+    "description": "Obtain Redstone Dust",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:nether/magma_block",
+  "parent": "qfe:manufactured/crafter",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/nether/lodestone"
+    "function": "qfe:advancement/manufactured/lodestone"
   }
 }

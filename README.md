@@ -16,7 +16,7 @@ On commencement of the game, a scoreboard will appear at the side of the screen.
 > 3) On the world creation screen, select the tab at the top of the screen called "More", then click the button called "Data Packs".
 > 4) In this menu, click "Open Pack Folder" and copy and paste into this the unzipped "Quest For Everything" folder.
 > 5) Back in the "Selecting Data Packs" menu, hover over the icon for Quest For Everything, this shows an arrow. Click this to select the datapack to be used when the world is created.
-> 6) Make sure the world is set to "Creative" Game Mode & has "Allow Cheats" enabled.
+> 6) Make sure the world has "Allow Commands" or "Allow Cheats" enabled.
 > 7) Once you load into the world, run the command "/function qfe:master/setup" directly, or run the command "/reload" to have the command appear in chat for you to click. This will create the Q4E Starting Lobby.
 > 8) If on a server, make sure that command blocks are turned on in the server configs.
 

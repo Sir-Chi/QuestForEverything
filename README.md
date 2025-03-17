@@ -5,7 +5,7 @@ Quest for Everything is a scavenger hunt game for survival minecraft. The object
 
 Players will track their progress using custom advancements, one for each of the available items & blocks. These advancements are split up into Sections, grouping similar items together such as all the wood items/blocks or all the wool items/blocks. On completion of all advancements in a Section a Trophy will be awarded!
 
-Some of the advancements are shaped differently, these are items/blocks which require a silk touch tool to obtain.
+Some of the advancements are shaped differently: these are items/blocks which can only be obtained using a silk touch tool (or by killing an Enderman holding the block).
 
 On commencement of the game, a scoreboard will appear at the side of the screen. This tracks how many items you have and how many you have left to go. There's also a Death Counter, which can be seen by pressing the TAB key.
 

@@ -18,3 +18,21 @@ scoreboard players set .TotalToGet terracotta_and_concrete_score 65
 scoreboard players set .TotalToGet tools_and_combat_score 109
 scoreboard players set .TotalToGet wood_score 190
 scoreboard players set .TotalToGet wool_score 64
+
+scoreboard players display name .TotalToGet agriculture_score "Total To Get"
+scoreboard players display name .TotalToGet brewing_score "Total To Get"
+scoreboard players display name .TotalToGet end_score "Total To Get"
+scoreboard players display name .TotalToGet loot_score "Total To Get"
+scoreboard players display name .TotalToGet manufactured_score "Total To Get"
+scoreboard players display name .TotalToGet nature_score "Total To Get"
+scoreboard players display name .TotalToGet nether_score "Total To Get"
+scoreboard players display name .TotalToGet ocean_score "Total To Get"
+scoreboard players display name .TotalToGet redstone_and_transport_score "Total To Get"
+scoreboard players display name .TotalToGet copper_score "Total To Get"
+scoreboard players display name .TotalToGet resources_score "Total To Get"
+scoreboard players display name .TotalToGet sand_and_glass_score "Total To Get"
+scoreboard players display name .TotalToGet stone_score "Total To Get"
+scoreboard players display name .TotalToGet terracotta_and_concrete_score "Total To Get"
+scoreboard players display name .TotalToGet tools_and_combat_score "Total To Get"
+scoreboard players display name .TotalToGet wood_score "Total To Get"
+scoreboard players display name .TotalToGet wool_score "Total To Get"

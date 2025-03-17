@@ -9,6 +9,9 @@ Some of the advancements are shaped differently: these are items/blocks which ca
 
 On commencement of the game, a scoreboard will appear at the side of the screen. This tracks how many items you have and how many you have left to go. There's also a Death Counter, which can be seen by pressing the TAB key.
 
+> Hide the scoreboard with the command "/scoreboard objectives setdisplay sidebar".
+> Show it again with the command "/scoreboard objectives setdisplay sidebar score".
+
 ## How To Install
 
 > 1) First find the right datapack you'd like (one of either the "original", "small biomes" or "stack" versions). Download it and then unzip the file.
@@ -38,8 +41,8 @@ The amount you have turned in of each block/item will be displayed on each advan
 
 In stack edition, items will not automatically be taken from your inventory. Instead there are two methods of turning in items:
 
-> Using the command /trigger submitHeldItem will attempt to turn the item/items in your main hand.
-> Using the command /trigger submitChestItems will locate the chest, barrel or shulker box you are currently looking at (within 10 blocks) and attempt to turn in the items from within it.
+> Using the command "/trigger submitHeldItem" will attempt to turn the item/items in your main hand.
+> Using the command "/trigger submitChestItems" will locate the chest, barrel or shulker box you are currently looking at (within 10 blocks) and attempt to turn in the items from within it.
 
 Any items that are excess will not be taken.
 

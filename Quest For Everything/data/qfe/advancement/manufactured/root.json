@@ -15,8 +15,14 @@
 		},
 		"title": "Manufactured Items",
 		"frame": "challenge",
-		"description": ["",{"text":"All Manufactured Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/cartography_table_side3.png",
+		"description": [
+			"",
+			{
+				"text": "All Manufactured Items & Blocks\n",
+				"color": "gold"
+			}
+		],
+		"background": "minecraft:block/cartography_table_side3",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

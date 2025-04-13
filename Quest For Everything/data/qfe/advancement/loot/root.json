@@ -15,8 +15,14 @@
 		},
 		"title": "Loot Items",
 		"frame": "challenge",
-		"description": ["",{"text":"All Loot related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/sculk_catalyst_top.png",
+		"description": [
+			"",
+			{
+				"text": "All Loot related Items & Blocks\n",
+				"color": "gold"
+			}
+		],
+		"background": "minecraft:block/sculk_catalyst_top",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

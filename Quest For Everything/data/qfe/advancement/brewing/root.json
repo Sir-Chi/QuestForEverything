@@ -15,8 +15,14 @@
 		},
 		"title": "Brewing",
 		"frame": "challenge",
-		"description": ["",{"text":"All Brewing related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/light_blue_terracotta.png",
+		"description": [
+			"",
+			{
+				"text": "All Brewing related Items & Blocks\n",
+				"color": "gold"
+			}
+		],
+		"background": "minecraft:block/light_blue_terracotta",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

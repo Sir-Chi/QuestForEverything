@@ -15,8 +15,14 @@
 		},
 		"title": "Nether Items",
 		"frame": "challenge",
-		"description": ["",{"text":"All Nether related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/stripped_crimson_stem.png",
+		"description": [
+			"",
+			{
+				"text": "All Nether related Items & Blocks\n",
+				"color": "gold"
+			}
+		],
+		"background": "minecraft:block/stripped_crimson_stem",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

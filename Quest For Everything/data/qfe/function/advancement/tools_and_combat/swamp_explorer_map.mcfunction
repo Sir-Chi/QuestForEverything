@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'swamp_explorer_map', 'item':'minecraft:filled_map[minecraft:item_name={translate:filled_map.explorer_swamp},minecraft:map_color=10066329]'}

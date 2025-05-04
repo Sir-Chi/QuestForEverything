@@ -3,17 +3,17 @@
     "icon": {
       "id": "minecraft:filled_map",
       "components": {
-        "minecraft:map_color": 3830373
+        "minecraft:map_color": 10066329
       }
     },
-    "title": "Ocean Explorer Map",
-    "description": "Obtain Ocean Explorer Map",
+    "title": "Desert Village Map",
+    "description": "Obtain Desert Village Map",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:tools_and_combat/jungle_explorer_map",
+  "parent": "qfe:tools_and_combat/plains_village_map",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
@@ -29,9 +29,9 @@
             },
             "components": {
               "minecraft:item_name": {
-                "translate": "filled_map.monument"
+                "translate": "filled_map.village_desert"
               },
-              "minecraft:map_color": 3830373
+              "minecraft:map_color": 10066329
             }
           }
         ]
@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/tools_and_combat/ocean_explorer_map"
+    "function": "qfe:advancement/tools_and_combat/desert_village_map"
   }
 }

@@ -1,6 +1,6 @@
 ##Set To Game Active State
 scoreboard players set #gameended GameSetup 1
-tellraw @a {"text":"Game Ended Manually!","bold":true,"color":"gray"}
+tellraw @a {text:"Game Ended Manually!",bold:true,color:"gray"}
 
 ##Set Gamerules & Scoreboard
 gamerule commandBlockOutput false

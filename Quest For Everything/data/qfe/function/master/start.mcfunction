@@ -26,42 +26,42 @@ execute if score Teams GameSetup matches 0 run scoreboard players set @a[team=!s
 
 execute as @a[team=] if score Teams GameSetup matches 1 run tag @a[team=] remove joined
 
-summon marker 0 80 0 {Tags:["blue"],CustomName:'{"text":"Blue Team"}'}
+summon marker 0 80 0 {Tags:["blue"],CustomName:{text:"Blue Team"}}
 team join blue @e[type=marker,tag=blue]
 execute as @p[team=blue] if score Teams GameSetup matches 1 run scoreboard players add @e[type=marker,tag=blue] score 0
 execute as @p[team=blue] if score Teams GameSetup matches 1 run scoreboard players display name @e[type=marker,tag=blue] score "Blue Team"
 
-summon marker 0 80 0 {Tags:["green"],CustomName:'{"text":"Green Team"}'}
+summon marker 0 80 0 {Tags:["green"],CustomName:{text:"Green Team"}}
 team join green @e[type=marker,tag=green]
 execute as @p[team=green] if score Teams GameSetup matches 1 run scoreboard players add @e[type=marker,tag=green] score 0
 execute as @p[team=green] if score Teams GameSetup matches 1 run scoreboard players display name @e[type=marker,tag=green] score "Green Team"
 
-summon marker 0 80 0 {Tags:["red"],CustomName:'{"text":"Red Team"}'}
+summon marker 0 80 0 {Tags:["red"],CustomName:{text:"Red Team"}}
 team join red @e[type=marker,tag=red]
 execute as @p[team=red] if score Teams GameSetup matches 1 run scoreboard players add @e[type=marker,tag=red] score 0
 execute as @p[team=red] if score Teams GameSetup matches 1 run scoreboard players display name @e[type=marker,tag=red] score "Red Team"
 
-summon marker 0 80 0 {Tags:["yellow"],CustomName:'{"text":"Yellow Team"}'}
+summon marker 0 80 0 {Tags:["yellow"],CustomName:{text:"Yellow Team"}}
 team join yellow @e[type=marker,tag=yellow]
 execute as @p[team=yellow] if score Teams GameSetup matches 1 run scoreboard players add @e[type=marker,tag=yellow] score 0
 execute as @p[team=yellow] if score Teams GameSetup matches 1 run scoreboard players display name @e[type=marker,tag=yellow] score "Yellow Team"
 
-summon marker 0 80 0 {Tags:["purple"],CustomName:'{"text":"Purple Team"}'}
+summon marker 0 80 0 {Tags:["purple"],CustomName:{text:"Purple Team"}}
 team join purple @e[type=marker,tag=purple]
 execute as @p[team=purple] if score Teams GameSetup matches 1 run scoreboard players add @e[type=marker,tag=purple] score 0
 execute as @p[team=purple] if score Teams GameSetup matches 1 run scoreboard players display name @e[type=marker,tag=purple] score "Purple Team"
 
-summon marker 0 80 0 {Tags:["aqua"],CustomName:'{"text":"Aqua Team"}'}
+summon marker 0 80 0 {Tags:["aqua"],CustomName:{text:"Aqua Team"}}
 team join aqua @e[type=marker,tag=aqua]
 execute as @p[team=aqua] if score Teams GameSetup matches 1 run scoreboard players add @e[type=marker,tag=aqua] score 0
 execute as @p[team=aqua] if score Teams GameSetup matches 1 run scoreboard players display name @e[type=marker,tag=aqua] score "Aqua Team"
 
-summon marker 0 80 0 {Tags:["gold"],CustomName:'{"text":"Gold Team"}'}
+summon marker 0 80 0 {Tags:["gold"],CustomName:{text:"Gold Team"}}
 team join gold @e[type=marker,tag=gold]
 execute as @p[team=gold] if score Teams GameSetup matches 1 run scoreboard players add @e[type=marker,tag=gold] score 0
 execute as @p[team=gold] if score Teams GameSetup matches 1 run scoreboard players display name @e[type=marker,tag=gold] score "Gold Team"
 
-summon marker 0 80 0 {Tags:["black"],CustomName:'{"text":"Black Team"}'}
+summon marker 0 80 0 {Tags:["black"],CustomName:{text:"Black Team"}}
 team join black @e[type=marker,tag=black]
 execute as @p[team=black] if score Teams GameSetup matches 1 run scoreboard players add @e[type=marker,tag=black] score 0
 execute as @p[team=black] if score Teams GameSetup matches 1 run scoreboard players display name @e[type=marker,tag=black] score "Black Team"

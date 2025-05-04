@@ -116,7 +116,7 @@ setblock 0 80 0 minecraft:air
 
 forceload add 0 0
 
-execute unless entity @e[type=marker,x=0,y=80,z=0,name="Timer"] run summon marker 0 80 0 {CustomName:'{"text":"Timer"}'}
+execute unless entity @e[type=marker,x=0,y=80,z=0,name="Timer"] run summon marker 0 80 0 {CustomName:{text:"Timer"}}
 
 execute as @e[tag=lobby_locator_bottom] at @e[tag=lobby_locator_bottom] run setworldspawn ~ ~1 ~
 

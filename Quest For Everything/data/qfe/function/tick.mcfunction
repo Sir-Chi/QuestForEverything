@@ -17,4 +17,4 @@ execute if score minutes time matches 60.. run scoreboard players set minutes ti
 
 execute as @e[type=marker,name="Timer",scores={time=6000..}] run scoreboard players set @e[type=marker,name="Timer",scores={time=6000..}] time 1
 
-execute if score showTimer GameSetup matches 1 run title @a actionbar ["",{"score":{"name":"hours","objective":"time"}}," : ",{"score":{"name":"minutes","objective":"time"}}," : ",{"score":{"name":"seconds","objective":"time"}}]
+execute if score showTimer GameSetup matches 1 run title @a actionbar ["",{score:{name:"hours",objective:"time"}}," : ",{score:{name:"minutes",objective:"time"}}," : ",{score:{name:"seconds",objective:"time"}}]

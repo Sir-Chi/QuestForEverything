@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:loot/egg",
+  "parent": "qfe:loot/brown_egg",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

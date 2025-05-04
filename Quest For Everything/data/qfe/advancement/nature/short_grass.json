@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:nature/root",
+  "parent": "qfe:nature/leaf_litter",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

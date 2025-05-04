@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:nature/large_fern",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:dead_bush"
+      "id": "minecraft:bush"
     },
-    "title": "Dead Bush",
-    "description": "Obtain Dead Bush",
+    "title": "Bush",
+    "description": "Obtain Bush",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:nature/tall_dry_grass",
+  "parent": "qfe:nature/tall_grass",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "minecraft:dead_bush"
+              "minecraft:bush"
             ],
             "count": {
               "min": 1,
@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/nature/dead_bush"
+    "function": "qfe:advancement/nature/bush"
   }
 }

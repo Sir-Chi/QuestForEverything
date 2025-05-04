@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'woodland_explorer_map', 'item':'minecraft:filled_map[minecraft:map_color=5393476]'}
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'woodland_explorer_map', 'item':'minecraft:filled_map[minecraft:item_name={translate:filled_map.mansion},minecraft:map_color=5393476]'}

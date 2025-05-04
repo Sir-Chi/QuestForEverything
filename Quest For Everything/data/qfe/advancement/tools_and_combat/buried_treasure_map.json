@@ -3,7 +3,10 @@
     "icon": {
       "id": "minecraft:filled_map",
       "components": {
-        "minecraft:item_name": "{translate:filled_map.buried_treasure}"
+        "minecraft:item_name": {
+          "translate": "filled_map.buried_treasure"
+        },
+        "minecraft:map_color": 4603950
       }
     },
     "title": "Buried Treasure Map",
@@ -28,7 +31,10 @@
               "max": 64
             },
             "components": {
-              "minecraft:item_name": "{translate:filled_map.buried_treasure}"
+              "minecraft:item_name": {
+                "translate": "filled_map.buried_treasure"
+              },
+              "minecraft:map_color": 4603950
             }
           }
         ]

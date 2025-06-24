@@ -15,8 +15,8 @@
 		},
 		"title": "Resources",
 		"frame": "challenge",
-		"description": ["",{"text":"All Resource related Items and Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/netherite_block.png",
+		"description": [{"text":"All Resource related Items and Blocks","color":"gold"}],
+		"background": "minecraft:block/netherite_block",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

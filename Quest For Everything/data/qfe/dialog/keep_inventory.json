@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Keep Inventory",
+    "color": "gold",
+    "underlined": true
+  },
+  "external_title": "Keep Inventory",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If ON, players will be able to keep the items in their inventory and experience levels after death."
+      },
+      "width": 300
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "qfe:game_setup_dialog"
+    }
+  },
+  "actions": [
+    {
+    "label": {
+      "text": "ON",
+      "color": "green"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "scoreboard players set keepInventory GameSetup 1"
+    }
+    },
+    {
+    "label": {
+      "text": "OFF",
+      "color": "red"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "scoreboard players set keepInventory GameSetup 0"
+    }
+    }
+  ]
+}

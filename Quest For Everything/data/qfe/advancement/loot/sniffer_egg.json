@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:loot/piglin_head",
+  "parent": "qfe:loot/dried_ghast",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

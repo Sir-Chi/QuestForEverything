@@ -15,8 +15,8 @@
 		},
 		"title": "Nature",
 		"frame": "challenge",
-		"description": ["",{"text":"All Nature related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/moss_block.png",
+		"description": [{"text":"All Nature related Items & Blocks","color":"gold"}],
+		"background": "minecraft:block/moss_block",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

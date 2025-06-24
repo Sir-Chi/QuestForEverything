@@ -15,8 +15,8 @@
 		},
 		"title": "Agriculture",
 		"frame": "challenge",
-		"description": ["",{"text":"All Agriculture related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/mushroom_stem.png",
+		"description": [{"text":"All Agriculture related Items & Blocks","color":"gold"}],
+		"background": "minecraft:block/mushroom_stem",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

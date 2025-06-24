@@ -15,8 +15,8 @@
 		},
 		"title": "Wood Items",
 		"frame": "challenge",
-		"description": ["",{"text":"All Wood related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/stripped_oak_log.png",
+		"description": [{"text":"All Wood related Items & Blocks","color":"gold"}],
+		"background": "minecraft:block/stripped_oak_log",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

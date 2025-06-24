@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'strong_strength_splash_potion', 'item':'minecraft:splash_potion[minecraft:potion_contents={potion:"minecraft:strong_strength"}]'}
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'strong_strength_splash_potion', 'item':'minecraft:splash_potion[minecraft:potion_contents={"potion": "minecraft:strong_strength"}]'}

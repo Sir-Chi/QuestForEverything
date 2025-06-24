@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'redstone_and_transport', 'name':'white_harness', 'item':'minecraft:white_harness'}

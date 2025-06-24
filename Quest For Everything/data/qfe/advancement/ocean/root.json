@@ -15,8 +15,8 @@
 		},
 		"title": "Ocean Items",
 		"frame": "challenge",
-		"description": ["",{"text":"All Ocean related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/dark_prismarine.png",
+		"description": [{"text":"All Ocean related Items & Blocks","color":"gold"}],
+		"background": "minecraft:block/dark_prismarine",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

@@ -15,8 +15,8 @@
 		},
 		"title": "Tools & Combat",
 		"frame": "challenge",
-		"description": ["",{"text":"All Tools & Combat related Items and Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/cyan_terracotta.png",
+		"description": [{"text":"All Tools & Combat related Items and Blocks","color":"gold"}],
+		"background": "minecraft:block/cyan_terracotta",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

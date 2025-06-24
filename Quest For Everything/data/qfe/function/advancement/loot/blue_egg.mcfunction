@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'blue_egg', 'item':'minecraft:blue_egg'}

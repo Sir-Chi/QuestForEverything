@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Set Score",
+    "color": "gold",
+    "underlined": true
+  },
+  "external_title": "Set Score",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If you would like the game to end after the maximum score possible has been reached, please select No Set Score. This is the default way to play Quest for Everything."
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Alternatively, if you would like the game to end after a set score has been reached, please select the score from the slider below and click Set Score."
+      },
+      "width": 300
+    }
+  ],
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "set_score",
+      "width": 300,
+      "label": {
+        "text": "End game when someone has a score of "
+      },
+      "start": 1,
+      "end": 1501,
+      "step": 1,
+      "initial": 1501
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "qfe:game_setup_dialog"
+    }
+  },
+  "actions": [
+    {
+    "label": {
+      "text": "Set Score"
+    },
+    "action": {
+        "type": "dynamic/run_command",
+        "template": "scoreboard players set SetScore GameSetup $(set_score)"
+    }
+    },
+    {
+    "label": {
+      "text": "No Set Score"
+    },
+    "action": {
+        "type": "run_command",
+        "command": "scoreboard players reset SetScore GameSetup"
+    }
+    }
+  ]
+}

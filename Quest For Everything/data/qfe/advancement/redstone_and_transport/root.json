@@ -15,8 +15,8 @@
 		},
 		"title": "Redstone & Transport",
 		"frame": "challenge",
-		"description": ["",{"text":"All Redstone & Transport related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/red_shulker_box.png",
+		"description": [{"text":"All Redstone & Transport related Items & Blocks","color":"gold"}],
+		"background": "minecraft:block/red_shulker_box",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

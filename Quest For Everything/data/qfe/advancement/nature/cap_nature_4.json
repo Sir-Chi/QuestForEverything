@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:nature/pitcher_plant",
+  "parent": "qfe:nature/red_mushroom",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

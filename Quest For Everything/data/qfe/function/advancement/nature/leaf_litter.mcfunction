@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'leaf_litter', 'item':'minecraft:leaf_litter'}

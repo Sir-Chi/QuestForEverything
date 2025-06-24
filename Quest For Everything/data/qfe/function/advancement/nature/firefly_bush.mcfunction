@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'firefly_bush', 'item':'minecraft:firefly_bush'}

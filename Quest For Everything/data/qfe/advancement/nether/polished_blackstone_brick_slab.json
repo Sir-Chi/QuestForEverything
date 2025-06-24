@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:polished_blackstone_brick_slab"
     },
-    "title": "Polished Blackstone Brick Slab",
-    "description": "Obtain Polished Blackstone Brick Slab",
+    "title": "Polished Blackstone Brick Slabs",
+    "description": "Obtain Polished Blackstone Brick Slabs",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

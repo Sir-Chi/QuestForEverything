@@ -28,7 +28,9 @@
               "max": 64
             },
             "components": {
-              "minecraft:map_color": 3830373
+              "minecraft:item_name": {
+                "translate": "filled_map.monument"
+              }
             }
           }
         ]

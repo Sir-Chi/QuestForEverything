@@ -1,38 +1,16 @@
 ##Set To Game Active State
 scoreboard players set #gameended GameSetup 1
-tellraw @a {"text":"Game Ended Manually!","bold":true,"color":"gray"}
+tellraw @a {text:"Game Ended Manually!",color:"gray",bold:true}
 
 ##Set Gamerules & Scoreboard
-gamerule commandBlockOutput false
-gamerule disableRaids true
-gamerule doDaylightCycle false
-gamerule doInsomnia false
-gamerule doMobSpawning false
-gamerule doPatrolSpawning false
-gamerule fallDamage false
-gamerule doWeatherCycle false
-gamerule disableElytraMovementCheck true
 time set 0
 
 scoreboard objectives setdisplay sidebar GameSetup
 scoreboard players reset SetTime GameSetup
 scoreboard players reset SetScore GameSetup
-scoreboard players set Teams GameSetup 0
-scoreboard players set allRecipesUnlocked GameSetup 0
-scoreboard players set naturalRegeneration GameSetup 1
-scoreboard players set announceAdvancements GameSetup 1
-scoreboard players set announceTrophies GameSetup 1
-scoreboard players set keepInventory GameSetup 0
-scoreboard players set takeItems GameSetup 1
-scoreboard players set showTimer GameSetup 1
-scoreboard players set #gamestarted GameSetup 0
-scoreboard players set #gameended GameSetup 0
-scoreboard players set #dragon_egg GameSetup 0
-scoreboard players set #lobbynumber GameSetup 0
 
 scoreboard players reset @e[type=marker] score
 scoreboard players reset @a score
-scoreboard players set .TotalToGet score 1466
 scoreboard players set #Leader score 0
 
 scoreboard objectives remove SyncScore
@@ -92,25 +70,25 @@ team modify admin color dark_red
 
 ##Removes Tags
 
-tag @e remove trophy_agriculture
-tag @e remove trophy_brewing
-tag @e remove trophy_copper
-tag @e remove trophy_end
-tag @e remove trophy_loot
-tag @e remove trophy_manufactured
-tag @e remove trophy_nature
-tag @e remove trophy_nether
-tag @e remove trophy_ocean
-tag @e remove trophy_redstone_and_transport
-tag @e remove trophy_resources
-tag @e remove trophy_sand_and_glass
-tag @e remove trophy_stone
-tag @e remove trophy_terracotta_and_concrete
-tag @e remove trophy_tools_and_combat
-tag @e remove trophy_wood
-tag @e remove trophy_wool
+tag @a remove trophy_agriculture
+tag @a remove trophy_brewing
+tag @a remove trophy_copper
+tag @a remove trophy_end
+tag @a remove trophy_loot
+tag @a remove trophy_manufactured
+tag @a remove trophy_nature
+tag @a remove trophy_nether
+tag @a remove trophy_ocean
+tag @a remove trophy_redstone_and_transport
+tag @a remove trophy_resources
+tag @a remove trophy_sand_and_glass
+tag @a remove trophy_stone
+tag @a remove trophy_terracotta_and_concrete
+tag @a remove trophy_tools_and_combat
+tag @a remove trophy_wood
+tag @a remove trophy_wool
 
-tag @e remove winner
+tag @a remove winner
 
 ##Removes Team Tracking Markers 
 kill @e[type=marker,tag=blue]
@@ -134,10 +112,7 @@ forceload remove all
 ##Resets Players Inventory & Set Up
 clear @a
 advancement revoke @a everything
-
 effect clear @a
-effect give @a minecraft:saturation 1 20
-effect give @a minecraft:regeneration 2 255
 
 ##Resets Turns Off Timer & Check Systems
 scoreboard players set @e[type=marker,name="Timer"] time 0

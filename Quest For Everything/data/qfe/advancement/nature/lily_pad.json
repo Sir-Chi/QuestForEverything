@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:nature/vine",
+  "parent": "qfe:nature/cactus_flower",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

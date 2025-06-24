@@ -15,8 +15,8 @@
 		},
 		"title": "End Items",
 		"frame": "challenge",
-		"description": ["",{"text":"All End related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/end_stone.png",
+		"description": [{"text":"All End related Items & Blocks","color":"gold"}],
+		"background": "minecraft:block/end_stone",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

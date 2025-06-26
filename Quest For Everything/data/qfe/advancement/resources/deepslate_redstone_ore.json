@@ -5,7 +5,7 @@
     },
     "title": "Deepslate Redstone Ore",
     "description": "Obtain Deepslate Redstone Ore",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

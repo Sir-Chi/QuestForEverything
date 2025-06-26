@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:loot/music_disc_creator",
+  "parent": "qfe:loot/music_disc_tears",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

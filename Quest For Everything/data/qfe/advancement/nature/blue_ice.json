@@ -5,7 +5,7 @@
     },
     "title": "Blue Ice",
     "description": "Obtain Blue Ice",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

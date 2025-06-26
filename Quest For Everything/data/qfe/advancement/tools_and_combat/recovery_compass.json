@@ -3,14 +3,14 @@
     "icon": {
       "id": "minecraft:recovery_compass"
     },
-    "title": "Recovery compass",
-    "description": "Obtain Recovery compass",
+    "title": "Recovery Compass",
+    "description": "Obtain Recovery Compass",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:tools_and_combat/trial_explorer_map",
+  "parent": "qfe:tools_and_combat/swamp_explorer_map",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

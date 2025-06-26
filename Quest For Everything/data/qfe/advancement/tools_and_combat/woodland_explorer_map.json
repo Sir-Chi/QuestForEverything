@@ -28,7 +28,9 @@
               "max": 64
             },
             "components": {
-              "minecraft:map_color": 5393476
+              "minecraft:item_name": {
+                "translate": "filled_map.mansion"
+              }
             }
           }
         ]

@@ -3,9 +3,9 @@
     "icon": {
       "id": "minecraft:deepslate_lapis_ore"
     },
-    "title": "Deepslate Lapis Ore",
-    "description": "Obtain Deepslate Lapis Ore",
-    "frame": "task",
+    "title": "Deepslate Lapis Lazuli Ore",
+    "description": "Obtain Deepslate Lapis Lazuli Ore",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

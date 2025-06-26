@@ -1,0 +1,116 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Joining Mid Game"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "It seems like you have joined mid way through a game of Q4E, you can use this selection screen to join a team!"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Upon selecting one of these teams you will be added to the game."
+      },
+      "width": 300
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": false,
+  "actions": [
+    {
+      "label": {
+        "text": "Blue Team",
+        "color": "blue"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger teams set 2"
+      }
+    },
+    {
+      "label": {
+        "text": "Green Team",
+        "color": "green"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger teams set 3"
+      }
+    },
+    {
+      "label": {
+        "text": "Red Team",
+        "color": "red"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger teams set 4"
+      }
+    },
+    {
+      "label": {
+        "text": "Purple Team",
+        "color": "dark_purple"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger teams set 5"
+      }
+    },
+    {
+      "label": {
+        "text": "Yellow Team",
+        "color": "#ECEC27"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger teams set 6"
+      }
+    },
+    {
+      "label": {
+        "text": "Aqua Team",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger teams set 7"
+      }
+    },
+    {
+      "label": {
+        "text": "Gold Team",
+        "color": "gold"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger teams set 8"
+      }
+    },
+    {
+      "label": {
+        "text": "Black Team",
+        "color": "#000000"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger teams set 9"
+      }
+    },
+    {
+      "label": {
+        "text": "Spectator",
+        "color": "gray"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger teams set 1"
+      }
+    }
+  ]
+}

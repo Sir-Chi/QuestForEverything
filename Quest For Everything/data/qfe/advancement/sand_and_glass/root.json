@@ -15,8 +15,8 @@
 		},
 		"title": "Sand & Glass",
 		"frame": "challenge",
-		"description": ["",{"text":"All Sand & Glass related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/sand.png",
+		"description": [{"text":"All Sand & Glass related Items & Blocks","color":"gold"}],
+		"background": "minecraft:block/sand",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

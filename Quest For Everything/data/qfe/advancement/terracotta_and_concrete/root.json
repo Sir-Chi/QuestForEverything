@@ -15,8 +15,8 @@
 		},
 		"title": "Terracotta & Concrete",
 		"frame": "challenge",
-		"description": ["",{"text":"All Terracotta & Concrete related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/terracotta.png",
+		"description": [{"text":"All Terracotta & Concrete related Items & Blocks","color":"gold"}],
+		"background": "minecraft:block/terracotta",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

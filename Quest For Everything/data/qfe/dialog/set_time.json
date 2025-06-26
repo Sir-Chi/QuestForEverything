@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Set Time",
+    "color": "gold",
+    "underlined": true
+  },
+  "external_title": "Set Time",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If you would like the game to not end after a set time, please select No Set Time (the game will end only when someone reaches the maximum possible score). This is the default way to play Quest for Everything."
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Alternatively, if you would like the game to end after a set amount of time has been reached, please select the time (in minutes) from the slider below and click Set Time."
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "120 mins = 2 hrs; 240 mins = 4 hrs; 480 mins = 8 hrs; 720 mins = 12 hrs; 1440 mins = 24 hrs"
+      },
+      "width": 300
+    }
+  ],
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "set_time",
+      "width": 300,
+      "label": {
+        "text": "End game after "
+      },
+      "start": 1,
+      "end": 1440,
+      "step": 5,
+      "initial": 60
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "qfe:game_setup_dialog"
+    }
+  },
+  "actions": [
+    {
+    "label": {
+      "text": "Set Time"
+    },
+    "action": {
+        "type": "dynamic/run_command",
+        "template": "scoreboard players set SetTime GameSetup $(set_time)"
+    }
+    },
+    {
+    "label": {
+      "text": "No Set Time"
+    },
+    "action": {
+        "type": "run_command",
+        "command": "scoreboard players reset SetTime GameSetup"
+    }
+    }
+  ]
+}

@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:nature/spore_blossom",
+  "parent": "qfe:nature/vine",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

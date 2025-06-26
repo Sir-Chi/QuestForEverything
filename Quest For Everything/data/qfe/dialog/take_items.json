@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Take Items",
+    "color": "gold",
+    "underlined": true
+  },
+  "external_title": "Take Items",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If OFF, an item will not be taken from the player upon obtaining an item for the first time."
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If ON, 1 item will be taken from the player upon obtaining an item for the first time."
+      }
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "qfe:game_setup_dialog"
+    }
+  },
+  "actions": [
+    {
+    "label": {
+      "text": "ON",
+      "color": "green"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "scoreboard players set takeItems GameSetup 1"
+    }
+    },
+    {
+    "label": {
+      "text": "OFF",
+      "color": "red"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "scoreboard players set takeItems GameSetup 0"
+    }
+    }
+  ]
+}

@@ -15,8 +15,8 @@
 		},
 		"title": "Copper Items",
 		"frame": "challenge",
-		"description": ["",{"text":"All Copper related Items & Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/oxidized_copper.png",
+		"description": [{"text":"All Copper related Items & Blocks","color":"gold"}],
+		"background": "minecraft:block/oxidized_copper",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

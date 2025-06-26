@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lodestone"
+      "id": "minecraft:wildflowers"
     },
-    "title": "Lodestone",
-    "description": "Obtain Lodestone",
+    "title": "Wildflowers",
+    "description": "Obtain Wildflowers",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:nether/magma_block",
+  "parent": "qfe:nature/pink_petals",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "minecraft:lodestone"
+              "minecraft:wildflowers"
             ],
             "count": {
               "min": 1,
@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/nether/lodestone"
+    "function": "qfe:advancement/nature/wildflowers"
   }
 }

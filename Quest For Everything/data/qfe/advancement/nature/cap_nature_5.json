@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:nature/glow_lichen",
+  "parent": "qfe:nature/pitcher_plant",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

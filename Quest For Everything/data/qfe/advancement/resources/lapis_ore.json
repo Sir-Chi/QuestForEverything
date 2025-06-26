@@ -3,9 +3,9 @@
     "icon": {
       "id": "minecraft:lapis_ore"
     },
-    "title": "Lapis Ore",
-    "description": "Obtain Lapis Ore",
-    "frame": "task",
+    "title": "Lapis Lazuli Ore",
+    "description": "Obtain Lapis Lazuli Ore",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

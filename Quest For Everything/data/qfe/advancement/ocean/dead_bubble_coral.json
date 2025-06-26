@@ -5,7 +5,7 @@
     },
     "title": "Dead Bubble Coral",
     "description": "Obtain Dead Bubble Coral",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

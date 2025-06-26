@@ -2,7 +2,7 @@
 
 # Teleport any player who tries to escape back to the box
 
-execute at @e[tag=lobby_locator_bottom] run tp @a[distance=11..,team=!admin,tag=!joined] ~ ~1 ~
+execute at @e[tag=lobby_locator_bottom] run tp @a[distance=11..,team=!admin] ~ ~1 ~
 
 # Ensure player's don't loose saturation
 

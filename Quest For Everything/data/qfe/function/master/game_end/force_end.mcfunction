@@ -113,6 +113,7 @@ forceload remove all
 clear @a
 advancement revoke @a everything
 effect clear @a
+tag @a remove joined
 
 ##Resets Turns Off Timer & Check Systems
 scoreboard players set @e[type=marker,name="Timer"] time 0

@@ -2,8 +2,6 @@
 # Run: as = player
 # Parameters: function
 
-#$say $(function)
-
 $execute as @s[team=blue] run function qfe:submit/submit_team_marker {team:"blue",function:'$(function)'}
 $execute as @s[team=green] run function qfe:submit/submit_team_marker {team:"green",function:'$(function)'}
 $execute as @s[team=red] run function qfe:submit/submit_team_marker {team:"red",function:'$(function)'}

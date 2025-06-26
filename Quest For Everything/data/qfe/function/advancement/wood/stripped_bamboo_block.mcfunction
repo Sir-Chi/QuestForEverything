@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'wood', 'name':'stripped_bamboo_block', 'item':'minecraft:stripped_bamboo_block'}

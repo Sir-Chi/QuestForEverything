@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/copper/waxed_oxidized_copper_grate"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

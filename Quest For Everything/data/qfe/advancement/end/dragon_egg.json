@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/end/dragon_egg"
+    "function": "qfe:master/submit_dragon_egg"
   }
 }

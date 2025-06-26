@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:raiser_armor_trim_smithing_template"
     },
-    "title": "Raiser Armour Trim Smithing Template",
-    "description": "Obtain Raiser Armour Trim Smithing Template",
+    "title": "Raiser Armour Trim",
+    "description": "Obtain Raiser Armour Trim",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/loot/raiser_armor_trim_smithing_template"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

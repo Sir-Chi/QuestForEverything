@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'poisonous_potato', 'item':'minecraft:poisonous_potato'}

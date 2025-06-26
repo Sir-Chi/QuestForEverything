@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'sculk_catalyst', 'item':'minecraft:sculk_catalyst'}

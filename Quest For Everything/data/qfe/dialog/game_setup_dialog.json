@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "text": "Game Setup",
+    "color": "gold",
+    "underlined": true
+  },
+  "dialogs": [
+    "qfe:natural_regeneration",
+    "qfe:announce_advancements",
+    "qfe:announce_trophies",
+    "qfe:keep_inventory",
+    "qfe:all_recipes_unlocked",
+    "qfe:show_timer",
+    "qfe:set_time",
+    "qfe:set_score",
+    "qfe:teams"
+  ]
+}

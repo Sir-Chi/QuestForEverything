@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'heart_of_the_sea', 'item':'minecraft:heart_of_the_sea'}

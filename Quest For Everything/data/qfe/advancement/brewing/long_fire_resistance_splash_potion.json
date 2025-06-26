@@ -211,6 +211,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/long_fire_resistance_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

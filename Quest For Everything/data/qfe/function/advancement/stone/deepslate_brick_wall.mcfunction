@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'stone', 'name':'deepslate_brick_wall', 'item':'minecraft:deepslate_brick_wall'}

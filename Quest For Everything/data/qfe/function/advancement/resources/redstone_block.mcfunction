@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'redstone_block', 'item':'minecraft:redstone_block'}

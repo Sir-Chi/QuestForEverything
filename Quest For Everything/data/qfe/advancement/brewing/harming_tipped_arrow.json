@@ -211,6 +211,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/harming_tipped_arrow"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

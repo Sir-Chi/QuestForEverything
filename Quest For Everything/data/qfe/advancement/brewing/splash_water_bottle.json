@@ -211,6 +211,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/splash_water_bottle"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/manufactured/orange_candle"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

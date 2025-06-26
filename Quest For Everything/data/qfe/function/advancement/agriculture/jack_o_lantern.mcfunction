@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'agriculture', 'name':'jack_o_lantern', 'item':'minecraft:jack_o_lantern'}

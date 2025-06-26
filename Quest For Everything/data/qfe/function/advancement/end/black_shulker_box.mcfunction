@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'end', 'name':'black_shulker_box', 'item':'minecraft:black_shulker_box'}

@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/loot/fermented_spider_eye"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

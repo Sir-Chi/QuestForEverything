@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:redstone_and_transport/tnt",
+  "parent": "qfe:redstone_and_transport/white_harness",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

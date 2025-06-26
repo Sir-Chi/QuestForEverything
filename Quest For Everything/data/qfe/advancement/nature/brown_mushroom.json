@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:nature/lily_pad",
+  "parent": "qfe:nature/glow_lichen",
   "criteria": {
     "has_1": {
       "trigger": "minecraft:impossible"
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/nature/brown_mushroom"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

@@ -4,7 +4,7 @@
       "id": "minecraft:spruce_sign"
     },
     "title": "Spruce Sign",
-    "description": "Obtain Sign",
+    "description": "Obtain Spruce Sign",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/wood/spruce_sign"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

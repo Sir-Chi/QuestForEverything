@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'wayfinder_armor_trim_smithing_template', 'item':'minecraft:wayfinder_armor_trim_smithing_template'}

@@ -7,7 +7,7 @@
           "minecraft:suspicious_stew_effects": [
             {
               "id": "minecraft:jump_boost",
-              "duration": 120
+              "duration": 100
             }
           ]
         }
@@ -215,6 +215,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/agriculture/jump_boost_suspicious_stew"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

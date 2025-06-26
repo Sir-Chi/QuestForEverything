@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/loot/snort_pottery_sherd"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

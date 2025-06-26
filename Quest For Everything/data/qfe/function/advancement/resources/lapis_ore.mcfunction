@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'lapis_ore', 'item':'minecraft:lapis_ore'}

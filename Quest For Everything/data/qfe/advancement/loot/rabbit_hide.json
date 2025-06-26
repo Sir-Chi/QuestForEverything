@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/loot/rabbit_hide"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

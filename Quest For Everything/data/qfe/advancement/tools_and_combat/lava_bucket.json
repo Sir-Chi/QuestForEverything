@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/tools_and_combat/lava_bucket"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

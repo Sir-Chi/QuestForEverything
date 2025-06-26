@@ -15,8 +15,8 @@
 		},
 		"title": "Stone",
 		"frame": "challenge",
-		"description": ["",{"text":"All Stone related Items and Blocks\n","color":"gold"}],
-		"background": "minecraft:textures/block/stone.png",
+		"description": [{"text":"All Stone related Items and Blocks","color":"gold"}],
+		"background": "minecraft:block/stone",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

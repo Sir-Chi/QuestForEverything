@@ -12,7 +12,7 @@ data modify entity @s data.itemCheck.selectedItem set from block ~ ~ ~ Items[0]
 function qfe:submit/get_item_type with entity @s data.itemCheck.selectedItem
 
 # If item not found, give error
-execute unless data entity @s data.itemCheck.foundItem at @a if score @s PlayerMarkers = @p PlayerMarkers run return run tellraw @p {"text":"Item Type Not Found!","color":"gold"}
+execute unless data entity @s data.itemCheck.foundItem at @a if score @s PlayerMarkers = @p PlayerMarkers run return run tellraw @p {text:"Item Type Not Found!",color:"gold"}
 
 # Get amount that will be left over and total submitted
 function qfe:submit/get_item_surplus with entity @s data.itemCheck.foundItem
@@ -38,4 +38,4 @@ data modify block ~ ~ ~ Items set from entity @s data.itemCheck.itemList
 
 # Message player what was submitted
 execute if score Teams GameSetup matches 1 run return run function qfe:submit/bulk/announce_team_submitted with entity @s data.itemCheck.foundItem
-execute at @a if score @s PlayerMarkers = @p PlayerMarkers run tellraw @p ["You submitted ", {"score":{"name":"@s","objective":"BulkSubmissionAmount"},"color":"aqua"}, " items!"]
+execute at @a if score @s PlayerMarkers = @p PlayerMarkers run tellraw @p ["You submitted ", {score:{name:"@s",objective:"BulkSubmissionAmount"},color:"aqua"}, " items!"]

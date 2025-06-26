@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/copper/exposed_cut_copper_stairs"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

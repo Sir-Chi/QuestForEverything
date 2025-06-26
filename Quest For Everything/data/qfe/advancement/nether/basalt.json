@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/nether/basalt"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

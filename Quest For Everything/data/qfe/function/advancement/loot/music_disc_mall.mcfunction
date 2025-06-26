@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'music_disc_mall', 'item':'minecraft:music_disc_mall'}

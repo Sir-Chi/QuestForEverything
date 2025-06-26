@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'coast_armor_trim_smithing_template', 'item':'minecraft:coast_armor_trim_smithing_template'}

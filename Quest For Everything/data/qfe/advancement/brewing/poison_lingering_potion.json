@@ -211,6 +211,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/poison_lingering_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

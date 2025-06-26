@@ -3,7 +3,9 @@
     "icon": {
       "id": "minecraft:filled_map",
       "components": {
-        "minecraft:map_color": 12741452
+        "minecraft:item_name": {
+          "translate": "filled_map.trial_chambers"
+        }
       }
     },
     "title": "Trial Explorer Map",
@@ -209,6 +211,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/tools_and_combat/trial_explorer_map"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

@@ -3,7 +3,9 @@
     "icon": {
       "id": "minecraft:filled_map",
       "components": {
-        "minecraft:item_name": "{translate:filled_map.buried_treasure}"
+        "minecraft:item_name": {
+          "translate": "filled_map.buried_treasure"
+        }
       }
     },
     "title": "Buried Treasure Map",
@@ -209,6 +211,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/tools_and_combat/buried_treasure_map"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

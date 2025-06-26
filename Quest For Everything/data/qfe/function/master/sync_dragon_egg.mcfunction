@@ -1,6 +1,6 @@
 #Runs only the first time the dragon egg is obtained 
 
-#Sets the Advancement to an active state to state that the egg has been obtained for the frst time
+#Sets the Advancement to an active state to state that the egg has been obtained for the first time
 scoreboard players set #dragon_egg GameSetup 1
-tellraw @a {"text":"Someone has obtained the rare Dragon Egg so everyone gets the advancement!","color":"dark_purple"}
+tellraw @a {text:"Someone has obtained the rare Dragon Egg so everyone gets the advancement!",color:"dark_purple"}
 advancement grant @a[advancements={qfe:end/dragon_egg=false}] only qfe:end/dragon_egg

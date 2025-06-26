@@ -2,7 +2,6 @@
 # Run: as = player marker
 # Parameters: function
 
-#$say $(function)
 data remove entity @s data.itemCheck
 scoreboard players reset @s BulkSubmissionAmount
 # Run Next function

@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/nature/red_tulip"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

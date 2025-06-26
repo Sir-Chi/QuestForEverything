@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/loot/arms_up_pottery_sherd"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

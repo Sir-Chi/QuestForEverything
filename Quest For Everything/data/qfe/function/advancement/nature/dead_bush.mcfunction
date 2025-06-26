@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nature', 'name':'dead_bush', 'item':'minecraft:dead_bush'}

@@ -215,6 +215,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/agriculture/poison_suspicious_stew"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

@@ -211,6 +211,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/brewing/thick_splash_potion"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

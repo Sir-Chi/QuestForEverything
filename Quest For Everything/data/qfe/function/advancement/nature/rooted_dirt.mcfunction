@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nature', 'name':'rooted_dirt', 'item':'minecraft:rooted_dirt'}

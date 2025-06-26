@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'ink_sac', 'item':'minecraft:ink_sac'}

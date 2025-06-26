@@ -3,7 +3,9 @@
     "icon": {
       "id": "minecraft:filled_map",
       "components": {
-        "minecraft:map_color": 5393476
+        "minecraft:item_name": {
+          "translate": "filled_map.mansion"
+        }
       }
     },
     "title": "Woodland Explorer Map",
@@ -209,6 +211,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/tools_and_combat/woodland_explorer_map"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

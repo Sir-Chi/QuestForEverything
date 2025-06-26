@@ -6,7 +6,7 @@
         "minecraft:suspicious_stew_effects": [
           {
             "id": "minecraft:wither",
-            "duration": 160
+            "duration": 140
           }
         ]
       }
@@ -214,6 +214,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/agriculture/wither_suspicious_stew"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

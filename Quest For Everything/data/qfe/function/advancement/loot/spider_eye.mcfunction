@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'spider_eye', 'item':'minecraft:spider_eye'}

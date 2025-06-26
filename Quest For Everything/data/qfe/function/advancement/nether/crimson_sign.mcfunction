@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'crimson_sign', 'item':'minecraft:crimson_sign'}

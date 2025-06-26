@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:experience_bottle"
     },
-    "title": "Experience Bottle",
-    "description": "Obtain Experience Bottle",
+    "title": "Bottle o' Enchanting",
+    "description": "Obtain Bottle o' Enchanting",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/loot/experience_bottle"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

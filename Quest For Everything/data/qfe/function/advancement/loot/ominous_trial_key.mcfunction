@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'ominous_trial_key', 'item':'minecraft:ominous_trial_key'}

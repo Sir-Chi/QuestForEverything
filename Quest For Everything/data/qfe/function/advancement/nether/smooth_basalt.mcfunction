@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'nether', 'name':'smooth_basalt', 'item':'minecraft:smooth_basalt'}

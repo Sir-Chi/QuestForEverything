@@ -11,4 +11,4 @@ execute summon minecraft:marker run function qfe:submit/set_player_marker with s
 scoreboard players operation @s PlayerMarkers = #maxId PlayerMarkers
 
 # Tell player Turn In Initialized
-tellraw @s {"text":"This is your first time running a turn in command, so your data had to be initialized! Please run the command again to submit items!","color":"gold"}
+tellraw @s {text:"This is your first time running a turn in command, so your data had to be initialized! Please run the command again to submit items!",color:"gold"}

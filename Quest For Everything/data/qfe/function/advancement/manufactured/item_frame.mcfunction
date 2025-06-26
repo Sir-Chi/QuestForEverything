@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'item_frame', 'item':'minecraft:item_frame'}

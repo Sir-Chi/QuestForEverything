@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:rabbit_foot"
     },
-    "title": "Rabbit Foot",
-    "description": "Obtain Rabbit Foot",
+    "title": "Rabbit's Foot",
+    "description": "Obtain Rabbit's Foot",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/loot/rabbit_foot"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

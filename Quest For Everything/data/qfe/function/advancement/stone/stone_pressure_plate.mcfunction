@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'stone', 'name':'stone_pressure_plate', 'item':'minecraft:stone_pressure_plate'}

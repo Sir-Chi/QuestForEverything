@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/agriculture/glistering_melon_slice"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

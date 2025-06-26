@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:tadpole_bucket"
     },
-    "title": "Tadpole Bucket",
-    "description": "Obtain Tadpole Bucket",
+    "title": "Bucket of Tadpole",
+    "description": "Obtain Bucket of Tadpole",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/ocean/tadpole_bucket"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

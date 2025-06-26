@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Announce Advancements",
+    "color": "gold",
+    "underlined": true
+  },
+  "external_title": "Announce Advancements",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If OFF, any Advancements a player gets will not be announced in chat. This means that other players will not know what items/blocks a player has obtained so far."
+      },
+      "width": 300
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "qfe:game_setup_dialog"
+    }
+  },
+  "actions": [
+    {
+    "label": {
+      "text": "ON",
+      "color": "green"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "scoreboard players set announceAdvancements GameSetup 1"
+    }
+    },
+    {
+    "label": {
+      "text": "OFF",
+      "color": "red"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "scoreboard players set announceAdvancements GameSetup 0"
+    }
+    }
+  ]
+}

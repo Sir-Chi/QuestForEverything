@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:nature/red_mushroom",
+  "parent": "qfe:nature/spore_blossom",
   "criteria": {
     "has_1": {
       "trigger": "minecraft:impossible"
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/nature/torchflower_seeds"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

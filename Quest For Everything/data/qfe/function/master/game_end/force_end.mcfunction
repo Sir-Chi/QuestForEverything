@@ -1,37 +1,16 @@
 ##Set To Game Active State
 scoreboard players set #gameended GameSetup 1
-tellraw @a {"text":"Game Ended Manually!","bold":true,"color":"gray"}
+tellraw @a {text:"Game Ended Manually!",color:"gray",bold:true}
 
 ##Set Gamerules & Scoreboard
-gamerule commandBlockOutput false
-gamerule disableRaids true
-gamerule doDaylightCycle false
-gamerule doInsomnia false
-gamerule doMobSpawning false
-gamerule doPatrolSpawning false
-gamerule fallDamage false
-gamerule doWeatherCycle false
-gamerule disableElytraMovementCheck true
 time set 0
 
 scoreboard objectives setdisplay sidebar GameSetup
 scoreboard players reset SetTime GameSetup
 scoreboard players reset SetScore GameSetup
-scoreboard players set Teams GameSetup 0
-scoreboard players set allRecipesUnlocked GameSetup 0
-scoreboard players set naturalRegeneration GameSetup 1
-scoreboard players set announceAdvancements GameSetup 1
-scoreboard players set announceTrophies GameSetup 1
-scoreboard players set keepInventory GameSetup 0
-scoreboard players set showTimer GameSetup 1
-scoreboard players set #gamestarted GameSetup 0
-scoreboard players set #gameended GameSetup 0
-scoreboard players set #dragon_egg GameSetup 0
-scoreboard players set #lobbynumber GameSetup 0
 
 scoreboard players reset @e[type=marker] score
 scoreboard players reset @a score
-scoreboard players set .TotalToGet score 1466
 scoreboard players set #Leader score 0
 
 scoreboard objectives remove SyncScore
@@ -129,10 +108,8 @@ forceload remove all
 ##Resets Players Inventory & Set Up
 clear @a
 advancement revoke @a everything
-
 effect clear @a
-effect give @a minecraft:saturation 1 20
-effect give @a minecraft:regeneration 2 255
+tag @a remove joined
 
 ##Resets Turns Off Timer & Check Systems
 scoreboard players set @e[type=marker,name="Timer"] time 0

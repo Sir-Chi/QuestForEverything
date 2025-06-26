@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/stone/chiseled_deepslate"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

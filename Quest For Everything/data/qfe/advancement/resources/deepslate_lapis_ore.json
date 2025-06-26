@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:deepslate_lapis_ore"
     },
-    "title": "Deepslate Lapis Ore",
-    "description": "Obtain Deepslate Lapis Ore",
+    "title": "Deepslate Lapis Lazuli Ore",
+    "description": "Obtain Deepslate Lapis Lazuli Ore",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/resources/deepslate_lapis_ore"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

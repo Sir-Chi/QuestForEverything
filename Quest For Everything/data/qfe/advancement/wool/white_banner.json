@@ -209,6 +209,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/wool/white_banner"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

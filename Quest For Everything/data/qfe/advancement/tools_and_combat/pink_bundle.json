@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:tools_and_combat/purple_bundle",
+  "parent": "qfe:tools_and_combat/magenta_bundle",
   "criteria": {
     "has_1": {
       "trigger": "minecraft:impossible"
@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/tools_and_combat/pink_bundle"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

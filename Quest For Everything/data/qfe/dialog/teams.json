@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Teams",
+    "color": "gold",
+    "underlined": true
+  },
+  "external_title": "Teams",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If ON, signs will appear in the Lobby box giving everyone the option of joining a team. There are 8 Team colours to choose from!"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If OFF, teams will be emptied, removed and turned off."
+      }
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "qfe:game_setup_dialog"
+    }
+  },
+  "actions": [
+    {
+    "label": {
+      "text": "ON",
+      "color": "green"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "function qfe:master/teams/teams_on"
+    }
+    },
+    {
+    "label": {
+      "text": "OFF",
+      "color": "red"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "function qfe:master/teams/teams_off"
+    }
+    }
+  ]
+}

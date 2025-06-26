@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'wind_charge', 'item':'minecraft:wind_charge'}

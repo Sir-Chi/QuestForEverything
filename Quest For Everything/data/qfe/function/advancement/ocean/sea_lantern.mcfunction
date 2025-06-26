@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'sea_lantern', 'item':'minecraft:sea_lantern'}

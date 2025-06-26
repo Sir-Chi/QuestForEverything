@@ -2,8 +2,6 @@
 # Run: as = (player/team) marker, at = submission player
 # Parameters: name (item advancement name), section (item advancement section), criteriaCount (current criteria number to grant)
 
-#$say $(team) $(name) $(section) $(criteriaCount)
-
 $advancement grant @a[team=$(team)] only qfe:$(section)/$(name) has_$(criteriaCount)
 
 # Increase criteria number

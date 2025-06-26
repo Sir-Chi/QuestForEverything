@@ -206,6 +206,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/nature/closed_eyeblossom"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

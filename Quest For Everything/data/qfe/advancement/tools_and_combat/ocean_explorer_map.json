@@ -3,7 +3,9 @@
     "icon": {
       "id": "minecraft:filled_map",
       "components": {
-        "minecraft:map_color": 3830373
+        "minecraft:item_name": {
+          "translate": "filled_map.monument"
+        }
       }
     },
     "title": "Ocean Explorer Map",
@@ -209,6 +211,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/tools_and_combat/ocean_explorer_map"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

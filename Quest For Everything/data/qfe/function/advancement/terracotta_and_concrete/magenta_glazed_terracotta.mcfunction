@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'terracotta_and_concrete', 'name':'magenta_glazed_terracotta', 'item':'minecraft:magenta_glazed_terracotta'}

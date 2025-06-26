@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'angler_pottery_sherd', 'item':'minecraft:angler_pottery_sherd'}

@@ -38,10 +38,12 @@ scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death
 
 scoreboard objectives add score dummy "Score"
-scoreboard players set .TotalToGet score 1466
 scoreboard players display name .TotalToGet score "Total To Get"
 scoreboard players set #Leader score 0
 
+scoreboard objectives remove SyncScore
+scoreboard objectives remove SyncCriteria
+scoreboard objectives remove SyncSubmitted
 scoreboard objectives add SyncScore dummy "Sync Score"
 scoreboard objectives add SyncCriteria dummy "Sync Criteria"
 scoreboard objectives add SyncSubmitted dummy "Sync Submitted"
@@ -74,24 +76,7 @@ scoreboard objectives add terracotta_and_concrete_score dummy "Terracotta & Conc
 scoreboard objectives add tools_and_combat_score dummy "Tools & Combat Score"
 scoreboard objectives add wood_score dummy "Wood Score"
 scoreboard objectives add wool_score dummy "Wool Score"
-
-scoreboard players set .TotalToGet agriculture_score 65
-scoreboard players set .TotalToGet brewing_score 181
-scoreboard players set .TotalToGet end_score 35
-scoreboard players set .TotalToGet loot_score 115
-scoreboard players set .TotalToGet manufactured_score 116
-scoreboard players set .TotalToGet nature_score 71
-scoreboard players set .TotalToGet nether_score 96
-scoreboard players set .TotalToGet ocean_score 61
-scoreboard players set .TotalToGet redstone_and_transport_score 35
-scoreboard players set .TotalToGet copper_score 77
-scoreboard players set .TotalToGet resources_score 47
-scoreboard players set .TotalToGet sand_and_glass_score 57
-scoreboard players set .TotalToGet stone_score 83
-scoreboard players set .TotalToGet terracotta_and_concrete_score 65
-scoreboard players set .TotalToGet tools_and_combat_score 108
-scoreboard players set .TotalToGet wood_score 190
-scoreboard players set .TotalToGet wool_score 64
+function qfe:master/set_item_count
 
 data modify storage qfe:storage/info section_names set value {agriculture:{section:'Agriculture'},brewing:{section:'Brewing'},copper:{section:'Copper'},end:{section:'End'},loot:{section:'Loot'},manufactured:{section:'Manufactured'},nature:{section:'Nature'},nether:{section:'Nether'},ocean:{section:'Ocean'},redstone_and_transport:{section:'Redstone & Transport'},resources:{section:'Resources'},sand_and_glass:{section:'Sand & Glass'},Stone:{section:'stone'},terracotta_and_concrete:{section:'Terracotta & Concrete'},tools_and_combat:{section:'Tools & Combat'},wood:{section:'Wood'},wool:{section:'Wool'}}
 
@@ -109,6 +94,7 @@ scoreboard objectives add ItemCriteria dummy
 scoreboard objectives add SubmissionAmount dummy
 scoreboard objectives add BulkSubmissionAmount dummy
 scoreboard objectives add WelcomeMessage dummy
+scoreboard objectives add ItemsRequiredTotal dummy
 
 scoreboard objectives add chestCheck dummy
 
@@ -150,7 +136,7 @@ setblock 0 80 0 minecraft:air
 
 forceload add 0 0
 
-execute unless entity @e[type=marker,x=0,y=80,z=0,name="Timer"] run summon marker 0 80 0 {CustomName:'{"text":"Timer"}'}
+execute unless entity @e[type=marker,x=0,y=80,z=0,name="Timer"] run summon marker 0 80 0 {CustomName:"Timer"}
 
 execute as @e[tag=lobby_locator_bottom] at @e[tag=lobby_locator_bottom] run setworldspawn ~ ~1 ~
 

@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'resources', 'name':'nether_quartz_ore', 'item':'minecraft:nether_quartz_ore'}

@@ -11,8 +11,9 @@ $execute store result entity @s data.submitted.$(section).$(name) int 1 run scor
 # If teams, grant every team player the advancement and return
 execute if score Teams GameSetup matches 1 run return run function qfe:submit/grant_advancement_team with entity @s data.itemCheck.foundItem
 
-# If 64 submitted, grant advancement and return
-$execute if score @s ItemsSubmitted matches 64 run return run advancement grant @p only qfe:$(section)/$(name)
+# If 64 submitted, add 1 point to score, grant advancement and return
+execute if score @s ItemsSubmitted >= @s ItemsRequiredTotal run scoreboard players add @p score 1
+$execute if score @s ItemsSubmitted >= @s ItemsRequiredTotal run return run advancement grant @p only qfe:$(section)/$(name)
 
 # If less than 64 submitted, loop over advancement criteria
 function qfe:submit/grant_advancement_criteria with entity @s data.itemCheck.foundItem

@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'loot', 'name':'ominous_bottle_4', 'item':'minecraft:ominous_bottle[minecraft:ominous_bottle_amplifier=3]'}

@@ -209,6 +209,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/loot/ominous_bottle_4"
+    "function": "qfe:universal/handle_item_obtained"
   }
 }

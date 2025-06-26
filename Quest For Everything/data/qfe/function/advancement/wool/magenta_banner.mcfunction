@@ -1,1 +1,0 @@
-function qfe:universal/handle_item_obtained {'section':'wool', 'name':'magenta_banner', 'item':'minecraft:magenta_banner'}

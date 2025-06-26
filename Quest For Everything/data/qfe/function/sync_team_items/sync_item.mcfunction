@@ -11,6 +11,6 @@ $execute store result score @s SyncSubmitted run data get storage qfe:storage Sy
 $execute if score @s SyncSubmitted matches 64 run return run advancement grant @s only qfe:$(section)/$(item)
 
 # Set criteriaCount to 0
-execute store result storage qfe:storage SyncTeam.ItemsSync.CurrentItem.criteriaCount int 1 run scoreboard players set @s SyncCriteria 0
+execute store result storage qfe:storage SyncTeam.ItemsSync.CurrentItem.criteriaCount int 1 run scoreboard players set @s SyncCriteria 1
 # Loop criteria
 function qfe:sync_team_items/sync_criteria with storage qfe:storage SyncTeam.ItemsSync.CurrentItem

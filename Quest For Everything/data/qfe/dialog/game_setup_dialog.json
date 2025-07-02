@@ -15,6 +15,7 @@
     "qfe:show_timer",
     "qfe:teams",
     "qfe:set_time",
-    "qfe:set_score"
+    "qfe:set_score",
+    "qfe:show_scoreboard"
   ]
 }

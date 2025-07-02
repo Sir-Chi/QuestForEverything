@@ -54,6 +54,7 @@ During the game setup period, the side of the screen shows certain custom Game C
 - Take Items - If OFF, an item will not be taken from the player upon obtaining an item for the first time. If ON, 1 item will be taken from the player upon obtaining an item for the first time.
 - All Recipes Unlocked - If ON, all the recipes unlocked at the start of the game for all players. If OFF, all players will gain recipes as normal just by playing the game.
 - Show Timer - If OFF, the timer above the hotbar will not be displayed. In addition no time will be shown upon completion of the game.
+- Show Scoreboard - If OFF, the scoreboard showing the current score and total to get will not be displayed. Can also be configured to show the scoreboard briefly each hour for 1 minute.
 - Teams - When teams are active, signs will appear in the Lobby box giving everyone the option of joining a team. There are 8 team colours to choose from! (If a player joins mid way through a team game they will be able to select a team to join.)
 - Set Time - You can set the game to end after a set amount of time.
 - Set Score - You can set the game to end after a set amount of advancements/score has been reached.

@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Show Scoreboard",
+    "color": "gold"
+  },
+  "external_title": {
+    "text": "Show Scoreboard"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If OFF, the scoreboard showing the current score and total to get will not be displayed."
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If needed, you will be able to view the scoreboard at any time by running the command : ",
+        "extra": [
+          {
+            "text": "/scoreboard objectives setdisplay sidebar score",
+            "color": "aqua",
+            "underlined": true
+          }
+        ]
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Additionally, you can also choose to not show the scoreboard but to show it periodically, which will make the scoreboard show briefly each hour for 1 minute."
+      },
+      "width": 300
+    }
+  ],
+  "inputs": [],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "qfe:game_setup_dialog"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "text": "No Scoreboard Shown"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "scoreboard players set showScoreboard GameSetup 0"
+      }
+    },
+    {
+      "label": {
+        "text": "Scoreboard Shown"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "scoreboard players set showScoreboard GameSetup 1"
+      }
+    },
+    {
+      "label": {
+        "text": "Scoreboard Shown Periodically"
+      },
+      "width": 302,
+      "action": {
+        "type": "run_command",
+        "command": "scoreboard players set showScoreboard GameSetup 2"
+      }
+    }
+  ]
+}

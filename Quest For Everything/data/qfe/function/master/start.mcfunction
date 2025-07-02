@@ -70,7 +70,9 @@ team join black @e[type=marker,tag=black]
 execute as @p[team=black] if score Teams GameSetup matches 1 run scoreboard players add @e[type=marker,tag=black] score 0
 execute as @p[team=black] if score Teams GameSetup matches 1 run scoreboard players display name @e[type=marker,tag=black] score "Black Team"
 
-scoreboard objectives setdisplay sidebar score
+execute if score showScoreboard GameSetup matches 1 run scoreboard objectives setdisplay sidebar score
+execute if score showScoreboard GameSetup matches 0 run scoreboard objectives setdisplay sidebar
+execute if score showScoreboard GameSetup matches 2 run scoreboard objectives setdisplay sidebar
 
 ##Removes The Lobby
 

@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:fire_coral_block"
+      "id": "minecraft:music_disc_lava_chicken"
     },
-    "title": "Fire Coral Block",
-    "description": "Obtain Fire Coral Block",
-    "frame": "goal",
+    "title": "Music Disc - Lava Chicken",
+    "description": "Obtain Music Disc - Lava Chicken",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:ocean/sea_pickle",
+  "parent": "qfe:loot/music_disc_tears",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "minecraft:fire_coral_block"
+              "minecraft:music_disc_lava_chicken"
             ],
             "count": {
               "min": 1,
@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/ocean/fire_coral_block"
+    "function": "qfe:advancement/loot/music_disc_lava_chicken"
   }
 }

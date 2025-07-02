@@ -3318,6 +3318,13 @@ data modify storage qfe:storage/stack data.itemTypes set value \
       "display": "Music Disc - Tears"\
     }\
   ],\
+  "minecraft:music_disc_lava_chicken": [\
+    {\
+      "name": "music_disc_lava_chicken",\
+      "section": "loot",\
+      "display": "Music Disc - Lava Chicken"\
+    }\
+  ],\
   "minecraft:netherite_upgrade_smithing_template": [\
     {\
       "name": "netherite_upgrade_smithing_template",\

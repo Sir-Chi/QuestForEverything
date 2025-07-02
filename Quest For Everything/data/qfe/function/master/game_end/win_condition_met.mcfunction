@@ -1,5 +1,7 @@
 ##Sets Game State
-scoreboard players set #gameended GameSetup 1 
+scoreboard players set #gameended GameSetup 1
+
+scoreboard objectives setdisplay sidebar score
 
 ##If The Time Is Set & Players Are Individually Getting Items (Solos)
 execute if score Teams GameSetup matches 0 run scoreboard players operation #Leader score > @a score

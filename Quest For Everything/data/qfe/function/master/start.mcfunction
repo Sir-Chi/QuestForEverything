@@ -28,7 +28,9 @@ execute as @a[team=] if score Teams GameSetup matches 1 run tag @a[team=] remove
 
 execute if score Teams GameSetup matches 1 run function qfe:master/teams/setup
 
-scoreboard objectives setdisplay sidebar score
+execute if score showScoreboard GameSetup matches 1 run scoreboard objectives setdisplay sidebar score
+execute if score showScoreboard GameSetup matches 0 run scoreboard objectives setdisplay sidebar
+execute if score showScoreboard GameSetup matches 2 run scoreboard objectives setdisplay sidebar
 
 ##Removes The Lobby
 

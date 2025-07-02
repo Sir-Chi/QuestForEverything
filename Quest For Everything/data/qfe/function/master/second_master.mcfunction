@@ -23,6 +23,9 @@ scoreboard players enable @a submitChestItems
 function qfe:submit/single/activate_trigger
 function qfe:submit/bulk/activate_trigger
 
+execute if score showScoreboard GameSetup matches 2 if score hours time matches 1.. if score minutes time matches 0 run scoreboard objectives setdisplay sidebar score
+execute if score showScoreboard GameSetup matches 2 if score minutes time matches 1 run scoreboard objectives setdisplay sidebar
+
 #Just in case, to maintain timing integrity
 schedule clear qfe:master/second_master
 

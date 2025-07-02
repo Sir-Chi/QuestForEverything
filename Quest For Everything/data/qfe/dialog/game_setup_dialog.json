@@ -11,9 +11,10 @@
     "qfe:announce_trophies",
     "qfe:keep_inventory",
     "qfe:all_recipes_unlocked",
+    "qfe:teams",
     "qfe:show_timer",
+    "qfe:show_scoreboard",
     "qfe:set_time",
-    "qfe:set_score",
-    "qfe:teams"
+    "qfe:set_score"
   ]
 }

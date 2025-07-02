@@ -1,5 +1,7 @@
 ##Sets Game State
-scoreboard players set #gameended GameSetup 1 
+scoreboard players set #gameended GameSetup 1
+
+scoreboard objectives setdisplay sidebar score
 
 execute if score showTimer GameSetup matches 1 run tellraw @a [{selector:"@e[tag=winner]"},{text:" completed the Quest for Everything in "},{score:{name:"hours",objective:"time"}},{text:" : "},{score:{name:"minutes",objective:"time"}},{text:" : "},{score:{name:"seconds",objective:"time"}},{text:"!"}]
 execute if score showTimer GameSetup matches 0 run tellraw @a [{selector:"@e[tag=winner]"},{text:" completed the Quest for Everything!"}]

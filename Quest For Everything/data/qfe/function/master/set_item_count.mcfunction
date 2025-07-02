@@ -1,9 +1,9 @@
-scoreboard players set .TotalToGet score 1501
+scoreboard players set .TotalToGet score 1502
 
 scoreboard players set .TotalToGet agriculture_score 65
 scoreboard players set .TotalToGet brewing_score 181
 scoreboard players set .TotalToGet end_score 35
-scoreboard players set .TotalToGet loot_score 119
+scoreboard players set .TotalToGet loot_score 120
 scoreboard players set .TotalToGet manufactured_score 117
 scoreboard players set .TotalToGet nature_score 78
 scoreboard players set .TotalToGet nether_score 95

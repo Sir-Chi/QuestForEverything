@@ -12,6 +12,9 @@ execute if score #gamestarted GameSetup matches 1 unless score #gameended GameSe
 
 execute if score #dragon_egg GameSetup matches 1 run advancement grant @a[advancements={qfe:end/dragon_egg=false}] only qfe:end/dragon_egg
 
+execute if score showScoreboard GameSetup matches 2 if score hours time matches 1.. if score minutes time matches 0 run scoreboard objectives setdisplay sidebar score
+execute if score showScoreboard GameSetup matches 2 if score minutes time matches 1 run scoreboard objectives setdisplay sidebar
+
 #Just in case, to maintain timing integrity
 schedule clear qfe:master/second_master
 

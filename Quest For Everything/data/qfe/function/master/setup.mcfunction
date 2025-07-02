@@ -23,6 +23,7 @@ scoreboard players set announceTrophies GameSetup 1
 scoreboard players set keepInventory GameSetup 0
 scoreboard players set takeItems GameSetup 1
 scoreboard players set showTimer GameSetup 1
+scoreboard players set showScoreboard GameSetup 1
 scoreboard players set #gamestarted GameSetup 0
 scoreboard players set #gameended GameSetup 0
 scoreboard players set #dragon_egg GameSetup 0
@@ -35,6 +36,7 @@ scoreboard players display name announceTrophies GameSetup "Announce Trophies"
 scoreboard players display name keepInventory GameSetup "Keep Inventory"
 scoreboard players display name takeItems GameSetup "Take Items"
 scoreboard players display name showTimer GameSetup "Show Timer"
+scoreboard players display name showScoreboard GameSetup "Show Scoreboard"
 
 scoreboard objectives add death deathCount "Deaths"
 scoreboard objectives setdisplay list death
@@ -74,6 +76,23 @@ scoreboard objectives add terracotta_and_concrete_score dummy "Terracotta & Conc
 scoreboard objectives add tools_and_combat_score dummy "Tools & Combat Score"
 scoreboard objectives add wood_score dummy "Wood Score"
 scoreboard objectives add wool_score dummy "Wool Score"
+
+scoreboard players display name .TotalToGet agriculture_score "Total To Get"
+scoreboard players display name .TotalToGet brewing_score "Total To Get"
+scoreboard players display name .TotalToGet copper_score "Total To Get"
+scoreboard players display name .TotalToGet end_score "Total To Get"
+scoreboard players display name .TotalToGet loot_score "Total To Get"
+scoreboard players display name .TotalToGet manufactured_score "Total To Get"
+scoreboard players display name .TotalToGet nature_score "Total To Get"
+scoreboard players display name .TotalToGet ocean_score "Total To Get"
+scoreboard players display name .TotalToGet redstone_and_transport_score "Total To Get"
+scoreboard players display name .TotalToGet resources_score "Total To Get"
+scoreboard players display name .TotalToGet sand_and_glass_score "Total To Get"
+scoreboard players display name .TotalToGet stone_score "Total To Get"
+scoreboard players display name .TotalToGet terracotta_and_concrete_score "Total To Get"
+scoreboard players display name .TotalToGet tools_and_combat_score "Total To Get"
+scoreboard players display name .TotalToGet wood_score "Total To Get"
+scoreboard players display name .TotalToGet wool_score "Total To Get"
 function qfe:master/set_item_count
 
 data modify storage qfe:storage/info section_names set value {agriculture:{section:'Agriculture'},brewing:{section:'Brewing'},copper:{section:'Copper'},end:{section:'End'},loot:{section:'Loot'},manufactured:{section:'Manufactured'},nature:{section:'Nature'},nether:{section:'Nether'},ocean:{section:'Ocean'},redstone_and_transport:{section:'Redstone & Transport'},resources:{section:'Resources'},sand_and_glass:{section:'Sand & Glass'},Stone:{section:'stone'},terracotta_and_concrete:{section:'Terracotta & Concrete'},tools_and_combat:{section:'Tools & Combat'},wood:{section:'Wood'},wool:{section:'Wool'}}

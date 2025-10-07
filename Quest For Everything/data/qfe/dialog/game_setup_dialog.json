@@ -12,10 +12,11 @@
     "qfe:keep_inventory",
     "qfe:take_items",
     "qfe:all_recipes_unlocked",
-    "qfe:show_timer",
+    "qfe:pvp",
     "qfe:teams",
     "qfe:set_time",
     "qfe:set_score",
+    "qfe:show_timer",
     "qfe:show_scoreboard"
   ]
 }

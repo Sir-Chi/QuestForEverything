@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:copper/copper_bulb",
+  "parent": "qfe:copper/copper_golem_statue",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

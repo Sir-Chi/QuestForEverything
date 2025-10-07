@@ -20,7 +20,7 @@
     }
   ],
   "inputs": [],
-  "can_close_with_escape": false,
+  "can_close_with_escape": true,
   "actions": [
     {
       "label": {

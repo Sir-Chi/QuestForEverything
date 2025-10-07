@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'copper', 'name':'oxidized_lightning_rod', 'item':'minecraft:oxidized_lightning_rod'}

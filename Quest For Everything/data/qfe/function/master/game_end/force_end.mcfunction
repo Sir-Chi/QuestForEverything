@@ -108,6 +108,7 @@ execute in minecraft:the_nether run gamerule announceAdvancements true
 execute in minecraft:the_end run gamerule announceAdvancements true
 recipe take @a *
 forceload remove all
+gamerule pvp true
 
 ##Resets Players Inventory & Set Up
 clear @a

@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:manufactured/lightning_rod",
+  "parent": "qfe:manufactured/bell",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

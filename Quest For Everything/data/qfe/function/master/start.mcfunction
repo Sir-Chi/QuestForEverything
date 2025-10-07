@@ -25,6 +25,7 @@ execute in minecraft:overworld if score announceAdvancements GameSetup matches 0
 execute in minecraft:the_nether if score announceAdvancements GameSetup matches 0 run gamerule announceAdvancements false
 execute in minecraft:the_end if score announceAdvancements GameSetup matches 0 run gamerule announceAdvancements false
 execute if score allRecipesUnlocked GameSetup matches 1 run recipe give @a *
+execute if score pvp GameSetup matches 0 run gamerule pvp false
 
 execute if score Teams GameSetup matches 0 run scoreboard players set @a[team=!spectator,team=!admin] score 0
 

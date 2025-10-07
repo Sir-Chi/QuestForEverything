@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lightning_rod"
+      "id": "minecraft:exposed_copper_chest"
     },
-    "title": "Lightning Rod",
-    "description": "Obtain Lightning Rod",
+    "title": "Exposed Copper Chest",
+    "description": "Obtain Exposed Copper Chest",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:manufactured/bell",
+  "parent": "qfe:copper/exposed_lightning_rod",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "minecraft:lightning_rod"
+              "minecraft:exposed_copper_chest"
             ],
             "count": {
               "min": 1,
@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/manufactured/lightning_rod"
+    "function": "qfe:advancement/copper/exposed_copper_chest"
   }
 }

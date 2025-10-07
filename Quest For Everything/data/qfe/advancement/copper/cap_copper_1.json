@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:copper/copper_ingot",
+  "parent": "qfe:copper/copper_torch",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

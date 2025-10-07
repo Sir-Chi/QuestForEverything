@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:redstone_and_transport/leather_horse_armor",
+  "parent": "qfe:redstone_and_transport/copper_horse_armor",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

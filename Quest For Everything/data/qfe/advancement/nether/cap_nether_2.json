@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:nether/crimson_hanging_sign",
+  "parent": "qfe:nether/crimson_shelf",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

@@ -1,20 +1,20 @@
-execute store result score systick time run worldborder get
-scoreboard players operation systick time %= const100000 time
+execute store result score seconds time store result score minutes time store result score hours time store result score trackedminutes time run stopwatch query qfe:timer 1
 
-worldborder set 5000000
-worldborder set 6000000 10000
+scoreboard players operation seconds time %= const60 time
 
-execute as @e[type=marker,name="Timer",scores={time=1..}] run scoreboard players operation @s time += systick time
+scoreboard players operation minutes time /= const60 time
+scoreboard players operation minutes time %= const60 time
 
-scoreboard players operation seconds time = @e[type=marker,name="Timer",scores={time=1..}] time
-scoreboard players operation seconds time /= const100 time
+scoreboard players operation hours time /= const3600 time
 
-execute if score seconds time matches 60.. run scoreboard players add minutes time 1
-execute if score seconds time matches 60.. run scoreboard players add trackedminutes time 1
-execute if score seconds time matches 60.. run scoreboard players set seconds time 0
-execute if score minutes time matches 60.. run scoreboard players add hours time 1
-execute if score minutes time matches 60.. run scoreboard players set minutes time 0
+scoreboard players operation trackedminutes time /= const60 time
 
-execute as @e[type=marker,name="Timer",scores={time=6000..}] run scoreboard players set @e[type=marker,name="Timer",scores={time=6000..}] time 1
+execute if score showTimer GameSetup matches 0 run return fail
 
-execute if score showTimer GameSetup matches 1 run title @a actionbar [{score:{name:"hours",objective:"time"}}," : ",{score:{name:"minutes",objective:"time"}}," : ",{score:{name:"seconds",objective:"time"}}]
+execute unless score minutes time matches 0..9 unless score seconds time matches 0..9 run return run title @a actionbar [{score:{name:"hours",objective:"time"}}," : ",{score:{name:"minutes",objective:"time"}}," : ",{score:{name:"seconds",objective:"time"}}]
+
+execute unless score minutes time matches 0..9 if score seconds time matches 0..9 run return run title @a actionbar [{score:{name:"hours",objective:"time"}}," : ",{score:{name:"minutes",objective:"time"}}," : 0",{score:{name:"seconds",objective:"time"}}]
+
+execute if score minutes time matches 0..9 unless score seconds time matches 0..9 run return run title @a actionbar [{score:{name:"hours",objective:"time"}}," : 0",{score:{name:"minutes",objective:"time"}}," : ",{score:{name:"seconds",objective:"time"}}]
+
+execute if score minutes time matches 0..9 if score seconds time matches 0..9 run return run title @a actionbar [{score:{name:"hours",objective:"time"}}," : 0",{score:{name:"minutes",objective:"time"}}," : 0",{score:{name:"seconds",objective:"time"}}]

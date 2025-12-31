@@ -3,15 +3,18 @@ gamemode creative @a
 teleport @a 0 128 0
 
 ##Set Gamerules & Scoreboard
-gamerule commandBlockOutput false
-gamerule disableRaids true
-gamerule doDaylightCycle false
-gamerule doInsomnia false
-gamerule doMobSpawning false
-gamerule doPatrolSpawning false
-gamerule fallDamage false
-gamerule doWeatherCycle false
-gamerule disableElytraMovementCheck true
+gamerule advance_time false
+gamerule advance_weather false
+gamerule command_block_output false
+gamerule command_blocks_work true
+gamerule elytra_movement_check false
+gamerule fall_damage false
+gamerule player_movement_check false
+gamerule raids false
+gamerule spawn_monsters false
+gamerule spawn_patrols false
+gamerule spawn_phantoms false
+gamerule spawn_wandering_traders false
 
 scoreboard objectives add GameSetup dummy "Game Setup"
 scoreboard objectives setdisplay sidebar GameSetup
@@ -52,10 +55,12 @@ scoreboard objectives add SyncScore dummy "Sync Score"
 
 scoreboard objectives add teams trigger "Teams"
 
+stopwatch create qfe:timer
+
 scoreboard objectives add time dummy "Timer"
-scoreboard players set const100000 time 100000
-scoreboard players set const100 time 100
-scoreboard players set systick time 0
+scoreboard players set const60 time 60
+scoreboard players set const3600 time 3600
+
 scoreboard players set seconds time 0
 scoreboard players set minutes time 0
 scoreboard players set hours time 0
@@ -136,8 +141,6 @@ team modify admin color dark_red
 setblock 0 80 0 minecraft:air
 
 forceload add 0 0
-
-execute unless entity @e[type=marker,x=0,y=80,z=0,name="Timer"] run summon marker 0 80 0 {CustomName:"Timer"}
 
 execute as @e[tag=lobby_locator_bottom] at @e[tag=lobby_locator_bottom] run setworldspawn ~ ~1 ~
 

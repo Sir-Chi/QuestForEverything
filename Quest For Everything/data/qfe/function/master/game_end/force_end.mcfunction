@@ -101,11 +101,11 @@ kill @e[type=marker,tag=gold]
 kill @e[type=marker,tag=black]
 
 ##Resets Game Setup
-gamerule naturalRegeneration true
-gamerule keepInventory false
-execute in minecraft:overworld run gamerule announceAdvancements true
-execute in minecraft:the_nether run gamerule announceAdvancements true
-execute in minecraft:the_end run gamerule announceAdvancements true
+gamerule natural_health_regeneration true
+gamerule keep_inventory false
+execute in minecraft:overworld run gamerule show_advancement_messages true
+execute in minecraft:the_nether run gamerule show_advancement_messages true
+execute in minecraft:the_end run gamerule show_advancement_messages true
 recipe take @a *
 forceload remove all
 gamerule pvp true
@@ -117,8 +117,6 @@ effect clear @a
 tag @a remove joined
 
 ##Resets Turns Off Timer & Check Systems
-scoreboard players set @e[type=marker,name="Timer"] time 0
-
 schedule clear qfe:sync_team_items/sync_loop
 
 data remove storage qfe:storage SyncTeam
@@ -128,6 +126,7 @@ scoreboard players set hours time 0
 scoreboard players set minutes time 0
 scoreboard players set seconds time 0
 scoreboard players set trackedminutes time 0
+stopwatch remove qfe:timer
 
 ##Runs set-up function
 function qfe:master/setup

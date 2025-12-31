@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:tools_and_combat/wooden_sword",
+  "parent": "qfe:tools_and_combat/wooden_spear",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

@@ -25,7 +25,8 @@ execute if score showTimer GameSetup matches 1 run execute as @e[tag=winner] run
 execute if score showTimer GameSetup matches 0 run execute as @e[tag=winner] run tellraw @a [{selector:"@s"}," has ended the timed Quest for Everything, winning with a score of ",{score:{name:"@s",objective:"score"},color:"gold"}]
 
 ##Resets/Turns Off Timer & Checks/Syncing System
-scoreboard players set @e[type=marker,name="Timer"] time 0
+stopwatch remove qfe:timer
+stopwatch remove qfe:timerminutes
 
 schedule clear qfe:sync_team_items/sync_loop
 

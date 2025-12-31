@@ -9,21 +9,22 @@ execute as @a run attribute @s minecraft:attack_damage base reset
 clear @a
 advancement revoke @a everything
 time set 0
-gamerule disableRaids false
-gamerule doDaylightCycle true
-gamerule doInsomnia true
-gamerule doMobSpawning true
-gamerule doPatrolSpawning true
-gamerule fallDamage true
-gamerule doWeatherCycle true
+gamerule advance_time true
+gamerule advance_weather true
+gamerule fall_damage true
+gamerule raids true
+gamerule spawn_monsters true
+gamerule spawn_patrols true
+gamerule spawn_phantoms true
+gamerule spawn_wandering_traders true
 scoreboard players reset @a score
 
 ##Executes & Activates Chosen The Game Setups
-execute if score naturalRegeneration GameSetup matches 0 run gamerule naturalRegeneration false
-execute if score keepInventory GameSetup matches 1 run gamerule keepInventory true
-execute in minecraft:overworld if score announceAdvancements GameSetup matches 0 run gamerule announceAdvancements false
-execute in minecraft:the_nether if score announceAdvancements GameSetup matches 0 run gamerule announceAdvancements false
-execute in minecraft:the_end if score announceAdvancements GameSetup matches 0 run gamerule announceAdvancements false
+execute if score naturalRegeneration GameSetup matches 0 run gamerule natural_health_regeneration false
+execute if score keepInventory GameSetup matches 1 run gamerule keep_inventory true
+execute in minecraft:overworld if score announceAdvancements GameSetup matches 0 run gamerule show_advancement_messages false
+execute in minecraft:the_nether if score announceAdvancements GameSetup matches 0 run gamerule show_advancement_messages false
+execute in minecraft:the_end if score announceAdvancements GameSetup matches 0 run gamerule show_advancement_messages false
 execute if score allRecipesUnlocked GameSetup matches 1 run recipe give @a *
 execute if score pvp GameSetup matches 0 run gamerule pvp false
 
@@ -101,6 +102,6 @@ execute as @e[tag=spawnPointLocator] at @e[tag=spawnPointLocator] run teleport @
 kill @e[tag=spawnPointLocator]
 
 ##Starts Timer & Advancement Checking
-scoreboard players set @e[type=marker,name="Timer"] time 1
+stopwatch restart qfe:timer
 
 function qfe:sync_team_items/sync_loop

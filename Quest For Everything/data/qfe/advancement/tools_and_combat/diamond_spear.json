@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:saddle"
+      "id": "minecraft:diamond_spear"
     },
-    "title": "Saddle",
-    "description": "Obtain Saddle",
+    "title": "Diamond Spear",
+    "description": "Obtain Diamond Spear",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:redstone_and_transport/netherite_nautilus_armor",
+  "parent": "qfe:tools_and_combat/diamond_sword",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "minecraft:saddle"
+              "minecraft:diamond_spear"
             ],
             "count": {
               "min": 1,
@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "qfe:advancement/redstone_and_transport/saddle"
+    "function": "qfe:advancement/tools_and_combat/diamond_spear"
   }
 }

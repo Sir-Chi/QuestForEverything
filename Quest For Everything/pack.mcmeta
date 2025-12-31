@@ -1,8 +1,11 @@
 {
     "pack": {
-        "pack_format": 94.1,
-        "supported_formats": 94,
-        "description": "Created by \u00A72SirChi               \u00a75Version 7.0"
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94,
+    "description": "Created by \u00A72SirChi               \u00a75Version 7.0"
     },
     "filter": {
         "block": [

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'cactus_flower', 'item':'minecraft:cactus_flower'}

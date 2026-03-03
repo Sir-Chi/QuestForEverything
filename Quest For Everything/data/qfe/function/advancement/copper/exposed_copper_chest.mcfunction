@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'copper', 'name':'exposed_copper_chest', 'item':'minecraft:exposed_copper_chest'}

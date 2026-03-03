@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'long_night_vision_tipped_arrow', 'item':'minecraft:tipped_arrow[minecraft:potion_contents={potion:"minecraft:long_night_vision"}]'}
+function qfe:universal/handle_item_obtained {'section':'brewing', 'name':'long_night_vision_tipped_arrow', 'item':'minecraft:tipped_arrow[minecraft:potion_contents={"potion": "minecraft:long_night_vision"}]'}

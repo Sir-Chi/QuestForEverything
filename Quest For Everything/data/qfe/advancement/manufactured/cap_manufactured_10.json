@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:manufactured/chiseled_resin_bricks",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

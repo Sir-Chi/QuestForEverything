@@ -2,7 +2,7 @@
   "parent": "qfe:manufactured/enchanted_book",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:tick"
     }
   }
 }

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'redstone_and_transport', 'name':'orange_harness', 'item':'minecraft:orange_harness'}

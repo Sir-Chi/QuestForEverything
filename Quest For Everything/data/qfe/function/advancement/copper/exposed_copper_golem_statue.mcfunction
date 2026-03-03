@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'copper', 'name':'exposed_copper_golem_statue', 'item':'minecraft:exposed_copper_golem_statue'}

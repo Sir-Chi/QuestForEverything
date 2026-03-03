@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'wood', 'name':'birch_shelf', 'item':'minecraft:birch_shelf'}

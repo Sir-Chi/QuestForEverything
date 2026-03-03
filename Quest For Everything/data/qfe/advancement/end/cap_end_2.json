@@ -2,7 +2,7 @@
   "parent": "qfe:end/elytra",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:tick"
     }
   }
 }

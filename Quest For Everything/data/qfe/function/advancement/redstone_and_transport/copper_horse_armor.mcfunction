@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'redstone_and_transport', 'name':'copper_horse_armor', 'item':'minecraft:copper_horse_armor'}

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'short_dry_grass', 'item':'minecraft:short_dry_grass'}

@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'iron_spear', 'item':'minecraft:iron_spear'}

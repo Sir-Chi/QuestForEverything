@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'taiga_village_map', 'item':'minecraft:filled_map[minecraft:item_name={"translate": "filled_map.village_taiga"}]'}

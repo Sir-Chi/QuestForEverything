@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'field_masoned_banner_pattern', 'item':'minecraft:field_masoned_banner_pattern'}

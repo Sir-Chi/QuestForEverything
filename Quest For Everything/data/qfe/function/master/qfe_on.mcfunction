@@ -78,12 +78,14 @@ advancement grant @p only qfe:manufactured/cap_manufactured_6
 advancement grant @p only qfe:manufactured/cap_manufactured_7
 advancement grant @p only qfe:manufactured/cap_manufactured_8
 advancement grant @p only qfe:manufactured/cap_manufactured_9
+advancement grant @p only qfe:manufactured/cap_manufactured_10
 
 advancement grant @p only qfe:nature/root
 advancement grant @p only qfe:nature/cap_nature_1
 advancement grant @p only qfe:nature/cap_nature_2
 advancement grant @p only qfe:nature/cap_nature_3
 advancement grant @p only qfe:nature/cap_nature_4
+advancement grant @p only qfe:nature/cap_nature_5
 
 advancement grant @p only qfe:nether/root
 advancement grant @p only qfe:nether/cap_nether_1
@@ -110,6 +112,7 @@ advancement grant @p only qfe:redstone_and_transport/cap_redstone_and_transport_
 advancement grant @p only qfe:redstone_and_transport/cap_redstone_and_transport_2
 advancement grant @p only qfe:redstone_and_transport/cap_redstone_and_transport_3
 advancement grant @p only qfe:redstone_and_transport/cap_redstone_and_transport_4
+advancement grant @p only qfe:redstone_and_transport/cap_redstone_and_transport_5
 
 advancement grant @p only qfe:resources/root
 advancement grant @p only qfe:resources/cap_resources_1
@@ -140,6 +143,7 @@ advancement grant @p only qfe:terracotta_and_concrete/cap_terracotta_and_concret
 advancement grant @p only qfe:terracotta_and_concrete/cap_terracotta_and_concrete_2
 advancement grant @p only qfe:terracotta_and_concrete/cap_terracotta_and_concrete_3
 advancement grant @p only qfe:terracotta_and_concrete/cap_terracotta_and_concrete_4
+advancement grant @p only qfe:terracotta_and_concrete/cap_terracotta_and_concrete_5
 
 advancement grant @p only qfe:tools_and_combat/root
 advancement grant @p only qfe:tools_and_combat/cap_tools_and_combat_1
@@ -153,6 +157,8 @@ advancement grant @p only qfe:tools_and_combat/cap_tools_and_combat_8
 advancement grant @p only qfe:tools_and_combat/cap_tools_and_combat_9
 advancement grant @p only qfe:tools_and_combat/cap_tools_and_combat_10
 advancement grant @p only qfe:tools_and_combat/cap_tools_and_combat_11
+advancement grant @p only qfe:tools_and_combat/cap_tools_and_combat_12
+advancement grant @p only qfe:tools_and_combat/cap_tools_and_combat_13
 
 advancement grant @p only qfe:wood/root
 advancement grant @p only qfe:wood/cap_wood_1
@@ -164,6 +170,7 @@ advancement grant @p only qfe:wood/cap_wood_6
 advancement grant @p only qfe:wood/cap_wood_7
 advancement grant @p only qfe:wood/cap_wood_8
 advancement grant @p only qfe:wood/cap_wood_9
+advancement grant @p only qfe:wood/cap_wood_10
 
 advancement grant @p only qfe:wool/root
 advancement grant @p only qfe:wool/cap_wool_1

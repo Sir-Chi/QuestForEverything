@@ -8,7 +8,7 @@
         }
       }
     },
-    "title": "Lingering of Swiftness",
+    "title": "Lingering Potion of Swiftness",
     "description": "Speed II (0:22)",
     "frame": "task",
     "show_toast": true,
@@ -20,15 +20,6 @@
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "q4e": 1
-            }
-          }
-        ],
         "items": [
           {
             "items": [

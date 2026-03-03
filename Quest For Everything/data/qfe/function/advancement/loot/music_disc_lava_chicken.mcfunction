@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'loot', 'name':'music_disc_lava_chicken', 'item':'minecraft:music_disc_lava_chicken'}

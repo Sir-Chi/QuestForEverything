@@ -1,8 +1,8 @@
 {
-  "parent": "qfe:nether/lodestone",
+  "parent": "qfe:nether/magma_block",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:tick"
     }
   }
 }

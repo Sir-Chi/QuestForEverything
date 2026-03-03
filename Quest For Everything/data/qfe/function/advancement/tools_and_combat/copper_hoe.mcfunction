@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'copper_hoe', 'item':'minecraft:copper_hoe'}

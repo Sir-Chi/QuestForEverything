@@ -22,7 +22,7 @@ scoreboard players display name keepInventory GameSetup "Keep Inventory"
 scoreboard players display name takeItems GameSetup "Take Items"
 
 scoreboard objectives add score_mindcrack dummy "Score Mindcrack S2"
-scoreboard players set .TotalToGet score_mindcrack 1414
+scoreboard players set .TotalToGet score_mindcrack 1586
 scoreboard players display name .TotalToGet score_mindcrack "Total To Get"
 scoreboard players set #Leader score_mindcrack 0
 scoreboard objectives setdisplay list score_mindcrack

@@ -39,6 +39,8 @@ execute as @s[scores={disableq4e=1..}] run tag @s[scores={disableq4e=1..}] remov
 execute as @s[scores={disableq4e=1..}] run tag @s[scores={disableq4e=1..}] remove trophy_tools_and_combat
 execute as @s[scores={disableq4e=1..}] run tag @s[scores={disableq4e=1..}] remove trophy_wood
 execute as @s[scores={disableq4e=1..}] run tag @s[scores={disableq4e=1..}] remove trophy_wool
+execute as @s[scores={disableq4e=1..}] run tag @s[scores={disableq4e=1..}] remove winner1
+
 execute as @s[scores={disableq4e=1..}] run tag @s[scores={disableq4e=1..}] remove winner
 
 execute as @s[scores={disableq4e=1..}] run scoreboard players reset @s[scores={disableq4e=1..}] agriculture_score

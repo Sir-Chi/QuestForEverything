@@ -1,11 +1,11 @@
-scoreboard players set .TotalToGet score 1586
+scoreboard players set .TotalToGet score 1587
 
 scoreboard players set .TotalToGet agriculture_score 65
 scoreboard players set .TotalToGet brewing_score 181
 scoreboard players set .TotalToGet end_score 35
 scoreboard players set .TotalToGet loot_score 120
 scoreboard players set .TotalToGet manufactured_score 116
-scoreboard players set .TotalToGet nature_score 78
+scoreboard players set .TotalToGet nature_score 79
 scoreboard players set .TotalToGet nether_score 97
 scoreboard players set .TotalToGet ocean_score 61
 scoreboard players set .TotalToGet redstone_and_transport_score 58

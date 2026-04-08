@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:nature/open_eyeblossom",
+  "parent": "qfe:nature/golden_dandelion",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

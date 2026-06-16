@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:ocean/dried_kelp_block",
+  "parent": "qfe:ocean/sulfur_cube_bucket",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

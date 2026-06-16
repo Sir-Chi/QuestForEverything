@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:ocean/dark_prismarine_stairs",
+  "parent": "qfe:ocean/dried_kelp_block",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

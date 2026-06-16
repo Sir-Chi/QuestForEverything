@@ -5,7 +5,7 @@
     },
     "title": "Dead Fire Coral",
     "description": "Obtain Dead Fire Coral",
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

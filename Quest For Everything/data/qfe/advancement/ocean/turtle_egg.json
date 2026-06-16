@@ -5,12 +5,12 @@
     },
     "title": "Turtle Egg",
     "description": "Obtain Turtle Egg",
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "qfe:ocean/tadpole_bucket",
+  "parent": "qfe:ocean/root",
   "criteria": {
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",

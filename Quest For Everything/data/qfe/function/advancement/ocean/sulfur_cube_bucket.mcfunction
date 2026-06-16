@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'ocean', 'name':'sulfur_cube_bucket', 'item':'minecraft:sulfur_cube_bucket'}

@@ -7,7 +7,6 @@ tellraw @a [{selector:"@e[tag=winner]"},{text:" completed the Quest for Everythi
 
 ##Resets/Turns Off Timer & Checks/Syncing System
 stopwatch remove qfe:timer
-stopwatch remove qfe:timerminutes
 
 schedule clear qfe:sync_team_items/sync_loop
 

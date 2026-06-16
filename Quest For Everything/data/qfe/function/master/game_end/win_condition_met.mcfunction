@@ -26,7 +26,6 @@ execute if score showTimer GameSetup matches 0 run execute as @e[tag=winner] run
 
 ##Resets/Turns Off Timer & Checks/Syncing System
 stopwatch remove qfe:timer
-stopwatch remove qfe:timerminutes
 
 schedule clear qfe:sync_team_items/sync_loop
 

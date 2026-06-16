@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:stone/chiseled_tuff_bricks",
+  "parent": "qfe:stone/sulfur_brick_wall",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

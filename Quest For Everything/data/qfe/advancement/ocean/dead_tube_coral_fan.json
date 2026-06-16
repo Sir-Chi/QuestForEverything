@@ -5,7 +5,7 @@
     },
     "title": "Dead Tube Coral Fan",
     "description": "Obtain Dead Tube Coral Fan",
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

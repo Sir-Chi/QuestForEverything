@@ -5,7 +5,7 @@
     },
     "title": "Brain Coral",
     "description": "Obtain Brain Coral",
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

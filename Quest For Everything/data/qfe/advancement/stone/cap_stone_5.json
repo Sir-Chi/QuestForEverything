@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:stone/mossy_cobblestone_wall",
+  "parent": "qfe:stone/chiseled_tuff_bricks",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

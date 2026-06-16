@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:loot/music_disc_lava_chicken",
+  "parent": "qfe:loot/music_disc_bounce",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

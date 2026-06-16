@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:ocean/dead_brain_coral",
+  "parent": "qfe:ocean/conduit",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

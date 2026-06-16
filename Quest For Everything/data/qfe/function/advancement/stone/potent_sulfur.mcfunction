@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'stone', 'name':'potent_sulfur', 'item':'minecraft:potent_sulfur'}

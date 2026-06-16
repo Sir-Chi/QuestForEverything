@@ -1,11 +1,11 @@
 {
     "pack": {
     "min_format": [
-      94,
+      107.1,
       1
     ],
-    "max_format": 94,
-    "description": "Created by \u00A72SirChi               \u00a75Version 7.1"
+    "max_format": 107.1,
+    "description": "Created by \u00A72SirChi               \u00a75Version 7.2"
     },
     "filter": {
         "block": [

@@ -5,7 +5,7 @@
     },
     "title": "Tube Coral",
     "description": "Obtain Tube Coral",
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

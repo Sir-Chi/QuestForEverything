@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:stone/polished_deepslate_wall",
+  "parent": "qfe:stone/cinnabar_brick_wall",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:stone/smooth_stone_slab",
+  "parent": "qfe:stone/polished_diorite_stairs",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

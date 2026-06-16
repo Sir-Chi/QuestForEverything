@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'stone', 'name':'cinnabar_stairs', 'item':'minecraft:cinnabar_stairs'}

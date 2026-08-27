@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'wool', 'name':'yellow_cushion', 'item':'minecraft:yellow_cushion'}

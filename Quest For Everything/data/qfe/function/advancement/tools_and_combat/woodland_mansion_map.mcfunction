@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'woodland_mansion_map', 'item':'minecraft:woodland_mansion_map'}

@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:tools_and_combat/white_bundle",
+  "parent": "qfe:tools_and_combat/copper_boots",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

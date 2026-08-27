@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:tools_and_combat/copper_boots",
+  "parent": "qfe:tools_and_combat/leather_boots",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

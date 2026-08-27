@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'manufactured', 'name':'straw_bed', 'item':'minecraft:straw_bed'}

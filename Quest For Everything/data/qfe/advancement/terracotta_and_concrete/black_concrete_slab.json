@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_concrete_slab"
+    },
+    "title": "Black Concrete Slab",
+    "description": "Obtain Black Concrete Slab",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:terracotta_and_concrete/brown_concrete_slab",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_concrete_slab"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/terracotta_and_concrete/black_concrete_slab"
+  }
+}

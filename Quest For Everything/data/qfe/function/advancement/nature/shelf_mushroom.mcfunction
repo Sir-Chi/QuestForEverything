@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'nature', 'name':'shelf_mushroom', 'item':'minecraft:shelf_mushroom'}

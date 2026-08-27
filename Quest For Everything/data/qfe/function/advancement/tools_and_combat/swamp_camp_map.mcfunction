@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'swamp_camp_map', 'item':'minecraft:abandoned_camp_map[minecraft:item_name={"translate": "filled_map.swamp_camp_map"}]'}

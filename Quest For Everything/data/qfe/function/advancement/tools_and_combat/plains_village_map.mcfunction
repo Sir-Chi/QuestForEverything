@@ -1,1 +1,1 @@
-function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'plains_village_map', 'item':'minecraft:filled_map[minecraft:item_name={"translate": "filled_map.village_plains"}]'}
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'plains_village_map', 'item':'minecraft:plains_village_map'}

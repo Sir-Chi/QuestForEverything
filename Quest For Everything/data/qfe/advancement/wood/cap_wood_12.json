@@ -1,0 +1,8 @@
+{
+  "parent": "qfe:wood/yellow_poplar_leaves",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:tools_and_combat/totem_of_undying",
+  "parent": "qfe:tools_and_combat/diamond_boots",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

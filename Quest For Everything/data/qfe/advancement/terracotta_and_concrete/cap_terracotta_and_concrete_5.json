@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:terracotta_and_concrete/terracotta",
+  "parent": "qfe:terracotta_and_concrete/white_glazed_terracotta",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

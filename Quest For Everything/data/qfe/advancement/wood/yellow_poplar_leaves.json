@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_poplar_leaves"
+    },
+    "title": "Yellow Poplar Leaves",
+    "description": "Obtain Yellow Poplar Leaves",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qfe:wood/poplar_sapling",
+  "criteria": {
+    "has_obtained_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_poplar_leaves"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "qfe:advancement/wood/yellow_poplar_leaves"
+  }
+}

@@ -104,7 +104,7 @@ function qfe:master/set_item_count
 
 data modify storage qfe:storage/info section_names set value {agriculture:{section:'Agriculture'},brewing:{section:'Brewing'},copper:{section:'Copper'},end:{section:'End'},loot:{section:'Loot'},manufactured:{section:'Manufactured'},nature:{section:'Nature'},nether:{section:'Nether'},ocean:{section:'Ocean'},redstone_and_transport:{section:'Redstone & Transport'},resources:{section:'Resources'},sand_and_glass:{section:'Sand & Glass'},Stone:{section:'stone'},terracotta_and_concrete:{section:'Terracotta & Concrete'},tools_and_combat:{section:'Tools & Combat'},wood:{section:'Wood'},wool:{section:'Wool'}}
 
-# data modify storage qfe:section_counts SectionItemCount.SectionCounts set value {agriculture: 63, brewing: 178, end: 35, manufactured: 103, nature_and_loot: 151, nether: 96, ocean: 61, redstone_and_transport: 35, resources: 84, sand_and_glass: 57, stone: 70, terracotta_and_concrete: 65, tools_and_combat: 88, wood: 171, wool: 64}
+# data modify storage qfe:section_counts SectionItemCount.SectionCounts set value {agriculture: 65, brewing: 181, end: 35, manufactured: 121, nature_and_loot: 151, nether: 96, ocean: 61, redstone_and_transport: 35, resources: 84, sand_and_glass: 57, stone: 70, terracotta_and_concrete: 65, tools_and_combat: 88, wood: 171, wool: 64}
 
 ##Find Lobby Number
 execute if score #lobbynumber GameSetup matches ..0 run function qfe:master/lobby/lobby_number

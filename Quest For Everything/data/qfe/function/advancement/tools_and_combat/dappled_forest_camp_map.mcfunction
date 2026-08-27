@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'dappled_forest_camp_map', 'item':'minecraft:abandoned_camp_map[minecraft:item_name={"translate": "filled_map.dappled_forest_camp_map"}]'}

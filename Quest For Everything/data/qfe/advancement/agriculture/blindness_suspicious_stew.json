@@ -23,89 +23,87 @@
     "has_obtained_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "slots": {
-                    "container.*": {
-                      "items": "minecraft:suspicious_stew",
-                      "components": {
-                        "minecraft:suspicious_stew_effects": [
-                          {
-                            "id": "minecraft:blindness",
-                            "duration": 100
-                          }
-                        ]
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "slots": {
-                    "container.*": {
-                      "items": "minecraft:suspicious_stew",
-                      "components": {
-                        "minecraft:suspicious_stew_effects": [
-                          {
-                            "id": "minecraft:blindness",
-                            "duration": 120
-                          }
-                        ]
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "slots": {
-                    "container.*": {
-                      "items": "minecraft:suspicious_stew",
-                      "components": {
-                        "minecraft:suspicious_stew_effects": [
-                          {
-                            "id": "minecraft:blindness",
-                            "duration": 140
-                          }
-                        ]
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "slots": {
-                    "container.*": {
-                      "items": "minecraft:suspicious_stew",
-                      "components": {
-                        "minecraft:suspicious_stew_effects": [
-                          {
-                            "id": "minecraft:blindness",
-                            "duration": 220
-                          }
-                        ]
-                      }
+        "player": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:slots": {
+                  "container.*": {
+                    "items": "minecraft:suspicious_stew",
+                    "components": {
+                      "minecraft:suspicious_stew_effects": [
+                        {
+                          "id": "minecraft:blindness",
+                          "duration": 100
+                        }
+                      ]
                     }
                   }
                 }
               }
-            ]
-          }
-        ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:slots": {
+                  "container.*": {
+                    "items": "minecraft:suspicious_stew",
+                    "components": {
+                      "minecraft:suspicious_stew_effects": [
+                        {
+                          "id": "minecraft:blindness",
+                          "duration": 120
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:slots": {
+                  "container.*": {
+                    "items": "minecraft:suspicious_stew",
+                    "components": {
+                      "minecraft:suspicious_stew_effects": [
+                        {
+                          "id": "minecraft:blindness",
+                          "duration": 140
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:slots": {
+                  "container.*": {
+                    "items": "minecraft:suspicious_stew",
+                    "components": {
+                      "minecraft:suspicious_stew_effects": [
+                        {
+                          "id": "minecraft:blindness",
+                          "duration": 220
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     }
   },

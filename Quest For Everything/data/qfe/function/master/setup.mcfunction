@@ -148,3 +148,9 @@ execute as @e[tag=lobby_locator_bottom] at @e[tag=lobby_locator_bottom] run setw
 teleport @a 0 100 0
 
 tag @a remove joined
+
+#Just in case, to maintain timing integrity of the second_master function
+schedule clear qfe:master/second_master
+
+#Loops the second_master function once per second
+schedule function qfe:master/second_master 1s

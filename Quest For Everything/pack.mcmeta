@@ -1,10 +1,10 @@
 {
     "pack": {
     "min_format": [
-      118,
+      120,
       1
     ],
-    "max_format": 118,
+    "max_format": 120,
     "description": "Created by \u00A72SirChi               \u00a75Version 7.3"
     },
     "filter": {

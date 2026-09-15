@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'ocean_monument_map', 'item':'minecraft:ocean_monument_map'}

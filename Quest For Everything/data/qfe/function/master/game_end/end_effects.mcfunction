@@ -1,5 +1,5 @@
 ##Fancy Effects To Signify End
-
+execute as @a at @s run stopsound @s music
 execute as @a at @s run playsound music.overworld.snowy_slopes music @s ~ ~ ~
 
 execute at @a run summon firework_rocket ~2 ~5 ~ {LifeTime:20,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"burst",has_twinkle:true,has_trail:true,colors:[15615,16729088],fade_colors:[65467]}]}}}}

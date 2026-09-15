@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:tools_and_combat/golden_boots",
+  "parent": "qfe:tools_and_combat/goat_horn_dream",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

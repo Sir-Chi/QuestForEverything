@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:tools_and_combat/diamond_boots",
+  "parent": "qfe:tools_and_combat/woodland_mansion_map",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

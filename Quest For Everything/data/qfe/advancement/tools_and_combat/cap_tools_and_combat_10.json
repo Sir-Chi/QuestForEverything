@@ -1,5 +1,5 @@
 {
-  "parent": "qfe:tools_and_combat/chainmail_boots",
+  "parent": "qfe:tools_and_combat/netherite_boots",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"

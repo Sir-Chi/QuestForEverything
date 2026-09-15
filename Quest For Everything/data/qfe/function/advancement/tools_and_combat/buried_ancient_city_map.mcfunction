@@ -1,0 +1,1 @@
+function qfe:universal/handle_item_obtained {'section':'tools_and_combat', 'name':'buried_ancient_city_map', 'item':'minecraft:buried_ancient_city_map'}
